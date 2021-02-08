@@ -1,0 +1,28 @@
+name: Update BookSource
+
+on:
+  push:
+    paths:
+      - '.history'
+
+jobs:
+  master:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.2
+
+      - name: Run Script
+        run: python3 ./.github/scripts/src_sort.py
+
+#      - name: Push
+#        run: |
+#          git config user.email "github-actions@github.com"
+#          git config user.name "Robot"
+#          sed "5c - 书源：\`$SRC_LEN个书源\`" README.md -i
+#          sed "8c - 更新日期：$(date -u -d '+8 hour' '+%Y-%m-%d %H:%M:%S')" README.md -i
+#          sed "13c - 更新日期：$(date -u -d '+8 hour' '+%Y-%m-%d %H:%M:%S')" README.md -i
+#          git add .
+#          git commit -m "update" -a
+#          git push origin master
