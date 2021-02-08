@@ -237,3 +237,6 @@ if __name__ == '__main__':
         save_file_group(f)
 
     update_readme()
+
+    # 保存源长度至环境变量
+    # os.system('echo "::set-env name=SRC_LEN::{}"'.format(1))
