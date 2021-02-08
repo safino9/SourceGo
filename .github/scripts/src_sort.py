@@ -46,7 +46,7 @@ def json_group(src_list):
         if src['bookSourceGroup'].find('失效') > -1:
             src['bookSourceGroup'] = '❌失效'
         src['bookSourceComment'] = 'https://celeter.github.io/SourceGo'
-        if src.get('lastUpdateTime') is None:
+        if src.get('lastUpdateTime') is None or src.get('lastUpdateTime') == 0:
             src['lastUpdateTime'] = get_timestamp()
         create_dir(os.path.join(work_space, src['bookSourceGroup']))
         write_file(os.path.join(work_space, src['bookSourceGroup'], f"{src['bookSourceName']}.json"), [src])
