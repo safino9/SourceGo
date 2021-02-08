@@ -1,5 +1,49 @@
 [
   {
+    "bookSourceComment": "Created By Celeter",
+    "bookSourceGroup": "💮无防盗",
+    "bookSourceName": "💮69书吧①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.69shu.com",
+    "bookUrlPattern": "",
+    "customOrder": 12,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612708229629,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "##:author\"[^\"]+\"([^\"]*)##$1###",
+      "coverUrl": "##og:image\"[^\"]+\"([^\"]*)##$1###",
+      "intro": "##og:description\"[^\"]+\"([^\"]*)##$1###",
+      "kind": "##:category\"[^\"]+\"([^\"]*)##$1###",
+      "lastChapter": "##_chapter_name\"[^\"]+\"(?:\\d+\\.)?([^\"]*)##$1###",
+      "name": "##:book_name\"[^\"]+\"([^\"]*)##$1###",
+      "tocUrl": "class.button read@text.点击阅读@href"
+    },
+    "ruleContent": {
+      "content": "<js>org.jsoup.Jsoup.parse(result).selectFirst(\".yd_text2\").textNodes().toArray().filter(x=>!x.isBlank()).slice(1,-1).join('\\n')</js>"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@css:p:containsOwn(作者)>a@text",
+      "bookList": "@css:.sk_box",
+      "bookUrl": "@css:h3>a@href",
+      "coverUrl": "@css:img@src",
+      "intro": "@css:.p_nr@text",
+      "kind": "@css:h3>span@text##\\[|\\]",
+      "lastChapter": "##最新章节[^>]+>(?:\\d+\\.)?([^<]*)<(?:[^>]+>){3}更新时间:([^<]+)##$1·$2###",
+      "name": "@css:h3>a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu_list.1@tag.a",
+      "chapterName": "text##^\\d+\\.",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/pc/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all&action=%CB%D1%CB%F7\"\n}",
+    "weight": 91
+  },
+  {
     "bookSourceComment": "",
     "bookSourceGroup": "💮无防盗",
     "bookSourceName": "💮斋书苑",
