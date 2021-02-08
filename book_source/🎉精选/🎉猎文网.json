@@ -9,7 +9,7 @@
     "customOrder": 68,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1612776495713,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "//*[@property='og:novel:author']/@content",

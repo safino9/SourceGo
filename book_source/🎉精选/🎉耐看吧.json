@@ -9,7 +9,7 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/xuanhuan/{{page}}.html\n武侠仙侠::/wuxia/{{page}}.html\n都市生活::/dushi/{{page}}.html\n历史军事::/lishi/{{page}}.html\n游戏竞技::/youxi/{{page}}.html\n科幻未来::/kehuan/{{page}}.html\n恐怖悬疑::/xuanyi/{{page}}.html\n二の次元::/erciyuan/{{page}}.html\n经典网文::/jingdian/{{page}}.html\n古代言情::/guyan/{{page}}.html\n现代言情::/xianyan/{{page}}.html\n幻想奇缘::/huanqing/{{page}}.html\n青春校园::/qingchun/{{page}}.html\n网络情缘::/wangluo/{{page}}.html\n科幻空间::/mmkehuan/{{page}}.html\n鬼怪灵异::/lingyi/{{page}}.html\n  N次元  ::/Nciyuan/{{page}}.html\n言情美文::/yanqing/{{page}}.html",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1612776495701,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.author@text",
