@@ -1,0 +1,35 @@
+[
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 华书阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.huashuge.com",
+    "bookUrlPattern": "",
+    "customOrder": 102,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798700,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "id.content@textNodes##http.*html|天才.*com"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作\\s*者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@tag.a.0@href",
+      "coverUrl": "class.bookimg@tag.img@src",
+      "lastChapter": "class.update@tag.a.0@text",
+      "name": "class.bookname@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd!0:1:2:3:4:5@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.huashuge.com/s.php?ie=gbk&q={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

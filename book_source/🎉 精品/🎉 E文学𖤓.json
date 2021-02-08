@@ -1,0 +1,42 @@
+[
+  {
+    "bookSourceGroup": "🎉 精品",
+    "bookSourceName": "🎉 E文学𖤓",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://ewenxue.org",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuan/{{page}}.htm\n奇幻::/qihuan/{{page}}.htm\n仙侠::/xianxia/{{page}}.htm\n武侠::/wuxia/{{page}}.htm\n历史::/lishi/{{page}}.htm\n言情::/yanqing/{{page}}.htm\n都市::/dushi/{{page}}.htm\n军事::/junshi/{{page}}.htm\n竞技::/jingji/{{page}}.htm\n游戏::/youxi/{{page}}.htm\n灵异::/lingyi/{{page}}.htm\n科幻::/kehuan/{{page}}.htm\n女性::/nvxing/{{page}}.htm\n其他::/qita/{{page}}.htm",
+    "lastUpdateTime": 1612760798689,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "@css:small@text##作者：",
+      "intro": "@css:li:containsOwn(更新时间),.panel-heading+div>:last-child@html##^|<a[^<]*</a>##<br>",
+      "name": "@css:ol>.active@text",
+      "tocUrl": "text.开始阅读@href"
+    },
+    "ruleContent": {
+      "content": "@css:#cContent@html",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@css:.col-xs-4+div@text",
+      "bookList": "@css:#novel-list li:not(:first-child)",
+      "bookUrl": "@css:.col-xs-3>a@href",
+      "kind": "@css:.col-xs-1@text",
+      "lastChapter": "@css:.col-xs-4,.time@text##\\n##·",
+      "name": "@css:.col-xs-3@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:#chapters-list a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://ewenxue.org/search.htm?keyword={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

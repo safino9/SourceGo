@@ -1,0 +1,57 @@
+[
+  {
+    "bookSourceGroup": "💰 正版",
+    "bookSourceName": "💰 红袖添香",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.hongxiu.com",
+    "bookUrlPattern": "",
+    "customOrder": 168,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "                  男频连载                  ::/all?pageSize=10&gender=1&catId=-1&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n玄幻::/all?pageNum=1&pageSize=10&gender=1&catId=20001&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n奇幻::/all?pageNum=1&pageSize=10&gender=1&catId=20005&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n武侠::/all?pageNum=1&pageSize=10&gender=1&catId=20010&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n仙侠::/all?pageNum=1&pageSize=10&gender=1&catId=20014&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n都市::/all?pageNum=1&pageSize=10&gender=1&catId=20019&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n现实::/all?pageNum=1&pageSize=10&gender=1&catId=20065&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n军事::/all?pageNum=1&pageSize=10&gender=1&catId=20032&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n历史::/all?pageNum=1&pageSize=10&gender=1&catId=20028&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n游戏::/all?pageNum=1&pageSize=10&gender=1&catId=20050&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n体育::/all?pageNum=1&pageSize=10&gender=1&catId=20054&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n科幻::/all?pageNum=1&pageSize=10&gender=1&catId=20042&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n悬疑::/all?pageNum=1&pageSize=10&gender=1&catId=20037&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n轻文::/all?pageNum=1&pageSize=10&gender=1&catId=20059&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n短篇::/all?pageNum=1&pageSize=10&gender=1&catId=20076&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n                  男频完结                  ::/all?pageNum=1&pageSize=10&gender=1&catId=-1&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n玄幻::/all?pageNum=1&pageSize=10&gender=1&catId=20001&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n奇幻::/all?pageNum=1&pageSize=10&gender=1&catId=20005&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n武侠::/all?pageNum=1&pageSize=10&gender=1&catId=20010&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n仙侠::/all?pageNum=1&pageSize=10&gender=1&catId=20014&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n都市::/all?pageNum=1&pageSize=10&gender=1&catId=20019&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n现实::/all?pageNum=1&pageSize=10&gender=1&catId=20065&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n军事::/all?pageNum=1&pageSize=10&gender=1&catId=20032&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n历史::/all?pageNum=1&pageSize=10&gender=1&catId=20028&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n游戏::/all?pageNum=1&pageSize=10&gender=1&catId=20050&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n体育::/all?pageNum=1&pageSize=10&gender=1&catId=20054&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n科幻::/all?pageNum=1&pageSize=10&gender=1&catId=20042&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n悬疑::/all?pageNum=1&pageSize=10&gender=1&catId=20037&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n轻文::/all?pageNum=1&pageSize=10&gender=1&catId=20059&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n短篇::/all?pageNum=1&pageSize=10&gender=1&catId=20076&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n                    女频连载                    ::/all?pageNum=1&pageSize=10&gender=2&catId=-1&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n现代言情::/all?pageNum=1&pageSize=10&gender=2&catId=30020&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n古代言情::/all?pageNum=1&pageSize=10&gender=2&catId=30013&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n浪漫青春::/all?pageNum=1&pageSize=10&gender=2&catId=30031&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n玄幻言情::/all?pageNum=1&pageSize=10&gender=2&catId=30001&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n仙侠奇缘::/all?pageNum=1&pageSize=10&gender=2&catId=30008&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n悬疑推理::/all?pageNum=1&pageSize=10&gender=2&catId=30036&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n科幻空间::/all?pageNum=1&pageSize=10&gender=2&catId=30042&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n游戏竞技::/all?pageNum=1&pageSize=10&gender=2&catId=30050&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n短篇小说::/all?pageNum=1&pageSize=10&gender=2&catId=30083&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n轻の小说::/all?pageNum=1&pageSize=10&gender=2&catId=30055&isFinish=0&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n                    女频完结                    ::/all?pageNum=1&pageSize=10&gender=2&catId=-1&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n现代言情::/all?pageNum=1&pageSize=10&gender=2&catId=30020&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n古代言情::/all?pageNum=1&pageSize=10&gender=2&catId=30013&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n浪漫青春::/all?pageNum=1&pageSize=10&gender=2&catId=30031&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n玄幻言情::/all?pageNum=1&pageSize=10&gender=2&catId=30001&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n仙侠奇缘::/all?pageNum=1&pageSize=10&gender=2&catId=30008&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n悬疑推理::/all?pageNum=1&pageSize=10&gender=2&catId=30036&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n科幻空间::/all?pageNum=1&pageSize=10&gender=2&catId=30042&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n游戏竞技::/all?pageNum=1&pageSize=10&gender=2&catId=30050&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n短篇小说::/all?pageNum=1&pageSize=10&gender=2&catId=30083&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}\n轻の小说::/all?pageNum=1&pageSize=10&gender=2&catId=30055&isFinish=1&isVip=-1&size=-1&updT=-1&orderBy=0&pageNum={{page}}",
+    "lastUpdateTime": 1612760798708,
+    "loginUrl": "https://www.hongxiu.com/",
+    "ruleBookInfo": {
+      "author": "class.writer@tag.a@text##著",
+      "coverUrl": "id.bookImg@tag.img@src",
+      "intro": "class.intro@textNodes",
+      "kind": "class.tag@tag.i@text",
+      "lastChapter": "class.update@tag.a@text##更新至.",
+      "name": "class.book-info@tag.em.2@text",
+      "wordCount": "class.total@tag.span.0@text@js:result+'万字'"
+    },
+    "ruleContent": {
+      "content": "class.read-content@tag.p@text",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "class.default@tag.a@text",
+      "bookList": "class.right-book-list@tag.li",
+      "bookUrl": "class.book-info@tag.a@href",
+      "coverUrl": "class.book-img@tag.img@src",
+      "intro": "class.intro@textNodes",
+      "kind": "class.tag@tag.span.0@text&&class.tag@tag.span.1@text",
+      "name": "class.book-info@tag.a.0@text",
+      "wordCount": "class.tag@tag.span.2@text"
+    },
+    "ruleSearch": {
+      "author": "class.author@tag.a.0@text",
+      "bookList": "id.result-list@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "class.book-img-box@tag.img@src",
+      "intro": "class.intro@textNodes",
+      "kind": "class.author@tag.a.1@text&&class.author@tag.span@text",
+      "lastChapter": "class.update@tag.a@text##最新更新.",
+      "name": "class.book-mid-info@tag.a.0@text",
+      "wordCount": "class.update@tag.span@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.volume@tag.ul@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.hongxiu.com/search?kw={{key}}&pageNum={{page}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

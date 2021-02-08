@@ -1,0 +1,2057 @@
+[
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 笔趣阁⑰",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.sbiquge.com",
+    "bookUrlPattern": "",
+    "customOrder": 108,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798701,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text##简介：",
+      "lastChapter": "id.info@tag.p.4@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##天才一秒.*|http.*html|http.*com"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "class.bookimg@tag.img@src",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.sbiquge.com/s.php?q={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 趣书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.qushuba.com",
+    "bookUrlPattern": "",
+    "customOrder": 105,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798700,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##.*者：",
+      "coverUrl": "id.fmimg@img@src",
+      "intro": "id.intro@text",
+      "name": "id.info@h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslist2@tag.li!0",
+      "bookUrl": "tag.a.0@href",
+      "kind": "class.s1@text##\\[|\\]",
+      "lastChapter": "class.s3@a@text",
+      "name": "class.s2@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.qushuba.com/modules/article/search.php?searchtype=keywords&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 笔趣阁⑲",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.biquge4.com",
+    "bookUrlPattern": "",
+    "customOrder": 110,
+    "enabled": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612760798701,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.2@text##作\\s*者：",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@tag.p.0@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@tag.a.0@href",
+      "coverUrl": "class.bookimg@tag.img.0@src",
+      "intro": "tag.p.0@text",
+      "lastChapter": "class.update@tag.a.0@text",
+      "name": "class.bookname@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.biquge4.com/s.php?ie=gbk&q={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 武林中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.50zw.net",
+    "customOrder": 143,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798704,
+    "ruleBookInfo": {
+      "coverUrl": "class.liebiao_top@class.intro@tag.img.0@src",
+      "intro": "class.intro@class.jieshao@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.neirong@textNodes##一秒.*阅读！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text||class.intro@tag.li.1@tag.span.0@text",
+      "bookList": "class.grid@tag.tr!0||class.liebiao_top",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "coverUrl": "class.intro@tag.img.0@src",
+      "kind": "class.even.2@text||class.intro@tag.li.1@tag.span.1@text",
+      "lastChapter": "class.even.0@tag.a.0@text||class.intro@tag.li.2@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text||class.intro@tag.li.0@tag.h2.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.liebiao_bottom@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.50zw.net/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 快眼看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yankanshu.cc",
+    "bookUrlPattern": "",
+    "customOrder": 123,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798702,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//meta[@property=\"og:novel:author\"]/@content",
+      "coverUrl": "//meta[@property=\"og:image\"]/@content",
+      "intro": "//meta[@property=\"og:description\"]/@content",
+      "kind": "//meta[@property=\"og:novel:category\"]/@content",
+      "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content",
+      "name": "//meta[@property=\"og:title\"]/@content"
+    },
+    "ruleContent": {
+      "content": "class.panel-body@textNodes##一秒记住.*免费读[!！]|-->>|r />",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "//td[3]/text()",
+      "bookList": "class.table@tag.tr!0",
+      "bookUrl": "//td[1]/a/@href",
+      "kind": "//td[6]/text()",
+      "lastChapter": "//td[2]/a/text()",
+      "name": "//td[1]//text()"
+    },
+    "ruleToc": {
+      "chapterList": "class.panel-body panel-chapterlist.1@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.yankanshu.cc/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 爱小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ixs.cc",
+    "customOrder": 128,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798703,
+    "ruleBookInfo": {
+      "coverUrl": "class.cover@tag.img@src",
+      "intro": "class.desc@text##.*简介："
+    },
+    "ruleContent": {
+      "content": "class.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.a2@tag.a@text",
+      "bookList": "class.left@tag.li",
+      "bookUrl": "class.n2@tag.a@href",
+      "kind": "class.nt@text",
+      "lastChapter": "class.c2@tag.a@text",
+      "name": "class.n2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.col3!0:1:2:3:4:5:6:7:8",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.ixs.cc/search.htm?keyword={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 趣读屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.quduwu.com",
+    "bookUrlPattern": "",
+    "customOrder": 106,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798700,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@tag.p.0@text",
+      "lastChapter": "id.info@tag.p!0:1:2:3@tag.a@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@a@href",
+      "coverUrl": "img@src",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@tag.a.0@text",
+      "name": "class.bookname@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "https://www.quduwu.com/s.php?ie=gbk&q={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 奇快小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.7kzw.com",
+    "customOrder": 126,
+    "enabled": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612760798703,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslist2@tag.li!0",
+      "bookUrl": "class.s2@tag.a@href",
+      "lastChapter": "class.s3@tag.a@text",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.7kzw.com/index.php?s=/web/index/search,{\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 悠读文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yooread.net",
+    "bookUrlPattern": "",
+    "customOrder": 119,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "人气新书::/22/<,index_{{page}}.html>\n都市言情::/2/<,index_{{page}}.html>\n青春校园::/17/<,index_{{page}}.html>\n东方玄幻::/19/<,index_{{page}}.html>\n武侠仙侠::/1/<,index_{{page}}.html>\n穿越架空::/16/<,index_{{page}}.html>\n游戏竞争::/20/<,index_{{page}}.html>\n轻の小说::/15/<,index_{{page}}.html>\n历史军事::/5/<,index_{{page}}.html>\n奇幻科幻::/4/<,index_{{page}}.html>\n侦探推理::/3/<,index_{{page}}.html>\n惊悚悬疑::/18/<,index_{{page}}.html>\n文学经典::/6/<,index_{{page}}.html>\n外国文学::/7/<,index_{{page}}.html>\n杂文随笔::/8/<,index_{{page}}.html>\n宗教哲学::/9/<,index_{{page}}.html>\n纪实传记::/10/<,index_{{page}}.html>\n职业官场::/11/<,index_{{page}}.html>\n金融管理::/12/<,index_{{page}}.html>\n人文杜科::/13/<,index_{{page}}.html>\n智慧成长::/14/<,index_{{page}}.html>",
+    "lastUpdateTime": 1612760798702,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "@css:meta[property=\"og:novel:author\"]@content",
+      "coverUrl": "@css:meta[property=\"og:image\"]@content",
+      "init": "<js>var ih = java.get('InfoHTML'); result = ih !== java.get('') ? ih : result;</js>",
+      "intro": "@css:meta[property=\"og:description\"]@content",
+      "kind": "@css:meta[property=\"og:novel:category\"]@content",
+      "lastChapter": "@css:meta[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "@css:meta[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.TextContent@tag.p@text",
+      "nextContentUrl": "@css:.mlfy_page a:contains(下一页)@href"
+    },
+    "ruleExplore": {
+      "author": "tag.p.0@tag.a.0@text",
+      "bookList": "class.book_list@tag.li",
+      "bookUrl": "tag.h2.0@tag.a.0@href",
+      "coverUrl": "class.img@tag.img.0@_src",
+      "intro": "class.con@text",
+      "kind": "tag.h2.0@tag.span.0@text",
+      "name": "tag.h2.0@tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "@css:meta[property=\"og:novel:author\"]@content",
+      "bookList": "@css:.sort-con-wp > a\n<js>\n//只保留书名长度最短的图书。\nvar len = (o) => String(o.select('h3').text()).length;\nvar list = result.toArray();\nvar min = Math.min.apply(null, list.map(e => len(e)));\nresult = list.filter(e => len(e) === min).map(v => java.ajax('https://www.yooread.net'+v.attr('href')));\n</js>",
+      "bookUrl": "<js>java.put('InfoHTML', result); result = '';</js>",
+      "coverUrl": "@css:meta[property=\"og:image\"]@content",
+      "intro": "@css:meta[property=\"og:description\"]@content",
+      "kind": "@css:meta[property=\"og:novel:category\"]@content",
+      "lastChapter": "@css:meta[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "@css:meta[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleToc": {
+      "chapterList": "+<js>var ih = java.get('InfoHTML'); result = ih !== java.get('') ? ih : result;</js>\n@css:#booklist table:not(strong:contains(最新章节)) li a\n<js>\nvar getCid = (link) => link.href.match(/(\\d+)\\.html$/)[1];\nresult = result.toArray().map(e => ({\n  text: e.text(), href: String(e.attr('href'))\n})).filter(v => v.href.length > 0).sort((a,b) => getCid(a) - getCid(b));\n</js>",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.yooread.net/e/search/index.php,{\n  \"method\": \"POST\",\n  \"body\": \"show=title&tempid=1&keyboard={{key}}\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 笔趣阁⑱",
+    "bookSourceType": 0,
+    "bookSourceUrl": "www.xbiquge.la",
+    "customOrder": 109,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1612760798701,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作    者：",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@tag.p.1@text",
+      "lastChapter": "id.info@tag.p.3@title",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {
+      "author": "tag.span.2@text",
+      "bookList": "class.l@tag.ul@tag.li",
+      "bookUrl": "tag.span.0@tag.a@href",
+      "lastChapter": "tag.span.1@tag.a@text",
+      "name": "tag.span.0@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "class.even.1@text",
+      "bookList": "class.grid@tag.tbody@tag.tr!0",
+      "bookUrl": "class.even.0@tag.a@href",
+      "lastChapter": "class.odd.0@tag.a@text",
+      "name": "class.even.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.xbiquge.la/modules/article/waps.php?searchkey={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 笔趣阁⑳",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biquwu.cc",
+    "customOrder": 111,
+    "enabled": false,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612760798701,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "id.intro@tag.p@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@tag.a@href",
+      "coverUrl": "class.bookimg@tag.img.0@src",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@tag.a@text",
+      "name": "class.bookname@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.biquwu.cc/s.php?ie=gbk&q={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 88读书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.88dutxt.com",
+    "customOrder": 135,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798704,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:title\"]@content",
+      "tocUrl": "class.ablum_read@tag.a.0@href",
+      "wordCount": "[property=\"og:novel:status\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.articlecon@html##本章未完.*阅读！ 第.*页|\\(\\)",
+      "nextContentUrl": "id.pb_next@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a@tag.img@src",
+      "intro": "class.size12@text",
+      "kind": "tag.a.3@text",
+      "name": "tag.a.1@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search/result.html?searchkey={{key}}&page={{page}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 龙坛书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ltsw888.com",
+    "customOrder": 132,
+    "enabled": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612760798703,
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@tag.p.0@text##简介："
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text",
+      "bookList": "@css:.bookbox:lt(10)",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "text",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@tag.a.0@text",
+      "name": "class.bookname@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.ltsw888.com/s.php?ie=gbk&q={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 顶点小说⑤",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.dingdianxs.com",
+    "bookUrlPattern": "",
+    "customOrder": 140,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798704,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//meta[@property=\"og:novel:author\"]/@content",
+      "coverUrl": "//meta[@property=\"og:image\"]/@content",
+      "intro": "id.intro@text##.*全文简介：|免费阅读.*",
+      "kind": "//meta[@property=\"og:novel:category\"]/@content",
+      "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content",
+      "name": "//meta[@property=\"og:title\"]/@content"
+    },
+    "ruleContent": {
+      "content": "//*[@id=\"content\"]"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "//span[4]/text()",
+      "bookList": "//*[@class=\"novelslistss\"]/li",
+      "bookUrl": "//span[2]/a/@href",
+      "coverUrl": "tag.a.0@href##.*/(\\d+)/(\\d+).*##/files/article/image/$1/$2/$2s.jpg",
+      "kind": "//span[1]/text()",
+      "lastChapter": "//span[3]/a/text()",
+      "name": "//span[2]/a/text()"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@id=\"list\"]//dd/a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.dingdianxs.com/modules/article/search.php?searchkey={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 万书楼",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.wanshulou.net",
+    "bookUrlPattern": "",
+    "customOrder": 96,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1612760798700,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.other_info@tag.span.0@text##作者：",
+      "coverUrl": "class.top_left@tag.img@src",
+      "init": "",
+      "intro": "class.des.0@text",
+      "kind": "class.pos@tag.a.1@text",
+      "lastChapter": "class.latest lz@tag.a@text",
+      "name": "class.top_center@tag.h1@text",
+      "tocUrl": "",
+      "wordCount": "class.other_info@tag.span.1@text##字数："
+    },
+    "ruleContent": {
+      "content": "class.content@html##本章未完.*继续阅读！",
+      "nextContentUrl": "id.linkNext@href",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.author.0@text##作者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@tag.a@href",
+      "coverUrl": "",
+      "intro": "class.update@text##简介：",
+      "kind": "",
+      "lastChapter": "class.cat@tag.a@text",
+      "name": "class.bookname@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.con@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "",
+      "nextTocUrl": "class.next@href",
+      "updateTime": ""
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 笔趣阁㉔",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xbiquge.cc",
+    "bookUrlPattern": "",
+    "customOrder": 115,
+    "enabled": false,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0\"\n}",
+    "lastUpdateTime": 1612760798701,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@html",
+      "lastChapter": "id.info@tag.p.3@text##最新：",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##笔趣阁\\s*www.xbiquge.cc，最快更新.+最新章节！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslistss@tag.li",
+      "bookUrl": "class.s2@tag.a@href",
+      "coverUrl": "tag.a.0@href##/book/(\\d+)(\\d{3})/##/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "class.s1@text",
+      "lastChapter": "class.s3@tag.a@text",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dl@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.xbiquge.cc/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 追读看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.zhuidu.cc",
+    "bookUrlPattern": "",
+    "customOrder": 121,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "追书热度::/rank/zhuishu.html\n书旗热搜::/rank/shuqi.html\n掌阅热销::/rank/zhangyue.html\n百度热搜::/rank/baidu.html\n17K 鲜花::/rank/17k.html\n总点击榜::/rank/allvisit/<{{page}}>.html\n月点击榜::/rank/monthvisit/<{{page}}>.html\n周点击榜::/rank/weekvisit/<{{page}}>.html\n日点击榜::/rank/dayvisit/<{{page}}>.html\n推荐数榜::/rank/vote/<{{page}}>.html\n收藏数榜::/rank/mark/<{{page}}>.html\n下载数榜::/rank/down/<{{page}}>.html\n评论数榜::/rank/comment/<{{page}}>.html\n评分数榜::/rank/star_score/<{{page}}>.html\nnull",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612760798702,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//meta[@property=\"og:novel:author\"]/@content()",
+      "coverUrl": "//meta[@property=\"og:image\"]/@content()",
+      "init": "",
+      "intro": "//meta[@property=\"og:description\"]/@content()\n<js>result.replace(/^|\\s+(?=[^a-zA-Z])|(—|–|=){3,}/g,\"\\n\")</js>",
+      "kind": "//meta[@property=\"og:novel:category\"]/@content()",
+      "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content()",
+      "name": "//meta[@property=\"og:novel:book_name\"]/@content()",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.pt-read-text@children@textNodes##本章.*阅读！ 第.*页",
+      "nextContentUrl": "text.下一页@href",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "tag.a.2@text",
+      "bookList": "class.pt-rk-detail@tag.li",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "tag.a.3@text",
+      "lastChapter": "tag.a.4@text",
+      "name": "tag.a.1@text",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.pt-rank-detail",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "class.compulsory-row fl w100 color5 desc@text",
+      "kind": "tag.a.3@text",
+      "lastChapter": "tag.a.-3@title",
+      "name": "tag.a.1@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.pt-chapter-cont-detail full@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/search/result.html?searchkey={{key}}&page={{page}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 顶点小说④",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.208xs.com",
+    "customOrder": 139,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798704,
+    "ruleBookInfo": {
+      "intro": "id.intro@tag.p.0@text"
+    },
+    "ruleContent": {
+      "content": "id.book_text@tag.p@text##天才.*网址.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.name.0@tag.span.1@text##作者：",
+      "bookList": "class.nr@tag.li",
+      "bookUrl": "class.name.0@tag.strong@tag.a.0@href",
+      "coverUrl": "class.pic.0@tag.img.0@src",
+      "kind": "class.name.0@tag.span.0@text##类别：",
+      "lastChapter": "class.nrrk.0@tag.dt.0@tag.a.0@text##正文",
+      "name": "class.name.0@tag.strong@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.article@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.208xs.com/searchbook.php?search_key={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 全本小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qb5.tw",
+    "bookUrlPattern": "https://www\\.qb5\\.tw/shu/\\d+.html",
+    "customOrder": 144,
+    "enabled": false,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612760798705,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "class.img_in@tag.img@src",
+      "intro": "id.intro@textNodes",
+      "lastChapter": "class.zjlist@tag.a.-1@text",
+      "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##全本小说网.*最新章节！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text||class.options@tag.a.0@text",
+      "bookList": "class.grid@tag.tr!0||id.main",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "lastChapter": "class.even.0@tag.a@text||class.update@tag.a.0@text##正文卷",
+      "name": "class.odd.0@tag.a@text||tag.h1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.zjlist@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.qb5.tw/modules/article/search.php?searchtype=articlename&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 八一中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.zwdu.com",
+    "customOrder": 152,
+    "enabled": false,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612760798705,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "id.intro@tag.p.0@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.result-game-item-info-tag.0@tag.span.1@text",
+      "bookList": "class.result-list@class.result-item result-game-item",
+      "bookUrl": "class.result-item-title.0@tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "kind": "class.result-game-item-info-tag.1@tag.span.1@text",
+      "lastChapter": "class.result-game-item-info-tag.3@tag.a.0@text",
+      "name": "tag.h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.zwdu.com/search.php?keyword={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 铅笔小说②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.23qb.net",
+    "bookUrlPattern": "",
+    "customOrder": 138,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798704,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//*[@property=\"og:novel:author\"]/@content",
+      "coverUrl": "//*[@property=\"og:image\"]/@content",
+      "intro": "//*[@property=\"og:description\"]/@content",
+      "kind": "//*[@property=\"og:novel:category\"]/@content",
+      "lastChapter": "//*[@property=\"og:novel:latest_chapter_name\"]/@content",
+      "name": "//*[@property=\"og:novel:book_name\"]/@content"
+    },
+    "ruleContent": {
+      "content": "<js>result.replace(/\\<dt[\\w\\W]+?dt\\>|\\<center.*?center\\>/gi,\"\")</js>//*[@id=\"TextContent\"]##铅.*说|\\(w.*\\)|st.*m\\(\\);"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "//*[@id=\"sitebox\"]/dl",
+      "bookUrl": "//h3/a/@href",
+      "coverUrl": "//dt//img/@_src",
+      "kind": "//dt/span/text()",
+      "lastChapter": "//dd[text()=\"最新章节：\"]/a/text()",
+      "name": "//h3/a/text()"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@id=\"chapterList\"]//a",
+      "chapterName": "//text()",
+      "chapterUrl": "//@href"
+    },
+    "searchUrl": "https://www.23qb.net/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 爱奇文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.iqiwx.com",
+    "bookUrlPattern": "",
+    "customOrder": 120,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798702,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.author@tag.a.0@text",
+      "coverUrl": "id.bookimg@tag.img@src",
+      "intro": "id.bookintro@tag.p.0@text",
+      "lastChapter": "class.new_1@a@text",
+      "name": "class.booktitle@tag.h1.0@text",
+      "tocUrl": "class.tgcj@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "coverUrl": "tag.a@href##.+\\D((\\d+)\\d{3})\\..+##/files/article/image/$2/$1/$1s.jpg",
+      "kind": "class.even.2@text",
+      "lastChapter": "class.even.0@a@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.readerlist@tag.li!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.iqiwx.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 3Q中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.3qzone.cc",
+    "bookUrlPattern": "",
+    "customOrder": 136,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798704,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.box_con.0@id.info@tag.p.0@text##作\\s*者：",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@textNodes",
+      "lastChapter": "id.list@tag.a.-1@text",
+      "name": "class.box_con.0@id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##一秒记住.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.main@tag.li",
+      "bookUrl": "class.s2@tag.a.0@href",
+      "coverUrl": "tag.a@href<js>'/files/article/image'+String(result).replace(/.*?(\\d*?)(\\d{1,3})\\//,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>",
+      "lastChapter": "class.s3@tag.a.0@text",
+      "name": "class.s2@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.a",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "https://www.3qzone.cc/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 千千小说②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qqxsw.la",
+    "customOrder": 141,
+    "enabled": false,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612760798704,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##千千小说网.*最新章节！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text||id.info@tag.a.0@text",
+      "bookList": "class.novelslistss@tag.li||id.maininfo",
+      "bookUrl": "class.s2@tag.a@href",
+      "kind": "class.s1@text",
+      "lastChapter": "class.s3@text||id.info@tag.p.3@tag.a.0@text",
+      "name": "class.s2@text||tag.h1@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.qqxsw.la/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 笔趣阁㉑",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.jid5.com",
+    "bookUrlPattern": "",
+    "customOrder": 112,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798701,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "img@src",
+      "intro": "id.intro@tag.p.0@text",
+      "lastChapter": "id.info@tag.p.4@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@tag.a.0@href",
+      "coverUrl": "img@src",
+      "lastChapter": "class.update@tag.a.0@text",
+      "name": "class.bookname@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.jid5.com/s.php?ie=gbk&q={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 79文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.79wx.com",
+    "bookUrlPattern": "",
+    "customOrder": 107,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798701,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.2@text##作 者：",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p.0@text",
+      "kind": "id.info@tag.p.0@text##分类：",
+      "lastChapter": "id.info@tag.p.4@tag.a@text",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "//*[@id='content']"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作者：",
+      "bookList": "class.bookinfo@tag.div.0",
+      "bookUrl": "tag.h4@tag.a@href",
+      "coverUrl": "tag.a@href<js>'/files/article/image'+String(result).replace(/.*?(\\d*?)(\\d{1,3})\\//,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@tag.a@text",
+      "name": "tag.h4@text"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@class='listmain']//dd/a",
+      "chapterName": "//text()",
+      "chapterUrl": "//@href"
+    },
+    "searchUrl": "https://www.79wx.com/s.php?ie=gbk&q={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 笔趣阁㉕",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.boquge.com",
+    "bookUrlPattern": "",
+    "customOrder": 116,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798701,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//*[@property='og:novel:author']/@content",
+      "coverUrl": "//*[@property='og:image']/@content",
+      "intro": "//*[@property='og:description']/@content",
+      "kind": "//*[@property='og:novel:category']/@content",
+      "lastChapter": "//*[@property='og:novel:latest_chapter_name']/@content",
+      "name": "//*[@property='og:novel:book_name']/@content",
+      "tocUrl": "//*[@property='og:novel:read_url']/@content"
+    },
+    "ruleContent": {
+      "content": "id.txtContent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.col-xs-2.0@text",
+      "bookList": "class.list-group-item!0:-1",
+      "bookUrl": "class.col-xs-3@tag.a@href",
+      "kind": "tag.i@text",
+      "lastChapter": "class.col-xs-4@tag.a@text",
+      "name": "class.col-xs-3@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapters-list@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.boquge.com/search.htm?keyword={{key}}&pn={{page}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 E小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.exiaoshuo.com",
+    "bookUrlPattern": "",
+    "customOrder": 95,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798699,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.2@text##作\\s*者：",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@tag.a.0@href",
+      "coverUrl": "class.bookimg@tag.img@src",
+      "intro": "tag.p@text",
+      "lastChapter": "class.update@tag.a.0@text",
+      "name": "class.bookname@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.exiaoshuo.com/s.php?ie=gbk&q={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 搜小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.soxs.cc",
+    "bookUrlPattern": "",
+    "customOrder": 99,
+    "enabled": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612760798700,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "tag.h6.0@text##作\\s*者：",
+      "coverUrl": "class.book_cover@tag.img@src",
+      "intro": "id.intro@text",
+      "lastChapter": "tag.h5.0@text",
+      "name": "tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "class.content@textNodes@js:result.replace(/\\s*您可以.*最.*章节.*/g,'')"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslist2@tag.li!0",
+      "bookUrl": "class.s2@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "tag.span.0@text",
+      "lastChapter": "class.s3@text",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.novel_list.1@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.soxs.cc/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchtype=all&searchkey={{key}}\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 2k中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.2kzw.com",
+    "bookUrlPattern": "",
+    "customOrder": 127,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798703,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "@XPath://*[@property=\"og:novel:author\"]/@content",
+      "coverUrl": "@XPath://*[@property=\"og:image\"]/@content",
+      "intro": "@XPath://*[@property=\"og:description\"]/@content",
+      "name": "@XPath://*[@property=\"og:title\"]/@content",
+      "tocUrl": "@XPath://*[@property=\"og:url\"]/@content"
+    },
+    "ruleContent": {
+      "content": "@XPath://*[@id=\"content\"]",
+      "nextContentUrl": "@XPath://*[@class=\"bottem1\"]/a[text()=\"下一章\"]/@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@XPath://td[3]//text()|//*[@property=\"og:novel:author\"]/@content",
+      "bookList": "@XPath://*[@id=\"nr\"]|//*[@property=\"og:title\"]/..",
+      "bookUrl": "tag.td.0@tag.a@href||",
+      "coverUrl": "@XPath://*[@property=\"og:image\"]/@content",
+      "kind": "@XPath://td[6]//text()|//*[@property=\"og:novel:category\"]/@content",
+      "lastChapter": "@XPath://td[2]//text()|//*[@property=\"og:novel:latest_chapter_name\"]/@content",
+      "name": "@XPath://td[1]//text()|//*[@property=\"og:title\"]/@content"
+    },
+    "ruleToc": {
+      "chapterList": "@XPath://*[@id=\"list\"]//dt[2]/following-sibling::dd/a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.2kzw.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 5200小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.5200.net   ",
+    "customOrder": 133,
+    "enabled": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612760798703,
+    "ruleBookInfo": {
+      "intro": "id.intro@html",
+      "wordCount": "id.info@tag.p.-1@text##最后更新："
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作者：",
+      "bookList": "class.p10",
+      "bookUrl": "class.bookimg@a@href",
+      "coverUrl": "class.bookimg@img@src",
+      "intro": "class.bookinfo@p@text",
+      "kind": "class.cat@text##分类：@js:result+',5200小说'##\\[|\\]|,5200小说",
+      "lastChapter": "class.update@a@text",
+      "name": "class.bookname@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/s.php?ie=gbk&q={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 多多书院",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.txtduo.com",
+    "bookUrlPattern": "",
+    "customOrder": 125,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798703,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//*[@class=\"bookinfo\"]/p[1]/i/text()",
+      "coverUrl": "//*[@class=\"bookcover\"]/a/img/@src",
+      "intro": "class.uc_cont.1@text",
+      "kind": "//*[@class=\"bookinfo\"]/p[2]/a/text()",
+      "lastChapter": "//*[@class=\"uctitle\"]/span/a/text()",
+      "name": "//*[@class=\"bookcover\"]/a/img/@alt",
+      "tocUrl": "class.fl.3@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "class.text@textNodes##最快.*阅读，请.* 请.*小说!"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "id.mainbox@tag.tr!0",
+      "bookUrl": "tag.td.0@tag.a@href",
+      "coverUrl": "##href=\"http://www.txtduo.com/info/(\\d+)/(\\d+).html\"##http://www.txtduo.com/files/article/image/$1/$2/$2s.jpg###",
+      "kind": "tag.td.5@text",
+      "lastChapter": "tag.td.1@text",
+      "name": "tag.td.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.uclist@tag.dl@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.txtduo.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 叮当小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.guxs.net",
+    "bookUrlPattern": "",
+    "customOrder": 130,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/top/1_allvisit_0_0_0_{{page}}.html\n古典仙侠::/top/2_allvisit_0_0_0_{{page}}.html\n纯爱耽美::/top/3_allvisit_0_0_0_{{page}}.html\n历史穿越::/top/4_allvisit_0_0_0_{{page}}.html\n游戏同人::/top/5_allvisit_0_0_0_{{page}}.html\n穿梭时空::/top/6_allvisit_0_0_0_{{page}}.html\n灵异奇谈::/top/7_allvisit_0_0_0_{{page}}.html\n经典美文::/top/8_allvisit_0_0_0_{{page}}.html\n完结::/\n玄幻魔法::/top/1_monthvisit_0_2_0_{{page}}.html\n古典仙侠::/top/2_monthvisit_0_2_0_{{page}}.html\n纯爱耽美::/top/3_monthvisit_0_2_0_{{page}}.html\n历史穿越::/top/4_monthvisit_0_2_0_{{page}}.html\n游戏同人::/top/5_monthvisit_0_2_0_{{page}}.html\n穿梭时空::/top/6_monthvisit_0_2_0_{{page}}.html\n灵异奇谈::/top/7_monthvisit_0_2_0_{{page}}.html\n经典美文::/top/8_monthvisit_0_2_0_{{page}}.html\n月推荐::/\n玄幻魔法::/top/1_monthvote_0_0_0_{{page}}.html\n古典仙侠::/top/2_monthvote_0_0_0_{{page}}.html\n纯爱耽美::/top/3_monthvote_0_0_0_{{page}}.html\n历史穿越::/top/4_monthvote_0_0_0_{{page}}.html\n游戏同人::/top/5_monthvote_0_0_0_{{page}}.html\n穿梭时空::/top/6_monthvote_0_0_0_{{page}}.html\n灵异奇谈::/top/7_monthvote_0_0_0_{{page}}.html\n经典美文::/top/8_monthvote_0_0_0_{{page}}.html",
+    "lastUpdateTime": 1612760798703,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": ".s2!1@text##章节倒序",
+      "coverUrl": "tag.img.0@data-original",
+      "intro": ".brief!1@text##小说简介：",
+      "kind": ".s4@text&&.tips a@text##\\+",
+      "lastChapter": ".news a@text",
+      "name": "h1@text##全文免费阅读",
+      "tocUrl": "text.开始阅读@href"
+    },
+    "ruleContent": {
+      "content": "id.txt@p@textNodes##\\(本章完\\)|..*\\s.*阅读.*最新章节 请关注.*"
+    },
+    "ruleExplore": {
+      "author": ".font2@text## \\|.*",
+      "bookList": ".con li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@data-original",
+      "intro": ".font3@text",
+      "kind": ".font2@text&&.s2@text##.*\\| |\\s[0-9].*",
+      "lastChapter": "a!0:1@text",
+      "name": "a!0:2@text##全文免费阅读"
+    },
+    "ruleSearch": {
+      "author": ".s2@text",
+      "bookList": ".leftBox@li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@data-original",
+      "intro": ".c@text##\\...$|内容介绍：",
+      "kind": ".tipsa@text##-",
+      "lastChapter": ".bottom a@text",
+      "name": "h1@text##全文免费阅读",
+      "wordCount": ".s4@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapter@a",
+      "chapterName": "title##(\\d+)\\．",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.php?key={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 小说大全",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://shuapi.jiaston.com",
+    "bookUrlPattern": "https://shuapi.jiaston.com/book/[0-9]*/",
+    "customOrder": 118,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798702,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "$..content##\\(.=\\)",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.Author",
+      "bookList": "$..data[*]",
+      "bookUrl": "https://shuapi.jiaston.com/book/{$.Id}/",
+      "coverUrl": "$.Img",
+      "intro": "$.Desc",
+      "kind": "$.CName&&$.BookStatus",
+      "lastChapter": "$.LastChapter",
+      "name": "$.Name@put:{a:$.Id}"
+    },
+    "ruleToc": {
+      "chapterList": "$..list[*].list[*]",
+      "chapterName": "$.name",
+      "chapterUrl": "https://shuapi.jiaston.com/book/@get:{a}/{{$.id}}.html"
+    },
+    "searchUrl": "https://shuapi.jiaston.com/search.aspx?key={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 悟空追书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.wukongzhuishu.com",
+    "bookUrlPattern": "",
+    "customOrder": 124,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/sort/xuanhuan/{{page}}.html\n奇幻::/sort/xuanhuan/{{page}}.html\n武侠::/sort/wuxia/{{page}}.html\n仙侠::/sort/xianxia/{{page}}.html\n都市::/sort/dushi/{{page}}.html\n历史::/sort/lishi/{{page}}.html\n军事::/sort/junshi/{{page}}.html\n游戏::/sort/youxi/{{page}}.html\n竞技::/sort/jingji/{{page}}.html\n科幻::/sort/kehuan/{{page}}.html\n灵异::/sort/lingyi/{{page}}.html\n同人::/sort/tongren/{{page}}.html\n其他::/sort/qita/{{page}}.html",
+    "lastUpdateTime": 1612760798703,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.novelinfo@tag.a.0@text",
+      "coverUrl": "class.novelinfo-r@tag.img@src",
+      "kind": "class.novelinfo-l@tag.a.1@text",
+      "lastChapter": "class.novelinfo-l@tag.li.3@tag.a@text",
+      "name": "class.header line@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.content@textNodes||id.chaptercontent@textNodes##最新网址：ddxsku"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@tag.a.1@text",
+      "bookList": "class.librarylist@tag.li",
+      "bookUrl": "class.info@tag.a.0@href",
+      "coverUrl": "class.pt-ll-l@tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "class.info@tag.a.2@text",
+      "lastChapter": "class.last@tag.a.0@text",
+      "name": "class.info@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.hide@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href##$##,{\"webView\":true}"
+    },
+    "searchUrl": "https://www.wukongzhuishu.com/search/result.html?searchtype=novelname&searchkey={{key}},{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 恋上你看书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.630shu.net",
+    "bookUrlPattern": "",
+    "customOrder": 158,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1612760798705,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.bookdetail@id.picbox@class.img_in@tag.img.0@src",
+      "intro": "id.bookdetail@id.info@id.intro@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.content@html##恋上.*章节！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text||class.l3@text||class.odd.1@text||id.info@tag.a.0@text",
+      "bookList": "class.uplist@id.tlist@class.titlelist@tag.li||id.articlelist@tag.ul.1@tag.li||class.grid@tag.tr!0||id.bookdetail",
+      "bookUrl": "class.zp@tag.a.0@href||class.l2@tag.a.0@href||class.odd.0@tag.a.0@href",
+      "coverUrl": "id.picbox@class.img_in@tag.img.0@src",
+      "lastChapter": "class.zz@tag.a.0@text||class.l4@text||class.even.0@tag.a.0@text||id.info@tag.a.2@text",
+      "name": "class.zp@tag.a.0@text||class.l2@tag.a.0@text||class.odd.0@tag.a.0@text||id.info@tag.h1.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.zjlist@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.630shu.net/modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&submit=搜索,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 黄鹤楼文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.hhlwx.com",
+    "bookUrlPattern": "",
+    "customOrder": 142,
+    "enabled": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612760798704,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "tag.img.2@src",
+      "intro": "tag.div.103@text##【.*】|最新章节.*",
+      "tocUrl": "class.a_demo_one@href"
+    },
+    "ruleContent": {
+      "content": "<js>result.match(/[\\w\\W]+(<div[\\w\\W]+?[\\u4E00-\\u9FA50，。]{50,}[\\w\\W]+?div>)/)[1]</js>",
+      "imageStyle": "0.0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.book_h@tag.a@text",
+      "bookList": "class.shu_one.0&&class.shu_one.1&&class.shu_one.2",
+      "bookUrl": "tag.a@href",
+      "lastChapter": "class.book_last@tag.a@text##最新章节",
+      "name": "class.book_h@text##(.*)(\\s+.*)##$1"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.hhlwx.com/hhllist/{{key}}.html",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 笔趣阁㉓",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.kuxiaoshuo.com",
+    "bookUrlPattern": "",
+    "customOrder": 114,
+    "enabled": false,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612760798701,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p.0@text",
+      "lastChapter": "id.list@tag.dd.0@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "kind": "class.even.2@text",
+      "lastChapter": "class.even.0@tag.a@text",
+      "name": "class.odd.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dl@dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.kuxiaoshuo.com/modules/article/search.php?searchkey={{key}},{\n  \"headers\": \"{referer:\\\"https://www.kuxiaoshuo.com\\\"}\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 奇书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xqishuta.com",
+    "bookUrlPattern": "",
+    "customOrder": 101,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::http://www.xqishuta.com//soft/sort01/index_{{page}}.html\n武侠仙侠::http://www.xqishuta.com//soft/sort02/index_{{page}}.html\n女频言情::http://www.xqishuta.com//soft/sort03/index_{{page}}.html\n现代都市::http://www.xqishuta.com//soft/sort04/index_{{page}}.html\n历史军事::http://www.xqishuta.com//soft/sort05/index_{{page}}.html\n游戏竞技::http://www.xqishuta.com//soft/sort06/index_{{page}}.html\n科幻灵异::http://www.xqishuta.com//soft/sort07/index_{{page}}.html\n美文同人::http://www.xqishuta.com//soft/sort08/index_{{page}}.html\n剧本教程::http://www.xqishuta.com//soft/sort09/index_{{page}}.html\n名著杂志::http://www.xqishuta.com//soft/sort010/index_{{page}}.html\n技术其他::http://www.xqishuta.com//soft/sort011/index_{{page}}.html\n热门电子书::http://www.xqishuta.com//s/hot/index_{{page}}.html\n推荐电子书::http://www.xqishuta.com//s/good/index_{{page}}.html\n最新电子书::http://www.xqishuta.com//s/new/index_{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612760798700,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.small.5@text",
+      "coverUrl": "class.detail_pic@tag.img@src",
+      "init": "",
+      "intro": "class.showInfo@tag.p@text",
+      "kind": "",
+      "lastChapter": "class.small.6@text",
+      "name": "class.detail_right@tag.h1@text##《|》|全集",
+      "tocUrl": "class.showDown@tag.a.0@href",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.content1@html##最新网址：www.xqishuta.com|最新网址：www.iqishu.la",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "class.s@text##大小.*",
+      "bookList": "class.listBox@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.u@text",
+      "kind": "",
+      "lastChapter": "tag.a.1@text##最新章节：",
+      "name": "tag.a.0@text##《|》|全集",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.even@tag.a@href",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "class.odd.2@text",
+      "name": "class.even@tag.a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.pc_list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "http://www.xqishuta.com/search.html?searchkey={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 书屋楼",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.shuwulou.com",
+    "bookUrlPattern": "",
+    "customOrder": 103,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798700,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.item.0@tag.a@text",
+      "coverUrl": "class.img_in@tag.img@src",
+      "intro": "id.intro@text",
+      "kind": "class.fr@tag.a.1@text",
+      "lastChapter": "class.update@tag.a@text##正文卷",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##书屋.*章节！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##/shu/(\\d+)(\\d{3}).html##/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "class.even.2@text%%class.odd.2@text%%class.even.1@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.zjlist@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.shuwulou.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 笔趣阁㉒",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biqudd.com",
+    "bookUrlPattern": "",
+    "customOrder": 113,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798701,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text",
+      "intro": "id.intro@text",
+      "lastChapter": "id.list@tag.dd.0@tag.a@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##一秒.*\\s+.*更新！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tr",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##/(\\d+)_(\\d+)/##/files/article/image/$1/$2/$2s.jpg",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.biqudd.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 求小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.qiuxiaoshuo.org-By Dark",
+    "customOrder": 129,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798703,
+    "ruleBookInfo": {
+      "coverUrl": "class.col-xs-2@tag.img.0@src",
+      "intro": "id.all@text##\\[收起\\]",
+      "tocUrl": "class.list-group-item tac@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.txtContent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.col-xs-2.0@text",
+      "bookList": "class.panel-body@tag.li",
+      "bookUrl": "class.col-xs-3.0@tag.a.0@href",
+      "kind": "class.tag-blue.0@text",
+      "lastChapter": "class.col-xs-4.0@tag.a.0@text",
+      "name": "class.col-xs-3.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-group-item@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.qiuxiaoshuo.org/search.htm?keyword={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 华书阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.huashuge.com",
+    "bookUrlPattern": "",
+    "customOrder": 102,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798700,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "id.content@textNodes##http.*html|天才.*com"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作\\s*者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@tag.a.0@href",
+      "coverUrl": "class.bookimg@tag.img@src",
+      "lastChapter": "class.update@tag.a.0@text",
+      "name": "class.bookname@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd!0:1:2:3:4:5@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.huashuge.com/s.php?ie=gbk&q={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 铅笔小说①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.x23qb.com",
+    "bookUrlPattern": "",
+    "customOrder": 137,
+    "enabled": false,
+    "enabledExplore": false,
+    "header": "",
+    "lastUpdateTime": 1612760798704,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "##:author\"[^\"]+\"([^\"]*)##$1###",
+      "coverUrl": "##og:image\"[^\"]+\"([^\"]*)##$1###",
+      "intro": "<js>\nvar doc=org.jsoup.Jsoup.parse(result);\n'最近'+doc.selectFirst('#uptime').text()+'\\n'+doc.selectFirst('#bookintro>p').html()\n</js>",
+      "kind": "##:category\"[^\"]+\"([^\"]*)##$1###",
+      "lastChapter": "##_chapter_name\"[^\"]+\"([^\"]*)##$1###",
+      "name": "##:book_name\"[^\"]+\"([^\"]*)##$1###",
+      "tocUrl": "##novel:read_url\"[^\"]+\"([^\"]*)##$1###",
+      "wordCount": "@css:li:contains(字数：)@text##字数："
+    },
+    "ruleContent": {
+      "content": "@css:#TextContent@html##.*本章未完.*|铅笔小说|.*x23qb.*",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "",
+      "bookList": "@css:#sitebox>dl",
+      "bookUrl": "@css:dt>a@href",
+      "coverUrl": "@css:img@_src",
+      "intro": "@css:.book_des@textNodes",
+      "kind": "@css:.book_other:eq(2)>span:eq(0)@text",
+      "lastChapter": "@css:.book_other:eq(4)>a:eq(0)@text",
+      "name": "@css:h3>a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "@css:#chapterList a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 ABC小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.abcxs.com",
+    "bookUrlPattern": "",
+    "customOrder": 117,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798702,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作.者.",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@tag.p.0@text",
+      "lastChapter": "id.info@tag.p.4@text##最新章节.|第.*?卷|正文_",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##天才.*址.*|http.*l"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text||id.info@tag.p.0@text",
+      "bookList": "class.p10||id.maininfo",
+      "bookUrl": "class.bookname@tag.a.0@href",
+      "coverUrl": "class.bookimg@tag.a@tag.img@src",
+      "intro": "class.bookinfo@tag.p@text",
+      "kind": "class.cat.0@text##分类：",
+      "lastChapter": "class.update.0@text##最新章节.",
+      "name": "class.bookname.0@tag.a.0@text||id.info@tag.h1.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd",
+      "chapterName": "tag.a@text##第.*?卷|正文.",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.abcxs.com/s111.php?ie=gbk&q={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 乐文小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xlwxsw.com",
+    "bookUrlPattern": "",
+    "customOrder": 122,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798702,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "tag.img@src",
+      "intro": "id.intro@p@text",
+      "lastChapter": "id.info@p!2:3@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##http.*|天才一秒.*|大家记得收藏网址.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.p10",
+      "bookUrl": "class.bookname@a@href",
+      "coverUrl": "tag.img@src",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@a@text",
+      "name": "class.bookname@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@dd@a",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.xlwxsw.com/s.php?q={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 元尊小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.yuanzun888.com-By Dark",
+    "customOrder": 145,
+    "enabled": false,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612760798705,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "id.intro@tag.p.0@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.content@html##天才一秒记.*网址：|[a-zA-Z]+://[^\\s]*|[a-zA-Z]+\\.[^\\s]*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@tag.a.0@text",
+      "name": "class.bookname@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dl@tag.dd!0:1:2:3:4:5",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.yuanzun888.com/s.php?ie=gbk&q={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 有度中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yoduzw.com/",
+    "bookUrlPattern": "",
+    "customOrder": 151,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "✵                                     经典文学                                       ✵::\n传记回忆::/zhuanjihuiyi/{{page}}.html\n杂文随笔::/zawensuibi/{{page}}.html\n经典历史::/jingdianlishi/{{page}}.html\n侦探推理::/zhentantuili/{{page}}.html\n惊悚悬疑::/jingsongxuanyi/{{page}}.html\n网络玄幻::/wangluoxuanhuan/{{page}}.html\n青春都市::/qingchundushi/{{page}}.html\n社会心理::/shehuixinli/{{page}}.html\n经典科幻::/jingdiankehuan/{{page}}.html\n外国小说::/waiguoxiaoshuo/{{page}}.html\n当代小说::/dangdaixiaoshuo/{{page}}.html\n现代小说::/xiandaixiaoshuo/{{page}}.html\n官场小说::/guanchangxiaoshuo/{{page}}.html\n经典武侠::/jingdianwuxia/{{page}}.html\n纪实报告::/jishibaogao/{{page}}.html\n世界历史::/shijielishi/{{page}}.html\n中国历史::/zhongguolishi/{{page}}.html\n科普学习::/kepuxuexi/{{page}}.html\n宗教哲学::/zongjiaozhexue/{{page}}.html\n文学理论::/wenxuelilun/{{page}}.html\n寓言童话::/yuyantonghua/{{page}}.html\n作  品  集::/zuopinji/{{page}}.html\n国学古籍::/guoxueguji/{{page}}.html\n战争军事::/zhanzhengjunshi/{{page}}.html\n政治经济::/zhengzhijingji/{{page}}.html\n古典文学::/gudianwenxue/{{page}}.html\n经典言情::/jingdianyanqing/{{page}}.html\n英文读本::/yingwenduben/{{page}}.html\n日语读物::/riyuduwu/{{page}}.html\n诗歌戏曲::/shigexiqu/{{page}}.html\n✵                                     网络小说                                       ✵::\n玄    幻::/xuanhuanxiaoshuo/{{page}}.html\n仙    侠::/xianxiaxiaoshuo/{{page}}.html\n都    市::/dushixiaoshuo/{{page}}.html\n武    侠::/wuxiaxiaoshuo/{{page}}.html\n悬    疑::/xuanyixiaoshuo/{{page}}.html\n军    事::/junshixiaoshuo/{{page}}.html\n灵    异::/lingyixiaoshuo/{{page}}.html\n科    幻::/kehuanxiaoshuo/{{page}}.html\n历    史::/lishixiaoshuo/{{page}}.html\n竞    技::/jingjixiaoshuo/{{page}}.html\n穿    越::/chuanyuexiaoshuo/{{page}}.html\n言    情::/yanqingxiaoshuo/{{page}}.html\n网    游::/wangyouxiaoshuo/{{page}}.html\n✵                                     轻の小说                                       ✵::\n富士见文库::/fushijianwenku/{{page}}.html\nFami通文库::/Famitongwenku/{{page}}.html\n  电击文库  ::/dianjiwenku/{{page}}.html\n  角川文库  ::/jiaochuanwenku/{{page}}.html\n  少女文库  ::/shaonvwenku/{{page}}.html\n  其他文库  ::/qitawenku/{{page}}.html\n   MF文库J  ::/MFwenkuJ/{{page}}.html\n   GA文库   ::/GAwenku/{{page}}.html\n   HJ文库   ::/HJwenku/{{page}}.html\n一迅社::/yixunshe/{{page}}.html\n集英社::/jiyingshe/{{page}}.html\n小学馆::/xiaoxueguan/{{page}}.html\n讲谈社::/jiangtanshe/{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1612760798705,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.mb15 ell _tags pt2@tag.span.0@tag.a@text",
+      "coverUrl": "class.cover g_col_4@tag.img@src",
+      "init": "",
+      "intro": "class.h112 mb15 det-abt lh1d8 c_strong fs16 hm-scroll@tag.p@text",
+      "kind": "class.mb15 ell _tags pt2@tag.span.1@text&&class.mb15 ell _tags pt2@tag.span.2@text",
+      "lastChapter": "class.ell lst-chapter dib vam@text",
+      "name": "class.g_col_8 pr@tag.h1@text",
+      "tocUrl": "",
+      "wordCount": "class.mb15 ell _tags pt2@tag.span.3@text"
+    },
+    "ruleContent": {
+      "content": "class.read-content@tag.p@textNodes##(本章未完)",
+      "nextContentUrl": "class.mlfy_page@tag.a.4@href",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "class.mb5 ell _tags pt2@tag.span.0@text",
+      "bookList": "class.g_row lis-mn j_bookList@tag.li",
+      "bookUrl": "class.lst-item pr lh1d5@tag.a.1@href",
+      "coverUrl": "tag.img@_src",
+      "intro": "class.lst-item pr lh1d5@tag.a.1@text",
+      "kind": "class.mb5 ell _tags pt2@tag.span.1@text||class.mb5 ell _tags pt2@tag.span.2@text",
+      "lastChapter": "",
+      "name": "class.mb5 fs20 f_mbo pt5 oh@text",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.c_small db mb5 ell ttc fs14@tag.span.1@text",
+      "bookList": "class.ser-ret lh1d5@tag.li",
+      "bookUrl": "class.mb5 fs20 f_mbo pt5 ell@tag.a@href",
+      "coverUrl": "tag.img@_src",
+      "intro": "class.fs16 mb10 c_strong g_ells@text",
+      "kind": "class.c_small db mb5 ell ttc fs14@tag.span.2@text",
+      "lastChapter": "class.db mb5 ell ttc fs16@class.vam@tag.a@text",
+      "name": "class.mb5 fs20 f_mbo pt5 ell@tag.a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterList@tag.li",
+      "chapterName": "class.w33p@tag.span@text",
+      "chapterUrl": "class.w33p@tag.a@href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "https://www.yoduzw.com/search,\n{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 品书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.vodtw.com-By Dark",
+    "bookUrlPattern": "",
+    "customOrder": 97,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798700,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.bookpic@tag.img@src",
+      "intro": "class.bookintro@textNodes",
+      "tocUrl": "id.htmldianjiyuedu@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.BookText@html##[a-zA-Z]+.V[^\\s]*[a-zA-Z]|[a-zA-Z]+.v[^\\s]*[a-zA-Z]|≦.*≧|本书来自|品书网|手机端|手机阅读|想-免-费-看-完-整-版请百度搜-品=书=网"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "id.CListTitle@tag.a.1@text",
+      "bookList": "id.Content@tag.div!0",
+      "bookUrl": "id.CListTitle@tag.a.0@href",
+      "kind": "id.CListTitle@tag.a.3@text",
+      "lastChapter": "id.CListTitle@tag.a.4@text",
+      "name": "id.CListTitle@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.insert_list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.vodtw.com/Book/Search.aspx?SearchKey={{key}}&SearchClass=1,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  },
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 蚂蚁阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.imayitxt.com",
+    "bookUrlPattern": "",
+    "customOrder": 131,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/sort/1/1.html\n仙侠::/sort/2/1.html\n都市::/sort/3/1.html\n历史::/sort/4/1.html\n军事::/sort/5/1.html\n灵异::/sort/6/1.html\n科幻::/sort/7/1.html\n游戏::/sort/8/1.html\n现言::/sort/9/1.html\n古言::/sort/10/1.html\n穿越::/sort/11/1.html\n青春::/sort/12/1.html\n豪门总裁::/sort/14/1.html\n耽美同人::/sort/15/1.html\n其他类型::/sort/13/1.html",
+    "lastUpdateTime": 1612760798703,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.author.0@text",
+      "coverUrl": "class.book_left@tag.img@src",
+      "intro": "class.intro@text",
+      "name": "class.book_name@tag.h1@text",
+      "tocUrl": "class.button_list@tag.a.2@href"
+    },
+    "ruleContent": {
+      "content": "class.page-content@textNodes##免费小说，无弹窗小说网，txt下载，请记住蚂蚁阅读网www.mayitxt.com|\\*\\*\\*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text||tag.span@text",
+      "bookList": "class.bd@tag.tr!0||class.BOX@tag.tr!0",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href\n<js>\nvar id = result.match(/\\/(\\d+).*/)[1];\nvar iid = parseInt(id/1000);\n'/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "kind": "class.tag@text||tag.a.0@text##\\[(.*)\\]##$1",
+      "lastChapter": "class.chapter@text##正文(\\s+|_)|[\\(（【].*[求更谢乐发推].*[】）\\)]",
+      "name": "class.red@text||tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.float-list fill-block@tag.li",
+      "chapterName": "tag.a@text##正文(\\s+|_)|[\\(（【].*[求更谢乐发推].*[】）\\)]",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/modules/article/search.php?q={{key}}&searchtype=all,{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

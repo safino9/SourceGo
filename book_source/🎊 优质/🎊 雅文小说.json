@@ -1,0 +1,38 @@
+[
+  {
+    "bookSourceGroup": "🎊 优质",
+    "bookSourceName": "🎊 雅文小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yawenb.com",
+    "bookUrlPattern": "",
+    "customOrder": 75,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798697,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text##各位书友要是觉得.*"
+    },
+    "ruleContent": {
+      "content": "id.content@html##\\(.=\\)"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslist2@tag.li!0",
+      "bookUrl": "class.s2@tag.a@href",
+      "kind": "class.s1@tag.a@text",
+      "lastChapter": "class.s3@tag.a@text",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.yawenb.com/modules/article/search.php?keyword={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

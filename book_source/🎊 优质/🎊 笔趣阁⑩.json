@@ -1,0 +1,40 @@
+[
+  {
+    "bookSourceGroup": "🎊 优质",
+    "bookSourceName": "🎊 笔趣阁⑩",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.tianxiabachang.cn",
+    "bookUrlPattern": "",
+    "customOrder": 68,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798696,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "id.intro@tag.p.0@textNodes##.*无弹窗广告.*",
+      "lastChapter": "id.list@tag.dd.0@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": ".s4@text",
+      "bookList": "id.main@li!0",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a@href<js>'/files/article/image'+String(result).replace(/.*?(\\d*?)(\\d{1,3})\\//,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>",
+      "kind": "class.s1@text##\\[|$",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@dl@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.tianxiabachang.cn/cse/search?q={{key}}&s=,{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

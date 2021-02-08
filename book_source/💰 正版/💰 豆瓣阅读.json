@@ -1,0 +1,53 @@
+[
+  {
+    "bookSourceGroup": "💰 正版",
+    "bookSourceName": "💰 豆瓣阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://read.douban.com",
+    "customOrder": 165,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "生活悬疑::https://read.douban.com/j/tag/生活悬疑?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n都市犯罪::https://read.douban.com/j/tag/都市犯罪?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n社会事件::https://read.douban.com/j/tag/社会事件?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n私家侦探::https://read.douban.com/j/tag/私家侦探?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n职业女性::https://read.douban.com/j/tag/职业女性?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n单身女性::https://read.douban.com/j/tag/单身女性?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n女性成长::https://read.douban.com/j/tag/女性成长?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n家庭故事::https://read.douban.com/j/tag/家庭故事?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n时空穿越::https://read.douban.com/j/tag/时空穿越?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n都市奇幻::https://read.douban.com/j/tag/都市奇幻?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n脑洞故事::https://read.douban.com/j/tag/脑洞故事?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n近未来::https://read.douban.com/j/tag/近未来?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n青春成长::https://read.douban.com/j/tag/青春成长?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n都市冷暖::https://read.douban.com/j/tag/都市冷暖?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n漂泊故事::https://read.douban.com/j/tag/漂泊故事?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n时代记忆::https://read.douban.com/j/tag/时代记忆?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n武侠小说::https://read.douban.com/j/tag/武侠小说?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n历史纪实::https://read.douban.com/j/tag/历史纪实?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n历史言情::https://read.douban.com/j/tag/历史言情?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\n历史传奇::https://read.douban.com/j/tag/历史传奇?start={{(page-1)*10}}&limit={{(page)*10}}&sort=top\nnull",
+    "lastUpdateTime": 1612760798707,
+    "loginUrl": "https://accounts.douban.com/passport/login",
+    "ruleBookInfo": {
+      "kind": "@js:if(baseUrl.match(/ebook/)){result=\"哭唧唧(╥﹏╥)正文不会搞，这个看不了\"}",
+      "lastChapter": "class.current-price-count@text##^##全本定价:",
+      "tocUrl": "@js:id=baseUrl.match(/(\\d+)/)[1];\njava.put(\"id\",id);\nif(baseUrl.match(/ebook/)){result=baseUrl}else{\nresult=\"https://read.douban.com/j/column_v2/\"+id+\"/chapters?start=0&limit=10000&latestFirst=0\";}"
+    },
+    "ruleContent": {
+      "content": "class.article@html"
+    },
+    "ruleExplore": {
+      "author": "$.author",
+      "bookList": "$.[?(@.alias_id)]",
+      "bookUrl": "https://read.douban.com/column/{$.alias_id}/",
+      "coverUrl": "$.cover",
+      "intro": "$.abstract",
+      "kind": "$.kind&&$.category&&$.tags[*].tag",
+      "name": "$.title"
+    },
+    "ruleSearch": {
+      "author": "$.author[*].name||$.origAuthor[*].name",
+      "bookList": "$.list[*]",
+      "bookUrl": "$.url",
+      "coverUrl": "$.cover",
+      "intro": "$.abstract",
+      "kind": "$.kinds[*].shortName&&$.highlightTags[*].name",
+      "lastChapter": "$.fixedPrice&&$.salesPrice@js:\nif(result){\na=result.match(/(.*?)\\n(.*)/);\nb=a[1]/100;\nc=a[2]/100;\nresult=\"原价:\"+b+\"元\"+\"💡特价:\"+c+\"元\"}",
+      "name": "$.title",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.story-item@a||$.list[*]",
+      "chapterName": "text||$.title",
+      "chapterUrl": "href||$.links.reader<js>\n     var ua = \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\";\n     var headers = {\"User-Agent\": ua};\n     var option = {\n         \"headers\": JSON.stringify(headers),\n         \"webView\": true\n     };\n     result+\",\" + JSON.stringify(option)\n </js>",
+      "isVip": "$.price",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "<js> var body = {\n  \"sort\": \"default\",\n  \"page\": 1,\n  \"q\": \"{{key}}\",\n  \"rootKind\": \"\",\n  \"query\": \"\\n    query getFilterWorksList($works_ids: [ID!]) {\\n      worksList(worksIds: $works_ids) {\\n        \\n    \\n    title\\n    cover\\n    url\\n    isBundle\\n    coverLabel\\n  \\n    \\n    url\\n    title\\n  \\n    \\n    author {\\n      name\\n      url\\n    }\\n    origAuthor {\\n      name\\n      url\\n    }\\n    translator {\\n      name\\n      url\\n    }\\n  \\n    \\n    abstract\\n    editorHighlight\\n  \\n    \\n    isOrigin\\n    kinds {\\n      \\n    name @skip(if: true)\\n    shortName @include(if: true)\\n    id\\n  \\n    }\\n    ... on WorksBase @include(if: true) {\\n      wordCount\\n      wordCountUnit\\n    }\\n    ... on WorksBase @include(if: false) {\\n      \\n    isEssay\\n    \\n    ... on EssayWorks {\\n      favorCount\\n    }\\n  \\n    \\n    isNew\\n    \\n    averageRating\\n    ratingCount\\n    url\\n  \\n  \\n  \\n    }\\n    ... on WorksBase @include(if: false) {\\n      isColumn\\n      isEssay\\n      onSaleTime\\n      ... on ColumnWorks {\\n        updateTime\\n      }\\n    }\\n    ... on WorksBase @include(if: true) {\\n      isColumn\\n      ... on ColumnWorks {\\n        isFinished\\n      }\\n    }\\n    ... on EssayWorks {\\n      essayActivityData {\\n        \\n    title\\n    uri\\n    tag {\\n      name\\n      color\\n      background\\n      icon2x\\n      icon3x\\n      iconSize {\\n        height\\n      }\\n      iconPosition {\\n        x y\\n      }\\n    }\\n  \\n      }\\n    }\\n    highlightTags {\\n      name\\n    }\\n  \\n    isInLibrary\\n    ... on WorksBase @include(if: false) {\\n      \\n    fixedPrice\\n    salesPrice\\n    isRebate\\n  \\n    }\\n    ... on EbookWorks {\\n      \\n    fixedPrice\\n    salesPrice\\n    isRebate\\n  \\n    }\\n    ... on WorksBase @include(if: true) {\\n      ... on EbookWorks {\\n        id\\n        isPurchased\\n        isInWishlist\\n      }\\n    }\\n  \\n        id\\n        isOrigin\\n      }\\n    }\\n  \",\n  \"variables\": {}\n};\nvar option = {\"method\": \"POST\", \"body\": JSON.stringify(body) }; \"https://read.douban.com/j/search_v2,\" + JSON.stringify(option) </js>",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

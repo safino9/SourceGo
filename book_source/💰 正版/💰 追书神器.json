@@ -1,0 +1,40 @@
+[
+  {
+    "bookSourceGroup": "💰 正版",
+    "bookSourceName": "💰 追书神器",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://api.zhuishushenqi.com",
+    "bookUrlPattern": "",
+    "customOrder": 169,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "最热排行榜::http://api.zhuishushenqi.com/ranking/54d42d92321052167dfb75e3\n热搜排行榜::http://api.zhuishushenqi.com/ranking/5a6844f8fc84c2b8efaa8bc5\n潜力排行榜::http://api.zhuishushenqi.com/ranking/54d42e72d9de23382e6877fb\n读者留存榜::http://api.zhuishushenqi.com/ranking/564d8a004a15bb8369d9e28d\n追书完结榜::http://api.zhuishushenqi.com/ranking/564eb878efe5b8e745508fde\n追书排行榜::http://api.zhuishushenqi.com/ranking/57eb86f0ef9e5a8f20543d7d\n包月排行榜::http://api.zhuishushenqi.com/ranking/5848d4a4602c289505581f6f\n圣诞热搜榜::http://api.zhuishushenqi.com/ranking/582ed5fc93b7e855163e707d\n起点月票榜::http://api.zhuishushenqi.com/ranking/54d4306c321052167dfb75e4\n17k 鲜花榜::http://api.zhuishushenqi.com/ranking/54d430e9a8cb149d07282496\n纵横月票榜::http://api.zhuishushenqi.com/ranking/54d430962c12d3740e4a3ed2\n和阅读原创::http://api.zhuishushenqi.com/ranking/54d4312d5f3c22ae137255a1\n逐浪点击榜::http://api.zhuishushenqi.com/ranking/5732aac02dbb268b5f037fc4\n  男生玄幻  ::http://api.zhuishushenqi.com/book/by-categories?gender=male&type=hot&major=玄幻&start={{(page-1)*50}}&limit=50\n  玄幻奇幻  ::https://api.zhuishushenqi.com/book/by-categories?gender=female&type=hot&major=%E7%8E%84%E5%B9%BB%E5%A5%87%E5%B9%BB&minor=&start={{(page-1)*50}}&limit=50\n  武侠仙侠  ::https://api.zhuishushenqi.com/book/by-categories?gender=female&type=hot&major=%E6%AD%A6%E4%BE%A0%E4%BB%99%E4%BE%A0&minor=&start={{(page-1)*50}}&limit=50\n  政治军事  ::https://api.zhuishushenqi.com/book/by-categories?gender=press&type=&major=%E6%94%BF%E6%B2%BB%E5%86%9B%E4%BA%8B&minor=&start={{(page-1)*50}}&limit=50\n  游戏竞技  ::https://api.zhuishushenqi.com/book/by-categories?gender=female&type=hot&major=%E6%B8%B8%E6%88%8F%E7%AB%9E%E6%8A%80&minor=&start={{(page-1)*50}}&limit=50\n灵异::https://api.zhuishushenqi.com/book/by-categories?gender=female&type=hot&major=%E6%82%AC%E7%96%91%E7%81%B5%E5%BC%82&minor=&start={{(page-1)*50}}&limit=50\n奇幻::http://api.zhuishushenqi.com/book/by-categories?gender=male&type=hot&major=奇幻&start={{(page-1)*50}}&limit=50\n武侠::http://api.zhuishushenqi.com/book/by-categories?gender=male&type=hot&major=武侠&start={{(page-1)*50}}&limit=50\n仙侠::http://api.zhuishushenqi.com/book/by-categories?gender=male&type=hot&major=仙侠&start={{(page-1)*50}}&limit=50\n都市::http://api.zhuishushenqi.com/book/by-categories?gender=male&type=hot&major=都市&start={{(page-1)*50}}&limit=50\n职场::http://api.zhuishushenqi.com/book/by-categories?gender=male&type=hot&major=职场&start={{(page-1)*50}}&limit=50\n历史::http://api.zhuishushenqi.com/book/by-categories?gender=male&type=hot&major=历史&start={{(page-1)*50}}&limit=50\n军事::http://api.zhuishushenqi.com/book/by-categories?gender=male&type=hot&major=军事&start={{(page-1)*50}}&limit=50\n游戏::http://api.zhuishushenqi.com/book/by-categories?gender=male&type=hot&major=游戏&start={{(page-1)*50}}&limit=50\n竞技::http://api.zhuishushenqi.com/book/by-categories?gender=male&type=hot&major=竞技&start={{(page-1)*50}}&limit=50\n灵异::http://api.zhuishushenqi.com/book/by-categories?gender=male&type=hot&major=灵异&start={{(page-1)*50}}&limit=50\n科幻::https://api.zhuishushenqi.com/book/by-categories?gender=female&type=hot&major=%E7%A7%91%E5%B9%BB&minor=&start={{(page-1)*50}}&limit=50\n女尊::https://api.zhuishushenqi.com/book/by-categories?gender=female&type=hot&major=%E5%A5%B3%E5%B0%8A&minor=&start={{(page-1)*50}}&limit=50\n同人::https://api.zhuishushenqi.com/book/by-categories?gender=female&type=hot&major=%E5%90%8C%E4%BA%BA&minor=&start={{(page-1)*50}}&limit=50\n轻小::http://api.zhuishushenqi.com/book/by-categories?gender=male&type=hot&major=轻小说&start={{(page-1)*50}}&limit=50\n  古代言情  ::https://api.zhuishushenqi.com/book/by-categories?gender=female&type=hot&major=%E5%8F%A4%E4%BB%A3%E8%A8%80%E6%83%85&minor=&start={{(page-1)*50}}&limit=50\n  现代言情  ::https://api.zhuishushenqi.com/book/by-categories?gender=female&type=hot&major=%E7%8E%B0%E4%BB%A3%E8%A8%80%E6%83%85&minor=&start={{(page-1)*50}}&limit=50\n  青春校园  ::https://api.zhuishushenqi.com/book/by-categories?gender=female&type=hot&major=%E9%9D%92%E6%98%A5%E6%A0%A1%E5%9B%AD&minor=&start={{(page-1)*50}}&limit=50\n  青春言情  ::https://api.zhuishushenqi.com/book/by-categories?gender=press&type=&major=%E9%9D%92%E6%98%A5%E8%A8%80%E6%83%85&minor=&start={{(page-1)*50}}&limit=50\n  出版名著  ::https://api.zhuishushenqi.com/book/by-categories?gender=press&type=&major=%E4%BC%A0%E8%AE%B0%E5%90%8D%E8%91%97&minor=&start={{(page-1)*50}}&limit=50\n  出版小说  ::https://api.zhuishushenqi.com/book/by-categories?gender=press&type=&major=%E5%87%BA%E7%89%88%E5%B0%8F%E8%AF%B4&minor=&start={{(page-1)*50}}&limit=50\n  人文社科  ::https://api.zhuishushenqi.com/book/by-categories?gender=press&type=&major=%E4%BA%BA%E6%96%87%E7%A4%BE%E7%A7%91&minor=&start={{(page-1)*50}}&limit=50\n  生活时尚  ::https://api.zhuishushenqi.com/book/by-categories?gender=press&type=&major=%E7%94%9F%E6%B4%BB%E6%97%B6%E5%B0%9A&minor=&start={{(page-1)*50}}&limit=50\n  经管理财  ::https://api.zhuishushenqi.com/book/by-categories?gender=press&type=&major=%E7%BB%8F%E7%AE%A1%E7%90%86%E8%B4%A2&minor=&start={{(page-1)*50}}&limit=50\n  外文原版  ::https://api.zhuishushenqi.com/book/by-categories?gender=press&type=&major=%E5%A4%96%E6%96%87%E5%8E%9F%E7%89%88&minor=&start={{(page-1)*50}}&limit=50\n  成功励志  ::https://api.zhuishushenqi.com/book/by-categories?gender=press&type=&major=%E6%88%90%E5%8A%9F%E5%8A%B1%E5%BF%97&minor=&start={{(page-1)*50}}&limit=50\n  育儿健康  ::https://api.zhuishushenqi.com/book/by-categories?gender=press&type=&major=%E8%82%B2%E5%84%BF%E5%81%A5%E5%BA%B7&minor=&start={{(page-1)*50}}&limit=50",
+    "lastUpdateTime": 1612760798708,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "@JSon:$.shortIntro"
+    },
+    "ruleContent": {
+      "content": "@JSon:$..body&&$..cpContent@js:result.replace(/请安装.*/g,\"\")"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@JSon:$.author",
+      "bookList": "@JSon:$..books[*]",
+      "bookUrl": "http://api.gdugm.cn:80/toc/mix?&bookId={$._id}",
+      "coverUrl": "@JSon:$.cover@js:\"https://statics.zhuishushenqi.com\" + result",
+      "intro": "@JSon:$.shortIntro",
+      "kind": "@JSon:$.minorCate&&$.cat&&$.wordCount&&留存{$.retentionRatio}%",
+      "lastChapter": "@JSon:$..lastChapter",
+      "name": "@JSon:$.title"
+    },
+    "ruleToc": {
+      "chapterList": "@JSon:$.chapters",
+      "chapterName": "@JSon:$.title",
+      "chapterUrl": "@JSon:$.link@js:\"http://chapter.wgfgr.cn:80/chapter/\" + encodeURIComponent(result)"
+    },
+    "searchUrl": "https://api.zhuishushenqi.com/book/fuzzy-search?query={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

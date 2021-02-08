@@ -1,0 +1,38 @@
+[
+  {
+    "bookSourceGroup": "🎊 优质",
+    "bookSourceName": "🎊 桑舞小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.sangwu.org",
+    "customOrder": 93,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798699,
+    "ruleBookInfo": {
+      "author": "class.introcents@tag.p.1@text##.*作者：",
+      "coverUrl": "class.introleft@tag.img.0@src",
+      "intro": "class.introcent@tag.p.3@text##.*：",
+      "name": "class.introcents@tag.h2.0@text"
+    },
+    "ruleContent": {
+      "content": "class.centent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.introcent@tag.p.1@text||class.l_4@tag.p.0@text##.*作者：|状态：.*",
+      "bookList": "class.l_2||class.intro",
+      "bookUrl": "class.l_3@tag.a.0@href",
+      "coverUrl": "class.l_3@tag.img.0@src||class.introleft@tag.img.0@src",
+      "lastChapter": "class.l_5@tag.a.0@text||class.introcent@tag.p.2@text##最后更新：|.yqxs.cc",
+      "name": "class.l_4@tag.h2.0@text||class.introcents@tag.h2.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.main@tag.dd",
+      "chapterName": "tag.a.0@text##.*yqxs.cc",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "https://www.sangwu.org/modules/article/search.php?searchkey={{key}}&page=1,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "bookSourceGroup": "🎉 精品",
+    "bookSourceName": "🎉 丹书铁券𖤓",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.dstiejuan.com",
+    "bookUrlPattern": "",
+    "customOrder": 37,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "全部::/library/0_0_0_0_0_0_{{page}}.html\n强推榜::/top/toptime/{{page}}.html\n新书榜::/top/goodnew/{{page}}.html\n二次元::/library/11_0_0_0_0_0_{{page}}.html\n玄幻奇幻::/library/1_0_0_0_0_0_{{page}}.html\n武侠仙侠::/library/2_0_0_0_0_0_{{page}}.html\n都市生活::/library/3_0_0_0_0_0_{{page}}.html\n历史军事::/library/4_0_0_0_0_0_{{page}}.html\n游戏竞技::/library/5_0_0_0_0_0_{{page}}.html\n科幻灵异::/library/6_0_0_0_0_0_{{page}}.html\n古代言情::/library/7_0_0_0_0_0_{{page}}.html\n现代言情::/library/8_0_0_0_0_0_{{page}}.html\n青春校园::/library/9_0_0_0_0_0_{{page}}.html\n幻想奇缘::/library/10_0_0_0_0_0_{{page}}.html\n其他类型::/library/12_0_0_0_0_0_{{page}}.html\n最近更新::/top/lastupdate/{{page}}.html\n最新入库::/top/postdate/{{page}}.html\n总推荐榜::/top/allvote/{{page}}.html\n总点击榜::/top/allvisit/{{page}}.html\n月推荐榜::/top/monthvote/{{page}}.html\n月点击榜::/top/monthvisit/{{page}}.html\n周推荐榜::/top/weekvote/{{page}}.html\n周点击榜::/top/weekvisit/{{page}}.html\n日推荐榜::/top/dayvote/{{page}}.html\n日点击榜::/top/dayvisit/{{page}}.html\n总收藏榜::/top/goodnum/{{page}}.html\n字数排行::/top/size/{{page}}.html\n完本小说::/full/{{page}}.html\n全部小说::/list/{{page}}.html",
+    "lastUpdateTime": 1612760798692,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.intro.0@text",
+      "tocUrl": "class.more@href"
+    },
+    "ruleContent": {
+      "content": "id.content@tag.p@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "text.作者：@tag.a.0@text||tag.td.3@text||tag.span@text",
+      "bookList": "class.library@tag.li||class.rank zoom@tag.li||class.table@tag.tr||class.block@tag.li",
+      "bookUrl": "tag.td.1@tag.a.0@href||tag.a@href",
+      "coverUrl": "tag.img@src",
+      "lastChapter": "class.chapter@tag.a.0@text||tag.td.2@text##最新章节.",
+      "name": "class.bookname.0@text||class.on@tag.a.1@text||tag.td.1@text||tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.read@tag.dl.1@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.dstiejuan.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

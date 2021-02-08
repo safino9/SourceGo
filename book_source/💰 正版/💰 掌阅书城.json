@@ -1,0 +1,44 @@
+[
+  {
+    "bookSourceGroup": "💰 正版",
+    "bookSourceName": "💰 掌阅书城",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.zhangyue.com",
+    "customOrder": 162,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "㊚热销榜::/rank/list/19258?name=%E7%83%AD%E9%94%80%E6%A6%9C\r\n㊚完结榜::/rank/list/19265?name=%E5%AE%8C%E7%BB%93%E6%A6%9C\r\n㊚免费榜::/rank/list/19272?name=%E5%85%8D%E8%B4%B9%E6%A6%9C\r\n㊚玄幻全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=10&cid=11&order=download&status=0&page={{page}}\r\n㊚玄幻完::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=10&cid=11&order=download&status=3&page={{page}}\r\n㊚都市全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=10&cid=27&order=download&status=0&page={{page}}\r\n㊚都市完::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=10&cid=27&order=download&status=3&page={{page}}\r\n㊚武侠全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=10&cid=19&order=download&status=0&page={{page}}\r\n㊚武侠完::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=10&cid=19&order=download&status=3&page={{page}}\r\n㊚仙侠全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=10&cid=22&order=download&status=0&page={{page}}\r\n㊚仙侠完::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=10&cid=22&order=download&status=3&page={{page}}\r\n㊚奇幻全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=10&cid=16&order=download&status=0&page={{page}}\r\n㊚校园全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=10&cid=39&order=download&status=0&page={{page}}\r\n㊚历史全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=10&cid=42&order=download&status=0&page={{page}}\r\n㊚历史完::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=10&cid=42&order=download&status=3&page={{page}}\n㊚军事全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=10&cid=50&order=download&status=0&page={{page}}\r\n㊚游戏全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=10&cid=54&order=download&status=0&page={{page}}\r\n㊚游戏完::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=10&cid=54&order=download&status=3&page={{page}}\r\n㊚竞技全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=10&cid=57&order=download&status=0&page={{page}}\r\n㊚科幻全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=10&cid=60&order=download&status=0&page={{page}}\r\n㊚科幻完::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=10&cid=60&order=download&status=3&page={{page}}\n㊛热销榜::/rank/list/19261?name=%E7%83%AD%E9%94%80%E6%A6%9C\r\n㊛完结榜::/rank/list/19264?name=%E5%AE%8C%E7%BB%93%E6%A6%9C\r\n㊛免费榜::/rank/list/19269?name=%E5%85%8D%E8%B4%B9%E6%A6%9C\r\n㊛现代全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=68&cid=69&order=download&status=0&page={{page}}\r\n㊛现代完::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=68&cid=69&order=download&status=3&page={{page}}\r\n㊛古代全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=68&cid=74&order=download&status=0&page={{page}}\r\n㊛古代完::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=68&cid=74&order=download&status=3&page={{page}}\r\n㊛幻想全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=68&cid=82&order=download&status=0&page={{page}}\r\n㊛幻想完::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=68&cid=82&order=download&status=3&page={{page}}\r\n㊛青春全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=68&cid=86&order=download&status=0&page={{page}}\r\n㊛青春完::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=68&cid=86&order=download&status=3&page={{page}}\r\n㊛同人全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=68&cid=89&order=download&status=0&page={{page}}\r\n㊛悬疑全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=68&cid=90&order=download&status=0&page={{page}}\r\n㊛悬疑完::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=68&cid=90&order=download&status=3&page={{page}}\r\n㊛恐怖全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=68&cid=91&order=download&status=0&page={{page}}\r\n㊛恐怖完::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=68&cid=91&order=download&status=3&page={{page}}\r\n㊛次元全::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=68&cid=723&order=download&status=0&page={{page}}\r\n㊛次元完::http://www.ireader.com/index.php?ca=booksort.index&pca=booksort.index&pid=68&cid=723&order=download&status=3&page={{page}}",
+    "lastUpdateTime": 1612760798706,
+    "loginUrl": "https://zypay.ireader.com/pcLogin?sdk=&goUrl=http%3A%2F%2Fwww.ireader.com%2F",
+    "ruleBookInfo": {
+      "intro": "//*[@name=\"description\"]/@content",
+      "kind": "class.lastline@text",
+      "lastChapter": "##\"time\">[^>]+>([^<]+)<\\/a>##$1###",
+      "tocUrl": "##/chapter/(\\d+)##http://www.ireader.com/index.php?ca=Chapter.list&bid=$1&page=1###"
+    },
+    "ruleContent": {
+      "content": "class.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author ellipsis@text||tag.dd.0@text||class.tryread@text##试读",
+      "bookList": "class.section_b@a||class.rank_booklist@li||class.show@li",
+      "bookUrl": "tag.a@href<js>result.replace(/[^\\d]+(\\d+)/,\"http://m.zhangyue.com/detail/$1\")</js>",
+      "coverUrl": "tag.img@data-src||tag.img@src",
+      "intro": "class.brief@text||tag.dd.-1@text||class.introduce@text",
+      "kind": "##<s></s>(\\d+)##本周$1人在读###",
+      "name": "class.name ellipsis@text||tag.dt@text||tag.h3@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "$.list",
+      "chapterName": "$.chapterName",
+      "chapterUrl": "$.id@js:a=baseUrl.match(/bid=(\\d+)/)[1];\r\nresult='http://www.ireader.com/index.php?ca=Chapter.Index&pca=bookdetail.index&bid='+a+'&cid='+result",
+      "isVip": "$.priceTag##免费",
+      "nextTocUrl": "@js:\r\nvar list=[];\r\nif(n=result.match(/totalPage\":(\\d+)/)){\r\nn=result.match(/totalPage\":(\\d+)/)[1];\r\nfor(var i=2;i<=n;i++){\r\nlist.push(baseUrl.replace(/page=1/,'page='+i))\r\n}}\r\nlist",
+      "updateTime": ""
+    },
+    "searchUrl": "/search?keyWord={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

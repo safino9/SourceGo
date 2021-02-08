@@ -1,0 +1,44 @@
+[
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 悟空追书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.wukongzhuishu.com",
+    "bookUrlPattern": "",
+    "customOrder": 124,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/sort/xuanhuan/{{page}}.html\n奇幻::/sort/xuanhuan/{{page}}.html\n武侠::/sort/wuxia/{{page}}.html\n仙侠::/sort/xianxia/{{page}}.html\n都市::/sort/dushi/{{page}}.html\n历史::/sort/lishi/{{page}}.html\n军事::/sort/junshi/{{page}}.html\n游戏::/sort/youxi/{{page}}.html\n竞技::/sort/jingji/{{page}}.html\n科幻::/sort/kehuan/{{page}}.html\n灵异::/sort/lingyi/{{page}}.html\n同人::/sort/tongren/{{page}}.html\n其他::/sort/qita/{{page}}.html",
+    "lastUpdateTime": 1612760798703,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.novelinfo@tag.a.0@text",
+      "coverUrl": "class.novelinfo-r@tag.img@src",
+      "kind": "class.novelinfo-l@tag.a.1@text",
+      "lastChapter": "class.novelinfo-l@tag.li.3@tag.a@text",
+      "name": "class.header line@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.content@textNodes||id.chaptercontent@textNodes##最新网址：ddxsku"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@tag.a.1@text",
+      "bookList": "class.librarylist@tag.li",
+      "bookUrl": "class.info@tag.a.0@href",
+      "coverUrl": "class.pt-ll-l@tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "class.info@tag.a.2@text",
+      "lastChapter": "class.last@tag.a.0@text",
+      "name": "class.info@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.hide@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href##$##,{\"webView\":true}"
+    },
+    "searchUrl": "https://www.wukongzhuishu.com/search/result.html?searchtype=novelname&searchkey={{key}},{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "bookSourceGroup": "🎉 精品",
+    "bookSourceName": "🎉 笔趣谷𖤓",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://biqugu.net",
+    "bookUrlPattern": "",
+    "customOrder": 19,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "点击榜::http://biqugu.net/top/{{page}}/\n奇幻::http://biqugu.net/qihuan/{{page}}/\n玄幻::http://biqugu.net/xuanhuan/{{page}}/\n言情::http://biqugu.net/yanqing/{{page}}/\n都市::http://biqugu.net/dushi/{{page}}/\n游戏::http://biqugu.net/youxi/{{page}}/\n竞技::http://biqugu.net/jingji/{{page}}/\n武侠::http://biqugu.net/wuxia/{{page}}/\n历史::http://biqugu.net/lishi/{{page}}/\n军事::http://biqugu.net/junshi/{{page}}/\n科幻::http://biqugu.net/kehuan/{{page}}/\n仙侠::http://biqugu.net/xianxia/{{page}}/\n灵异::http://biqugu.net/lingyi/{{page}}/\n女性::http://biqugu.net/nvxing/{{page}}/\n其他::http://biqugu.net/qita/{{page}}/\n更新最近::http://biqugu.net/last<{{page}}>.htm\n最新入库::http://biqugu.net/new/{{page}}/",
+    "lastUpdateTime": 1612760798690,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.desc@textNodes##简介：",
+      "lastChapter": "class.f_l t_l w4@a@text"
+    },
+    "ruleContent": {
+      "content": "tag.h1.0@textNodes&&id.content@textNodes##(第.{1,8}章)\\s*?(\\S*?)\\s*?\\S+?.*?\\1\\2"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.li.2@tag.a@text",
+      "bookList": "class.list_content",
+      "bookUrl": "tag.li.0@tag.a@href",
+      "kind": "tag.li.3@text",
+      "lastChapter": "tag.li.1@tag.a@text",
+      "name": "tag.li.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://biqugu.net/s_{{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

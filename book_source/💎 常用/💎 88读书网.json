@@ -1,0 +1,45 @@
+[
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 88读书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.88dutxt.com",
+    "customOrder": 135,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798704,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:title\"]@content",
+      "tocUrl": "class.ablum_read@tag.a.0@href",
+      "wordCount": "[property=\"og:novel:status\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.articlecon@html##本章未完.*阅读！ 第.*页|\\(\\)",
+      "nextContentUrl": "id.pb_next@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a@tag.img@src",
+      "intro": "class.size12@text",
+      "kind": "tag.a.3@text",
+      "name": "tag.a.1@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search/result.html?searchkey={{key}}&page={{page}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

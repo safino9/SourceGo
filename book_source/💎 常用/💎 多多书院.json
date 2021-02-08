@@ -1,0 +1,44 @@
+[
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 多多书院",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.txtduo.com",
+    "bookUrlPattern": "",
+    "customOrder": 125,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798703,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//*[@class=\"bookinfo\"]/p[1]/i/text()",
+      "coverUrl": "//*[@class=\"bookcover\"]/a/img/@src",
+      "intro": "class.uc_cont.1@text",
+      "kind": "//*[@class=\"bookinfo\"]/p[2]/a/text()",
+      "lastChapter": "//*[@class=\"uctitle\"]/span/a/text()",
+      "name": "//*[@class=\"bookcover\"]/a/img/@alt",
+      "tocUrl": "class.fl.3@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "class.text@textNodes##最快.*阅读，请.* 请.*小说!"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "id.mainbox@tag.tr!0",
+      "bookUrl": "tag.td.0@tag.a@href",
+      "coverUrl": "##href=\"http://www.txtduo.com/info/(\\d+)/(\\d+).html\"##http://www.txtduo.com/files/article/image/$1/$2/$2s.jpg###",
+      "kind": "tag.td.5@text",
+      "lastChapter": "tag.td.1@text",
+      "name": "tag.td.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.uclist@tag.dl@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.txtduo.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

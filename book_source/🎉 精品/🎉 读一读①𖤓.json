@@ -1,0 +1,40 @@
+[
+  {
+    "bookSourceGroup": "🎉 精品",
+    "bookSourceName": "🎉 读一读①𖤓",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://du1du.org",
+    "bookUrlPattern": "",
+    "customOrder": 28,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798691,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.col-xs-2@tag.img.0@src",
+      "intro": "id.shot@text",
+      "lastChapter": "class.col-xs-12 list-group-item no-border@a@text",
+      "tocUrl": "class.list-group-item tac@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "tag.h1.0@textNodes&&id.txtContent@textNodes##(第.{1,8}章)\\s*?(\\S*?)\\s*?\\S+?.*?\\1\\2"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.col-xs-2.0@text",
+      "bookList": "class.panel-body@tag.li",
+      "bookUrl": "class.col-xs-3.0@tag.a.0@href",
+      "coverUrl": "img@src",
+      "lastChapter": "class.col-xs-4.0@tag.a.0@text",
+      "name": "class.col-xs-3.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapters-list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://du1du.org/search.htm?keyword={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "bookSourceGroup": "🎊 优质",
+    "bookSourceName": "🎊 小说族",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xiaoshuozu8.com",
+    "bookUrlPattern": "",
+    "customOrder": 47,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798694,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p.0@text",
+      "lastChapter": "id.info@tag.p.4@text",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "//*[@id='content']##https.*?html|天才.*?com。|小说.*?com"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作者：",
+      "bookList": "class.bookinfo@tag.div",
+      "bookUrl": "class.bookname@tag.a@href",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@tag.a@text",
+      "name": "class.bookname@tag.h4@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@class='listmain']//dd/a",
+      "chapterName": "//text()",
+      "chapterUrl": "//@href"
+    },
+    "searchUrl": "https://www.xiaoshuozu8.com/s.php?ie=gbk&q={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

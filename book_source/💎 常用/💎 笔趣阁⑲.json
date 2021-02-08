@@ -1,0 +1,41 @@
+[
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 笔趣阁⑲",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.biquge4.com",
+    "bookUrlPattern": "",
+    "customOrder": 110,
+    "enabled": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612760798701,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.2@text##作\\s*者：",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@tag.p.0@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@tag.a.0@href",
+      "coverUrl": "class.bookimg@tag.img.0@src",
+      "intro": "tag.p.0@text",
+      "lastChapter": "class.update@tag.a.0@text",
+      "name": "class.bookname@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.biquge4.com/s.php?ie=gbk&q={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

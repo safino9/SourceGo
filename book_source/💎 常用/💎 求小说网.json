@@ -1,0 +1,37 @@
+[
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 求小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.qiuxiaoshuo.org-By Dark",
+    "customOrder": 129,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798703,
+    "ruleBookInfo": {
+      "coverUrl": "class.col-xs-2@tag.img.0@src",
+      "intro": "id.all@text##\\[收起\\]",
+      "tocUrl": "class.list-group-item tac@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.txtContent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.col-xs-2.0@text",
+      "bookList": "class.panel-body@tag.li",
+      "bookUrl": "class.col-xs-3.0@tag.a.0@href",
+      "kind": "class.tag-blue.0@text",
+      "lastChapter": "class.col-xs-4.0@tag.a.0@text",
+      "name": "class.col-xs-3.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-group-item@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.qiuxiaoshuo.org/search.htm?keyword={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

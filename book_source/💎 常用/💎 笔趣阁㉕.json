@@ -1,0 +1,43 @@
+[
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 笔趣阁㉕",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.boquge.com",
+    "bookUrlPattern": "",
+    "customOrder": 116,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798701,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//*[@property='og:novel:author']/@content",
+      "coverUrl": "//*[@property='og:image']/@content",
+      "intro": "//*[@property='og:description']/@content",
+      "kind": "//*[@property='og:novel:category']/@content",
+      "lastChapter": "//*[@property='og:novel:latest_chapter_name']/@content",
+      "name": "//*[@property='og:novel:book_name']/@content",
+      "tocUrl": "//*[@property='og:novel:read_url']/@content"
+    },
+    "ruleContent": {
+      "content": "id.txtContent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.col-xs-2.0@text",
+      "bookList": "class.list-group-item!0:-1",
+      "bookUrl": "class.col-xs-3@tag.a@href",
+      "kind": "tag.i@text",
+      "lastChapter": "class.col-xs-4@tag.a@text",
+      "name": "class.col-xs-3@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapters-list@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.boquge.com/search.htm?keyword={{key}}&pn={{page}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

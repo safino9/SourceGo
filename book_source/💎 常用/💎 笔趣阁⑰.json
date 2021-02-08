@@ -1,0 +1,40 @@
+[
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 笔趣阁⑰",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.sbiquge.com",
+    "bookUrlPattern": "",
+    "customOrder": 108,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798701,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text##简介：",
+      "lastChapter": "id.info@tag.p.4@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##天才一秒.*|http.*html|http.*com"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "class.bookimg@tag.img@src",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.sbiquge.com/s.php?q={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

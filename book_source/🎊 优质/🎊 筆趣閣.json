@@ -1,0 +1,41 @@
+[
+  {
+    "bookSourceGroup": "🎊 优质",
+    "bookSourceName": "🎊 筆趣閣",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xibige.com",
+    "bookUrlPattern": "",
+    "customOrder": 50,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1612760798694,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@img@src",
+      "intro": "id.intro@tag.p.0@text",
+      "lastChapter": "id.list@tag.dd.0@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##２３ＵＳ．ＣＯＭ"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text||class.s5@text",
+      "bookList": "class.grid@tag.tr||class.l@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.*/(\\d+)_(\\d+)/##http://r.m.xibige.com/files/article/image/$1/$2/$2s.jpg",
+      "kind": "class.even.2@text",
+      "lastChapter": "class.even.0@tag.a@text||class.s3@a@text",
+      "name": "class.odd.0@tag.a.0@text||class.s2@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.xibige.com/modules/article/search.php?searchkey={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

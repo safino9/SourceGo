@@ -1,0 +1,53 @@
+[
+  {
+    "bookSourceGroup": "🏅 稀有",
+    "bookSourceName": "🏅 优书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yousuu.com",
+    "customOrder": 174,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "全部::/api/bookStore/books?page={{page}}&t=1585667544106\r\n男频::/api/bookStore/books?channel=0&page={{page}}&t=1585667792745\r\n女频::/api/bookStore/books?channel=1&page={{page}}&t=1585668085986\r\n玄幻::/api/bookStore/books?classId=2&page={{page}}&t=1585668118258\r\n奇幻::/api/bookStore/books?classId=3&page={{page}}&t=1585668124057\r\n武侠::/api/bookStore/books?classId=4&page={{page}}&t=1585668128860\r\n仙侠::/api/bookStore/books?classId=5&page={{page}}&t=1585668134561\r\n都市::/api/bookStore/books?classId=6&page={{page}}&t=1585668142376\r\n现实::/api/bookStore/books?classId=7&page={{page}}&t=1585668148993\r\n军事::/api/bookStore/books?classId=8&page={{page}}&t=1585668192897\r\n历史::/api/bookStore/books?classId=9&page={{page}}&t=1585668197503\r\n悬疑::/api/bookStore/books?classId=10&page={{page}}&t=1585668201265\r\n游戏::/api/bookStore/books?classId=11&page={{page}}&t=1585668205527\r\n竞技::/api/bookStore/books?classId=12&page={{page}}&t=1585668209894\r\n科幻::/api/bookStore/books?classId=13&page={{page}}&t=1585668215512\r\n灵异::/api/bookStore/books?classId=15&page={{page}}&t=1585668220365\r\n同人::/api/bookStore/books?classId=16&page={{page}}&t=1585668242842\r\n其他::/api/bookStore/books?classId=29&page={{page}}&t=1585668247871\r\n二次元::/api/bookStore/books?classId=14&page={{page}}&t=1585668225017\r\n轻小说::/api/bookStore/books?classId=27&page={{page}}&t=1585668324390\r\n穿越时空::/api/bookStore/books?classId=17&page={{page}}&t=1585668254182\r\n架空历史::/api/bookStore/books?classId=18&page={{page}}&t=1585668280899\r\n总裁豪门::/api/bookStore/books?classId=20&page={{page}}&t=1585668285015\r\n都市言情::/api/bookStore/books?classId=21&page={{page}}&t=1585668289052\r\n仙侠奇缘::/api/bookStore/books?classId=22&page={{page}}&t=1585668294656\r\n幻想言情::/api/bookStore/books?classId=23&page={{page}}&t=1585668300385\r\n悬疑推理::/api/bookStore/books?classId=24&page={{page}}&t=1585668305015\r\n耽美纯爱::https://w",
+    "lastUpdateTime": 1612760798709,
+    "ruleBookInfo": {
+      "author": "$.data.bookInfo.author",
+      "coverUrl": "$.data.bookInfo.cover",
+      "intro": "$.data.bookInfo.introduction",
+      "kind": "$.data.bookInfo.tags",
+      "tocUrl": "https://www.yousuu.com/api/book/{{$.data.bookInfo.defaultSource}}/comment",
+      "wordCount": "$.data.bookInfo.countWord"
+    },
+    "ruleContent": {
+      "content": "<js>\r\nresult=JSON.parse(result).data.comments.map(a=>\"用户：\"+a.createrId.userName+\"<br>评分：\"+a.score+\" / 5\"+\"<br>时间：\"+a.createdAt.replace(/T.+/,\"\")+\"<br>评语：\"+a.content.replace(/([。！？；]+[）”]?)/g,\"$1\\n\").replace(/([0-9a-zA-Z\\u4e00-\\u9fa5])$/,\"$1……\")+\"<br>该评价的点赞数：\"+a.praiseCount).join(\"<br>——<br>\");\r\n</js>\r\n"
+    },
+    "ruleExplore": {
+      "author": "$.author",
+      "bookList": "$.data.books",
+      "bookUrl": "https://www.yousuu.com/api/book/{{$.bookId}}",
+      "coverUrl": "$.cover",
+      "intro": "$.updateAt",
+      "kind": "$.tags",
+      "lastChapter": "",
+      "name": "$.title",
+      "wordCount": "$.countWord"
+    },
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data.books",
+      "bookUrl": "https://www.yousuu.com/api/book/{{$.bookId}}",
+      "coverUrl": "$.cover",
+      "kind": "$.tags",
+      "name": "$.title##<[^>]+>",
+      "wordCount": "$.countWord"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.comments",
+      "chapterName": "$.updateAt",
+      "chapterUrl": "https://www.yousuu.com/api/book/{{$.bookId._id}}/comment",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "https://www.yousuu.com/api/search?type=title&value={{key}}&page={{page}}&highlight=1&t=1585660326647",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]
