@@ -9,7 +9,7 @@
     "enabled": false,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/class1-{{page}}.html\n武侠仙侠::/class2-{{page}}.html\n都市言情::/class3-{{page}}.html\n历史军事::/class4-{{page}}.html\n网游竞技::/class6-{{page}}.html\n科幻灵异::/class5-{{page}}.html\n女生频道::/class7-{{page}}.html",
-    "lastUpdateTime": 1612761184113,
+    "lastUpdateTime": 1612761700933,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@tag.img.0@src",
@@ -55,7 +55,7 @@
     "customOrder": 26,
     "enabled": false,
     "enabledExplore": true,
-    "lastUpdateTime": 1612761184115,
+    "lastUpdateTime": 1612761700934,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.box_con.0@id.info@tag.p.0@text##作\\s*者：",
@@ -94,7 +94,7 @@
     "customOrder": 41,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612761184118,
+    "lastUpdateTime": 1612761700937,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.detail pt20@tag.i.0@a@text",
@@ -135,7 +135,7 @@
     "enabledExplore": true,
     "exploreUrl": "玄幻::/xuanhuan/{{page}}.htm\n奇幻::/qihuan/{{page}}.htm\n修真::/xiuzhen/{{page}}.htm\n都市::/dushi/{{page}}.htm\n言情::/yanqing/{{page}}.htm\n历史::/lishi/{{page}}.htm\n同人::/tongren/{{page}}.htm\n武侠::/wuxia/{{page}}.htm\n科幻::/kehuan/{{page}}.htm\n游戏::/youxi/{{page}}.htm\n军事::/junshi/{{page}}.htm\n竞技::/jingji/{{page}}.htm\n灵异::/lingyi/{{page}}.htm\n其他::/qita/{{page}}.htm",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612761184113,
+    "lastUpdateTime": 1612761700932,
     "ruleBookInfo": {
       "author": "tag.i.0@tag.a.0@text",
       "coverUrl": "class.cover@tag.img@src",
@@ -176,7 +176,7 @@
     "enabledExplore": true,
     "exploreUrl": "全部小说::/txt/0_0_0_0_0_{{page}}.html\n『书库』::/\n玄幻修真::/txt/1_0_0_0_0_{{page}}.html\n奇幻魔法::/txt/2_0_0_0_0_{{page}}.html\n异术超能::/txt/3_0_0_0_0_{{page}}.html\n王朝争霸::/txt/4_0_0_0_0_{{page}}.html\n江湖武侠::/txt/5_0_0_0_0_{{page}}.html\n未来幻想::/txt/6_0_0_0_0_{{page}}.html\n灵异鬼怪::/txt/7_0_0_0_0_{{page}}.html\n探险揭秘::/txt/8_0_0_0_0_{{page}}.html\n历史传记::/txt/9_0_0_0_0_{{page}}.html\n特种军旅::/txt/10_0_0_0_0_{{page}}.html\n网游竞技::/txt/11_0_0_0_0_{{page}}.html\n魔幻女强::/txt/12_0_0_0_0_{{page}}.html\n都市婚姻::/txt/13_0_0_0_0_{{page}}.html\n百合之恋::/txt/14_0_0_0_0_{{page}}.html\n同人美文::/txt/15_0_0_0_0_{{page}}.html\n穿越架空::/txt/16_0_0_0_0_{{page}}.html\n王室贵族::/txt/17_0_0_0_0_{{page}}.html\n魔法校园::/txt/18_0_0_0_0_{{page}}.html\n乡土布衣::/txt/19_0_0_0_0_{{page}}.html\n官职商战::/txt/20_0_0_0_0_{{page}}.html\n间谍暗战::/txt/21_0_0_0_0_{{page}}.html\n唯美言情::/txt/22_0_0_0_0_{{page}}.html\n其它小说::/txt/23_0_0_0_0_{{page}}.html\n『排行』::/\n总点击榜::/allvisit/{{page}}.html\n月点击榜::/monthvisit/{{page}}.html\n周点击榜::/weekvisit/{{page}}.html\n日点击榜::/dayvisit/{{page}}.html\n总推荐榜::/allvote/{{page}}.html\n月推荐榜::/monthvote/{{page}}.html\n周推荐榜::/weekvote/{{page}}.html\n日推荐榜::/dayvote/{{page}}.html\n总收藏榜::/goodnum/{{page}}.html\n总字数榜::/size/{{page}}.html\n最新入库::/postdate/{{page}}.html\n最近更新::/lastupdate/{{page}}.html\n强推排行::/toptime/{{page}}.html\n新书排行::/goodnew/{{page}}.html",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; Pixel 3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36\"\n}",
-    "lastUpdateTime": 1612761184113,
+    "lastUpdateTime": 1612761700933,
     "ruleBookInfo": {
       "author": "$4",
       "coverUrl": "$2",
@@ -229,7 +229,7 @@
     "enabled": false,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612761184119,
+    "lastUpdateTime": 1612761700937,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "class.img-thumbnail@src",
@@ -267,7 +267,7 @@
     "enabled": false,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/ny_1<,_{{page}}>/\n武侠仙侠::/ny_2<,_{{page}}>/\n都市言情::/ny_3<,_{{page}}>/\n历史军事::/ny_4<,_{{page}}>/\n科幻灵异::/ny_5<,_{{page}}>/\n网游竞技::/ny_6<,_{{page}}>/\n女频频道::/ny_7<,_{{page}}>/",
-    "lastUpdateTime": 1612761184114,
+    "lastUpdateTime": 1612761700933,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@tag.img.0@src",
@@ -314,7 +314,7 @@
     "enabled": false,
     "enabledExplore": false,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612761184118,
+    "lastUpdateTime": 1612761700937,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@img@src",
@@ -352,7 +352,7 @@
     "enabledExplore": true,
     "exploreUrl": "所有 / 总榜 ::/all/0_allvisit_0_0_{{page}}.html\n所有 / 连载 ::/all/0_allvisit_0_1_{{page}}.html\n所有 / 完结 ::/all/0_allvisit_0_2_{{page}}.html\n玄幻 / 总榜 ::/all/1_allvisit_0_0_{{page}}.html\n玄幻 / 连载 ::/all/1_allvisit_0_1_{{page}}.html\n玄幻 / 完结 ::/all/1_allvisit_0_2_{{page}}.html\n奇幻 / 总榜 ::/all/2_allvisit_0_0_{{page}}.html\n奇幻 / 连载 ::/all/2_allvisit_0_1_{{page}}.html\n奇幻 / 完结 ::/all/2_allvisit_0_2_{{page}}.html\n武侠 / 总榜 ::/all/3_allvisit_0_0_{{page}}.html\n武侠 / 连载 ::/all/3_allvisit_0_1_{{page}}.html\n武侠 / 完结 ::/all/3_allvisit_0_2_{{page}}.html\n仙侠 / 总榜 ::/all/4_allvisit_0_0_{{page}}.html\n仙侠 / 连载 ::/all/4_allvisit_0_1_{{page}}.html\n仙侠 / 完结 ::/all/4_allvisit_0_2_{{page}}.html\n都市 / 总榜 ::/all/5_allvisit_0_0_{{page}}.html\n都市 / 连载 ::/all/5_allvisit_0_1_{{page}}.html\n都市 / 完结 ::/all/5_allvisit_0_2_{{page}}.html\n军事 / 总榜 ::/all/6_allvisit_0_0_{{page}}.html\n军事 / 连载 ::/all/6_allvisit_0_1_{{page}}.html\n军事 / 完结 ::/all/6_allvisit_0_2_{{page}}.html\n历史 / 总榜 ::/all/7_allvisit_0_0_{{page}}.html\n历史 / 连载 ::/all/7_allvisit_0_1_{{page}}.html\n历史 / 完结 ::/all/7_allvisit_0_2_{{page}}.html\n游戏 / 总榜 ::/all/8_allvisit_0_0_{{page}}.html\n游戏 / 连载 ::/all/8_allvisit_0_1_{{page}}.html\n游戏 / 完结 ::/all/8_allvisit_0_2_{{page}}.html\n竞技 / 总榜 ::/all/9_allvisit_0_0_{{page}}.html\n竞技 / 连载 ::/all/9_allvisit_0_1_{{page}}.html\n竞技 / 完结 ::/all/9_allvisit_0_2_{{page}}.html\n科幻 / 总榜 ::/all/10_allvisit_0_0_{{page}}.html\n科幻 / 连载 ::/all/10_allvisit_0_1_{{page}}.html\n科幻 / 完结 ::/all/10_allvisit_0_2_{{page}}.html\n悬疑 / 总榜 ::/all/11_allvisit_0_0_{{page}}.html\n悬疑 / 连载 ::/all/11_allvisit_0_1_{{page}}.html\n悬疑 / 完结 ::/all/11_allvisit_0_2_{{page}}.html\n灵异 / 总榜 ::/all/12_allvisit_0_0_{{page}}.html\n灵异 / 连载 ::/all/12_allvisit_0_1_{{page}}.html\n灵异 / 完结 ::/all/12_allvisit_0_2_{{page}}.html\n其他 / 总榜 ::/all/13_allvisit_0_0_{{page}}.html\n其他 / 连载 ::/all/13_allvisit_0_1_{{page}}.html\n其他 / 完结 ::/all/13_allvisit_0_2_{{page}}.html\n古言 / 总榜 ::/all/14_allvisit_0_0_{{page}}.html\n古言 / 连载 ::/all/14_allvisit_0_1_{{page}}.html\n古言 / 完结 ::/all/14_allvisit_0_2_{{page}}.html\n仙侠 / 总榜 ::/all/15_allvisit_0_0_{{page}}.html\n仙侠 / 连载 ::/all/15_allvisit_0_1_{{page}}.html\n仙侠 / 完结 ::/all/15_allvisit_0_2_{{page}}.html\n言情 / 总榜 ::/all/16_allvisit_0_0_{{page}}.html\n言情 / 连载 ::/all/16_allvisit_0_1_{{page}}.html\n言情 / 完结 ::/all/16_allvisit_0_2_{{page}}.html\n青春 / 总榜 ::/all/17_allvisit_0_0_{{page}}.html\n青春 / 连载 ::/all/17_allvisit_0_1_{{page}}.html\n青春 / 完结 ::/all/17_allvisit_0_2_{{page}}.html\n玄幻 / 总榜 ::/all/18_allvisit_0_0_{{page}}.html\n玄幻 / 连载 ::/all/18_allvisit_0_1_{{page}}.html\n玄幻 / 完结 ::/all/18_allvisit_0_2_{{page}}.html\n悬疑 / 总榜 ::/all/19_allvisit_0_0_{{page}}.html\n悬疑 / 连载 ::/all/19_allvisit_0_1_{{page}}.html\n悬疑 / 完结 ::/all/19_allvisit_0_2_{{page}}.html\n科幻 / 总榜 ::/all/20_allvisit_0_0_{{page}}.html\n科幻 / 连载 ::/all/20_allvisit_0_1_{{page}}.html\n科幻 / 完结 ::/all/20_allvisit_0_2_{{page}}.html\n游戏 / 总榜 ::/all/21_allvisit_0_0_{{page}}.html\n游戏 / 连载 ::/all/21_allvisit_0_1_{{page}}.html\n游戏 / 完结 ::/all/21_allvisit_0_2_{{page}}.html\n耽美 / 总榜 ::/all/22_allvisit_0_0_{{page}}.html\n耽美 / 连载 ::/all/22_allvisit_0_1_{{page}}.html\n耽美 / 完结 ::/all/22_allvisit_0_2_{{page}}.html\n百合 / 总榜 ::/all/23_allvisit_0_0_{{page}}.html\n百合 / 连载 ::/all/23_allvisit_0_1_{{page}}.html\n百合 / 完结 ::/all/23_allvisit_0_2_{{page}}.html\n二次 / 总榜 ::/all/24_allvisit_0_0_{{page}}.html\n二次 / 连载 ::/all/24_allvisit_0_1_{{page}}.html\n二次 / 完结 ::/all/24_allvisit_0_2_{{page}}.html",
     "header": "",
-    "lastUpdateTime": 1612761184117,
+    "lastUpdateTime": 1612761700936,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.writer@text",
@@ -405,7 +405,7 @@
     "enabled": false,
     "enabledExplore": false,
     "header": "",
-    "lastUpdateTime": 1612761184117,
+    "lastUpdateTime": 1612761700936,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "@css:[property=og:novel:author]@content",
@@ -447,7 +447,7 @@
     "enabledExplore": true,
     "exploreUrl": "连载::/library/0_1_1_{{page}}.html\n全部::/library/0_0_0_{{page}}.html\n完本::/library/0_1_2_{{page}}.html\n强推::/library/toptime_0_0_{{page}}.html\n收藏::/library/goodnum_0_0_{{page}}.html\n字数::/library/size_0_0_{{page}}.html\n总点击榜::/library/allvisit_0_0_{{page}}.html\n月点击榜::/library/monthvisit_0_0_{{page}}.html\n周点击榜::/library/weekvisit_0_0_{{page}}.html\n日点击榜::/library/dayvisit_0_0_{{page}}.html\n总推荐榜::/library/allvote_0_0_{{page}}.html\n月推荐榜::/library/monthvote_0_0_{{page}}.html\n周推荐榜::library/weekvote_0_0_{{page}}.html\n日推荐榜::/library/dayvote_0_0_{{page}}.html\n玄幻奇幻::/library/0_1_0_{{page}}.html\n武侠修真::/library/0_2_0_{{page}}.html\n都市生活::/library/0_3_0_{{page}}.html\n历史军事::/library/0_4_0_{{page}}.html\n游戏竞技::/library/0_5_0_{{page}}.html\n科幻未来::/library/0_6_0_{{page}}.html\n悬疑灵异::/library/0_7_0_{{page}}.html\n经典短篇::/library/0_9_0_{{page}}.html\n古代言情::/library/0_10_0_{{page}}.html\n现代言情::/library/0_11_0_{{page}}.html\n幻想奇缘::/library/0_12_0_{{page}}.html\n浪漫青春::/library/0_13_0_{{page}}.html\n网络情缘::/library/0_14_0_{{page}}.html\n科幻空间::/library/0_15_0_{{page}}.html\n恐怖灵异::/library/0_16_0_{{page}}.html\n言情美文::/library/0_18_0_{{page}}.html\n其他类型::/library/0_19_0_{{page}}.html\n二次元::/library/0_8_0_{{page}}.html\nN次元::/library/0_17_0_{{page}}.html\n新书榜::/library/goodnew_0_0_{{page}}.html",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612761184118,
+    "lastUpdateTime": 1612761700937,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "//meta[@property=\"og:novel:author\"]/@content()",
@@ -491,7 +491,7 @@
     "enabled": false,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/xuanhuan/{{page}}.htm\n奇幻::/qihuan/{{page}}.htm\n仙侠::/xianxia/{{page}}.htm\n武侠::/wuxia/{{page}}.htm\n历史::/lishi/{{page}}.htm\n言情::/yanqing/{{page}}.htm\n都市::/dushi/{{page}}.htm\n军事::/junshi/{{page}}.htm\n竞技::/jingji/{{page}}.htm\n游戏::/youxi/{{page}}.htm\n灵异::/lingyi/{{page}}.htm\n科幻::/kehuan/{{page}}.htm\n女性::/nvxing/{{page}}.htm\n其他::/qita/{{page}}.htm",
-    "lastUpdateTime": 1612761184112,
+    "lastUpdateTime": 1612761700932,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "@css:small@text##作者：",
@@ -532,7 +532,7 @@
     "enabledExplore": true,
     "exploreUrl": "最新::/p{{page}}.htm\n奇幻::/qihuan/{{page}}.htm\n玄幻::/xuanhuan/{{page}}.htm\n言情::/yanqing/{{page}}.htm\n都市::/dushi/{{page}}.htm\n游戏::/youxi/{{page}}.htm\n竞技::/jingji/{{page}}.htm\n武侠::/wuxia/{{page}}.htm\n历史::/lishi/{{page}}.htm\n军事::/junshi/{{page}}.htm\n科幻::/kehuan/{{page}}.htm\n仙侠::/xianxia/{{page}}.htm\n灵异::/lingyi/{{page}}.htm\n女性::/nvxing/{{page}}.htm\n其他::/qita/{{page}}.htm",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612761184119,
+    "lastUpdateTime": 1612761700938,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "@css:.ffw td:eq(2)@text",
@@ -572,7 +572,7 @@
     "customOrder": 28,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612761184115,
+    "lastUpdateTime": 1612761700935,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "class.col-xs-2@tag.img.0@src",
@@ -612,7 +612,7 @@
     "enabledExplore": true,
     "exploreUrl": "男生书库::/shuku/0_1_0_0_0_{{page}}_0_1\n男频连载::/shuku/0_2_0_0_0_{{page}}_0_1\n男频完结::/shuku/0_3_0_0_0_{{page}}_0_1\n添加时间::/shuku/11_1_0_0_8_{{page}}_0_1\n总点击榜::/shuku/0_1_0_0_2_{{page}}_0_1\n月点击榜::/shuku/0_1_0_0_5_{{page}}_0_1\n周点击榜::/shuku/0_1_0_0_4_{{page}}_0_1\n总推荐榜::/shuku/0_1_0_0_1_{{page}}_0_1\n月推荐榜::/shuku/0_1_0_0_7_{{page}}_0_1\n周推荐榜::/shuku/0_1_0_0_6_{{page}}_0_1\n总收藏榜::/shuku/0_1_0_0_3_{{page}}_0_1\n总字数榜::/shuku/0_1_0_0_9_{{page}}_0_1\n玄幻奇幻::/shuku/1_1_0_0_0_{{page}}_0_1\n玄幻总点::/shuku/1_1_0_0_2_{{page}}_0_1\n玄幻月点::/shuku/1_1_0_0_5_{{page}}_0_1\n玄幻周点::/shuku/1_1_0_0_4_{{page}}_0_1\n玄幻总推::/shuku/1_1_0_0_1_{{page}}_0_1\n玄幻月推::/shuku/1_1_0_0_7_{{page}}_0_1\n玄幻周推::/shuku/1_1_0_0_6_{{page}}_0_1\n玄幻总收::/shuku/1_1_0_0_3_{{page}}_0_1\n玄幻总字::/shuku/1_1_0_0_9_{{page}}_0_1\n东方玄幻::/shuku/1_1_0_1_0_{{page}}_0_1\n异世大陆::/shuku/1_1_0_2_0_{{page}}_0_1\n史诗奇幻::/shuku/1_1_0_3_0_{{page}}_0_1\n高武世界::/shuku/1_1_0_4_0_{{page}}_0_1\n剑与魔法::/shuku/1_1_0_5_0_{{page}}_0_1\n武侠仙侠::/shuku/2_1_0_0_0_{{page}}_0_1\n武侠总点::/shuku/2_1_0_0_2_{{page}}_0_1\n武侠月点::/shuku/2_1_0_0_5_{{page}}_0_1\n武侠周点::/shuku/2_1_0_0_4_{{page}}_0_1\n武侠总推::/shuku/2_1_0_0_1_{{page}}_0_1\n武侠月推::/shuku/2_1_0_0_7_{{page}}_0_1\n武侠周推::/shuku/2_1_0_0_6_{{page}}_0_1\n武侠总收::/shuku/2_1_0_0_3_{{page}}_0_1\n武侠总字::/shuku/2_1_0_0_9_{{page}}_0_1\n古典仙侠::/shuku/2_1_0_1_0_{{page}}_0_1\n修真文明::/shuku/2_1_0_2_0_{{page}}_0_1\n现代修真::/shuku/2_1_0_3_0_{{page}}_0_1\n神话修真::/shuku/2_1_0_4_0_{{page}}_0_1\n武侠幻想::/shuku/2_1_0_5_0_{{page}}_0_1\n幻想修仙::/shuku/2_1_0_6_0_{{page}}_0_1\n都市青春::/shuku/3_1_0_0_0_{{page}}_0_1\n都市总点::/shuku/3_1_0_0_2_{{page}}_0_1\n都市月点::/shuku/3_1_0_0_5_{{page}}_0_1\n都市周点::/shuku/3_1_0_0_4_{{page}}_0_1\n都市总推::/shuku/3_1_0_0_1_{{page}}_0_1\n都市月推::/shuku/3_1_0_0_7_{{page}}_0_1\n都市周推::/shuku/3_1_0_0_6_{{page}}_0_1\n都市总收::/shuku/3_1_0_0_3_{{page}}_0_1\n都市总字::/shuku/3_1_0_0_9_{{page}}_0_1\n都市生活::/shuku/3_1_0_1_0_{{page}}_0_1\n官场沉浮::/shuku/3_1_0_2_0_{{page}}_0_1\n娱乐明星::/shuku/3_1_0_3_0_{{page}}_0_1\n异术超能::/shuku/3_1_0_4_0_{{page}}_0_1\n历史军事::/shuku/4_1_0_0_0_{{page}}_0_1\n历史总点::/shuku/4_1_0_0_2_{{page}}_0_1\n历史月点::/shuku/4_1_0_0_5_{{page}}_0_1\n历史周点::/shuku/4_1_0_0_4_{{page}}_0_1\n历史总推::/shuku/4_1_0_0_1_{{page}}_0_1\n历史月推::/shuku/4_1_0_0_7_{{page}}_0_1\n历史周推::/shuku/4_1_0_0_6_{{page}}_0_1\n历史总收::/shuku/4_1_0_0_3_{{page}}_0_1\n历史总字::/shuku/4_1_0_0_9_{{page}}_0_1\n架空历史::/shuku/4_1_0_1_0_{{page}}_0_1\n秦汉三国::/shuku/4_1_0_2_0_{{page}}_0_1\n两晋隋唐::/shuku/4_1_0_3_0_{{page}}_0_1\n两宋元明::/shuku/4_1_0_4_0_{{page}}_0_1\n清史民国::/shuku/4_1_0_5_0_{{page}}_0_1\n外国历史::/shuku/4_1_0_6_0_{{page}}_0_1\n军事战争::/shuku/4_1_0_7_0_{{page}}_0_1\n抗战烽火::/shuku/4_1_0_8_0_{{page}}_0_1\n科幻灵异::/shuku/5_1_0_0_0_{{page}}_0_1\n科幻总点::/shuku/5_1_0_0_2_{{page}}_0_1\n科幻月点::/shuku/5_1_0_0_5_{{page}}_0_1\n科幻周点::/shuku/5_1_0_0_4_{{page}}_0_1\n科幻总推::/shuku/5_1_0_0_1_{{page}}_0_1\n科幻月推::/shuku/5_1_0_0_7_{{page}}_0_1\n科幻周推::/shuku/5_1_0_0_6_{{page}}_0_1\n科幻总收::/shuku/5_1_0_0_3_{{page}}_0_1\n科幻总字::/shuku/5_1_0_0_9_{{page}}_0_1\n未来世界::/shuku/5_1_0_1_0_{{page}}_0_1\n超级科技::/shuku/5_1_0_2_0_{{page}}_0_1\n时空穿梭::/shuku/5_1_0_3_0_{{page}}_0_1\n进化变异::/shuku/5_1_0_4_0_{{page}}_0_1\n末世危机::/shuku/5_1_0_5_0_{{page}}_0_1\n灵异鬼怪::/shuku/5_1_0_6_0_{{page}}_0_1\n侦探推理::/shuku/5_1_0_7_0_{{page}}_0_1\n寻墓探险::/shuku/5_1_0_8_0_{{page}}_0_1\n游戏竞技::/shuku/6_1_0_0_0_{{page}}_0_1\n游戏总点::/shuku/6_1_0_0_2_{{page}}_0_1\n游戏月点::/shuku/6_1_0_0_5_{{page}}_0_1\n游戏周点::/shuku/6_1_0_0_4_{{page}}_0_1\n游戏总推::/shuku/6_1_0_0_1_{{page}}_0_1\n游戏月推::/shuku/6_1_0_0_7_{{page}}_0_1\n游戏周推::/shuku/6_1_0_0_6_{{page}}_0_1\n游戏总收::/shuku/6_1_0_0_3_{{page}}_0_1\n游戏总字::/shuku/6_1_0_0_9_{{page}}_0_1\n虚拟网游::/shuku/6_1_0_1_0_{{page}}_0_1\n游戏异界::/shuku/6_1_0_2_0_{{page}}_0_1\n体育竞技::/shuku/6_1_0_3_0_{{page}}_0_1\n游戏生涯::/shuku/6_1_0_4_0_{{page}}_0_1\n电子竞技::/shuku/6_1_0_5_0_{{page}}_0_1\n女生言情::/shuku/9_1_0_0_0_{{page}}_0_1\n女生总点::/shuku/9_1_0_0_2_{{page}}_0_1\n女生月点::/shuku/9_1_0_0_5_{{page}}_0_1\n女生周点::/shuku/9_1_0_0_4_{{page}}_0_1\n女生总推::/shuku/9_1_0_0_1_{{page}}_0_1\n女生月推::/shuku/9_1_0_0_7_{{page}}_0_1\n女生周推::/shuku/9_1_0_0_6_{{page}}_0_1\n女生总收::/shuku/9_1_0_0_3_{{page}}_0_1\n女生总字::/shuku/9_1_0_0_9_{{page}}_0_1\n豪门总裁::/shuku/9_1_0_1_0_{{page}}_0_1\n现代言情::/shuku/9_1_0_2_0_{{page}}_0_1\n星际科幻::/shuku/9_1_0_3_0_{{page}}_0_1\n灵异推理::/shuku/9_1_0_4_0_{{page}}_0_1\n婚恋情缘::/shuku/9_1_0_5_0_{{page}}_0_1\n古代言情::/shuku/9_1_0_6_0_{{page}}_0_1\n玄幻仙侠::/shuku/9_1_0_7_0_{{page}}_0_1\n宫闱宅斗::/shuku/9_1_0_8_0_{{page}}_0_1\n次元同人::/shuku/20_1_0_0_0_{{page}}_0_1\n次元总点::/shuku/20_1_0_0_2_{{page}}_0_1\n次元月点::/shuku/20_1_0_0_5_{{page}}_0_1\n次元周点::/shuku/20_1_0_0_4_{{page}}_0_1\n次元总推::/shuku/20_1_0_0_1_{{page}}_0_1\n次元月推::/shuku/20_1_0_0_7_{{page}}_0_1\n次元周推::/shuku/20_1_0_0_6_{{page}}_0_1\n次元总收::/shuku/20_1_0_0_3_{{page}}_0_1\n次元总字::/shuku/20_1_0_0_9_{{page}}_0_1\n动漫同人::/shuku/20_1_0_1_0_{{page}}_0_1\n小说同人::/shuku/20_1_0_2_0_{{page}}_0_1\n影视同人::/shuku/20_1_0_3_0_{{page}}_0_1\n原生幻想::/shuku/20_1_0_4_0_{{page}}_0_1",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; Pixel 3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36\"\n}",
-    "lastUpdateTime": 1612761184113,
+    "lastUpdateTime": 1612761700932,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.info@tag.span.0@text",
@@ -657,7 +657,7 @@
     "enabledExplore": true,
     "exploreUrl": "最新更新::/last{{page}}.htm\n点击榜::/tops/{{page}}/\n玄幻::/xuanhuan/{{page}}/\n奇幻::/qihuan/{{page}}/\n都市::/dushi/{{page}}/\n言情::/yanqing/{{page}}/\n游戏::/youxi/{{page}}/\n竞技::/jingji/{{page}}/\n武侠::/wuxia/{{page}}/\n修真::/xiuzhen/{{page}}/\n历史::/lishi/{{page}}/\n军事::/junshi/{{page}}/\n科幻::/kehuan/{{page}}/\n灵异::/lingyi/{{page}}/\n同人::/tongren/{{page}}/\n校园::/xiaoyuan/{{page}}/\n官场::/guanchang/{{page}}/\n商战::/shangzhan/{{page}}/\n职场::/zhichang/{{page}}/\n二次元::/erciyuan/{{page}}/\n其他::/qita/{{page}}/",
     "header": "",
-    "lastUpdateTime": 1612761184112,
+    "lastUpdateTime": 1612761700932,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.infos.0@tag.a.0@text",
@@ -705,7 +705,7 @@
     "customOrder": 29,
     "enabled": false,
     "enabledExplore": true,
-    "lastUpdateTime": 1612761184115,
+    "lastUpdateTime": 1612761700935,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": ".col-xs-2 img@src",
@@ -743,7 +743,7 @@
     "customOrder": 33,
     "enabled": false,
     "enabledExplore": true,
-    "lastUpdateTime": 1612761184116,
+    "lastUpdateTime": 1612761700936,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "",
@@ -783,7 +783,7 @@
     "enabled": false,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612761184119,
+    "lastUpdateTime": 1612761700938,
     "ruleBookInfo": {
       "coverUrl": "class.main.1@class.fw@tag.img.0@src",
       "intro": "class.main.1@tag.tbody.0@tag.td.9@textNodes"
@@ -818,7 +818,7 @@
     "enabled": false,
     "enabledExplore": true,
     "exploreUrl": "男生小说::/books/nansheng?page={{page}}\r\n男生完本::/wanben/nansheng?page={{page}}\r\n男生人气::/bangdan/36001?page={{page}}\r\n男生点击::/bangdan/36002?page={{page}}\r\n男生收藏::/bangdan/36003?page={{page}}\r\n男生潜力::/bangdan/36004?page={{page}}\r\n女生小说::/books/nvsheng?page={{page}}\r\n女生完本::/wanben/nvsheng?page={{page}}\r\n女生人气::/bangdan/36014?page={{page}}\r\n女生点击::/bangdan/36015?page={{page}}\r\n女生收藏::/bangdan/36016?page={{page}}\r\n女生潜力::/bangdan/36017?page={{page}}\r\n女生完本::/bangdan/36021?page={{page}}\r\n奇幻小说::/books/nansheng?categoryId=1114&page={{page}}\r\n玄幻小说::/books/nansheng?categoryId=1115&page={{page}}\r\n武侠小说::/books/nansheng?categoryId=1116&page={{page}}\r\n仙侠小说::/books/nansheng?categoryId=1117&page={{page}}\r\n都市小说::/books/nansheng?categoryId=1118&page={{page}}\r\n校园小说::/books/nansheng?categoryId=1119&page={{page}}\r\n历史小说::/books/nansheng?categoryId=1120&page={{page}}\r\n军事小说::/books/nansheng?categoryId=1121&page={{page}}\r\n游戏小说::/books/nansheng?categoryId=1122&page={{page}}\r\n竞技小说::/books/nansheng?categoryId=1123&page={{page}}\r\n科幻小说::/books/nansheng?categoryId=1124&page={{page}}\r\n灵异小说::/books/nansheng?categoryId=1125&page={{page}}\r\n现代小说::/books/nvsheng?categoryId=1126&page={{page}}\r\n古代小说::/books/nvsheng?categoryId=1127&page={{page}}\r\n幻想小说::/books/nvsheng?categoryId=1128&page={{page}}\r\n青春小说::/books/nvsheng?categoryId=1129&page={{page}}\r\n同人小说::/books/nvsheng?categoryId=1130&page={{page}}\r\n恐怖小说::/books/nvsheng?categoryId=1132&page={{page}}\r\n次元小说::/books/nvsheng?categoryId=1133&page={{page}}\r\n出版小说::/books/chuban?page={{page}}\r\n人文社科::/books/chuban?categoryId=1134&page={{page}}\r\n经管励志::/books/chuban?categoryId=1135&page={{page}}\r\n文学艺术::/books/chuban?categoryId=1138&page={{page}}",
-    "lastUpdateTime": 1612761184116,
+    "lastUpdateTime": 1612761700935,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "$3",
@@ -874,7 +874,7 @@
     "enabledExplore": true,
     "exploreUrl": "全部::/store/c11/z1/t0/x0/p0/y{{page}}/n0/s0.html\n二次元::/store/c20/z1/t0/x0/p0/y{{page}}/n0/s0.html\n动漫同人::/store/c20/z1/t0/x1/p0/y{{page}}/n0/s0.html\n小说同人::/store/c20/z1/t0/x2/p0/y{{page}}/n0/s0.html\n影视同人::/store/c20/z1/t0/x3/p0/y{{page}}/n0/s0.html\n原生幻想::/store/c20/z1/t0/x4/p0/y{{page}}/n0/s0.html\n搞笑吐槽::/store/c20/z1/t0/x5/p0/y{{page}}/n0/s0.html\n\n玄幻奇幻::/store/c1/z1/t0/x0/p0/y{{page}}/n0/s0.html\n东方玄幻::/store/c1/z1/t0/x1/p0/y{{page}}/n0/s0.html\n异世大陆::/store/c1/z1/t0/x2/p0/y{{page}}/n0/s0.html\n史诗奇幻::/store/c1/z1/t0/x3/p0/y{{page}}/n0/s0.html\n高武世界::/store/c1/z1/t0/x4/p0/y{{page}}/n0/s0.html\n剑与魔法::/store/c1/z1/t0/x5/p0/y{{page}}/n0/s0.html\n\n武侠仙侠::/store/c2/z1/t0/x0/p0/y{{page}}/n0/s0.html\n古典仙侠::/store/c2/z1/t0/x1/p0/y{{page}}/n0/s0.html\n修真文明::/store/c2/z1/t0/x2/p0/y{{page}}/n0/s0.html\n现代修真::/store/c2/z1/t0/x3/p0/y{{page}}/n0/s0.html\n神话修真::/store/c2/z1/t0/x4/p0/y{{page}}/n0/s0.html\n武侠幻想::/store/c2/z1/t0/x5/p0/y{{page}}/n0/s0.html\n幻想修仙::/store/c2/z1/t0/x6/p0/y{{page}}/n0/s0.html\n\n都市言情::/store/c3/z1/t0/x0/p0/y{{page}}/n0/s0.html\n都市生活::/store/c3/z1/t0/x1/p0/y{{page}}/n0/s0.html\n官场沉浮::/store/c3/z1/t0/x2/p0/y{{page}}/n0/s0.html\n娱乐明星::/store/c3/z1/t0/x3/p0/y{{page}}/n0/s0.html\n异术超能::/store/c3/z1/t0/x4/p0/y{{page}}/n0/s0.html\n\n历史军事::/store/c4/z1/t0/x0/p0/y{{page}}/n0/s0.html\n架空历史::/store/c4/z1/t0/x1/p0/y{{page}}/n0/s0.html\n秦汉三国::/store/c4/z1/t0/x2/p0/y{{page}}/n0/s0.html\n两晋隋唐::/store/c4/z1/t0/x3/p0/y{{page}}/n0/s0.html\n两宋元明::/store/c4/z1/t0/x4/p0/y{{page}}/n0/s0.html\n清史民国::/store/c4/z1/t0/x5/p0/y{{page}}/n0/s0.html\n外国历史::/store/c4/z1/t0/x6/p0/y{{page}}/n0/s0.html\n军事战争::/store/c4/z1/t0/x7/p0/y{{page}}/n0/s0.html\n抗战烽火::/store/c4/z1/t0/x8/p0/y{{page}}/n0/s0.html\n\n科幻灵异::/store/c5/z1/t0/x0/p0/y{{page}}/n0/s0.html\n未来世界::/store/c5/z1/t0/x1/p0/y{{page}}/n0/s0.html\n超级科技::/store/c5/z1/t0/x2/p0/y{{page}}/n0/s0.html\n时空穿梭::/store/c5/z1/t0/x3/p0/y{{page}}/n0/s0.html\n进化变异::/store/c5/z1/t0/x4/p0/y{{page}}/n0/s0.html\n末世危机::/store/c5/z1/t0/x5/p0/y{{page}}/n0/s0.html\n灵异鬼怪::/store/c5/z1/t0/x6/p0/y{{page}}/n0/s0.html\n侦探推理::/store/c5/z1/t0/x7/p0/y{{page}}/n0/s0.html\n寻墓探险::/store/c5/z1/t0/x8/p0/y{{page}}/n0/s0.html\n\n游戏竞技::/store/c6/z1/t0/x0/p0/y{{page}}/n0/s0.html\n虚拟网游::/store/c6/z1/t0/x1/p0/y{{page}}/n0/s0.html\n游戏异界::/store/c6/z1/t0/x2/p0/y{{page}}/n0/s0.html\n体育竞技::/store/c6/z1/t0/x3/p0/y{{page}}/n0/s0.html\n游戏生涯::/store/c6/z1/t0/x4/p0/y{{page}}/n0/s0.html\n电子竞技::/store/c6/z1/t0/x5/p0/y{{page}}/n0/s0.html\n\n女生言情::/store/c9/z1/t0/x0/p0/y{{page}}/n0/s0.html\n豪门总裁::/store/c9/z1/t0/x1/p0/y{{page}}/n0/s0.html\n现代言情::/store/c9/z1/t0/x2/p0/y{{page}}/n0/s0.html\n星际科幻::/store/c9/z1/t0/x3/p0/y{{page}}/n0/s0.html\n灵异推理::/store/c9/z1/t0/x4/p0/y{{page}}/n0/s0.html\n婚恋情缘::/store/c9/z1/t0/x5/p0/y{{page}}/n0/s0.html\n古代言情::/store/c9/z1/t0/x6/p0/y{{page}}/n0/s0.html\n玄幻仙侠::/store/c9/z1/t0/x7/p0/y{{page}}/n0/s0.html\n宫闱宅斗::/store/c9/z1/t0/x8/p0/y{{page}}/n0/s0.html",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
-    "lastUpdateTime": 1612761184112,
+    "lastUpdateTime": 1612761700931,
     "ruleBookInfo": {
       "author": "class.info@tag.span.0@text",
       "coverUrl": "class.bookimg@img@data-src\n@js:id=result.match(/(.*?)\\./)[1];\np=p=Math.round(id/450)-2;\nresult='https://static.ciymao.com/upload/'+p+'.'+result",
@@ -929,7 +929,7 @@
     "enabled": false,
     "enabledExplore": true,
     "exploreUrl": "每日推荐::https://yd.sogou.com/h5/ajax/recommend?gf=ebye-d1-psort-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg&pn={{page}}\n榜单::http://www.123456.com\n都市榜::https://yd.sogou.com/h5/ajax/rank?gf=ebye-d1-prank-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"pn={{page}}&rankId=5\"}\n玄幻榜::https://yd.sogou.com/h5/ajax/rank?gf=ebye-d1-prank-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"pn={{page}}&rankId=6\"}\n现言榜::https://yd.sogou.com/h5/ajax/rank?gf=ebye-d1-prank-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"pn={{page}}&rankId=9\"}\n古言榜::https://yd.sogou.com/h5/ajax/rank?gf=ebye-d1-prank-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"pn={{page}}&rankId=10\"}\n人气榜::https://yd.sogou.com/h5/ajax/rank?gf=ebye-d1-prank-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"pn={{page}}&rankId=11\"}\n潜力榜::https://yd.sogou.com/h5/ajax/rank?gf=ebye-d1-prank-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"pn={{page}}&rankId=7\"}\n完本::https://yd.sogou.com/h5/ajax/finish?gf=ebye-d1-pfinish-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"pn={{page}}\"}\n热更::https://yd.sogou.com/h5/ajax/update?gf=ebye-d1-pupdate-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"pn={{page}}\"}\n男频::http://www.123456.com\n都市生活::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=1_1&pn={{page}}\"}\n奇幻玄幻::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=1_2&pn={{page}}\"}\n武侠修仙::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=1_3&pn={{page}}\"}\n军史谋略::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=1_4&pn={{page}}\"}\n游戏动漫::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=1_5&pn={{page}}\"}\n女频::http://www.123456.com\n总裁高干::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=3_1&pn=1\"}\n穿越架空::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=3_2&pn={{page}}\"}\n现代言情::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=3_3&pn={{page}}\"}\n古代言情::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=3_4&pn={{page}}\"}\n魔幻情缘::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=3_5&pn={{page}}\"}\n推荐专区::http://www.123456.com\n屌丝逆袭::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=4_1&pn={{page}}\"}\n揪心虐恋::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=4_2&pn={{page}}\"}\n腹黑骄傲::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=4_3&pn={{page}}\"}\n欢喜冤家::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=4_4&pn={{page}}\"}\n转世穿越::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=4_5&pn={{page}}\"}\n傲世穿越::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=4_6&pn={{page}}\"}\n报仇雪恨::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=4_7&pn={{page}}\"}\n妈咪宝宝::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=4_8&pn={{page}}\"}",
-    "lastUpdateTime": 1612761184116,
+    "lastUpdateTime": 1612761700935,
     "loginUrl": "",
     "ruleBookInfo": {},
     "ruleContent": {
@@ -973,7 +973,7 @@
     "enabled": false,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612761184116,
+    "lastUpdateTime": 1612761700936,
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@tag.img@src",
       "intro": "id.intro@textNodes"
@@ -1009,7 +1009,7 @@
     "enabled": false,
     "enabledExplore": true,
     "exploreUrl": "点击榜::http://biqugu.net/top/{{page}}/\n奇幻::http://biqugu.net/qihuan/{{page}}/\n玄幻::http://biqugu.net/xuanhuan/{{page}}/\n言情::http://biqugu.net/yanqing/{{page}}/\n都市::http://biqugu.net/dushi/{{page}}/\n游戏::http://biqugu.net/youxi/{{page}}/\n竞技::http://biqugu.net/jingji/{{page}}/\n武侠::http://biqugu.net/wuxia/{{page}}/\n历史::http://biqugu.net/lishi/{{page}}/\n军事::http://biqugu.net/junshi/{{page}}/\n科幻::http://biqugu.net/kehuan/{{page}}/\n仙侠::http://biqugu.net/xianxia/{{page}}/\n灵异::http://biqugu.net/lingyi/{{page}}/\n女性::http://biqugu.net/nvxing/{{page}}/\n其他::http://biqugu.net/qita/{{page}}/\n更新最近::http://biqugu.net/last<{{page}}>.htm\n最新入库::http://biqugu.net/new/{{page}}/",
-    "lastUpdateTime": 1612761184113,
+    "lastUpdateTime": 1612761700933,
     "loginUrl": "",
     "ruleBookInfo": {
       "intro": "class.desc@textNodes##简介：",
@@ -1045,7 +1045,7 @@
     "enabled": false,
     "enabledExplore": false,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612761184115,
+    "lastUpdateTime": 1612761700934,
     "ruleBookInfo": {
       "coverUrl": "id.fmimg.0@tag.img.0@src",
       "intro": "id.intro.0@tag.p.0@text"
@@ -1080,7 +1080,7 @@
     "enabledExplore": true,
     "exploreUrl": "",
     "header": "",
-    "lastUpdateTime": 1612761184112,
+    "lastUpdateTime": 1612761700931,
     "loginUrl": "https://qxs.la/login.htm",
     "ruleBookInfo": {
       "intro": "##简介：\\s*([^<]*)##$1###"
@@ -1115,7 +1115,7 @@
     "customOrder": 24,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612761184114,
+    "lastUpdateTime": 1612761700934,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "//*[@property='og:novel:author']/@content",
@@ -1158,7 +1158,7 @@
     "enabledExplore": true,
     "exploreUrl": "玄幻*热门::/book/list?gender=-1&clsIdFirst=1&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n玄幻*日更::/book/list?gender=-1&clsIdFirst=1&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n奇幻*热门::/book/list?gender=-1&clsIdFirst=2&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n奇幻*日更::/book/list?gender=-1&clsIdFirst=2&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n武侠*热门::/book/list?gender=-1&clsIdFirst=3&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n武侠*日更::/book/list?gender=-1&clsIdFirst=3&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n仙侠*热门::/book/list?gender=-1&clsIdFirst=4&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n仙侠*日更::/book/list?gender=-1&clsIdFirst=4&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n都市*热门::/book/list?gender=-1&clsIdFirst=5&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n都市*日更::/book/list?gender=-1&clsIdFirst=5&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n校园*热门::/book/list?gender=-1&clsIdFirst=6&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n校园*日更::/book/list?gender=-1&clsIdFirst=6&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n历史*热门::/book/list?gender=-1&clsIdFirst=7&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n历史*日更::/book/list?gender=-1&clsIdFirst=7&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n军事*热门::/book/list?gender=-1&clsIdFirst=8&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n军事*日更::/book/list?gender=-1&clsIdFirst=8&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n游戏*热门::/book/list?gender=-1&clsIdFirst=9&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n游戏*日更::/book/list?gender=-1&clsIdFirst=9&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n竞技*热门::/book/list?gender=-1&clsIdFirst=10&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n竞技*日更::/book/list?gender=-1&clsIdFirst=10&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n科幻*热门::/book/list?gender=-1&clsIdFirst=11&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n科幻*日更::/book/list?gender=-1&clsIdFirst=11&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n耽美*热门::/book/list?gender=-1&clsIdFirst=128&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n耽美*日更::/book/list?gender=-1&clsIdFirst=128&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n其他*热门::/book/list?gender=-1&clsIdFirst=116&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n其他*日更::/book/list?gender=-1&clsIdFirst=116&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n推理悬疑*热门::/book/list?gender=-1&clsIdFirst=17&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n推理悬疑*日更::/book/list?gender=-1&clsIdFirst=17&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n恐怖惊悚*热门::/book/list?gender=-1&clsIdFirst=84&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n恐怖惊悚*日更::/book/list?gender=-1&clsIdFirst=84&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n有兔怪谈*热门::/book/list?gender=-1&clsIdFirst=112&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n有兔怪谈*日更::/book/list?gender=-1&clsIdFirst=112&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n现代言情*热门::/book/list?gender=-1&clsIdFirst=12&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n现代言情*日更::/book/list?gender=-1&clsIdFirst=12&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n古代言情*热门::/book/list?gender=-1&clsIdFirst=13&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n古代言情*日更::/book/list?gender=-1&clsIdFirst=13&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n幻想言情*热门::/book/list?gender=-1&clsIdFirst=14&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n幻想言情*日更::/book/list?gender=-1&clsIdFirst=14&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n青春校园*热门::/book/list?gender=-1&clsIdFirst=15&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n青春校园*日更::/book/list?gender=-1&clsIdFirst=15&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n同人作品*热门::/book/list?gender=-1&clsIdFirst=16&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n同人作品*日更::/book/list?gender=-1&clsIdFirst=16&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n次元专区*热门::/book/list?gender=-1&clsIdFirst=18&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n次元专区*日更::/book/list?gender=-1&clsIdFirst=18&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n人气榜单::/popular/detail?pageNo={{page}}&type=1\n收藏榜单::/popular/detail?pageNo={{page}}&type=5\n男频榜单::/popular/detail?pageNo={{page}}&type=3\n女频榜单::/popular/detail?pageNo={{page}}&type=2\n完本榜单::/popular/detail?pageNo={{page}}&type=4\n特别推荐::/book/list?pageNo={{page}}&selectionModuleId=1\n火爆好书::/book/list?pageNo={{page}}&selectionModuleId=4\n日更作品::/book/list?orderBy=last_serialize_date&fullFlag=1&pageNo={{page}}\n边谈恋爱边破案*超赞::/book/list?pageNo={{page}}&selectionModuleId=36\n人气佳作*中毒不可自拔::/book/list?pageNo={{page}}&selectionModuleId=19",
     "header": "{\"Seq\":\"1f9caa033a22bc75e72437d8952992cd\"}",
-    "lastUpdateTime": 1612761184118,
+    "lastUpdateTime": 1612761700937,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "@json:$.data[0].author##（+.*",
@@ -1222,7 +1222,7 @@
     "enabledExplore": true,
     "exploreUrl": "全部*默认::/shuku/0_0_0_{{page}}.html\n全部*总点击::/shuku/0_allvisit_0_{{page}}.html\n全部*总推荐::/shuku/0_allvote_0_{{page}}.html\n全部*总收藏::/shuku/0_goodnum_0_{{page}}.html\n全部*字数::/shuku/0_size_0_{{page}}.html\n全部*入库::/shuku/0_postdate_0_{{page}}.html\n玄幻奇幻*默认::/shuku/1_0_0_{{page}}.html\n玄幻奇幻*总点击::/shuku/1_allvisit_0_{{page}}.html\n玄幻奇幻*总推荐::/shuku/1_allvote_0_{{page}}.html\n玄幻奇幻*总收藏::/shuku/1_goodnum_0_{{page}}.html\n玄幻奇幻*字数::/shuku/1_size_0_{{page}}.html\n玄幻奇幻*入库::/shuku/1_postdate_0_{{page}}.html\n武侠仙侠*默认::/shuku/2_0_0_{{page}}.html\n武侠仙侠*总点击::/shuku/2_allvisit_0_{{page}}.html\n武侠仙侠*总推荐::/shuku/2_allvote_0_{{page}}.html\n武侠仙侠*总收藏::/shuku/2_goodnum_0_{{page}}.html\n武侠仙侠*字数::/shuku/2_size_0_{{page}}.html\n武侠仙侠*入库::/shuku/2_postdate_0_{{page}}.html\n都市生活*默认::/shuku/3_0_0_{{page}}.html\n都市生活*总点击::/shuku/3_allvisit_0_{{page}}.html\n都市生活*总推荐::/shuku/3_allvote_0_{{page}}.html\n都市生活*总收藏::/shuku/3_goodnum_0_{{page}}.html\n都市生活*字数::/shuku/3_size_0_{{page}}.html\n都市生活*入库::/shuku/3_postdate_0_{{page}}.html\n历史军事*默认::/shuku/4_0_0_{{page}}.html\n历史军事*总点击::/shuku/4_allvisit_0_{{page}}.html\n历史军事*总推荐::/shuku/4_allvote_0_{{page}}.html\n历史军事*总收藏::/shuku/4_goodnum_0_{{page}}.html\n历史军事*字数::/shuku/4_size_0_{{page}}.html\n历史军事*入库::/shuku/4_postdate_0_{{page}}.html\n游戏竞技*默认::/shuku/5_0_0_{{page}}.html\n游戏竞技*总点击::/shuku/5_allvisit_0_{{page}}.html\n游戏竞技*总推荐::/shuku/5_allvote_0_{{page}}.html\n游戏竞技*总收藏::/shuku/5_goodnum_0_{{page}}.html\n游戏竞技*字数::/shuku/5_size_0_{{page}}.html\n游戏竞技*入库::/shuku/5_postdate_0_{{page}}.html\n科幻未来*默认::/shuku/6_0_0_{{page}}.html\n科幻未来*总点击::/shuku/6_allvisit_0_{{page}}.html\n科幻未来*总推荐::/shuku/6_allvote_0_{{page}}.html\n科幻未来*总收藏::/shuku/6_goodnum_0_{{page}}.html\n科幻未来*字数::/shuku/6_size_0_{{page}}.html\n科幻未来*入库::/shuku/6_postdate_0_{{page}}.html\n悬疑灵异*默认::/shuku/7_0_0_{{page}}.html\n悬疑灵异*总点击::/shuku/7_allvisit_0_{{page}}.html\n悬疑灵异*总推荐::/shuku/7_allvote_0_{{page}}.html\n悬疑灵异*总收藏::/shuku/7_goodnum_0_{{page}}.html\n悬疑灵异*字数::/shuku/7_size_0_{{page}}.html\n悬疑灵异*入库::/shuku/7_postdate_0_{{page}}.html\n二次元*默认::/shuku/8_0_0_{{page}}.html\n二次元*总点击::/shuku/8_allvisit_0_{{page}}.html\n二次元*总推荐::/shuku/8_allvote_0_{{page}}.html\n二次元*总收藏::/shuku/8_goodnum_0_{{page}}.html\n二次元*字数::/shuku/8_size_0_{{page}}.html\n二次元*入库::/shuku/8_postdate_0_{{page}}.html\n经典短篇*默认::/shuku/9_0_0_{{page}}.html\n经典短篇*总点击::/shuku/9_allvisit_0_{{page}}.html\n经典短篇*总推荐::/shuku/9_allvote_0_{{page}}.html\n经典短篇*总收藏::/shuku/9_goodnum_0_{{page}}.html\n经典短篇*字数::/shuku/9_size_0_{{page}}.html\n经典短篇*入库::/shuku/9_postdate_0_{{page}}.html\n古代言情*默认::/shuku/10_0_0_{{page}}.html\n古代言情*总点击::/shuku/10_allvisit_0_{{page}}.html\n古代言情*总推荐::/shuku/10_allvote_0_{{page}}.html\n古代言情*总收藏::/shuku/10_goodnum_0_{{page}}.html\n古代言情*字数::/shuku/10_size_0_{{page}}.html\n古代言情*入库::/shuku/10_postdate_0_{{page}}.html\n现代言情*默认::/shuku/11_0_0_{{page}}.html\n现代言情*总点击::/shuku/11_allvisit_0_{{page}}.html\n现代言情*总推荐::/shuku/11_allvote_0_{{page}}.html\n现代言情*总收藏::/shuku/11_goodnum_0_{{page}}.html\n现代言情*字数::/shuku/11_size_0_{{page}}.html\n现代言情*入库::/shuku/11_postdate_0_{{page}}.html\n幻想奇缘*默认::/shuku/12_0_0_{{page}}.html\n幻想奇缘*总点击::/shuku/12_allvisit_0_{{page}}.html\n幻想奇缘*总推荐::/shuku/12_allvote_0_{{page}}.html\n幻想奇缘*总收藏::/shuku/12_goodnum_0_{{page}}.html\n幻想奇缘*字数::/shuku/12_size_0_{{page}}.html\n幻想奇缘*入库::/shuku/12_postdate_0_{{page}}.html\n浪漫青春*默认::/shuku/13_0_0_{{page}}.html\n浪漫青春*总点击::/shuku/13_allvisit_0_{{page}}.html\n浪漫青春*总推荐::/shuku/13_allvote_0_{{page}}.html\n浪漫青春*总收藏::/shuku/13_goodnum_0_{{page}}.html\n浪漫青春*字数::/shuku/13_size_0_{{page}}.html\n浪漫青春*入库::/shuku/13_postdate_0_{{page}}.html\n网络情缘*默认::/shuku/14_0_0_{{page}}.html\n网络情缘*总点击::/shuku/14_allvisit_0_{{page}}.html\n网络情缘*总推荐::/shuku/14_allvote_0_{{page}}.html\n网络情缘*总收藏::/shuku/14_goodnum_0_{{page}}.html\n网络情缘*字数::/shuku/14_size_0_{{page}}.html\n网络情缘*入库::/shuku/14_postdate_0_{{page}}.html\n科幻空间*默认::/shuku/15_0_0_{{page}}.html\n科幻空间*总点击::/shuku/15_allvisit_0_{{page}}.html\n科幻空间*总推荐::/shuku/15_allvote_0_{{page}}.html\n科幻空间*总收藏::/shuku/15_goodnum_0_{{page}}.html\n科幻空间*字数::/shuku/15_size_0_{{page}}.html\n科幻空间*入库::/shuku/15_postdate_0_{{page}}.html\n恐怖灵异*默认::/shuku/16_0_0_{{page}}.html\n恐怖灵异*总点击::/shuku/16_allvisit_0_{{page}}.html\n恐怖灵异*总推荐::/shuku/16_allvote_0_{{page}}.html\n恐怖灵异*总收藏::/shuku/16_goodnum_0_{{page}}.html\n恐怖灵异*字数::/shuku/16_size_0_{{page}}.html\n恐怖灵异*入库::/shuku/16_postdate_0_{{page}}.html\nN次元*默认::/shuku/17_0_0_{{page}}.html\nN次元*总点击::/shuku/17_allvisit_0_{{page}}.html\nN次元*总推荐::/shuku/17_allvote_0_{{page}}.html\nN次元*总收藏::/shuku/17_goodnum_0_{{page}}.html\nN次元*字数::/shuku/17_size_0_{{page}}.html\nN次元*入库::/shuku/17_postdate_0_{{page}}.html\n言情美文*默认::/shuku/18_0_0_{{page}}.html\n言情美文*总点击::/shuku/18_allvisit_0_{{page}}.html\n言情美文*总推荐::/shuku/18_allvote_0_{{page}}.html\n言情美文*总收藏::/shuku/18_goodnum_0_{{page}}.html\n言情美文*字数::/shuku/18_size_0_{{page}}.html\n言情美文*入库::/shuku/18_postdate_0_{{page}}.html\n其他类型*默认::/shuku/19_0_0_{{page}}.html\n其他类型*总点击::/shuku/19_allvisit_0_{{page}}.html\n其他类型*总推荐::/shuku/19_allvote_0_{{page}}.html\n其他类型*总收藏::/shuku/19_goodnum_0_{{page}}.html\n其他类型*字数::/shuku/19_size_0_{{page}}.html\n其他类型*入库::/shuku/19_postdate_0_{{page}}.html\n其他类型*入库*完本::/shuku/19_postdate_2_{{page}}.html",
     "header": "",
-    "lastUpdateTime": 1612761184114,
+    "lastUpdateTime": 1612761700934,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "##:author\"[^\"]+\"([^\"]*)##$1###",
@@ -1285,7 +1285,7 @@
     "enabled": false,
     "enabledExplore": true,
     "exploreUrl": "全部::/library/0_0_0_0_0_0_{{page}}.html\n强推榜::/top/toptime/{{page}}.html\n新书榜::/top/goodnew/{{page}}.html\n二次元::/library/11_0_0_0_0_0_{{page}}.html\n玄幻奇幻::/library/1_0_0_0_0_0_{{page}}.html\n武侠仙侠::/library/2_0_0_0_0_0_{{page}}.html\n都市生活::/library/3_0_0_0_0_0_{{page}}.html\n历史军事::/library/4_0_0_0_0_0_{{page}}.html\n游戏竞技::/library/5_0_0_0_0_0_{{page}}.html\n科幻灵异::/library/6_0_0_0_0_0_{{page}}.html\n古代言情::/library/7_0_0_0_0_0_{{page}}.html\n现代言情::/library/8_0_0_0_0_0_{{page}}.html\n青春校园::/library/9_0_0_0_0_0_{{page}}.html\n幻想奇缘::/library/10_0_0_0_0_0_{{page}}.html\n其他类型::/library/12_0_0_0_0_0_{{page}}.html\n最近更新::/top/lastupdate/{{page}}.html\n最新入库::/top/postdate/{{page}}.html\n总推荐榜::/top/allvote/{{page}}.html\n总点击榜::/top/allvisit/{{page}}.html\n月推荐榜::/top/monthvote/{{page}}.html\n月点击榜::/top/monthvisit/{{page}}.html\n周推荐榜::/top/weekvote/{{page}}.html\n周点击榜::/top/weekvisit/{{page}}.html\n日推荐榜::/top/dayvote/{{page}}.html\n日点击榜::/top/dayvisit/{{page}}.html\n总收藏榜::/top/goodnum/{{page}}.html\n字数排行::/top/size/{{page}}.html\n完本小说::/full/{{page}}.html\n全部小说::/list/{{page}}.html",
-    "lastUpdateTime": 1612761184117,
+    "lastUpdateTime": 1612761700936,
     "loginUrl": "",
     "ruleBookInfo": {
       "intro": "class.intro.0@text",

@@ -8,7 +8,7 @@
     "customOrder": 125,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612761184140,
+    "lastUpdateTime": 1612761700952,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "//*[@class=\"bookinfo\"]/p[1]/i/text()",

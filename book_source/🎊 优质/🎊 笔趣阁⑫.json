@@ -8,7 +8,7 @@
     "customOrder": 70,
     "enabled": false,
     "enabledExplore": true,
-    "lastUpdateTime": 1612761184124,
+    "lastUpdateTime": 1612761700942,
     "loginUrl": "",
     "ruleBookInfo": {
       "intro": "//*[@property=\"og:description\"]/@content"
