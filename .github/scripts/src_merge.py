@@ -237,7 +237,8 @@ def get_all_src(folder_list):
     for folder in folder_list:
         save_file_group(folder)
         if folder.find('失效') > -1:
-            print('排除失效文件夹:{}'.format(folder))
+            print('排除文件夹:{}'.format(folder))
+            continue
         file_list = get_file_list(folder)
         for file in file_list:
             if file == 'sub.json' or (not file.endswith('.json') and not file.endswith('.txt')):
