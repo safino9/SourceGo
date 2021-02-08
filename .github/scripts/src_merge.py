@@ -232,11 +232,12 @@ def merge(path, src_list):
 
 
 def get_all_src(folder_list):
+    print('开始获取全部书源')
     src_list = []
     for folder in folder_list:
         save_file_group(folder)
         if folder.find('失效') > -1:
-            continue
+            print('排除失效文件夹:{}'.format(folder))
         file_list = get_file_list(folder)
         for file in file_list:
             if file == 'sub.json' or (not file.endswith('.json') and not file.endswith('.txt')):
@@ -249,6 +250,7 @@ def get_all_src(folder_list):
                         print('失效源: {}\t{}'.format(s['bookSourceName'], s['bookSourceUrl']))
                     else:
                         src_list.append(s)
+    print(f'获取完成，有效源共{len(src_list)}个')
     return src_list
 
 
@@ -258,6 +260,5 @@ if __name__ == '__main__':
     if os.path.exists(source_path):
         folder_list = get_folder_list(source_path)
         src_list = get_all_src(folder_list)
-        print(f'有效源{len(src_list)}个')
         merge(source_path, src_list)
     update_readme(source_path)
