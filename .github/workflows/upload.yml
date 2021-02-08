@@ -1,9 +1,10 @@
 name: Update BookSource
 
 on:
+  workflow_dispatch:
   push:
     paths:
-      - '.history'
+      - '.history/**'
 
 jobs:
   master:
