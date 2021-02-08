@@ -10,7 +10,7 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/xuanhuan/{{page}}.html\n武侠::/wuxia/{{page}}.html\n都市::/dushi/{{page}}.html\n历史::/lishi/{{page}}.html\n游戏::/youxi/{{page}}.html\n科幻::/kehuan/{{page}}.html\n恐怖::/xuanyi/{{page}}.html\n同人::/erciyuan/{{page}}.html\n经典::/jingdian/{{page}}.html\n古代::/guyan/{{page}}.html\n现代::/xianyan/{{page}}.html\n幻想::/huanqing/{{page}}.html\n青春::/qingchun/{{page}}.html\n网络::/wangluo/{{page}}.html\n妹科::/mmkehuan/{{page}}.html\n鬼怪::/lingyi/{{page}}.html",
-    "lastUpdateTime": 1612776495723,
+    "lastUpdateTime": 1612777052963,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.info@tag.a.0@text",

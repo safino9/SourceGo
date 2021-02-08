@@ -9,7 +9,7 @@
     "customOrder": 60,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1612776495712,
+    "lastUpdateTime": 1612777052946,
     "loginUrl": "https://www.imiaobige.com/login.html",
     "ruleBookInfo": {
       "intro": "@js:'<br>'+java.get('Intro')"

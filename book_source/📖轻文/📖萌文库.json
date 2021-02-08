@@ -9,7 +9,7 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "热血::http://xs.kdays.net/list/all?type=1&page={{page}}\n冒险::http://xs.kdays.net/list/all?type=2&page={{page}}\n运动::http://xs.kdays.net/list/all?type=3&page={{page}}\n魔幻::http://xs.kdays.net/list/all?type=4&page={{page}}\n武侠::http://xs.kdays.net/list/all?type=5&page={{page}}\n校园::http://xs.kdays.net/list/all?type=6&page={{page}}\n耽美::http://xs.kdays.net/list/all?type=7&page={{page}}\n治愈::http://xs.kdays.net/list/all?type=8&page={{page}}\n推理::http://xs.kdays.net/list/all?type=9&page={{page}}\n惊悚::http://xs.kdays.net/list/all?type=10&page={{page}}\n科幻::http://xs.kdays.net/list/all?type=11&page={{page}}\n社会::http://xs.kdays.net/list/all?type=12&page={{page}}\nGAL::http://xs.kdays.net/list/all?type=13&page={{page}}\n动画化::http://xs.kdays.net/list/all?type=14&page={{page}}\n点击榜::http://xs.kdays.net/list/top\n收藏榜::http://xs.kdays.net/list/top?type=fav\n喜欢榜::http://xs.kdays.net/list/top?type=like",
-    "lastUpdateTime": 1612776495724,
+    "lastUpdateTime": 1612777052964,
     "ruleBookInfo": {
       "author": "tag.li.7@tag.a@text",
       "coverUrl": "class.col-sm-3@tag.img@src",

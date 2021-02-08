@@ -10,7 +10,7 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/xuanhuan/{{page}}.html\n武侠仙侠::/wuxia/{{page}}.html\n都市言情::/dushi/{{page}}.html\n历史军事::/lishi/{{page}}.html\n游戏竞技::/youxi/{{page}}.html\n科幻灵异::/kehuan/{{page}}.html\n同人美文::/tongren/{{page}}.html\n女生专区::/nvsheng/{{page}}.html\n其它小说::/qita/{{page}}.html\n热门电子书::/allvisit/{{page}}.html\n推荐电子书::/allvote/{{page}}.html\n最新电子书::/postdate/{{page}}.html",
-    "lastUpdateTime": 1612776495701,
+    "lastUpdateTime": 1612777052933,
     "loginUrl": "",
     "ruleBookInfo": {},
     "ruleContent": {
