@@ -9,7 +9,7 @@
     "enabled": false,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/sort/xuanhuan/{{page}}.html\n奇幻::/sort/xuanhuan/{{page}}.html\n武侠::/sort/wuxia/{{page}}.html\n仙侠::/sort/xianxia/{{page}}.html\n都市::/sort/dushi/{{page}}.html\n历史::/sort/lishi/{{page}}.html\n军事::/sort/junshi/{{page}}.html\n游戏::/sort/youxi/{{page}}.html\n竞技::/sort/jingji/{{page}}.html\n科幻::/sort/kehuan/{{page}}.html\n灵异::/sort/lingyi/{{page}}.html\n同人::/sort/tongren/{{page}}.html\n其他::/sort/qita/{{page}}.html",
-    "lastUpdateTime": 1612761184140,
+    "lastUpdateTime": 1612761700952,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.novelinfo@tag.a.0@text",

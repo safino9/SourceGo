@@ -9,7 +9,7 @@
     "enabled": false,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/xuanhuan/{{page}}.htm\n奇幻::/qihuan/{{page}}.htm\n仙侠::/xianxia/{{page}}.htm\n武侠::/wuxia/{{page}}.htm\n历史::/lishi/{{page}}.htm\n言情::/yanqing/{{page}}.htm\n都市::/dushi/{{page}}.htm\n军事::/junshi/{{page}}.htm\n竞技::/jingji/{{page}}.htm\n游戏::/youxi/{{page}}.htm\n灵异::/lingyi/{{page}}.htm\n科幻::/kehuan/{{page}}.htm\n女性::/nvxing/{{page}}.htm\n其他::/qita/{{page}}.htm",
-    "lastUpdateTime": 1612761184112,
+    "lastUpdateTime": 1612761700932,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "@css:small@text##作者：",

@@ -9,7 +9,7 @@
     "enabled": false,
     "enabledExplore": true,
     "exploreUrl": "点击榜::http://biqugu.net/top/{{page}}/\n奇幻::http://biqugu.net/qihuan/{{page}}/\n玄幻::http://biqugu.net/xuanhuan/{{page}}/\n言情::http://biqugu.net/yanqing/{{page}}/\n都市::http://biqugu.net/dushi/{{page}}/\n游戏::http://biqugu.net/youxi/{{page}}/\n竞技::http://biqugu.net/jingji/{{page}}/\n武侠::http://biqugu.net/wuxia/{{page}}/\n历史::http://biqugu.net/lishi/{{page}}/\n军事::http://biqugu.net/junshi/{{page}}/\n科幻::http://biqugu.net/kehuan/{{page}}/\n仙侠::http://biqugu.net/xianxia/{{page}}/\n灵异::http://biqugu.net/lingyi/{{page}}/\n女性::http://biqugu.net/nvxing/{{page}}/\n其他::http://biqugu.net/qita/{{page}}/\n更新最近::http://biqugu.net/last<{{page}}>.htm\n最新入库::http://biqugu.net/new/{{page}}/",
-    "lastUpdateTime": 1612761184113,
+    "lastUpdateTime": 1612761700933,
     "loginUrl": "",
     "ruleBookInfo": {
       "intro": "class.desc@textNodes##简介：",
