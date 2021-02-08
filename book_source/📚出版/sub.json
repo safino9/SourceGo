@@ -11,7 +11,7 @@
     "enabledExplore": true,
     "exploreUrl": "读者::http://qk.lifves.com/magazine.php?s=%E8%AF%BB%E8%80%85&key=ea265b17-0d79-4240-b3db-0b4cf94de08b\n读者欣赏::http://qk.lifves.com/magazine.php?s=%E8%AF%BB%E8%80%85&key=b4f38850-dda4-4559-a1a7-59479a2e05e6\n读者·校园版::http://qk.lifves.com/magazine.php?s=%E8%AF%BB%E8%80%85&key=9e236705-8f62-4007-9dc6-0ce02ae32a4c\n意林::http://qk.lifves.com/magazine.php?s=%E6%84%8F%E6%9E%97&key=7e788766-77a0-4093-b1f1-e3f55dd55137\n意林原创版::http://qk.lifves.com/magazine.php?s=%E6%84%8F%E6%9E%97&key=4fd8f670-f98d-459d-8263-044f6d5e4d4a\n故事会::http://qk.lifves.com/magazine.php?s=%E6%95%85%E4%BA%8B&key=08dc3c17-262e-4f58-b7d9-932ab966e582\n文苑·感悟::http://qk.lifves.com/magazine.php?s=%E6%96%87%E8%8B%91&key=352bb7fa-2bea-47e8-bbe0-ef14bad0fd7b\n文苑·经典美文::http://qk.lifves.com/magazine.php?s=%E6%96%87%E8%8B%91&key=8eb793ed-1e66-4579-b9df-bd0341d56f03",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.0.0; MI 5 Build/OPR1.170623.032; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/75.0.3770.89 Mobile Safari/537.36\"\n}",
-    "lastUpdateTime": 1612777052966,
+    "lastUpdateTime": 1612777312861,
     "loginUrl": "",
     "ruleBookInfo": {
       "intro": "class.layui-field-box.0@text"
@@ -46,7 +46,7 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "古典历史::/catalog-1-{{page}}.html\n神怪传奇::/catalog-2-{{page}}.html\n社会谴责::/catalog-3-{{page}}.html\n公案侠义::/catalog-4-{{page}}.html\n奇情纯情::/catalog-5-{{page}}.html\n笔记杂谈::/catalog-6-{{page}}.html\n近代武侠::/catalog-7-{{page}}.html\n名人传记::/catalog-8-{{page}}.html\n言情小说::/catalog-9-{{page}}.html\n反腐推理::/catalog-10-{{page}}.html\n外国名著::/catalog-11-{{page}}.html\n杂志报刊::/catalog-12-{{page}}.html\n青春励志::/catalog-13-{{page}}.html\n国内文学::/catalog-14-{{page}}.html\n儿童文学::/catalog-15-{{page}}.html\n经典故事::/catalog-16-{{page}}.html\n散文诗歌::/catalog-17-{{page}}.html\n综合::/catalog-18-{{page}}.html",
-    "lastUpdateTime": 1612777052967,
+    "lastUpdateTime": 1612777312862,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "@css:meta[property=\"og:novel:author\"]@content",
@@ -245,7 +245,7 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "总排行榜::/alltotal/<,index_{{page}}.html>\n总推荐榜::/allisgood/<,index_{{page}}.html>\n总下载榜::/alldown/<,index_{{page}}.html>\n最新更新::/newupdate/<,index_{{page}}.html>\n二月河作品::http://eryuehe.zuopinj.com/\n东野圭吾作品::http://dongyeguiwu.zuopinj.com/<index,index_{{page}}>.html\n古龙作品::http://gulong.zuopinj.com/\n金庸作品::http://jinyong.zuopinj.com/\n安房直子作品::http://anfangzhizi.zuopinj.com/<index,index_{{page}}>.html\n老舍作品::http://laoshe.zuopinj.com/\n路遥作品::http://luyao.zuopinj.com/",
-    "lastUpdateTime": 1612777052966,
+    "lastUpdateTime": 1612777312861,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.infos@tag.span.0@text##作者：|最后更新.*",
@@ -511,7 +511,7 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "排行榜::/top/index.php\n传记回忆::/book/index.php?type=传记回忆&page={{page}}\n英文读本::/book/index.php?type=英文读本&page={{page}}\n杂文随笔::/book/index.php?type=杂文随笔&page={{page}}\n现代小说::/book/index.php?type=现代小说&page={{page}}\n言情小说::/book/index.php?type=言情小说&page={{page}}\n历史小说::/book/index.php?type=历史小说&page={{page}}\n侦探推理::/book/index.php?type=侦探推理&page={{page}}\n惊悚悬疑::/book/index.php?type=惊悚悬疑&page={{page}}\n网络玄幻::/book/index.php?type=网络玄幻&page={{page}}\n寓言童话::/book/index.php?type=寓言童话&page={{page}}\n青春都市::/book/index.php?type=青春都市&page={{page}}\n社会心理::/book/index.php?type=社会心理&page={{page}}\n外国小说::/book/index.php?type=外国小说&page={{page}}\n科幻小说::/book/index.php?type=科幻小说&page={{page}}\n当代小说::/book/index.php?type=当代小说&page={{page}}\n武侠小说::/book/index.php?type=武侠小说&page={{page}}\n纪实报告::/book/index.php?type=纪实报告&page={{page}}\n世界历史::/book/index.php?type=世界历史&page={{page}}\n中国历史::/book/index.php?type=中国历史&page={{page}}\n科普学习::/book/index.php?type=科普学习&page={{page}}\n诗歌戏曲::/book/index.php?type=诗歌戏曲&page={{page}}\n宗教哲学::/book/index.php?type=宗教哲学&page={{page}}\n文学理论::/book/index.php?type=文学理论&page={{page}}\n日语读物::/book/index.php?type=日语读物&page={{page}}\n作品集::/book/index.php?type=作品集&page={{page}}\n国学/古籍::/book/index.php?type=国学%2F古籍&page={{page}}\n战争军事::/book/index.php?type=战争军事&page={{page}}\n政治经济::/book/index.php?type=政治经济&page={{page}}\n古典文学::/book/index.php?type=古典文学&page={{page}}\n官场小说::/book/index.php?type=官场小说&page={{page}}\n轻小说::/book/index.php?type=轻小说&page={{page}}",
-    "lastUpdateTime": 1612777052967,
+    "lastUpdateTime": 1612777312862,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.book_info@tag.h4.0@tag.a@text",

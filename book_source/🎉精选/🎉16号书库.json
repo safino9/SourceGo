@@ -10,7 +10,7 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/quanben/xuanhuan/allvisit_0_0_0_0_0_0_{{page}}.shtml\n魔幻::/quanben/mohuan/allvisit_0_0_0_0_0_0_{{page}}.shtml\n仙侠::/quanben/xianxia/allvisit_0_0_0_0_0_0_{{page}}.shtml\n都市::/quanben/dushi/allvisit_0_0_0_0_0_0_{{page}}.shtml\n历史::/quanben/lishi/allvisit_0_0_0_0_0_0_{{page}}.shtml\n穿越::/quanben/chuanyue/allvisit_0_0_0_0_0_0_{{page}}.shtml\n架空::/quanben/jiakong/allvisit_0_0_0_0_0_0_{{page}}.shtml\n古言::/quanben/guyan/allvisit_0_0_0_0_0_0_{{page}}.shtml\n言情::/quanben/yanqing/allvisit_0_0_0_0_0_0_{{page}}.shtml\n恐怖::/quanben/kongbu/allvisit_0_0_0_0_0_0_{{page}}.shtml\n动漫::/quanben/dongman/allvisit_0_0_0_0_0_0_{{page}}.shtml\n科幻::/quanben/kehuan/allvisit_0_0_0_0_0_0_{{page}}.shtml\n网游::/quanben/wangyou/allvisit_0_0_0_0_0_0_{{page}}.shtml\n耽美::/quanben/danmeitongren/allvisit_0_0_0_0_0_0_{{page}}.shtml\n其他::/quanben/qita/allvisit_0_0_0_0_0_0_{{page}}.shtml",
-    "lastUpdateTime": 1612777052937,
+    "lastUpdateTime": 1612777312843,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "##作者[^>]+>(.*?)<##$1###",

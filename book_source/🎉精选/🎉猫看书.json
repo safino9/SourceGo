@@ -9,7 +9,7 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "☆                          榜单数据                      ☆::\n今日更新::/lastupdate/{{page}}/\n上架新书::/postdate/{{page}}/\n月点击榜::/monthvisit/{{page}}/\n总收藏榜::/goodnum/{{page}}/\n新书榜单::/goodnew/{{page}}/\n☆                              分类                          ☆::\n玄幻::/sort/1/{{page}}/\n奇幻::/sort/2/{{page}}/\n武侠::/sort/3/{{page}}/\n都市::/sort/4/{{page}}/\n历史::/sort/5/{{page}}/\n军事::/sort/6/{{page}}/\n悬疑::/sort/7/{{page}}/\n游戏::/sort/8/{{page}}/\n科幻::/sort/9/{{page}}/\n体育::/sort/10/{{page}}/\n官场::/sort/11/{{page}}/\n古言::/sort/12/{{page}}/\n现言::/sort/13/{{page}}/\n幻言::/sort/14/{{page}}/\n仙侠::/sort/15/{{page}}/\n青春::/sort/16/{{page}}/\n穿越::/sort/17/{{page}}/\n女生::/sort/18/{{page}}/\nN次元::/sort/19/{{page}}/\n",
-    "lastUpdateTime": 1612777052934,
+    "lastUpdateTime": 1612777312842,
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@text",
       "coverUrl": "id.fmimg@tag.img@src",

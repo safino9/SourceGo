@@ -10,7 +10,7 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "古典历史::/catalog-1-{{page}}.html\n神怪传奇::/catalog-2-{{page}}.html\n社会谴责::/catalog-3-{{page}}.html\n公案侠义::/catalog-4-{{page}}.html\n奇情纯情::/catalog-5-{{page}}.html\n笔记杂谈::/catalog-6-{{page}}.html\n近代武侠::/catalog-7-{{page}}.html\n名人传记::/catalog-8-{{page}}.html\n言情小说::/catalog-9-{{page}}.html\n反腐推理::/catalog-10-{{page}}.html\n外国名著::/catalog-11-{{page}}.html\n杂志报刊::/catalog-12-{{page}}.html\n青春励志::/catalog-13-{{page}}.html\n国内文学::/catalog-14-{{page}}.html\n儿童文学::/catalog-15-{{page}}.html\n经典故事::/catalog-16-{{page}}.html\n散文诗歌::/catalog-17-{{page}}.html\n综合::/catalog-18-{{page}}.html",
-    "lastUpdateTime": 1612777052967,
+    "lastUpdateTime": 1612777312862,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "@css:meta[property=\"og:novel:author\"]@content",
