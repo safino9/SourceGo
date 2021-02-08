@@ -9,7 +9,7 @@
     "enabledExplore": true,
     "exploreUrl": "",
     "header": "",
-    "lastUpdateTime": 1612760798689,
+    "lastUpdateTime": 1612761184112,
     "loginUrl": "https://qxs.la/login.htm",
     "ruleBookInfo": {
       "intro": "##简介：\\s*([^<]*)##$1###"

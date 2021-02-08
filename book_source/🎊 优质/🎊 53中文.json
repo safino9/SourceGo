@@ -7,7 +7,7 @@
     "customOrder": 56,
     "enabled": false,
     "enabledExplore": true,
-    "lastUpdateTime": 1612760798695,
+    "lastUpdateTime": 1612761184121,
     "ruleBookInfo": {
       "author": "[property=og:novel:author]@content",
       "coverUrl": "[property=og:image]@content",

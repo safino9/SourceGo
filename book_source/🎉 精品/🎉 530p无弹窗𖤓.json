@@ -10,7 +10,7 @@
     "enabledExplore": true,
     "exploreUrl": "最新::/p{{page}}.htm\n奇幻::/qihuan/{{page}}.htm\n玄幻::/xuanhuan/{{page}}.htm\n言情::/yanqing/{{page}}.htm\n都市::/dushi/{{page}}.htm\n游戏::/youxi/{{page}}.htm\n竞技::/jingji/{{page}}.htm\n武侠::/wuxia/{{page}}.htm\n历史::/lishi/{{page}}.htm\n军事::/junshi/{{page}}.htm\n科幻::/kehuan/{{page}}.htm\n仙侠::/xianxia/{{page}}.htm\n灵异::/lingyi/{{page}}.htm\n女性::/nvxing/{{page}}.htm\n其他::/qita/{{page}}.htm",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612760798693,
+    "lastUpdateTime": 1612761184119,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "@css:.ffw td:eq(2)@text",

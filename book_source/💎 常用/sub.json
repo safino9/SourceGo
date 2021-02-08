@@ -8,7 +8,7 @@
     "customOrder": 108,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798701,
+    "lastUpdateTime": 1612761184129,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@tag.img@src",
@@ -46,7 +46,7 @@
     "customOrder": 105,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798700,
+    "lastUpdateTime": 1612761184129,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@text##.*者：",
@@ -84,7 +84,7 @@
     "customOrder": 110,
     "enabled": false,
     "enabledExplore": true,
-    "lastUpdateTime": 1612760798701,
+    "lastUpdateTime": 1612761184129,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.info@tag.p.2@text##作\\s*者：",
@@ -122,7 +122,7 @@
     "customOrder": 143,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798704,
+    "lastUpdateTime": 1612761184142,
     "ruleBookInfo": {
       "coverUrl": "class.liebiao_top@class.intro@tag.img.0@src",
       "intro": "class.intro@class.jieshao@textNodes"
@@ -158,7 +158,7 @@
     "customOrder": 123,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798702,
+    "lastUpdateTime": 1612761184139,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "//meta[@property=\"og:novel:author\"]/@content",
@@ -198,7 +198,7 @@
     "customOrder": 128,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798703,
+    "lastUpdateTime": 1612761184140,
     "ruleBookInfo": {
       "coverUrl": "class.cover@tag.img@src",
       "intro": "class.desc@text##.*简介："
@@ -233,7 +233,7 @@
     "customOrder": 106,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798700,
+    "lastUpdateTime": 1612761184129,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@text",
@@ -272,7 +272,7 @@
     "customOrder": 126,
     "enabled": false,
     "enabledExplore": true,
-    "lastUpdateTime": 1612760798703,
+    "lastUpdateTime": 1612761184140,
     "ruleBookInfo": {},
     "ruleContent": {
       "content": "id.content@textNodes"
@@ -304,7 +304,7 @@
     "enabled": false,
     "enabledExplore": true,
     "exploreUrl": "人气新书::/22/<,index_{{page}}.html>\n都市言情::/2/<,index_{{page}}.html>\n青春校园::/17/<,index_{{page}}.html>\n东方玄幻::/19/<,index_{{page}}.html>\n武侠仙侠::/1/<,index_{{page}}.html>\n穿越架空::/16/<,index_{{page}}.html>\n游戏竞争::/20/<,index_{{page}}.html>\n轻の小说::/15/<,index_{{page}}.html>\n历史军事::/5/<,index_{{page}}.html>\n奇幻科幻::/4/<,index_{{page}}.html>\n侦探推理::/3/<,index_{{page}}.html>\n惊悚悬疑::/18/<,index_{{page}}.html>\n文学经典::/6/<,index_{{page}}.html>\n外国文学::/7/<,index_{{page}}.html>\n杂文随笔::/8/<,index_{{page}}.html>\n宗教哲学::/9/<,index_{{page}}.html>\n纪实传记::/10/<,index_{{page}}.html>\n职业官场::/11/<,index_{{page}}.html>\n金融管理::/12/<,index_{{page}}.html>\n人文杜科::/13/<,index_{{page}}.html>\n智慧成长::/14/<,index_{{page}}.html>",
-    "lastUpdateTime": 1612760798702,
+    "lastUpdateTime": 1612761184138,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "@css:meta[property=\"og:novel:author\"]@content",
@@ -356,7 +356,7 @@
     "enabled": false,
     "enabledExplore": true,
     "exploreUrl": "",
-    "lastUpdateTime": 1612760798701,
+    "lastUpdateTime": 1612761184129,
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@text##作    者：",
       "coverUrl": "id.fmimg@tag.img.0@src",
@@ -399,7 +399,7 @@
     "enabled": false,
     "enabledExplore": false,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612760798701,
+    "lastUpdateTime": 1612761184136,
     "loginUrl": "",
     "ruleBookInfo": {
       "intro": "id.intro@tag.p@textNodes"
@@ -434,7 +434,7 @@
     "customOrder": 135,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798704,
+    "lastUpdateTime": 1612761184141,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",
@@ -477,7 +477,7 @@
     "customOrder": 132,
     "enabled": false,
     "enabledExplore": true,
-    "lastUpdateTime": 1612760798703,
+    "lastUpdateTime": 1612761184141,
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@tag.img.0@src",
       "intro": "id.intro@tag.p.0@text##简介："
@@ -514,7 +514,7 @@
     "customOrder": 140,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798704,
+    "lastUpdateTime": 1612761184142,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "//meta[@property=\"og:novel:author\"]/@content",
@@ -557,7 +557,7 @@
     "enabledExplore": true,
     "exploreUrl": "",
     "header": "",
-    "lastUpdateTime": 1612760798700,
+    "lastUpdateTime": 1612761184128,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.other_info@tag.span.0@text##作者：",
@@ -620,7 +620,7 @@
     "enabled": false,
     "enabledExplore": false,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0\"\n}",
-    "lastUpdateTime": 1612760798701,
+    "lastUpdateTime": 1612761184137,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@text",
@@ -662,7 +662,7 @@
     "enabledExplore": true,
     "exploreUrl": "追书热度::/rank/zhuishu.html\n书旗热搜::/rank/shuqi.html\n掌阅热销::/rank/zhangyue.html\n百度热搜::/rank/baidu.html\n17K 鲜花::/rank/17k.html\n总点击榜::/rank/allvisit/<{{page}}>.html\n月点击榜::/rank/monthvisit/<{{page}}>.html\n周点击榜::/rank/weekvisit/<{{page}}>.html\n日点击榜::/rank/dayvisit/<{{page}}>.html\n推荐数榜::/rank/vote/<{{page}}>.html\n收藏数榜::/rank/mark/<{{page}}>.html\n下载数榜::/rank/down/<{{page}}>.html\n评论数榜::/rank/comment/<{{page}}>.html\n评分数榜::/rank/star_score/<{{page}}>.html\nnull",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612760798702,
+    "lastUpdateTime": 1612761184139,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "//meta[@property=\"og:novel:author\"]/@content()",
@@ -723,7 +723,7 @@
     "customOrder": 139,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798704,
+    "lastUpdateTime": 1612761184142,
     "ruleBookInfo": {
       "intro": "id.intro@tag.p.0@text"
     },
@@ -759,7 +759,7 @@
     "enabled": false,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612760798705,
+    "lastUpdateTime": 1612761184143,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -797,7 +797,7 @@
     "enabled": false,
     "enabledExplore": false,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612760798705,
+    "lastUpdateTime": 1612761184143,
     "loginUrl": "",
     "ruleBookInfo": {
       "intro": "id.intro@tag.p.0@textNodes"
@@ -833,7 +833,7 @@
     "customOrder": 138,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798704,
+    "lastUpdateTime": 1612761184142,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "//*[@property=\"og:novel:author\"]/@content",
@@ -873,7 +873,7 @@
     "customOrder": 120,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798702,
+    "lastUpdateTime": 1612761184138,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.author@tag.a.0@text",
@@ -914,7 +914,7 @@
     "customOrder": 136,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798704,
+    "lastUpdateTime": 1612761184141,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.box_con.0@id.info@tag.p.0@text##作\\s*者：",
@@ -953,7 +953,7 @@
     "enabled": false,
     "enabledExplore": false,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612760798704,
+    "lastUpdateTime": 1612761184142,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@tag.img.0@src",
@@ -989,7 +989,7 @@
     "customOrder": 112,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798701,
+    "lastUpdateTime": 1612761184137,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "img@src",
@@ -1026,7 +1026,7 @@
     "customOrder": 107,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798701,
+    "lastUpdateTime": 1612761184129,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.info@tag.p.2@text##作 者：",
@@ -1067,7 +1067,7 @@
     "customOrder": 116,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798701,
+    "lastUpdateTime": 1612761184137,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "//*[@property='og:novel:author']/@content",
@@ -1108,7 +1108,7 @@
     "customOrder": 95,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798699,
+    "lastUpdateTime": 1612761184128,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.info@tag.p.2@text##作\\s*者：",
@@ -1145,7 +1145,7 @@
     "customOrder": 99,
     "enabled": false,
     "enabledExplore": true,
-    "lastUpdateTime": 1612760798700,
+    "lastUpdateTime": 1612761184128,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "tag.h6.0@text##作\\s*者：",
@@ -1186,7 +1186,7 @@
     "customOrder": 127,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798703,
+    "lastUpdateTime": 1612761184140,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "@XPath://*[@property=\"og:novel:author\"]/@content",
@@ -1226,7 +1226,7 @@
     "customOrder": 133,
     "enabled": false,
     "enabledExplore": true,
-    "lastUpdateTime": 1612760798703,
+    "lastUpdateTime": 1612761184141,
     "ruleBookInfo": {
       "intro": "id.intro@html",
       "wordCount": "id.info@tag.p.-1@text##最后更新："
@@ -1263,7 +1263,7 @@
     "customOrder": 125,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798703,
+    "lastUpdateTime": 1612761184140,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "//*[@class=\"bookinfo\"]/p[1]/i/text()",
@@ -1306,7 +1306,7 @@
     "enabled": false,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::/top/1_allvisit_0_0_0_{{page}}.html\n古典仙侠::/top/2_allvisit_0_0_0_{{page}}.html\n纯爱耽美::/top/3_allvisit_0_0_0_{{page}}.html\n历史穿越::/top/4_allvisit_0_0_0_{{page}}.html\n游戏同人::/top/5_allvisit_0_0_0_{{page}}.html\n穿梭时空::/top/6_allvisit_0_0_0_{{page}}.html\n灵异奇谈::/top/7_allvisit_0_0_0_{{page}}.html\n经典美文::/top/8_allvisit_0_0_0_{{page}}.html\n完结::/\n玄幻魔法::/top/1_monthvisit_0_2_0_{{page}}.html\n古典仙侠::/top/2_monthvisit_0_2_0_{{page}}.html\n纯爱耽美::/top/3_monthvisit_0_2_0_{{page}}.html\n历史穿越::/top/4_monthvisit_0_2_0_{{page}}.html\n游戏同人::/top/5_monthvisit_0_2_0_{{page}}.html\n穿梭时空::/top/6_monthvisit_0_2_0_{{page}}.html\n灵异奇谈::/top/7_monthvisit_0_2_0_{{page}}.html\n经典美文::/top/8_monthvisit_0_2_0_{{page}}.html\n月推荐::/\n玄幻魔法::/top/1_monthvote_0_0_0_{{page}}.html\n古典仙侠::/top/2_monthvote_0_0_0_{{page}}.html\n纯爱耽美::/top/3_monthvote_0_0_0_{{page}}.html\n历史穿越::/top/4_monthvote_0_0_0_{{page}}.html\n游戏同人::/top/5_monthvote_0_0_0_{{page}}.html\n穿梭时空::/top/6_monthvote_0_0_0_{{page}}.html\n灵异奇谈::/top/7_monthvote_0_0_0_{{page}}.html\n经典美文::/top/8_monthvote_0_0_0_{{page}}.html",
-    "lastUpdateTime": 1612760798703,
+    "lastUpdateTime": 1612761184141,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": ".s2!1@text##章节倒序",
@@ -1359,7 +1359,7 @@
     "customOrder": 118,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798702,
+    "lastUpdateTime": 1612761184138,
     "ruleBookInfo": {},
     "ruleContent": {
       "content": "$..content##\\(.=\\)",
@@ -1395,7 +1395,7 @@
     "enabled": false,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/sort/xuanhuan/{{page}}.html\n奇幻::/sort/xuanhuan/{{page}}.html\n武侠::/sort/wuxia/{{page}}.html\n仙侠::/sort/xianxia/{{page}}.html\n都市::/sort/dushi/{{page}}.html\n历史::/sort/lishi/{{page}}.html\n军事::/sort/junshi/{{page}}.html\n游戏::/sort/youxi/{{page}}.html\n竞技::/sort/jingji/{{page}}.html\n科幻::/sort/kehuan/{{page}}.html\n灵异::/sort/lingyi/{{page}}.html\n同人::/sort/tongren/{{page}}.html\n其他::/sort/qita/{{page}}.html",
-    "lastUpdateTime": 1612760798703,
+    "lastUpdateTime": 1612761184140,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.novelinfo@tag.a.0@text",
@@ -1437,7 +1437,7 @@
     "enabled": false,
     "enabledExplore": true,
     "exploreUrl": "",
-    "lastUpdateTime": 1612760798705,
+    "lastUpdateTime": 1612761184143,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "id.bookdetail@id.picbox@class.img_in@tag.img.0@src",
@@ -1473,7 +1473,7 @@
     "customOrder": 142,
     "enabled": false,
     "enabledExplore": true,
-    "lastUpdateTime": 1612760798704,
+    "lastUpdateTime": 1612761184142,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "tag.img.2@src",
@@ -1511,7 +1511,7 @@
     "enabled": false,
     "enabledExplore": false,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612760798701,
+    "lastUpdateTime": 1612761184137,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@tag.img@src",
@@ -1550,7 +1550,7 @@
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::http://www.xqishuta.com//soft/sort01/index_{{page}}.html\n武侠仙侠::http://www.xqishuta.com//soft/sort02/index_{{page}}.html\n女频言情::http://www.xqishuta.com//soft/sort03/index_{{page}}.html\n现代都市::http://www.xqishuta.com//soft/sort04/index_{{page}}.html\n历史军事::http://www.xqishuta.com//soft/sort05/index_{{page}}.html\n游戏竞技::http://www.xqishuta.com//soft/sort06/index_{{page}}.html\n科幻灵异::http://www.xqishuta.com//soft/sort07/index_{{page}}.html\n美文同人::http://www.xqishuta.com//soft/sort08/index_{{page}}.html\n剧本教程::http://www.xqishuta.com//soft/sort09/index_{{page}}.html\n名著杂志::http://www.xqishuta.com//soft/sort010/index_{{page}}.html\n技术其他::http://www.xqishuta.com//soft/sort011/index_{{page}}.html\n热门电子书::http://www.xqishuta.com//s/hot/index_{{page}}.html\n推荐电子书::http://www.xqishuta.com//s/good/index_{{page}}.html\n最新电子书::http://www.xqishuta.com//s/new/index_{{page}}.html",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612760798700,
+    "lastUpdateTime": 1612761184128,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.small.5@text",
@@ -1612,7 +1612,7 @@
     "customOrder": 103,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798700,
+    "lastUpdateTime": 1612761184129,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.item.0@tag.a@text",
@@ -1653,7 +1653,7 @@
     "customOrder": 113,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798701,
+    "lastUpdateTime": 1612761184137,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@text",
@@ -1690,7 +1690,7 @@
     "customOrder": 129,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798703,
+    "lastUpdateTime": 1612761184140,
     "ruleBookInfo": {
       "coverUrl": "class.col-xs-2@tag.img.0@src",
       "intro": "id.all@text##\\[收起\\]",
@@ -1726,7 +1726,7 @@
     "customOrder": 102,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798700,
+    "lastUpdateTime": 1612761184128,
     "loginUrl": "",
     "ruleBookInfo": {},
     "ruleContent": {
@@ -1760,7 +1760,7 @@
     "enabled": false,
     "enabledExplore": false,
     "header": "",
-    "lastUpdateTime": 1612760798704,
+    "lastUpdateTime": 1612761184141,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "##:author\"[^\"]+\"([^\"]*)##$1###",
@@ -1806,7 +1806,7 @@
     "customOrder": 117,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798702,
+    "lastUpdateTime": 1612761184138,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@text##作.者.",
@@ -1847,7 +1847,7 @@
     "customOrder": 122,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798702,
+    "lastUpdateTime": 1612761184139,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "tag.img@src",
@@ -1885,7 +1885,7 @@
     "enabled": false,
     "enabledExplore": false,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612760798705,
+    "lastUpdateTime": 1612761184143,
     "loginUrl": "",
     "ruleBookInfo": {
       "intro": "id.intro@tag.p.0@textNodes"
@@ -1923,7 +1923,7 @@
     "enabledExplore": true,
     "exploreUrl": "✵                                     经典文学                                       ✵::\n传记回忆::/zhuanjihuiyi/{{page}}.html\n杂文随笔::/zawensuibi/{{page}}.html\n经典历史::/jingdianlishi/{{page}}.html\n侦探推理::/zhentantuili/{{page}}.html\n惊悚悬疑::/jingsongxuanyi/{{page}}.html\n网络玄幻::/wangluoxuanhuan/{{page}}.html\n青春都市::/qingchundushi/{{page}}.html\n社会心理::/shehuixinli/{{page}}.html\n经典科幻::/jingdiankehuan/{{page}}.html\n外国小说::/waiguoxiaoshuo/{{page}}.html\n当代小说::/dangdaixiaoshuo/{{page}}.html\n现代小说::/xiandaixiaoshuo/{{page}}.html\n官场小说::/guanchangxiaoshuo/{{page}}.html\n经典武侠::/jingdianwuxia/{{page}}.html\n纪实报告::/jishibaogao/{{page}}.html\n世界历史::/shijielishi/{{page}}.html\n中国历史::/zhongguolishi/{{page}}.html\n科普学习::/kepuxuexi/{{page}}.html\n宗教哲学::/zongjiaozhexue/{{page}}.html\n文学理论::/wenxuelilun/{{page}}.html\n寓言童话::/yuyantonghua/{{page}}.html\n作  品  集::/zuopinji/{{page}}.html\n国学古籍::/guoxueguji/{{page}}.html\n战争军事::/zhanzhengjunshi/{{page}}.html\n政治经济::/zhengzhijingji/{{page}}.html\n古典文学::/gudianwenxue/{{page}}.html\n经典言情::/jingdianyanqing/{{page}}.html\n英文读本::/yingwenduben/{{page}}.html\n日语读物::/riyuduwu/{{page}}.html\n诗歌戏曲::/shigexiqu/{{page}}.html\n✵                                     网络小说                                       ✵::\n玄    幻::/xuanhuanxiaoshuo/{{page}}.html\n仙    侠::/xianxiaxiaoshuo/{{page}}.html\n都    市::/dushixiaoshuo/{{page}}.html\n武    侠::/wuxiaxiaoshuo/{{page}}.html\n悬    疑::/xuanyixiaoshuo/{{page}}.html\n军    事::/junshixiaoshuo/{{page}}.html\n灵    异::/lingyixiaoshuo/{{page}}.html\n科    幻::/kehuanxiaoshuo/{{page}}.html\n历    史::/lishixiaoshuo/{{page}}.html\n竞    技::/jingjixiaoshuo/{{page}}.html\n穿    越::/chuanyuexiaoshuo/{{page}}.html\n言    情::/yanqingxiaoshuo/{{page}}.html\n网    游::/wangyouxiaoshuo/{{page}}.html\n✵                                     轻の小说                                       ✵::\n富士见文库::/fushijianwenku/{{page}}.html\nFami通文库::/Famitongwenku/{{page}}.html\n  电击文库  ::/dianjiwenku/{{page}}.html\n  角川文库  ::/jiaochuanwenku/{{page}}.html\n  少女文库  ::/shaonvwenku/{{page}}.html\n  其他文库  ::/qitawenku/{{page}}.html\n   MF文库J  ::/MFwenkuJ/{{page}}.html\n   GA文库   ::/GAwenku/{{page}}.html\n   HJ文库   ::/HJwenku/{{page}}.html\n一迅社::/yixunshe/{{page}}.html\n集英社::/jiyingshe/{{page}}.html\n小学馆::/xiaoxueguan/{{page}}.html\n讲谈社::/jiangtanshe/{{page}}.html",
     "header": "",
-    "lastUpdateTime": 1612760798705,
+    "lastUpdateTime": 1612761184143,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.mb15 ell _tags pt2@tag.span.0@tag.a@text",
@@ -1985,7 +1985,7 @@
     "customOrder": 97,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798700,
+    "lastUpdateTime": 1612761184128,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "class.bookpic@tag.img@src",
@@ -2023,7 +2023,7 @@
     "enabled": false,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/sort/1/1.html\n仙侠::/sort/2/1.html\n都市::/sort/3/1.html\n历史::/sort/4/1.html\n军事::/sort/5/1.html\n灵异::/sort/6/1.html\n科幻::/sort/7/1.html\n游戏::/sort/8/1.html\n现言::/sort/9/1.html\n古言::/sort/10/1.html\n穿越::/sort/11/1.html\n青春::/sort/12/1.html\n豪门总裁::/sort/14/1.html\n耽美同人::/sort/15/1.html\n其他类型::/sort/13/1.html",
-    "lastUpdateTime": 1612760798703,
+    "lastUpdateTime": 1612761184141,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.author.0@text",

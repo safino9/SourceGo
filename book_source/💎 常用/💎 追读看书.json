@@ -10,7 +10,7 @@
     "enabledExplore": true,
     "exploreUrl": "追书热度::/rank/zhuishu.html\n书旗热搜::/rank/shuqi.html\n掌阅热销::/rank/zhangyue.html\n百度热搜::/rank/baidu.html\n17K 鲜花::/rank/17k.html\n总点击榜::/rank/allvisit/<{{page}}>.html\n月点击榜::/rank/monthvisit/<{{page}}>.html\n周点击榜::/rank/weekvisit/<{{page}}>.html\n日点击榜::/rank/dayvisit/<{{page}}>.html\n推荐数榜::/rank/vote/<{{page}}>.html\n收藏数榜::/rank/mark/<{{page}}>.html\n下载数榜::/rank/down/<{{page}}>.html\n评论数榜::/rank/comment/<{{page}}>.html\n评分数榜::/rank/star_score/<{{page}}>.html\nnull",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612760798702,
+    "lastUpdateTime": 1612761184139,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "//meta[@property=\"og:novel:author\"]/@content()",
