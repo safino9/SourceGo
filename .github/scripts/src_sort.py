@@ -1,4 +1,4 @@
-import os, time, json
+import os, time, json, datetime
 
 work_space = os.path.join(os.environ.get('GITHUB_WORKSPACE'), 'book_source')
 
@@ -13,11 +13,13 @@ def get_timestamp():
 
 
 def time_format(timestamp):
-    # 秒级时间戳
-    # localtime = time.localtime(timestamp)
     # 毫秒级时间戳
-    localtime = time.localtime(timestamp / 1000)
-    str_time = time.strftime("%Y-%m-%d %H:%M:%S", localtime)
+    if timestamp > 9999999999:
+        timestamp = int(timestamp / 1000)
+    # localtime = time.localtime(timestamp)
+    # str_time = time.strftime("%Y-%m-%d %H:%M:%S", localtime)
+    utc_time = datetime.datetime.utcfromtimestamp(timestamp)
+    str_time = utc_time + datetime.timedelta(hours=8)
     return str_time
 
 
