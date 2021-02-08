@@ -1,13 +1,13 @@
-name: 分类
+name: 合并
 
 on:
   workflow_dispatch:
   push:
     paths:
-      - '.history/**'
+      - 'book_source/**'
 
 jobs:
-  sort:
+  merge:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 0
 
       - name: Run Script
-        run: python3 ./.github/scripts/src_sort.py
+        run: python3 ./.github/scripts/src_merge.py
 
       - name: Push
         run: |
