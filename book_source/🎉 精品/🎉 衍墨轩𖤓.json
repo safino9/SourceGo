@@ -9,7 +9,7 @@
     "enabledExplore": true,
     "exploreUrl": "玄幻::/xuanhuan/{{page}}.htm\n奇幻::/qihuan/{{page}}.htm\n修真::/xiuzhen/{{page}}.htm\n都市::/dushi/{{page}}.htm\n言情::/yanqing/{{page}}.htm\n历史::/lishi/{{page}}.htm\n同人::/tongren/{{page}}.htm\n武侠::/wuxia/{{page}}.htm\n科幻::/kehuan/{{page}}.htm\n游戏::/youxi/{{page}}.htm\n军事::/junshi/{{page}}.htm\n竞技::/jingji/{{page}}.htm\n灵异::/lingyi/{{page}}.htm\n其他::/qita/{{page}}.htm",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4098.3 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612760798690,
+    "lastUpdateTime": 1612761184113,
     "ruleBookInfo": {
       "author": "tag.i.0@tag.a.0@text",
       "coverUrl": "class.cover@tag.img@src",

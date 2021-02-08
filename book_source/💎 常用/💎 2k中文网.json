@@ -8,7 +8,7 @@
     "customOrder": 127,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798703,
+    "lastUpdateTime": 1612761184140,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "@XPath://*[@property=\"og:novel:author\"]/@content",

@@ -8,7 +8,7 @@
     "customOrder": 118,
     "enabled": false,
     "enabledExplore": false,
-    "lastUpdateTime": 1612760798702,
+    "lastUpdateTime": 1612761184138,
     "ruleBookInfo": {},
     "ruleContent": {
       "content": "$..content##\\(.=\\)",

@@ -10,7 +10,7 @@
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::http://www.xqishuta.com//soft/sort01/index_{{page}}.html\n武侠仙侠::http://www.xqishuta.com//soft/sort02/index_{{page}}.html\n女频言情::http://www.xqishuta.com//soft/sort03/index_{{page}}.html\n现代都市::http://www.xqishuta.com//soft/sort04/index_{{page}}.html\n历史军事::http://www.xqishuta.com//soft/sort05/index_{{page}}.html\n游戏竞技::http://www.xqishuta.com//soft/sort06/index_{{page}}.html\n科幻灵异::http://www.xqishuta.com//soft/sort07/index_{{page}}.html\n美文同人::http://www.xqishuta.com//soft/sort08/index_{{page}}.html\n剧本教程::http://www.xqishuta.com//soft/sort09/index_{{page}}.html\n名著杂志::http://www.xqishuta.com//soft/sort010/index_{{page}}.html\n技术其他::http://www.xqishuta.com//soft/sort011/index_{{page}}.html\n热门电子书::http://www.xqishuta.com//s/hot/index_{{page}}.html\n推荐电子书::http://www.xqishuta.com//s/good/index_{{page}}.html\n最新电子书::http://www.xqishuta.com//s/new/index_{{page}}.html",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612760798700,
+    "lastUpdateTime": 1612761184128,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.small.5@text",

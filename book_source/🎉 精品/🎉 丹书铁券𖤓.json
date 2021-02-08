@@ -9,7 +9,7 @@
     "enabled": false,
     "enabledExplore": true,
     "exploreUrl": "全部::/library/0_0_0_0_0_0_{{page}}.html\n强推榜::/top/toptime/{{page}}.html\n新书榜::/top/goodnew/{{page}}.html\n二次元::/library/11_0_0_0_0_0_{{page}}.html\n玄幻奇幻::/library/1_0_0_0_0_0_{{page}}.html\n武侠仙侠::/library/2_0_0_0_0_0_{{page}}.html\n都市生活::/library/3_0_0_0_0_0_{{page}}.html\n历史军事::/library/4_0_0_0_0_0_{{page}}.html\n游戏竞技::/library/5_0_0_0_0_0_{{page}}.html\n科幻灵异::/library/6_0_0_0_0_0_{{page}}.html\n古代言情::/library/7_0_0_0_0_0_{{page}}.html\n现代言情::/library/8_0_0_0_0_0_{{page}}.html\n青春校园::/library/9_0_0_0_0_0_{{page}}.html\n幻想奇缘::/library/10_0_0_0_0_0_{{page}}.html\n其他类型::/library/12_0_0_0_0_0_{{page}}.html\n最近更新::/top/lastupdate/{{page}}.html\n最新入库::/top/postdate/{{page}}.html\n总推荐榜::/top/allvote/{{page}}.html\n总点击榜::/top/allvisit/{{page}}.html\n月推荐榜::/top/monthvote/{{page}}.html\n月点击榜::/top/monthvisit/{{page}}.html\n周推荐榜::/top/weekvote/{{page}}.html\n周点击榜::/top/weekvisit/{{page}}.html\n日推荐榜::/top/dayvote/{{page}}.html\n日点击榜::/top/dayvisit/{{page}}.html\n总收藏榜::/top/goodnum/{{page}}.html\n字数排行::/top/size/{{page}}.html\n完本小说::/full/{{page}}.html\n全部小说::/list/{{page}}.html",
-    "lastUpdateTime": 1612760798692,
+    "lastUpdateTime": 1612761184117,
     "loginUrl": "",
     "ruleBookInfo": {
       "intro": "class.intro.0@text",

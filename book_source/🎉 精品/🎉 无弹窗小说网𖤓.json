@@ -8,7 +8,7 @@
     "enabled": false,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612760798693,
+    "lastUpdateTime": 1612761184119,
     "ruleBookInfo": {
       "coverUrl": "class.main.1@class.fw@tag.img.0@src",
       "intro": "class.main.1@tag.tbody.0@tag.td.9@textNodes"
