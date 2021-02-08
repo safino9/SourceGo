@@ -16,8 +16,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Run Script
+      - name: Run Sort Script
         run: python3 ./.github/scripts/src_sort.py
+
+      - name: Run Merge Script
+        run: python3 ./.github/scripts/src_merge.py
 
       - name: Push
         run: |
