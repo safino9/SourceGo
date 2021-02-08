@@ -111,7 +111,7 @@ def update_readme():
 ## 3.0 书源链接
 
 - 书源：`{len(src_list)}个书源`
-- 复制下面链接，在阅读里'网络导入'。
+- 复制下面链接，在阅读里`网络导入`。
 - <a href='yuedu://booksource/importonline?src=https://celeter.github.io/SourceGo/book_source/all.json'>https://celeter.github.io/SourceGo/book_source/all.json</a>
 - 更新日期：{time_format(get_timestamp())}
 - 本站书源整理者：`Celeter`
@@ -223,7 +223,7 @@ def update_readme():
 </html>
 '''
     with open(os.path.join(work_space, '..', 'index.html'), 'w', encoding='utf-8') as f:
-        f.write(log)
+        f.write(html)
 
 
 if __name__ == '__main__':
