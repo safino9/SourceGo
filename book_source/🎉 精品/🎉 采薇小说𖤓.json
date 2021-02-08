@@ -1,0 +1,43 @@
+[
+  {
+    "bookSourceGroup": "🎉 精品",
+    "bookSourceName": "🎉 采薇小说𖤓",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ybwzx.com",
+    "bookUrlPattern": "",
+    "customOrder": 35,
+    "enabled": false,
+    "enabledExplore": false,
+    "header": "",
+    "lastUpdateTime": 1612760798692,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "@css:[property=og:novel:author]@content",
+      "coverUrl": "@css:[property=og:image]@content",
+      "intro": "@css:[property=og:description]@content",
+      "kind": "@css:[property=og:novel:category]@content",
+      "lastChapter": "@css:[property=og:novel:latest_chapter_name]@content#.*(?=第.*?章)",
+      "name": "@css:[property=og:title]@content"
+    },
+    "ruleContent": {
+      "content": "id.content@html##天才.*地址：\\[采薇小说网\\] h.*告！|章.*册\\)|, 报送.*校正.*等待。"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@tag.a.0@text",
+      "bookList": "class.novelslist2@tag.li!0",
+      "bookUrl": "class.s2@tag.a.0@href",
+      "coverUrl": "tag.a.0@href##/(\\d+)_(\\d+)/##/files/article/image/$1/$2/$2s.jpg",
+      "lastChapter": "class.s3@tag.a.0@text##.*(?=第.*?章)",
+      "name": "class.s2@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+      "chapterName": "tag.a@text##.*(?=第.*?章)",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.ybwzx.com/index.php?s=/web/index/search,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

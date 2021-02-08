@@ -1,0 +1,35 @@
+[
+  {
+    "bookSourceGroup": "🎊 优质",
+    "bookSourceName": "🎊 顶点小说②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ddxsku.com",
+    "customOrder": 87,
+    "enabled": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612760798698,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "name": "tag.a.16@text"
+    },
+    "ruleContent": {
+      "content": "id.contents@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "tag.table@tag.tr!0",
+      "bookUrl": "tag.td.0@tag.a.0@href",
+      "lastChapter": "tag.td.1@tag.a.0@text",
+      "name": "tag.td.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.at@tag.td@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.ddxsku.com/search/?searchkey={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

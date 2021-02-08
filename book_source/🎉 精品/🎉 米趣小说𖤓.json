@@ -1,0 +1,42 @@
+[
+  {
+    "bookSourceGroup": "🎉 精品",
+    "bookSourceName": "🎉 米趣小说𖤓",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.meegoq.com",
+    "bookUrlPattern": "",
+    "customOrder": 41,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798693,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.detail pt20@tag.i.0@a@text",
+      "coverUrl": "class.info@class.cover@img@src",
+      "intro": "class.desc@text##.*内容简介：",
+      "kind": "class.detail pt20@tag.i.1@text",
+      "lastChapter": "class.info@class.detail.1@i@text",
+      "name": "class.line@h1@text",
+      "tocUrl": "tag.footer.0@a@href"
+    },
+    "ruleContent": {
+      "content": "class.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.3@a@text",
+      "bookList": "class.lastest@tag.ul@tag.li!0",
+      "bookUrl": "tag.span.1@a@href",
+      "lastChapter": "tag.span.2@a@text",
+      "name": "tag.span.1@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu@tag.li!0:1:2:3:4:5:6:7:8:9:10@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.meegoq.com/search.htm?keyword={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

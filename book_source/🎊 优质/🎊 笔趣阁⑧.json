@@ -1,0 +1,44 @@
+[
+  {
+    "bookSourceGroup": "🎊 优质",
+    "bookSourceName": "🎊 笔趣阁⑧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.weilaitianwang.com",
+    "bookUrlPattern": "",
+    "customOrder": 66,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798696,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.author@tag.a.0@text",
+      "coverUrl": "id.thumb@tag.img@src",
+      "intro": "class.review@text",
+      "lastChapter": "id.chapterlist@tag.p.0@a@text",
+      "name": "class.title@tag.span@text",
+      "tocUrl": "class.recommend@tag.h2.1@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@html##\\『.*\\』|第.*\\[.*\\]|天才.*\\[.*\\].*无广告！|（本章未.*|.*第.*/.*页.*",
+      "nextContentUrl": "class.Readpage@text.下一页.0@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@tag.a@text",
+      "bookList": "class.slide-item list1@children",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##/(\\d+)_(\\d+)/##/files/article/image/$1/$2/$2s.jpg",
+      "kind": "class.author.1@text##\\|.*",
+      "lastChapter": "class.author.1@tag.a.0@text",
+      "name": "class.title@tag.p.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.p!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://m.weilaitianwang.com/SearchBook.php?keyword={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "bookSourceGroup": "🎉 精品",
+    "bookSourceName": "🎉 读一读②𖤓",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://duyidu.net",
+    "customOrder": 29,
+    "enabled": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612760798691,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": ".col-xs-2 img@src",
+      "intro": "#all@textNodes||#shot@textNodes",
+      "tocUrl": ".tac a@href"
+    },
+    "ruleContent": {
+      "content": "tag.h1.0@textNodes&&id.txtContent@textNodes##(第.{1,8}章)\\s*?(\\S*?)\\s*?\\S+?正文卷\\1\\2"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": ".col-xs-2!-1@text",
+      "bookList": ".clearfix!0",
+      "bookUrl": ".col-xs-3 a@href",
+      "coverUrl": "",
+      "kind": ".col-xs-1@text",
+      "lastChapter": ".col-xs-4@text",
+      "name": ".col-xs-3@text"
+    },
+    "ruleToc": {
+      "chapterList": "#chapters-list li a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.htm?keyword={{key}}&pn={{page}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

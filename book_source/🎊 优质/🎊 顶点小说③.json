@@ -1,0 +1,43 @@
+[
+  {
+    "bookSourceGroup": "🎊 优质",
+    "bookSourceName": "🎊 顶点小说③",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.villadroman.com",
+    "bookUrlPattern": "",
+    "customOrder": 88,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798699,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.booktag@tag.a.0@text",
+      "coverUrl": "img@src",
+      "intro": "id.bookIntro@text",
+      "lastChapter": "class.col-md-10@tag.p.1@a@text",
+      "name": "tag.h1@text",
+      "tocUrl": "class.btn btn-success@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.txt@html##天才.*网站\\《.*\\》.*网站!|第.*章.* (.*)",
+      "nextContentUrl": "class.next@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.table@tag.tbody@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "kind": "class.even.2@text",
+      "lastChapter": "class.hidden-xs.0@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.row clearfix@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.villadroman.com/search.html?keyword={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

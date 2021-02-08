@@ -1,0 +1,37 @@
+[
+  {
+    "bookSourceGroup": "🎉 精品",
+    "bookSourceName": "🎉 ABC小说𖤓",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yb3.cc",
+    "customOrder": 34,
+    "enabled": false,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612760798692,
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##\\[连.*\\]"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslist2@li:lt(11)!0",
+      "bookUrl": "class.s2@tag.a.0@href",
+      "kind": "tag.span.0@text",
+      "lastChapter": "class.s3@text",
+      "name": "class.s2@tag.a@text##免费|最新章.*"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:2:3:4:5:6:7:8:9:10:11",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.yb3.cc/web/search.php?q={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

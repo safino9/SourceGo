@@ -1,0 +1,37 @@
+[
+  {
+    "bookSourceGroup": "🎊 优质",
+    "bookSourceName": "🎊 乐库小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.6lk.net",
+    "bookUrlPattern": "",
+    "customOrder": 76,
+    "enabled": false,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3730.400 QQBrowser/10.5.3805.400\"\n}",
+    "lastUpdateTime": 1612760798697,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.book_other.0@tag.span.0@text",
+      "bookList": "id.sitembox@tag.dl",
+      "bookUrl": "tag.dd.0@tag.a@href",
+      "coverUrl": "tag.dt@tag.img@src",
+      "kind": "class.book_other.0@tag.span.1@text&&class.book_other.0@tag.span.2@text&&class.book_other.0@tag.span.3@text",
+      "lastChapter": "class.book_other.1@tag.a@text",
+      "name": "tag.dd.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.readerlist@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.6lk.net/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

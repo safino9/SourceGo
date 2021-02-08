@@ -1,0 +1,37 @@
+[
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 小说大全",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://shuapi.jiaston.com",
+    "bookUrlPattern": "https://shuapi.jiaston.com/book/[0-9]*/",
+    "customOrder": 118,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798702,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "$..content##\\(.=\\)",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.Author",
+      "bookList": "$..data[*]",
+      "bookUrl": "https://shuapi.jiaston.com/book/{$.Id}/",
+      "coverUrl": "$.Img",
+      "intro": "$.Desc",
+      "kind": "$.CName&&$.BookStatus",
+      "lastChapter": "$.LastChapter",
+      "name": "$.Name@put:{a:$.Id}"
+    },
+    "ruleToc": {
+      "chapterList": "$..list[*].list[*]",
+      "chapterName": "$.name",
+      "chapterUrl": "https://shuapi.jiaston.com/book/@get:{a}/{{$.id}}.html"
+    },
+    "searchUrl": "https://shuapi.jiaston.com/search.aspx?key={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

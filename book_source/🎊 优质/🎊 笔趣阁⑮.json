@@ -1,0 +1,39 @@
+[
+  {
+    "bookSourceGroup": "🎊 优质",
+    "bookSourceName": "🎊 笔趣阁⑮",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biqugexx.com",
+    "bookUrlPattern": "",
+    "customOrder": 73,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798697,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text##.*简介：",
+      "lastChapter": "id.info@tag.p.3@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##天才.*]|http.*广告！|章节错误.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslist2@tag.li!0",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##/(\\d+)_(\\d+)/##/files/article/image/$1/$2/$2s.jpg",
+      "lastChapter": "class.s3@text",
+      "name": "class.s2@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.biqugexx.com/index.php?s=/web/index/search,{\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

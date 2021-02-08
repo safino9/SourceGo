@@ -1,0 +1,47 @@
+[
+  {
+    "bookSourceGroup": "🎉 精品",
+    "bookSourceName": "🎉 搜狗小说𖤓",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://yd.sogou.com",
+    "bookUrlPattern": "",
+    "customOrder": 31,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "每日推荐::https://yd.sogou.com/h5/ajax/recommend?gf=ebye-d1-psort-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg&pn={{page}}\n榜单::http://www.123456.com\n都市榜::https://yd.sogou.com/h5/ajax/rank?gf=ebye-d1-prank-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"pn={{page}}&rankId=5\"}\n玄幻榜::https://yd.sogou.com/h5/ajax/rank?gf=ebye-d1-prank-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"pn={{page}}&rankId=6\"}\n现言榜::https://yd.sogou.com/h5/ajax/rank?gf=ebye-d1-prank-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"pn={{page}}&rankId=9\"}\n古言榜::https://yd.sogou.com/h5/ajax/rank?gf=ebye-d1-prank-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"pn={{page}}&rankId=10\"}\n人气榜::https://yd.sogou.com/h5/ajax/rank?gf=ebye-d1-prank-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"pn={{page}}&rankId=11\"}\n潜力榜::https://yd.sogou.com/h5/ajax/rank?gf=ebye-d1-prank-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"pn={{page}}&rankId=7\"}\n完本::https://yd.sogou.com/h5/ajax/finish?gf=ebye-d1-pfinish-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"pn={{page}}\"}\n热更::https://yd.sogou.com/h5/ajax/update?gf=ebye-d1-pupdate-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"pn={{page}}\"}\n男频::http://www.123456.com\n都市生活::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=1_1&pn={{page}}\"}\n奇幻玄幻::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=1_2&pn={{page}}\"}\n武侠修仙::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=1_3&pn={{page}}\"}\n军史谋略::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=1_4&pn={{page}}\"}\n游戏动漫::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=1_5&pn={{page}}\"}\n女频::http://www.123456.com\n总裁高干::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=3_1&pn=1\"}\n穿越架空::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=3_2&pn={{page}}\"}\n现代言情::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=3_3&pn={{page}}\"}\n古代言情::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=3_4&pn={{page}}\"}\n魔幻情缘::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=3_5&pn={{page}}\"}\n推荐专区::http://www.123456.com\n屌丝逆袭::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=4_1&pn={{page}}\"}\n揪心虐恋::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=4_2&pn={{page}}\"}\n腹黑骄傲::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=4_3&pn={{page}}\"}\n欢喜冤家::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=4_4&pn={{page}}\"}\n转世穿越::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=4_5&pn={{page}}\"}\n傲世穿越::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=4_6&pn={{page}}\"}\n报仇雪恨::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=4_7&pn={{page}}\"}\n妈咪宝宝::https://yd.sogou.com/h5/ajax/category?gf=ebye-d1-pcat-i&uID=ssuV-mqek3-Fmqrg&sgid=23-34960177-AV2MarHWAEWQib0hGwPuFffg,{\"method\": \"POST\",\"body\": \"cateId=4_8&pn={{page}}\"}",
+    "lastUpdateTime": 1612760798692,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "<js>result=result</js>##第.*?章 .*|[0-9].*? .*|\\(本章完\\)"
+    },
+    "ruleExplore": {
+      "author": "author",
+      "bookList": "$.list",
+      "bookUrl": "http://mf.k.sogou.com/s/mfxs/android/directory?bkey={{$.bkey}}&crc=&cc=0&versioncode=1110&eid=8130&uid=869041047791656&cuuid=869041047791656&osv=9&from=mfxsAndroid&orgEid=8130&network=1&androidID=bc677de44cff8656&mac=D8:CE:3A:92:4E:A7",
+      "coverUrl": "cover",
+      "intro": "descr",
+      "kind": "type",
+      "lastChapter": "lastChapterName",
+      "name": "name@put:{book:bkey}"
+    },
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "$.list",
+      "bookUrl": "http://mf.k.sogou.com/s/mfxs/android/directory?bkey={{$.bkey}}&crc=&cc=0&versioncode=1110&eid=8130&uid=869041047791656&cuuid=869041047791656&osv=9&from=mfxsAndroid&orgEid=8130&network=1&androidID=bc677de44cff8656&mac=D8:CE:3A:92:4E:A7",
+      "coverUrl": "cover",
+      "intro": "desc",
+      "kind": "category##[a-z]|\\<|\\>|\\/##",
+      "lastChapter": "latestChapterName",
+      "name": "bookName##[a-z]|\\<|\\>|\\/##@put:{book:bkey}"
+    },
+    "ruleToc": {
+      "chapterList": "$.chapter",
+      "chapterName": "name",
+      "chapterUrl": "https://service-7x9j2yln-1256208280.ap-shanghai.apigateway.myqcloud.com/release/ocr/huweiziptotxt?zip_url=http%3A%2F%2Fmf.k.sogou.com%2F%2Fs%2Fmfxs%2Fandroid%2Fdownload%3Fbkey%3D@get:{book}%26md5%3D{{$.md5}}%26count%3D1%26eid%3D8130%26uid%3D869041047791656%26cuuid%3D869041047791656%26gender%3D0%26sgid%3D%26sdkandroid%3D9%26versioncode%3D1110%26orgEid%3D8130%26ppid%3D"
+    },
+    "searchUrl": "https://yd.sogou.com/h5/ajax/searchmore/?pageNum={{page}}&query={{key}}&gf=ebye-d1-psearch-i&uID=ssuV-mqek3-Fmqrg&sgid=0",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

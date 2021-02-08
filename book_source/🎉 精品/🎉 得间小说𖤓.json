@@ -1,0 +1,57 @@
+[
+  {
+    "bookSourceGroup": "🎉 精品",
+    "bookSourceName": "🎉 得间小说𖤓",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.idejian.com",
+    "bookUrlPattern": "",
+    "customOrder": 30,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "男生小说::/books/nansheng?page={{page}}\r\n男生完本::/wanben/nansheng?page={{page}}\r\n男生人气::/bangdan/36001?page={{page}}\r\n男生点击::/bangdan/36002?page={{page}}\r\n男生收藏::/bangdan/36003?page={{page}}\r\n男生潜力::/bangdan/36004?page={{page}}\r\n女生小说::/books/nvsheng?page={{page}}\r\n女生完本::/wanben/nvsheng?page={{page}}\r\n女生人气::/bangdan/36014?page={{page}}\r\n女生点击::/bangdan/36015?page={{page}}\r\n女生收藏::/bangdan/36016?page={{page}}\r\n女生潜力::/bangdan/36017?page={{page}}\r\n女生完本::/bangdan/36021?page={{page}}\r\n奇幻小说::/books/nansheng?categoryId=1114&page={{page}}\r\n玄幻小说::/books/nansheng?categoryId=1115&page={{page}}\r\n武侠小说::/books/nansheng?categoryId=1116&page={{page}}\r\n仙侠小说::/books/nansheng?categoryId=1117&page={{page}}\r\n都市小说::/books/nansheng?categoryId=1118&page={{page}}\r\n校园小说::/books/nansheng?categoryId=1119&page={{page}}\r\n历史小说::/books/nansheng?categoryId=1120&page={{page}}\r\n军事小说::/books/nansheng?categoryId=1121&page={{page}}\r\n游戏小说::/books/nansheng?categoryId=1122&page={{page}}\r\n竞技小说::/books/nansheng?categoryId=1123&page={{page}}\r\n科幻小说::/books/nansheng?categoryId=1124&page={{page}}\r\n灵异小说::/books/nansheng?categoryId=1125&page={{page}}\r\n现代小说::/books/nvsheng?categoryId=1126&page={{page}}\r\n古代小说::/books/nvsheng?categoryId=1127&page={{page}}\r\n幻想小说::/books/nvsheng?categoryId=1128&page={{page}}\r\n青春小说::/books/nvsheng?categoryId=1129&page={{page}}\r\n同人小说::/books/nvsheng?categoryId=1130&page={{page}}\r\n恐怖小说::/books/nvsheng?categoryId=1132&page={{page}}\r\n次元小说::/books/nvsheng?categoryId=1133&page={{page}}\r\n出版小说::/books/chuban?page={{page}}\r\n人文社科::/books/chuban?categoryId=1134&page={{page}}\r\n经管励志::/books/chuban?categoryId=1135&page={{page}}\r\n文学艺术::/books/chuban?categoryId=1138&page={{page}}",
+    "lastUpdateTime": 1612760798691,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "$3",
+      "coverUrl": "$1",
+      "init": ":_img\"[^\"]*\"([^\"]*)\"[^\"]*\"([^\"]*)[\\s\\S]*?author\">([^<]*)[\\s\\S]*?box\">([^<]*)(?:[^>]*>){2}([^<]*)(?:[^>]*>){2}([^<]*)[\\s\\S]*?<b>([^<]*)[\\s\\S]*?_con\">([^<]*)[\\s\\S]*?最新章节[\\s\\S]*?html\">([^<]*)",
+      "intro": "$8",
+      "kind": "$5,$6,$4",
+      "lastChapter": "$9",
+      "name": "$2",
+      "wordCount": "$7万"
+    },
+    "ruleContent": {
+      "content": "@css:.bodytext@textNodes"
+    },
+    "ruleExplore": {
+      "author": ".bkitem_author@text||.author@text",
+      "bookList": ".v_books li||.rank_ullist li",
+      "bookUrl": ".bkitem_name a@href||.rank_bkname a@href",
+      "coverUrl": "img@src",
+      "intro": ".bkitem_brief@text||.rank_bkbrief@text",
+      "kind": ".bkitem_types@text||.rank_bkinfo span!0@text",
+      "lastChapter": ".rank_newpage@text#更新章节：",
+      "name": ".bkitem_name@text||.rank_bkname@text"
+    },
+    "ruleSearch": {
+      "author": "$4",
+      "bookList": ":img\"[^\"]*\"([^\"]*)[\\s\\S]*?href=\"([^\"]*)\">([^<]*)[\\s\\S]*?author\">([^<]*)(?:[^>]*>){4}([^<]*)[\\s\\S]*?\">([^<]*)[\\s\\S]*?bktime\">([^<]*)[\\s\\S]*?章节：([^<]*)[\\s\\S]*?人气[\\s\\S]*?<i>([^<]*)",
+      "bookUrl": "$2",
+      "coverUrl": "$1",
+      "intro": "$6",
+      "kind": "$5,$7",
+      "lastChapter": "$8",
+      "name": "$3",
+      "wordCount": "$9"
+    },
+    "ruleToc": {
+      "chapterList": ":li><a href=\"([^\"]*)\">([^<]*)",
+      "chapterName": "$2",
+      "chapterUrl": "$1"
+    },
+    "searchUrl": "/search?keyword={{key}}&page={{page}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "bookSourceGroup": "🎊 优质",
+    "bookSourceName": "🎊 帝书阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.dishuge.com",
+    "bookUrlPattern": "",
+    "customOrder": 51,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798694,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "##作者：([^<]*)##$1###",
+      "coverUrl": "img@src",
+      "kind": "##分类：([^<]*)##$1###",
+      "lastChapter": "class.info@a@text",
+      "name": "##h1>([^<]*)##$1###"
+    },
+    "ruleContent": {
+      "content": "id.mycontent@p@textNodes##.*本章未完.*|.*第.*/.*页.*",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@text##作者：|分类.*",
+      "bookList": "class.mod block detail@children",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "img@src",
+      "kind": "class.info@tag.a.0@text",
+      "lastChapter": "class.info@tag.a.1@text",
+      "name": "class.right@h1@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mod block update@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://m.dishuge.com/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

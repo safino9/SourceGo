@@ -1,0 +1,43 @@
+[
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 顶点小说⑤",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.dingdianxs.com",
+    "bookUrlPattern": "",
+    "customOrder": 140,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798704,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//meta[@property=\"og:novel:author\"]/@content",
+      "coverUrl": "//meta[@property=\"og:image\"]/@content",
+      "intro": "id.intro@text##.*全文简介：|免费阅读.*",
+      "kind": "//meta[@property=\"og:novel:category\"]/@content",
+      "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content",
+      "name": "//meta[@property=\"og:title\"]/@content"
+    },
+    "ruleContent": {
+      "content": "//*[@id=\"content\"]"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "//span[4]/text()",
+      "bookList": "//*[@class=\"novelslistss\"]/li",
+      "bookUrl": "//span[2]/a/@href",
+      "coverUrl": "tag.a.0@href##.*/(\\d+)/(\\d+).*##/files/article/image/$1/$2/$2s.jpg",
+      "kind": "//span[1]/text()",
+      "lastChapter": "//span[3]/a/text()",
+      "name": "//span[2]/a/text()"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@id=\"list\"]//dd/a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.dingdianxs.com/modules/article/search.php?searchkey={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

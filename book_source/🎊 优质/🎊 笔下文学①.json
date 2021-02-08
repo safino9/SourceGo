@@ -1,0 +1,46 @@
+[
+  {
+    "bookSourceGroup": "🎊 优质",
+    "bookSourceName": "🎊 笔下文学①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.bxwxorg.com",
+    "bookUrlPattern": "",
+    "customOrder": 84,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798698,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "id.content@html##喜欢.*最快。|因某些.*回家的路！"
+    },
+    "ruleExplore": {
+      "author": ".writer!1@text",
+      "bookList": ".listRightBottom@li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "intro": "p!0:2:3@text@js:result.replace(/…/gi,\"\\...\").replace(/”/gi,\"\\\"\").replace(/\\..$/gi,\"\")",
+      "kind": "span!0@text##更新:",
+      "lastChapter": "a!0:1@text",
+      "name": "h2@text"
+    },
+    "ruleSearch": {
+      "author": "class.book_other.0@tag.span.0@text",
+      "bookList": "id.sitembox@dl",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "intro": "class.book_des@text",
+      "kind": "class.book_other.0@tag.span!0@text##时间：",
+      "lastChapter": "class.book_other.1@a@text",
+      "name": "h3@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "//div[@id=\"list\"]/dl/dt[2]/following-sibling::dd/a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.bxwxorg.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

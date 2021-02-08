@@ -1,0 +1,42 @@
+[
+  {
+    "bookSourceGroup": "🎉 精品",
+    "bookSourceName": "🎉 天籁小说𖤓",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.23txt.com",
+    "bookUrlPattern": "",
+    "customOrder": 33,
+    "enabled": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612760798692,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p.0@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.result-game-item-info.0@tag.p.0@tag.span.1@text",
+      "bookList": "@css:.result-item:lt(10)",
+      "bookUrl": "class.result-item-title result-game-item-title.0@tag.a.0@href",
+      "coverUrl": "class.result-game-item-pic.0@tag.img.0@src",
+      "intro": "class.result-game-item-desc@text",
+      "kind": "class.result-game-item-info.0@tag.p.1@tag.span.1@text",
+      "lastChapter": "class.result-game-item-info.0@tag.p.3@tag.a.0@text",
+      "name": "class.result-item-title result-game-item-title.0@tag.a.0@text##\\(.*?\\)"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.23txt.com/search.php?q={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "bookSourceGroup": "💰 正版",
+    "bookSourceName": "💰 飞卢小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.faloo.com",
+    "bookUrlPattern": ".+/book/.+",
+    "customOrder": 167,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "月票榜::/bookrank4index.aspx?k=yuepiao\n新书PK::/bookrank4index.aspx?k=newbookpk\n热销榜::/bookrank4index.aspx?k=24h\n打赏榜::/bookrank4index.aspx?k=dashang\n总点击::/bookrank4index.aspx?k=zongdianji\n鲜花榜::/bookrank4index.aspx?k=xianhua\n收藏榜::/bookrank4index.aspx?k=shoucangbang\n更新狂::/bookrank4index.aspx?k=zishubang\n完本榜::/bookrank4index.aspx?k=wangbenbang\n同人榜::/bookrank4index.aspx?k=danmei\n都市榜::/bookrank4index.aspx?k=dushi\n玄幻榜::/bookrank4index.aspx?k=xuanhuan\n军事榜::/bookrank4index.aspx?k=lishi\n网游榜::/bookrank4index.aspx?k=wangyou\n灵异榜::/bookrank4index.aspx?k=kongbu\n武侠榜::/bookrank4index.aspx?k=wuxia\n女生榜::/bookrank4index.aspx?k=nvsheng\n校园榜::/bookrank4index.aspx?k=xiaoyuan\n轻小说榜::/bookrank4index.aspx?k=qingxiaoshuo\n小说书库::/category/0/0/1/{{page}}.html\nVIP小说::/cvip/0/0/1/{{page}}.html\n免费小说::/mianfei/0/0/1/{{page}}.html\n最新免费::/mianfei/0/0/0/{{page}}.html\n完本小说::/finish/0/0/1/{{page}}.html\n包月小说::/baoyue/0/0/1/{{page}}.html\n新书入库::/newbook/0/0/1/{{page}}.html\n同人小说::/category/44/0/1/{{page}}.html\n玄幻奇幻::/category/1/0/1/{{page}}.html\n武侠仙侠::/category/6/0/1/{{page}}.html\n都市言情::/category/4/0/1/{{page}}.html\n青春校园::/category/7/0/1/{{page}}.html\n军事历史::/category/3/0/1/{{page}}.html\n科幻网游::/category/2/0/1/{{page}}.html\n恐怖灵异::/category/5/0/1/{{page}}.html\n轻小说::/category/97/0/1/{{page}}.html\n女生小说::/category/54/0/1/{{page}}.html\n短篇其他::/category/9/0/1/{{page}}.html\n异世大陆::/category/1/28/1/{{page}}.html\n神话传说::/category/1/50/1/{{page}}.html\n东方玄幻::/category/1/29/1/{{page}}.html\n转世重生::/category/1/30/1/{{page}}.html\n王朝争霸::/category/1/31/1/{{page}}.html\n上古神话::/category/1/56/1/{{page}}.html\n变身情缘::/category/1/32/1/{{page}}.html\n穿越附身::/category/1/81/1/{{page}}.html\n传统武侠::/category/6/26/1/{{page}}.html\n武侠修真::/category/6/25/1/{{page}}.html\n浪子异侠::/category/6/27/1/{{page}}.html\n古典仙侠::/category/6/78/1/{{page}}.html\n星际修真::/category/6/79/1/{{page}}.html\n现代修真::/category/6/80/1/{{page}}.html\n动漫同人::/category/44/69/1/{{page}}.html\n小说同人::/category/44/53/1/{{page}}.html\n影视同人::/category/44/52/1/{{page}}.html\n浪漫言情::/category/4/13/1/{{page}}.html\n都市生活::/category/4/14/1/{{page}}.html\n都市异能::/category/4/45/1/{{page}}.html\n商海沉浮::/category/4/15/1/{{page}}.html\n宦海风云::/category/4/17/1/{{page}}.html\n职场生涯::/category/4/16/1/{{page}}.html\n豪门恩怨::/category/4/18/1/{{page}}.html\n菁菁校园::/category/7/10/1/{{page}}.html\n校园言情::/category/7/11/1/{{page}}.html\n另类校园::/category/7/12/1/{{page}}.html\n贵爵童话::/category/7/90/1/{{page}}.html\n魔法校园::/category/7/55/1/{{page}}.html\n校园同人::/category/7/89/1/{{page}}.html\n穿越时空::/category/3/71/1/{{page}}.html\n架空历史::/category/3/19/1/{{page}}.html\n历史传记::/category/3/72/1/{{page}}.html\n三国梦想::/category/3/73/1/{{page}}.html\n人文历史::/category/3/74/1/{{page}}.html\n现代战争::/category/3/20/1/{{page}}.html\n战争幻想::/category/3/76/1/{{page}}.html\n特种军旅::/category/3/21/1/{{page}}.html\n虚拟网游::/category/2/33/1/{{page}}.html\n电子竞技::/category/2/70/1/{{page}}.html\n足球运动::/category/2/36/1/{{page}}.html\n篮球运动::/category/2/35/1/{{page}}.html\n其它竞技::/category/2/34/1/{{page}}.html\n恐怖惊悚::/category/5/24/1/{{page}}.html\n推理悬念::/category/5/22/1/{{page}}.html\n灵异鬼怪::/category/5/23/1/{{page}}.html\n神秘时空::/category/5/65/1/{{page}}.html\n轻幻想::/category/97/98/1/{{page}}.html\n重幻想::/category/97/99/1/{{page}}.html\n日常类::/category/97/100/1/{{page}}.html\n穿越附身::/category/54/91/1/{{page}}.html\n都市言情::/category/54/92/1/{{page}}.html\n女尊天下::/category/54/93/1/{{page}}.html\n架空历史::/category/54/94/1/{{page}}.html\n豪门恩怨::/category/54/95/1/{{page}}.html\n重生异能::/category/54/96/1/{{page}}.html\n古典言情::/category/54/48/1/{{page}}.html\n历史演义::/category/9/47/1/{{page}}.html\n散文诗词::/category/9/58/1/{{page}}.html\n休闲美文::/category/9/59/1/{{page}}.html\n杂文笔记::/category/9/41/1/{{page}}.html\n短篇小说::/category/9/42/1/{{page}}.html\n改编剧本::/category/9/63/1/{{page}}.html\n其他::/category/9/43/1/{{page}}.html",
+    "lastUpdateTime": 1612760798708,
+    "loginUrl": "https://u.faloo.com/wap/login.aspx",
+    "ruleBookInfo": {
+      "name": "class.name@tag.a.0@text||class.dh@tag.a.1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##本书来自.*|ps：.*|\\<!--|春节看书.*\\！|立即抢充.*\\)|\\-->|活动.*注册!|本书由飞卢.*|清明节充值.*|用飞卢.*试听|兼职赚大钱|活动.*注册!|本书由飞卢.*|<a href=.*|五一看书.*|用飞卢听书.*|"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.show_author@tag.a@text",
+      "bookList": "class.book_vessel",
+      "bookUrl": "class.show_title2@tag.a@href##book##booklist",
+      "coverUrl": "tag.img.0@src",
+      "intro": "class.show_desc2@tag.p@text",
+      "kind": "class.show_foot@textNodes&&class.show_foot@children@text",
+      "name": "class.show_title2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter_list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": ""
+    },
+    "searchUrl": "/category/0/0/1/{{page}}.html?k={{key}},{\n  \"charset\": \"gb2312\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

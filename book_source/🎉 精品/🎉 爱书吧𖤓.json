@@ -1,0 +1,53 @@
+[
+  {
+    "bookSourceGroup": "🎉 精品",
+    "bookSourceName": "🎉 爱书吧𖤓",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.2shu8.cc",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "最新更新::/last{{page}}.htm\n点击榜::/tops/{{page}}/\n玄幻::/xuanhuan/{{page}}/\n奇幻::/qihuan/{{page}}/\n都市::/dushi/{{page}}/\n言情::/yanqing/{{page}}/\n游戏::/youxi/{{page}}/\n竞技::/jingji/{{page}}/\n武侠::/wuxia/{{page}}/\n修真::/xiuzhen/{{page}}/\n历史::/lishi/{{page}}/\n军事::/junshi/{{page}}/\n科幻::/kehuan/{{page}}/\n灵异::/lingyi/{{page}}/\n同人::/tongren/{{page}}/\n校园::/xiaoyuan/{{page}}/\n官场::/guanchang/{{page}}/\n商战::/shangzhan/{{page}}/\n职场::/zhichang/{{page}}/\n二次元::/erciyuan/{{page}}/\n其他::/qita/{{page}}/",
+    "header": "",
+    "lastUpdateTime": 1612760798689,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.infos.0@tag.a.0@text",
+      "coverUrl": "class.catalog@img@src",
+      "intro": "tag.p.0@text",
+      "kind": "class.weizhi@tag.a.1@text",
+      "lastChapter": "class.infos.0@tag.a.1@text",
+      "name": "class.catalog_h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##//。ｑb⑤。ｃOM|\\\\"
+    },
+    "ruleExplore": {
+      "author": "class.tag4@a@text",
+      "bookList": "class.lists@ul",
+      "bookUrl": "class.tag2@a@href",
+      "kind": "class.tag6@text&&class.tag5@text",
+      "lastChapter": "class.tag3@a@text",
+      "name": "class.tag2@a@text",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "author",
+      "bookList": ".lists .content@js:var OoO=[\"e.f().h(0,3).i(j(a){5 b=a.2('.7 a').k('l');5 c=b.m(/\\\\/(\\\\d+)\\\\/?$/)[1];5 d='n://r.o.p/q/8/'+t(c/u)+'/'+c+'/'+c+'s.v';w{x:a.2('.7 a').4(),y:a.2('.z a').4(),8:d,A:a.2('.B').4(),C:9(a.2('.D a').4()).6(/[（【].+/g,'').6(/^(第[^章]+章|\\\\d+)\\\\s*/,'$1 ')+'（'+9(a.2('.E').4()).6(/\\\\s.+/,'')+'）',F:'',G:b}});\",\"|\",\"split\",\"||select||text|var|replace|tag2|cover|String|||||result|toArray||slice|map|function|attr|href|match|http|2shu8|cc|jieqi|||parseInt|1000|jpg|return|name|author|tag4|kind|tag6|last|tag3|tag5|intro|url\",\"\",\"fromCharCode\",\"replace\",\"\\\\w+\",\"\\\\b\",\"g\"];eval(function(t,r,b,a,n){if(a=function(t){return(t<43?OoO[4]:a(parseInt(t/43)))+(35<(t%=43)?String[OoO[5]](t+29):t.toString(36))},!OoO[4][OoO[6]](/^/,String)){for(;r--;)n[a(r)]=b[r]||a(r);b=[function(t){return n[t]}],a=function(){return OoO[7]},r=1}for(;r--;)b[r]&&(t=t[OoO[6]](new RegExp(OoO[8]+a(r)+OoO[8],OoO[9]),b[r]));return t}(OoO[0],43,OoO[3][OoO[2]](OoO[1]),0,{}));",
+      "bookUrl": "url",
+      "coverUrl": "cover",
+      "kind": "kind",
+      "lastChapter": "last",
+      "name": "name"
+    },
+    "ruleToc": {
+      "chapterList": "tag.ul.2@li@a",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "https://www.2shu8.cc/s_{{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

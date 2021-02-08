@@ -1,0 +1,40 @@
+[
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 乐文小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xlwxsw.com",
+    "bookUrlPattern": "",
+    "customOrder": 122,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798702,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "tag.img@src",
+      "intro": "id.intro@p@text",
+      "lastChapter": "id.info@p!2:3@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##http.*|天才一秒.*|大家记得收藏网址.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.p10",
+      "bookUrl": "class.bookname@a@href",
+      "coverUrl": "tag.img@src",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@a@text",
+      "name": "class.bookname@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@dd@a",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.xlwxsw.com/s.php?q={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 千千小说②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qqxsw.la",
+    "customOrder": 141,
+    "enabled": false,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612760798704,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##千千小说网.*最新章节！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text||id.info@tag.a.0@text",
+      "bookList": "class.novelslistss@tag.li||id.maininfo",
+      "bookUrl": "class.s2@tag.a@href",
+      "kind": "class.s1@text",
+      "lastChapter": "class.s3@text||id.info@tag.p.3@tag.a.0@text",
+      "name": "class.s2@text||tag.h1@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.qqxsw.la/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

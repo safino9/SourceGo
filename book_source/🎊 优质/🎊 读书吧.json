@@ -1,0 +1,37 @@
+[
+  {
+    "bookSourceGroup": "🎊 优质",
+    "bookSourceName": "🎊 读书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.readbook8.com",
+    "bookUrlPattern": "",
+    "customOrder": 46,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798694,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##http.*html|天才.*com"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@tag.a@href",
+      "lastChapter": "class.update@tag.a@text",
+      "name": "class.bookname@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd!0:1:2:3:4:5",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.readbook8.com/s.php?ie=gbk&q={{key}}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

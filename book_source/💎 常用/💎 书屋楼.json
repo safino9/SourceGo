@@ -1,0 +1,43 @@
+[
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 书屋楼",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.shuwulou.com",
+    "bookUrlPattern": "",
+    "customOrder": 103,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612760798700,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.item.0@tag.a@text",
+      "coverUrl": "class.img_in@tag.img@src",
+      "intro": "id.intro@text",
+      "kind": "class.fr@tag.a.1@text",
+      "lastChapter": "class.update@tag.a@text##正文卷",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##书屋.*章节！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##/shu/(\\d+)(\\d{3}).html##/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "class.even.2@text%%class.odd.2@text%%class.even.1@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.zjlist@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.shuwulou.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]

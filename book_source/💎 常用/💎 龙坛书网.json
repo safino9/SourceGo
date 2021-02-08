@@ -1,0 +1,38 @@
+[
+  {
+    "bookSourceGroup": "💎 常用",
+    "bookSourceName": "💎 龙坛书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ltsw888.com",
+    "customOrder": 132,
+    "enabled": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612760798703,
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@tag.p.0@text##简介："
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text",
+      "bookList": "@css:.bookbox:lt(10)",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "text",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@tag.a.0@text",
+      "name": "class.bookname@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.ltsw888.com/s.php?ie=gbk&q={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0,
+    "bookSourceComment": "https://celeter.github.io/SourceGo"
+  }
+]
