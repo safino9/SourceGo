@@ -41,7 +41,6 @@ def create_dir(name):
 
 
 def json_group(src_list):
-    all_length = len(src_list)
     # 源分组
     for src in src_list:
         if src['bookSourceGroup'].find('失效') > -1:
@@ -51,16 +50,12 @@ def json_group(src_list):
             src['lastUpdateTime'] = get_timestamp()
         create_dir(os.path.join(work_space, src['bookSourceGroup']))
         write_file(os.path.join(work_space, src['bookSourceGroup'], f"{src['bookSourceName']}.json"), [src])
-    # 源去失效
-    new_src_list = [src for src in src_list if src['bookSourceGroup'] != '❌失效']
-    new_length = len(new_src_list)
-    # i = 10
-    # for src in new_src_list:
-    #     src['weight'] = new_length + 10 - i
-    #     src['customOrder'] = i
-    #     i += 1
-    # write_file(os.path.join(work_space, 'all.json'), new_src_list)
-    print('共有源{}个，有效{}个'.format(all_length, new_length))
+    # 失效源
+    error_list = [src for src in src_list if src['bookSourceGroup'] == '❌失效']
+    error_len = len(error_list)
+    print('共有源{}个，失效{}个'.format(len(src_list), error_len))
+    for e in error_list:
+        print('失效源: {}\t{}'.format(e['bookSourceName'], e['bookSourceUrl']))
 
 
 def get_folder_list(folder_dir):
@@ -71,9 +66,6 @@ def get_folder_list(folder_dir):
         if os.path.isdir(sub_dir):
             fold_list.append(sub_dir)
     return fold_list
-
-
-
 
 
 if __name__ == '__main__':

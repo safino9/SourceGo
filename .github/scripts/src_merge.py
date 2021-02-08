@@ -238,13 +238,13 @@ def get_all_src(folder_list):
         file_list = get_file_list(folder)
         for file in file_list:
             if file == 'sub.json' or (not file.endswith('.json') and not file.endswith('.txt')):
-                pass
+                print('排除文件: {}'.format(os.path.join(folder, file)))
             else:
                 file_path = os.path.join(folder, file)
                 src = json.loads(read_file(file_path))
                 for s in src:
                     if s['bookSourceGroup'].find('失效') > -1:
-                        pass
+                        print('失效源: {}\t{}'.format(s['bookSourceName'], s['bookSourceUrl']))
                     else:
                         src_list.append(s)
     return src_list
