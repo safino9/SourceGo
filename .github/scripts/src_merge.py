@@ -28,7 +28,7 @@ def update_readme(dir):
     index = 1
     for src in src_list:
         text_list_1.append(
-            f'| {index} | {src["bookSourceName"]} | {src["bookSourceUrl"]}	| {time_format(src["lastUpdateTime"])} | {src["bookSourceGroup"]} | <a href="https://celeter.github.io/SourceGo/book_source/{src["bookSourceGroup"]}/{src["bookSourceName"]}.json">导入</a>')
+            f'| {index} | {src["bookSourceName"]} | {src["bookSourceUrl"]}	| {time_format(src["lastUpdateTime"])} | {src["bookSourceGroup"]} | <a href="https://celeter.github.io/SourceGo/book_source/{src["bookSourceGroup"]}/{src["bookSourceName"]}.json">点击</a>')
         text_list_2.append(f'''
 <tr>
     <td>{index}</td>
@@ -36,7 +36,7 @@ def update_readme(dir):
     <td><a href="{src['bookSourceUrl']}" rel="nofollow" target="_blank">{src["bookSourceUrl"]}</a></td>
     <td>{time_format(src["lastUpdateTime"])}</td>
     <td>{src["bookSourceGroup"]}</td>
-    <td><a href='yuedu://booksource/importonline?src=https://celeter.github.io/SourceGo/book_source/{src["bookSourceGroup"]}/{src["bookSourceName"]}.json' rel="nofollow">导入</a></td>
+    <td><a href='yuedu://booksource/importonline?src=https://celeter.github.io/SourceGo/book_source/{src["bookSourceGroup"]}/{src["bookSourceName"]}.json' rel="nofollow">点击</a></td>
 </tr>'''
                            )
         index += 1
@@ -48,10 +48,9 @@ def update_readme(dir):
 ## 3.0 书源链接
 
 - 书源：`{len(src_list)}个书源`
-- 复制下面链接，在阅读里`网络导入`。
+- 复制下面链接，在阅读里`网络导入`
 - <a href='yuedu://booksource/importonline?src=https://celeter.github.io/SourceGo/book_source/all.json'>https://celeter.github.io/SourceGo/book_source/all.json</a>
 - 更新日期：{time_format(get_timestamp())}
-- 本站书源整理者：`Celeter`
 
 ## 导入方案
 
@@ -109,10 +108,9 @@ def update_readme(dir):
     <h2><a name="30-书源链接" class="md-header-anchor" id="30-书源链接"></a><span>3.0 书源链接</span></h2>
     <ul>
       <li><span>书源：</span><code>{len(src_list)}个书源</code></li>
-      <li><span>复制下面链接，在阅读里<code>网络导入</code>。</span></li>
+      <li><span>复制下面链接，在阅读里<code>网络导入</code>或直接点击</span></li>
       <li><a href='yuedu://booksource/importonline?src=https://celeter.github.io/SourceGo/book_source/all.json'>https://celeter.github.io/SourceGo/book_source/all.json</a></li>
       <li><span>更新日期：{time_format(get_timestamp())}</span></li>
-      <li><span>本站书源整理者：</span><code>Celeter</code></li>
     </ul>
     <h2><a name="导入方案" class="md-header-anchor" id="导入方案"></a><span>导入方案</span></h2>
     <h3><a name="方案一" class="md-header-anchor" id="方案一"></a><span>方案一</span></h3>
