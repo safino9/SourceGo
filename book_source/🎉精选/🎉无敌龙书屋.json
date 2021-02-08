@@ -9,7 +9,7 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::http://www.wudiun.net/xuanhuan/{{page}}/\n武侠仙侠::http://www.wudiun.net/wuxia/{{page}}/\n都市言情::http://www.wudiun.net/dushi/{{page}}/\n历史军事::http://www.wudiun.net/lishi/{{page}}/\n科幻灵异::http://www.wudiun.net/kehuan/{{page}}/\n游戏竞技::http://www.wudiun.net/youxi/{{page}}/\n其他类型::http://www.wudiun.net/qita/{{page}}/",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1612776495706,
     "ruleBookInfo": {
       "coverUrl": "id.bookinfo@id.bookimg@tag.img.0@src",
       "intro": "id.bookintro@class.d2@textNodes",

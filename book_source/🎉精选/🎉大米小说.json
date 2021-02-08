@@ -9,7 +9,7 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "书库全部::/shuku?page={{page}}\n玄幻奇幻::/xuanhuan?page={{page}}\n武侠仙侠::/xianxia?page={{page}}\n都市言情::/dushi?page={{page}}\n历史军事::/lishi?page={{page}}\n游戏竞技::/wangyou?page={{page}}\n科幻灵异::/kehuan?page={{page}}\n其他类型::/qita?page={{page}}\n完本小说::/quanben?page={{page}}",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1612776495704,
     "ruleBookInfo": {
       "author": "class.booktag@tag.a.0@text",
       "coverUrl": "class.img-thumbnail@tag.img.0@src",

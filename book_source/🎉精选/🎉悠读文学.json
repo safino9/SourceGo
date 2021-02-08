@@ -10,7 +10,7 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "人气新书::/22/<,index_{{page}}.html>\n都市言情::/2/<,index_{{page}}.html>\n青春校园::/17/<,index_{{page}}.html>\n东方玄幻::/19/<,index_{{page}}.html>\n武侠仙侠::/1/<,index_{{page}}.html>\n穿越架空::/16/<,index_{{page}}.html>\n游戏竞争::/20/<,index_{{page}}.html>\n轻の小说::/15/<,index_{{page}}.html>\n历史军事::/5/<,index_{{page}}.html>\n奇幻科幻::/4/<,index_{{page}}.html>\n侦探推理::/3/<,index_{{page}}.html>\n惊悚悬疑::/18/<,index_{{page}}.html>\n文学经典::/6/<,index_{{page}}.html>\n外国文学::/7/<,index_{{page}}.html>\n杂文随笔::/8/<,index_{{page}}.html>\n宗教哲学::/9/<,index_{{page}}.html>\n纪实传记::/10/<,index_{{page}}.html>\n职业官场::/11/<,index_{{page}}.html>\n金融管理::/12/<,index_{{page}}.html>\n人文杜科::/13/<,index_{{page}}.html>\n智慧成长::/14/<,index_{{page}}.html>",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1612776495704,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "@css:meta[property=\"og:novel:author\"]@content",
