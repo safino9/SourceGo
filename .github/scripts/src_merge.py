@@ -108,7 +108,7 @@ def update_readme(dir):
     <h2><a name="30-书源链接" class="md-header-anchor" id="30-书源链接"></a><span>3.0 书源链接</span></h2>
     <ul>
       <li><span>书源：</span><code>{len(src_list)}个书源</code></li>
-      <li><span>复制下面链接，在阅读里<code>网络导入</code>或直接点击</span></li>
+      <li><span>复制下面链接，在阅读里<code>网络导入</code>或直接点击自动导入</span></li>
       <li><a href='yuedu://booksource/importonline?src=https://celeter.github.io/SourceGo/book_source/all.json'>https://celeter.github.io/SourceGo/book_source/all.json</a></li>
       <li><span>更新日期：{time_format(get_timestamp())}</span></li>
     </ul>
@@ -123,7 +123,8 @@ def update_readme(dir):
     </ul>
     <h2><a name="导入教程" class="md-header-anchor" id="导入教程"></a><span>导入教程</span></h2>
     <blockquote>
-      <p><span>复制“书源链接”，打开阅读，点击右下角“我的”，然后选择“书源管理”，点击右上角三个点，选择“网络导入”，粘贴链接，确定即可。</span></p>
+      <p><span>1.复制“书源链接”，打开阅读，点击右下角“我的”，然后选择“书源管理”，点击右上角三个点，选择“网络导入”，粘贴链接，确定即可。</span></p>
+      <p><span>2.直接点击自动导入</span></p>
     </blockquote>
     <h2><a name="书源列表" class="md-header-anchor" id="书源列表"></a><span>书源列表</span></h2>
 <table>
