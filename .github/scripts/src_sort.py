@@ -1,3 +1,6 @@
+# https://github.com/Celeter/SourceGo
+# Created by Celeter
+# 书源分类脚本
 import os, time, json, datetime
 
 work_space = os.path.join(os.environ.get('GITHUB_WORKSPACE'), 'book_source')

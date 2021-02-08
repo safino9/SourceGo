@@ -1,3 +1,6 @@
+# https://github.com/Celeter/SourceGo
+# Created by Celeter
+# 书源合并脚本
 import os, time, json, datetime
 
 
