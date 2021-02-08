@@ -99,7 +99,7 @@ def update_readme():
     <td><a href="{src['bookSourceUrl']}" rel="nofollow">{src["bookSourceUrl"]}</a></td>
     <td>{time_format(src["lastUpdateTime"])}</td>
     <td>{src["bookSourceGroup"]}</td>
-    <td><a href='https://celeter.github.io/SourceGo/book_source/{src["bookSourceGroup"]}/{src["bookSourceName"]}.json' rel="nofollow">导入</a></td>
+    <td><a href='yuedu://booksource/importonline?src=https://celeter.github.io/SourceGo/book_source/{src["bookSourceGroup"]}/{src["bookSourceName"]}.json' rel="nofollow">导入</a></td>
 </tr>'''
                            )
         index += 1
