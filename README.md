@@ -181,9 +181,9 @@
 ##  请选择扶贫方式
 
 <table><tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/Celeter/SourceGo/.github/scripts/alipay.jpg" style="width:300px;"></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/Celeter/SourceGo/.github/scripts/wechatpay.png" style="width:300px;"></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/Celeter/SourceGo/.github/scripts/qqpay.png" style="width:300px;"></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Celeter/SourceGo/.github/scripts/alipay.jpg" width="300px"></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Celeter/SourceGo/.github/scripts/wechatpay.png" width="300px"></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Celeter/SourceGo/.github/scripts/qqpay.png" width="300px"></td>
 </tr></table>
 
 ------------
