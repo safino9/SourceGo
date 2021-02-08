@@ -10,7 +10,7 @@
     "enabled": true,
     "enabledExplore": true,
     "header": "",
-    "lastUpdateTime": 1612777052953,
+    "lastUpdateTime": 1612777312853,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "##:author\"[^\"]+\"([^\"]*)##$1###",

@@ -10,7 +10,7 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "排行榜::/top/index.php\n传记回忆::/book/index.php?type=传记回忆&page={{page}}\n英文读本::/book/index.php?type=英文读本&page={{page}}\n杂文随笔::/book/index.php?type=杂文随笔&page={{page}}\n现代小说::/book/index.php?type=现代小说&page={{page}}\n言情小说::/book/index.php?type=言情小说&page={{page}}\n历史小说::/book/index.php?type=历史小说&page={{page}}\n侦探推理::/book/index.php?type=侦探推理&page={{page}}\n惊悚悬疑::/book/index.php?type=惊悚悬疑&page={{page}}\n网络玄幻::/book/index.php?type=网络玄幻&page={{page}}\n寓言童话::/book/index.php?type=寓言童话&page={{page}}\n青春都市::/book/index.php?type=青春都市&page={{page}}\n社会心理::/book/index.php?type=社会心理&page={{page}}\n外国小说::/book/index.php?type=外国小说&page={{page}}\n科幻小说::/book/index.php?type=科幻小说&page={{page}}\n当代小说::/book/index.php?type=当代小说&page={{page}}\n武侠小说::/book/index.php?type=武侠小说&page={{page}}\n纪实报告::/book/index.php?type=纪实报告&page={{page}}\n世界历史::/book/index.php?type=世界历史&page={{page}}\n中国历史::/book/index.php?type=中国历史&page={{page}}\n科普学习::/book/index.php?type=科普学习&page={{page}}\n诗歌戏曲::/book/index.php?type=诗歌戏曲&page={{page}}\n宗教哲学::/book/index.php?type=宗教哲学&page={{page}}\n文学理论::/book/index.php?type=文学理论&page={{page}}\n日语读物::/book/index.php?type=日语读物&page={{page}}\n作品集::/book/index.php?type=作品集&page={{page}}\n国学/古籍::/book/index.php?type=国学%2F古籍&page={{page}}\n战争军事::/book/index.php?type=战争军事&page={{page}}\n政治经济::/book/index.php?type=政治经济&page={{page}}\n古典文学::/book/index.php?type=古典文学&page={{page}}\n官场小说::/book/index.php?type=官场小说&page={{page}}\n轻小说::/book/index.php?type=轻小说&page={{page}}",
-    "lastUpdateTime": 1612777052967,
+    "lastUpdateTime": 1612777312862,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.book_info@tag.h4.0@tag.a@text",

@@ -10,7 +10,7 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/book/g/xuanhuan/{{page}}\n奇幻::/book/g/qihuan/{{page}}\n武侠::/book/g/wuxia/{{page}}\n仙侠::/book/g/xianxia/{{page}}\n都市::/book/g/dushi/{{page}}\n历史::/book/g/lishi/{{page}}\n军事::/book/g/junshi/{{page}}\n科幻::/book/g/xuanyikehuan/{{page}}\n游戏::/book/g/youxi/{{page}}\n体育::/book/g/tiyu/{{page}}\n次元::/book/g/ciyuan/{{page}}\n言情::/book/g/yanqing/{{page}}\n古武::/book/g/guwu/{{page}}\n名著::/book/g/mingzhu/{{page}}",
-    "lastUpdateTime": 1612777052942,
+    "lastUpdateTime": 1612777312846,
     "loginUrl": "",
     "ruleBookInfo": {
       "lastChapter": "class.clear.3@tag.a.-1@text"
