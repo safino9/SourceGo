@@ -10,7 +10,7 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "全部类型::/fenlei/{{page}}.html\n玄幻异术::/fenlei/1/{{page}}.html\n仙侠修真::/fenlei/2/{{page}}.html\n浪漫言情::/fenlei/3/{{page}}.html\n历史穿越::/fenlei/4/{{page}}.html\n游戏同人::/fenlei/5/{{page}}.html\n科幻时空::/fenlei/6/{{page}}.html\n恐怖悬疑::/fenlei/7/{{page}}.html\n文学经典::/fenlei/8/{{page}}.html",
-    "lastUpdateTime": 1612776495706,
+    "lastUpdateTime": 1612777052943,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.bookinfo@tag.a.0@text",

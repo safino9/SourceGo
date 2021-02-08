@@ -11,7 +11,7 @@
     "enabledExplore": true,
     "exploreUrl": "读者::http://qk.lifves.com/magazine.php?s=%E8%AF%BB%E8%80%85&key=ea265b17-0d79-4240-b3db-0b4cf94de08b\n读者欣赏::http://qk.lifves.com/magazine.php?s=%E8%AF%BB%E8%80%85&key=b4f38850-dda4-4559-a1a7-59479a2e05e6\n读者·校园版::http://qk.lifves.com/magazine.php?s=%E8%AF%BB%E8%80%85&key=9e236705-8f62-4007-9dc6-0ce02ae32a4c\n意林::http://qk.lifves.com/magazine.php?s=%E6%84%8F%E6%9E%97&key=7e788766-77a0-4093-b1f1-e3f55dd55137\n意林原创版::http://qk.lifves.com/magazine.php?s=%E6%84%8F%E6%9E%97&key=4fd8f670-f98d-459d-8263-044f6d5e4d4a\n故事会::http://qk.lifves.com/magazine.php?s=%E6%95%85%E4%BA%8B&key=08dc3c17-262e-4f58-b7d9-932ab966e582\n文苑·感悟::http://qk.lifves.com/magazine.php?s=%E6%96%87%E8%8B%91&key=352bb7fa-2bea-47e8-bbe0-ef14bad0fd7b\n文苑·经典美文::http://qk.lifves.com/magazine.php?s=%E6%96%87%E8%8B%91&key=8eb793ed-1e66-4579-b9df-bd0341d56f03",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.0.0; MI 5 Build/OPR1.170623.032; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/75.0.3770.89 Mobile Safari/537.36\"\n}",
-    "lastUpdateTime": 1612776495726,
+    "lastUpdateTime": 1612777052966,
     "loginUrl": "",
     "ruleBookInfo": {
       "intro": "class.layui-field-box.0@text"
