@@ -1,0 +1,37 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉全小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://qxs.la",
+    "customOrder": 58,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "https://qxs.la/login.htm",
+    "ruleBookInfo": {
+      "intro": "##简介：\\s*([^<]*)##$1###"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.cc4@a@text",
+      "bookList": "class.list_content",
+      "bookUrl": "class.cc2@a@href",
+      "kind": "class.cc5@text",
+      "lastChapter": "class.cc3@a@text",
+      "name": "class.cc2@a@text"
+    },
+    "ruleToc": {
+      "chapterList": ":\"chapter\"[^\"]+\"([^\"]*)\"[^>]+>([^<]*)",
+      "chapterName": "$2",
+      "chapterUrl": "$1"
+    },
+    "searchUrl": "/s_{{key}}/{{page}}/",
+    "weight": 0
+  }
+]

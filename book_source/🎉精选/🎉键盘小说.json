@@ -1,0 +1,43 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉键盘小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.janpn.com",
+    "customOrder": 32,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuanqihuan/list-1-{{page}}.html\r\n修真::/wuxiaxiuzhen/list-2-{{page}}.html\r\n都市::/xiandaidushi/list-3-{{page}}.html\r\n军史::/lishijunshi/list-4-{{page}}.html\r\n网游::/youxijingji/list-5-{{page}}.html\r\n科幻::/kehuanlingyi/list-6-{{page}}.html\r\n言情::/nvshengyanqing/list-7-{{page}}.html\r\n其他::/qitaleixing/list-8-{{page}}.html",
+    "lastUpdateTime": 1610339357013,
+    "ruleBookInfo": {
+      "intro": "//*[@name='description']/@content",
+      "tocUrl": "class.btn btn-primary@href"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@html"
+    },
+    "ruleExplore": {
+      "author": "class.shop-info!0:2@text##\\[.*$",
+      "bookList": "class.list@a",
+      "bookUrl": "a@href",
+      "lastChapter": "class.glyphicon glyphicon-bullhorn@text",
+      "name": "a@title"
+    },
+    "ruleSearch": {
+      "author": "class.shop-info!0:2@text##\\[.*$",
+      "bookList": "class.list@a",
+      "bookUrl": "a@href",
+      "coverUrl": "",
+      "lastChapter": "class.glyphicon glyphicon-bullhorn@text",
+      "name": "a@title"
+    },
+    "ruleToc": {
+      "chapterList": "class.panel-body panel-chapterlist@li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "http://www.janpn.com/search.php?q={{key}}",
+    "weight": 0
+  }
+]

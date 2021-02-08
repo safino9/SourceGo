@@ -1,0 +1,50 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉猫看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.maokanshu.com",
+    "customOrder": 16,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "☆                          榜单数据                      ☆::\n今日更新::/lastupdate/{{page}}/\n上架新书::/postdate/{{page}}/\n月点击榜::/monthvisit/{{page}}/\n总收藏榜::/goodnum/{{page}}/\n新书榜单::/goodnew/{{page}}/\n☆                              分类                          ☆::\n玄幻::/sort/1/{{page}}/\n奇幻::/sort/2/{{page}}/\n武侠::/sort/3/{{page}}/\n都市::/sort/4/{{page}}/\n历史::/sort/5/{{page}}/\n军事::/sort/6/{{page}}/\n悬疑::/sort/7/{{page}}/\n游戏::/sort/8/{{page}}/\n科幻::/sort/9/{{page}}/\n体育::/sort/10/{{page}}/\n官场::/sort/11/{{page}}/\n古言::/sort/12/{{page}}/\n现言::/sort/13/{{page}}/\n幻言::/sort/14/{{page}}/\n仙侠::/sort/15/{{page}}/\n青春::/sort/16/{{page}}/\n穿越::/sort/17/{{page}}/\n女生::/sort/18/{{page}}/\nN次元::/sort/19/{{page}}/\n",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "class.introtxt@text##简介：",
+      "kind": "id.info@tag.p.1@text##类 别：|\\(.*\\)",
+      "lastChapter": "id.info@tag.p.4@tag.a@text##nbsp; ",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@tag.p@html##手机阅读访问.*书架功能更好用."
+    },
+    "ruleExplore": {
+      "author": "class.info@tag.span.0@text",
+      "bookList": "id.alistbox",
+      "bookUrl": "class.info@tag.h2@tag.a@href",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.intro@text",
+      "lastChapter": "class.sys@tag.li@tag.a@text",
+      "name": "class.info@tag.h2@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "class.info@tag.span.0@text",
+      "bookList": "id.alistbox",
+      "bookUrl": "class.info@tag.h2@tag.a@href",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.intro@text",
+      "lastChapter": "class.sys@tag.li@tag.a@text",
+      "name": "class.info@tag.h2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd@tag.a",
+      "chapterName": "text##nbsp; ",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.maokanshu.com/search.html,{\"method\": \"POST\", \"body\": \"s=articlename&searchkey={{key}}\"}",
+    "weight": 0
+  }
+]

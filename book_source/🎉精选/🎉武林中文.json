@@ -1,0 +1,38 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉武林中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.50zw.com",
+    "bookUrlPattern": "",
+    "customOrder": 107,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 1610339620930,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.bookinfo_intro@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@textNodes##武林中文网.*最新章节！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "lastChapter": "class.even.0@text",
+      "name": "class.odd.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.50zw.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+]

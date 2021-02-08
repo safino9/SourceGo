@@ -1,0 +1,44 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉石头小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.10tou.com",
+    "bookUrlPattern": "",
+    "customOrder": 45,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部类型::/fenlei/{{page}}.html\n玄幻异术::/fenlei/1/{{page}}.html\n仙侠修真::/fenlei/2/{{page}}.html\n浪漫言情::/fenlei/3/{{page}}.html\n历史穿越::/fenlei/4/{{page}}.html\n游戏同人::/fenlei/5/{{page}}.html\n科幻时空::/fenlei/6/{{page}}.html\n恐怖悬疑::/fenlei/7/{{page}}.html\n文学经典::/fenlei/8/{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.bookinfo@tag.a.0@text",
+      "coverUrl": "class.bookintro@tag.img@src",
+      "intro": "class.bookintromore@text",
+      "lastChapter": "class.bookchapter@tag.a@text",
+      "name": "class.bookinfo@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.txt@html##.*请关注石头小说网.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@tag.a@text##作者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@tag.a.0@href",
+      "coverUrl": "class.bookbox@tag.img@data-original",
+      "intro": "class.update@text",
+      "kind": "class.author.1@text##分类：",
+      "lastChapter": "class.cat@tag.a@text",
+      "name": "class.bookname@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.fulllistall@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.10tou.com/search.php?searchkey={{key}}&action=login&submit=",
+    "weight": 0
+  }
+]

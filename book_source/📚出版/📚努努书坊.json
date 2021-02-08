@@ -1,0 +1,46 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "📚出版",
+    "bookSourceName": "📚努努书坊",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.huaxiaci.com",
+    "customOrder": 165,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部小说::http://www.huaxiaci.com/xs/{{page}}/\n玄幻小说::/xs/1/{{page}}\n武侠小说::/xs/2/{{page}}\n都市小说::/xs/3/{{page}}\n历史小说::/xs/4/{{page}}\n网游小说::/xs/5/{{page}}\n科幻小说::/xs/6/{{page}}\n言情小说::/xs/7/{{page}}\n其他小说::/xs/8/{{page}}",
+    "header": "",
+    "lastUpdateTime": 1612016202199,
+    "ruleBookInfo": {
+      "author": "@css:[property=og:novel:author]@content",
+      "coverUrl": "@css:[property=og:image]@content",
+      "intro": "@css:[property=og:description]@content",
+      "kind": "@css:[property=og:novel:category]@content",
+      "lastChapter": "class.cat@a@text",
+      "name": "@css:[property=og:novel:book_name]@content",
+      "wordCount": "class.blue.0@text"
+    },
+    "ruleContent": {
+      "content": "id.rtext@p@textNodes"
+    },
+    "ruleExplore": {
+      "author": ""
+    },
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@a@href",
+      "coverUrl": "class.bookname@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar idi=(id-20)/2\nvar iid = parseInt(idi/1000);\n'http://img.xswlsm.com/'+iid+'/'+idi+'/'+idi+'s.jpg';\n</js>",
+      "intro": "class.update@text##简介：",
+      "lastChapter": "class.cat@a@text",
+      "name": "class.bookname@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list-chapterAll@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.huaxiaci.com/search,{\n    \"method\":\"POST\",\n    \"body\":\"searchkey={{key}}&submit=\",\n     \"headers\": \"{referer:\\\"http://www.huaxiaci.com/search\\\"}\"\n}",
+    "weight": 0
+  }
+]

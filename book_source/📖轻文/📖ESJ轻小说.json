@@ -1,0 +1,50 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "📖轻文",
+    "bookSourceName": "📖ESJ轻小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.esjzone.cc",
+    "bookUrlPattern": "https://www.esjzone.cc/detail/\\d+.html",
+    "customOrder": 155,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "<js>\nvar tags=[\"R15\",\"冒险\",\"料理\",\"转生\",\"魔法\",\"妹系\",\"后宫\",\"恋爱\",\"魔法\",\"重生\",\"贵族\",\"英雄谭\",\"多视角\",\"穿越\",\"萝莉\",\"甜文\",\"短篇\",\"女性视角\",\"纯爱\",\"校园\",\"异世界\",\"性转\",\"药水\"];\n\n\"首页推荐::/&&日轻::/list/{{page}}.html&&原创::/creation/{{page}}.html&&一週更新::/update/&&\"+tags.map(tag=>tag+\"::/tags/\"+tag+\"/{{page}}.html\").join('&&')\n\n\n</js>",
+    "lastUpdateTime": 0,
+    "loginUrl": "/login",
+    "ruleBookInfo": {
+      "author": "@css:h2+ul>li:eq(0)@text",
+      "coverUrl": "",
+      "intro": ".description@html",
+      "kind": ".tag@text",
+      "name": "h2@text"
+    },
+    "ruleContent": {
+      "content": "@js:\n\nfunction getTranslation() {\n\timportClass(org.jsoup.Jsoup);\n\tlet doc = Jsoup.parse(result).select('.forum-content p'),\n trans = (/trans='(\\d+)/).test(result)?result.match(/trans='(\\d+)/)[1]:'';\n\n\t//尝试获取翻译后的段落\n\tlet TransParts = (function() {\nif(doc.toArray().length<=trans&&doc.toArray().length>1){\n\t\t\tlet body = \"plxf=getTranslation&plxa[]=\" + trans;\n\t\t\tlet host = \"https://www.esjzone.cc\";\n\t\t\tlet url = (/esjzone\\.cc/).test(baseUrl) ? baseUrl: (host + baseUrl);\n\t\t\tlet options = {\n\t\t\t\tmethod: \"post\",\n\t\t\t\tbody: body\n\t\t\t};\n\t\t\turl = url + \",\" + JSON.stringify(options);\n\t\t\t//url=url+'@'+body;\n\t\t\tlet responseStr = String(java.ajax(url));\n\t\t\tif ((/JinJing/).test(responseStr)) {\n\n\t\t\t\treturn responseStr.replace(/<.?JinJing>/g, '');\n\t\t\t}else return doc.html()\n    }else return doc.html()\n\t})();\n \n\t\tlet Html = TransParts;\n\t\tlet hint = \"无法显示内容，书籍可能下架或为其他站内容，请到原网页查看\\n\\n章节链接：\\n\" + baseUrl;\n\t\tlet adstr = \"(adsbygoogle = window.adsbygoogle || []).push({});\";\n\t\treturn (Html == null || Html == undefined || Html == '') ? hint: Html.replace(adstr, '');\n\n}\nresult = (/\\.google\\.cn/).test(baseUrl) ? decodeURIComponent(baseUrl.replace(/^.+[&?]text=/, '')) : getTranslation();"
+    },
+    "ruleExplore": {
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "lastChapter": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "",
+      "bookList": "//div[@class='col-lg-3 col-md-4 col-sm-3 col-xs-6'][.//div[@class='card-ep mt-2'][text()!='']]",
+      "bookUrl": "h5@a@href",
+      "coverUrl": "img@src@js:\n(/empty/).test(result)?\"https://api.ixiaowai.cn/api/api.php?t=\"+Date.now():result;",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "class.card-ep mt-2@text",
+      "name": "h5@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\"use strict\";try{var getArray=function(r,t){var e=[],l=[],n=0,o=\"📗\";for(t||(n=1,o=\"\");e=r.exec(result);)l.push({text:o+e[1+n],href:function(r){var e=void 0;try{e=r[2]?r[2]:r[1]}catch(t){e=r[1]}return t?VolUrl+encodeURIComponent(e):r[1]}(e),idx:r.lastIndex});return l},regs={Vol:/non\">(?:.*?>)?(\\S.+?)(?:<.*?>)?<\\/p>/g,Ch:/href=\"(.*?)\".*?<p>([^<]+)/g,Vip:/span/},VolUrl=\"https://translate.google.cn/#view=home&op=translate&sl=zh-CN&tl=en&text=\",VolArr=getArray(regs.Vol,!0),ChArr=getArray(regs.Ch,!1);result=function(){if(VolArr.length>0){var r=0,t=0,e=[];for(VolArr[0].idx>ChArr[0].idx&&VolArr.unshift({idx:0}),r;r<VolArr.length;r++)for(e.push(VolArr[r]),t;t<ChArr.length;t++)if(r==VolArr.length-1)e.push(ChArr[t]);else{if(!(VolArr[r+1].idx>ChArr[t].idx))break;e.push(ChArr[t])}return e}return ChArr}()}catch(r){java.getElements(\"#chapterList a\")}",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/tags/{{key}}/",
+    "weight": 0
+  }
+]

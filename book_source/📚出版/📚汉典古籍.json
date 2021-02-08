@@ -1,0 +1,41 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "📚出版",
+    "bookSourceName": "📚汉典古籍",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://gj.zdic.net",
+    "customOrder": 162,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "【集部】::/list.php?caid-10/page-{{page}}.html\n【总集】::/list.php?caid-44/page-{{page}}.html\n【别集】::/list.php?caid-45/page-{{page}}.html\n【楚辞】::/list.php?caid-46/page-{{page}}.html\n【词】::/list.php?caid-47/page-{{page}}.html\n【诗文评】::/list.php?caid-48/page-{{page}}.html\n【曲】::/list.php?caid-49/page-{{page}}.html\n【小说】::/list.php?caid-50/page-{{page}}.html\n【子部】::/list.php?caid-9/page-{{page}}.html\n【儒家】::/list.php?caid-29/page-{{page}}.html\n【释家】::/list.php?caid-30/page-{{page}}.html\n【道家】::/list.php?caid-31/page-{{page}}.html\n【法家】::/list.php?caid-32/page-{{page}}.html\n【兵家】::/list.php?caid-33/page-{{page}}.html\n【农家】::/list.php?caid-34/page-{{page}}.html\n【杂家】::/list.php?caid-35/page-{{page}}.html\n【术数】::/list.php?caid-36/page-{{page}}.html\n【医家】::/list.php?caid-37/page-{{page}}.html\n【科技】::/list.php?caid-38/page-{{page}}.html\n【艺术】::/list.php?caid-39/page-{{page}}.html\n【书画】::/list.php?caid-40/page-{{page}}.html\n【谱录】::/list.php?caid-41/page-{{page}}.html\n【类书】::/list.php?caid-42/page-{{page}}.html\n【蒙学】::/list.php?caid-43/page-{{page}}.html\n【史部】::/list.php?caid-8/page-{{page}}.html\n【正史】::/list.php?caid-14/page-{{page}}.html\n【编年】::/list.php?caid-15/page-{{page}}.html\n【纪事本末】::/list.php?caid-16/page-{{page}}.html\n【别杂史等】::/list.php?caid-17/page-{{page}}.html\n【史评】::/list.php?caid-18/page-{{page}}.html\n【诏令奏议】::/list.php?caid-19/page-{{page}}.html\n【传记】::/list.php?caid-20/page-{{page}}.html\n【史钞】::/list.php?caid-21/page-{{page}}.html\n【载记】::/list.php?caid-22/page-{{page}}.html\n【时令】::/list.php?caid-23/page-{{page}}.html\n【地理】::/list.php?caid-24/page-{{page}}.html\n【职官】::/list.php?caid-25/page-{{page}}.html\n【政书】::/list.php?caid-26/page-{{page}}.html\n【目录】::/list.php?caid-27/page-{{page}}.html\n【金石】::/list.php?caid-28/page-{{page}}.html\n【经部】::/list.php?caid-91/page-{{page}}.html\n【十三经】::/list.php?caid-2/page-{{page}}.html\n【十三经注疏】::/list.php?caid-3/page-{{page}}.html\n【经学史及小学类】::/list.php?caid-4/page-{{page}}.html",
+    "lastUpdateTime": 1611748561168,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "id.jj_2@text"
+    },
+    "ruleContent": {
+      "content": "id.jj_2@html||id.snr2@html##\\【目录\\】|上一篇：.*|下一篇：.*"
+    },
+    "ruleExplore": {
+      "bookList": "id.list_d_1@li@a",
+      "bookUrl": "href",
+      "name": "text"
+    },
+    "ruleSearch": {
+      "author": "class.state@text##作者：|搜索次数.*",
+      "bookList": "class.ul_b_list@li",
+      "bookUrl": "h2@a@href",
+      "coverUrl": "tag.a.0@img@src",
+      "intro": "class.words@tag.p.1@text",
+      "name": "h2@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mls@li@a||tag.html",
+      "chapterName": "text##【.*",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://gj.zdic.net/so/?searchword={{key}}&searchsubmit=1&x={{key}}&y={{key}}",
+    "weight": 0
+  }
+]

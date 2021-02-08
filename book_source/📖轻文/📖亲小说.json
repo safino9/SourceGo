@@ -1,0 +1,47 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "📖轻文",
+    "bookSourceName": "📖亲小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qinxiaoshuo.com",
+    "bookUrlPattern": "",
+    "customOrder": 150,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新::/zuixin/{{page}}.html\n日轻::/tag/日轻/{{page}}.html\n科幻::/tag/科幻/{{page}}.html\n恋爱::/tag/恋爱/{{page}}.html\n魔法::/tag/魔法/{{page}}.html\n校园::/tag/校园/{{page}}.html\n神鬼::/tag/神鬼/{{page}}.html\n冒险::/tag/冒险/{{page}}.html\n恐怖::/tag/恐怖/{{page}}.html\n侦探::/tag/侦探/{{page}}.html\n搞笑::/tag/搞笑/{{page}}.html\n纯爱::/tag/纯爱/{{page}}.html\n格斗::/tag/格斗/{{page}}.html\n奇幻::/tag/奇幻/{{page}}.html\n后宫::/tag/后宫/{{page}}.html\n都市::/tag/都市/{{page}}.html\n异能::/tag/异能/{{page}}.html\n战争::/tag/战争/{{page}}.html\n异世界::/tag/异世界/{{page}}.html\n穿越::/tag/穿越/{{page}}.html\n机战::/tag/机战/{{page}}.html\n百合::/tag/百合/{{page}}.html\n治愈::/tag/治愈/{{page}}.html\n历史::/tag/历史/{{page}}.html\n励志::/tag/励志/{{page}}.html\n其他::/tag/其它/{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "https://www.qinxiaoshuo.com/login/#/book/",
+    "ruleBookInfo": {
+      "author": "class.show_info@text.作者：@tag.a.0@text##作者：",
+      "coverUrl": "class.show_info@tag.img.0@src",
+      "intro": "class.intro@text##^(?:(?:内容)?简介：)?##<br>",
+      "kind": "class.show_info@text.状态：@text&&class.tags@tag.a!-1@text##^状态：",
+      "lastChapter": "class.volume.-1@class.volume_title@text&&class.chapters.-1@tag.a.-1@text##,##  ##",
+      "name": "class.show_info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.chapter_content@textNodes##.*>.{0,5}$|.*亲小说.*|第.+[章卷]*+|轻之国度.*|下载后请在.*|转载时，请注明.*|仅供个人学习.*|转载时请事先.*|请尊重翻译.*",
+      "nextContentUrl": "@css:a:containsOwn(下一页)@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@css:.items *:matches(作者[：:])@text##^作者[：:]\\s*",
+      "bookList": "class.book",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "class.intro@text##(?:内容)?简介[：:]\\s*",
+      "kind": "@css:.items *:matches(状态[：:])@text##^状态[：:]\\s*",
+      "lastChapter": "@css:.items *:matches(最新章节[：:])@text##^最新章节[：:]\\s*(?:\\[\\s*\\]\\s*)?",
+      "name": "class.items@tag.h3.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapters@tag.a",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.qinxiaoshuo.com/search/{{key}}/{{page}}.html",
+    "weight": 0
+  }
+]

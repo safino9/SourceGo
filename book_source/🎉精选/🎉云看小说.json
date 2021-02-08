@@ -1,0 +1,40 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉云看小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://kan.ks666.top",
+    "customOrder": 35,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新入库::https://kan.ks666.top/rank/postdate/{{page}}.html\n百度热搜::https://kan.ks666.top/rank/baidu.html\n追书热度::https://kan.ks666.top/rank/zhuishu.html\n书旗热搜::https://kan.ks666.top/rank/shuqi.html\n掌阅热销::https://kan.ks666.top/rank/zhangyue.html\n17K鲜花::https://kan.ks666.top/rank/17k.html\n总点击榜::https://kan.ks666.top/rank/allvisit/{{page}}.html\n总推荐榜::https://kan.ks666.top/rank/vote/{{page}}.html\n总收藏榜::https://kan.ks666.top/rank/mark/{{page}}.html\n总下载榜::https://kan.ks666.top/rank/down/{{page}}.html\n总评论榜::https://kan.ks666.top/rank/comment/{{page}}.html\n总评分榜::https://kan.ks666.top/rank/star_score/{{page}}.html\n玄幻小说::https://kan.ks666.top/category/xuanhuan/{{page}}.html\n奇幻小说::https://kan.ks666.top/category/qihuan/{{page}}.html\n武侠小说::https://kan.ks666.top/category/wuxia/{{page}}.html\n仙侠小说::https://kan.ks666.top/category/xianxia/{{page}}.html\n都市小说::https://kan.ks666.top/category/dushi/{{page}}.html\n历史小说::https://kan.ks666.top/category/lishi/{{page}}.html\n军事小说::https://kan.ks666.top/category/junshi/{{page}}.html\n游戏小说::https://kan.ks666.top/category/youxi/{{page}}.html\n竞技小说::https://kan.ks666.top/category/jingji/{{page}}.html\n科幻小说::https://kan.ks666.top/category/kehuan/{{page}}.html\n灵异小说::https://kan.ks666.top/category/lingyi/{{page}}.html\n其他小说::https://kan.ks666.top/category/qita/{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; M2007J22C Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1612013167157,
+    "ruleBookInfo": {
+      "coverUrl": "class.flex-wrp bg-white pt-bookdetail@img@src",
+      "intro": "class.compulsory-row-three pt-book-intro@textNodes",
+      "lastChapter": "class.flex-wrp flex-between pt10 pb10.0@a@text",
+      "tocUrl": "class.w100 mb10 bg-white lh100 pt-chapter@tag.a.-1@href"
+    },
+    "ruleContent": {
+      "content": "id.pt-pop@p@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.size12@a@text##\\[|]",
+      "bookList": "class.pt-recomment-cont||class.flex-wrp pt-popular-item",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "kind": "class.pt-recomment-label@text||class.pt-popular-label@text",
+      "name": "class.size14@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.border-b chapter-list@a",
+      "chapterName": "class.flex-wrp.1@text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://kan.ks666.top/search/result.html?searchkey={{key}}&page={{page}}",
+    "weight": 0
+  }
+]

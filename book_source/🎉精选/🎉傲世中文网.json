@@ -1,0 +1,52 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉傲世中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.auzw.com",
+    "bookUrlPattern": "",
+    "customOrder": 40,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "◎                                    榜单                               ◎::\n综合榜::/novel/\n字数榜::/novel/size.html\n日点击榜::/novel/dayvisit.html\n周点击榜::/novel/weekvisit.html\n月点击榜::/novel/monthvisit.html\n总点击榜::/novel/allvisit.html\n日推荐榜::/novel/dayvote.html\n周推荐榜::/novel/weekvote.html\n月推荐榜::/novel/monthvote.html\n总推荐榜::/novel/allvote.html\n用户收藏榜::/novel/score.html\n用户点赞榜::/novel/agree.html\n本站推荐榜::/novel/toptime.html\n最新小说榜::/novel/postdate.html\n完结小说榜::/novel/quanben.html\n最近更新榜::/novel/lastupdate.html\n\n◎                                    分类                               ◎:\n玄幻奇幻\n仙侠修真:\n都市现代\n科幻未来:\n网络游戏:\n青春校园:\n军事历史:\n恐怖悬疑:\n言情总裁:\n穿越重生:",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.intro@tag.img@src",
+      "intro": "class.intro@tag.p.1@text",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "class.chapter-content@tag.p@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.author@tag.a@text",
+      "bookList": "class.border-top m-0 pt-2",
+      "bookUrl": "class.font-weight-light text-left@tag.a.1@href",
+      "coverUrl": "class.imgload@data-src",
+      "intro": "class.nowrap.1@tag.a.0@text",
+      "kind": "class.sort.1@text",
+      "lastChapter": "class.font-weight-light text-left@tag.a.1@text",
+      "name": "class.border-top m-0 pt-2@tag.strong@text##《|》"
+    },
+    "ruleSearch": {
+      "author": "class.nowrap.1@tag.a@text",
+      "bookList": "class.col-4 search_book p-2",
+      "bookUrl": "class.pic@tag.a@href",
+      "coverUrl": "class.imgload@data-src",
+      "intro": "tag.small.0@text",
+      "lastChapter": "class.small@text",
+      "name": "class.nowrap h6@tag.a@text##《|》"
+    },
+    "ruleToc": {
+      "chapterList": "class.novel-list@tag.dl@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href",
+      "updateTime": ""
+    },
+    "searchUrl": "https://www.auzw.com/search.php?q={{key}}",
+    "weight": 0
+  }
+]

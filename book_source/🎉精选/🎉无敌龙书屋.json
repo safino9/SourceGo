@@ -1,0 +1,39 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉无敌龙书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.wudiun.net",
+    "customOrder": 47,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::http://www.wudiun.net/xuanhuan/{{page}}/\n武侠仙侠::http://www.wudiun.net/wuxia/{{page}}/\n都市言情::http://www.wudiun.net/dushi/{{page}}/\n历史军事::http://www.wudiun.net/lishi/{{page}}/\n科幻灵异::http://www.wudiun.net/kehuan/{{page}}/\n游戏竞技::http://www.wudiun.net/youxi/{{page}}/\n其他类型::http://www.wudiun.net/qita/{{page}}/",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "id.bookinfo@id.bookimg@tag.img.0@src",
+      "intro": "id.bookintro@class.d2@textNodes",
+      "tocUrl": "id.newlist@class.newrap@tag.strong.0@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.dd.1@tag.span.0@tag.a.0@text||class.odd.1@text||id.maininfo@class.d_title@tag.p.0@tag.a.0@text",
+      "bookList": "id.sitebox@tag.dl||class.grid searall@tag.tr!0||id.conn",
+      "bookUrl": "tag.dd.0@tag.h3.0@tag.a.0@href||class.odd.0@tag.a.0@href",
+      "coverUrl": "tag.dt.0@tag.a.0@tag.img.0@src||id.bookinfo@id.bookimg@tag.img.0@src",
+      "kind": "tag.dd.1@tag.span.1@text||class.even.2@text||id.maininfo@id.count@tag.span.0@text",
+      "lastChapter": "tag.dd.3@tag.a.0@text||class.even.0@tag.a.0@text||id.newlist@tag.ul.0@tag.li.0@tag.a.0@text",
+      "name": "tag.dd.0@tag.h3.0@tag.a.0@text||class.odd.0@tag.a.0@text||id.maininfo@class.d_title@tag.h1.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.readerlist@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.wudiun.net/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename\"\n}",
+    "weight": 0
+  }
+]

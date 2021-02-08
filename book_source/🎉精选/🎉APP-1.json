@@ -1,0 +1,36 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉APP-1",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://quapp.shenbabao.com",
+    "bookUrlPattern": "https://quapp.shenbabao.com/book/.*",
+    "customOrder": 75,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1611458862320,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "$..content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.Author",
+      "bookList": "$..data[*]",
+      "bookUrl": "https://quapp.shenbabao.com/book/{$.Id}/",
+      "coverUrl": "$.Img",
+      "intro": "$.Desc",
+      "kind": "$.CName&&$.BookStatus",
+      "lastChapter": "$.LastChapter",
+      "name": "$.Name@put:{a:$.Id}"
+    },
+    "ruleToc": {
+      "chapterList": "$..list[*].list[*]",
+      "chapterName": "$.name",
+      "chapterUrl": "https://quapp.shenbabao.com/book/@get:{a}/{{$.id}}.html"
+    },
+    "searchUrl": "https://sou.jiaston.com/search.aspx?key={{key}}&page=Page&siteid=app2",
+    "weight": 0
+  }
+]

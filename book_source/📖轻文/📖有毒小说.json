@@ -1,0 +1,42 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "📖轻文",
+    "bookSourceName": "📖有毒小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.youdubook.com",
+    "bookUrlPattern": "",
+    "customOrder": 153,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "西幻传说::https://www.youdubook.com/booklibrary/index/str/6_0_0_0_0_0_0?page={{page}}\n东方奇幻::https://www.youdubook.com/booklibrary/index/str/3_0_0_0_0_0_0?page={{page}}\n游戏异界::https://www.youdubook.com/booklibrary/index/str/2_0_0_0_0_0_0?page={{page}}\n科幻时空::https://www.youdubook.com/booklibrary/index/str/9_0_0_0_0_0_0?page={{page}}\n都市逸闻::https://www.youdubook.com/booklibrary/index/str/8_0_0_0_0_0_0?page={{page}}\n历史军事::https://www.youdubook.com/booklibrary/index/str/7_0_0_0_0_0_0?page={{page}}\n克苏鲁::https://www.youdubook.com/booklibrary/index/str/10_0_0_0_0_0_0?page={{page}}",
+    "lastUpdateTime": 0,
+    "loginUrl": "https://www.youdubook.com/user/login",
+    "ruleBookInfo": {
+      "intro": "class.synopsisCon@text",
+      "kind": "class.label@li@text",
+      "lastChapter": "class.zhangjie@tag.a.0@text",
+      "wordCount": "class.Font@tag.span.0@text##$##万字"
+    },
+    "ruleContent": {
+      "content": "id.ChapterContent@html",
+      "webJs": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.nickname@text",
+      "bookList": "class.BooklibraryList@tag.ul@tag.li",
+      "bookUrl": "tag.span@tag.a@href",
+      "coverUrl": "tag.em@tag.img@data-original",
+      "kind": "class.hit@text&&class.favo@text",
+      "name": "tag.span@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter_list@tag.ul@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href##$##,{\"webView\":true}"
+    },
+    "searchUrl": "https://www.youdubook.com/booklibrary/index?keywords={{key}}",
+    "weight": 0
+  }
+]

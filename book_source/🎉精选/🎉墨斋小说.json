@@ -1,0 +1,43 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉墨斋小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.mozhai123.net",
+    "bookUrlPattern": "",
+    "customOrder": 28,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/fenlei/1_{{page}}.html\n修真::/fenlei/2_{{page}}.html\n都市::/fenlei/3_{{page}}.html\n穿越::/fenlei/4_{{page}}.html\n网游::/fenlei/5_{{page}}.html\n科幻::/fenlei/6_{{page}}.html\n其他::/fenlei/7_{{page}}.html\n最新::/t/lastupdate/{{page}}.html\n排行::/t/allvisit/{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36\"\n}",
+    "lastUpdateTime": 1610339282231,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info@class.info-xg@tag.span.1@tag.a@text",
+      "coverUrl": "class.detail-body-body-img@img@src",
+      "kind": "class.info@class.info-xg@tag.span.3@tag.a@text##小说",
+      "lastChapter": "class.info@class.info-xg@tag.span.2@tag.a@text",
+      "name": "class.info@tag.h2@text"
+    },
+    "ruleContent": {
+      "content": "class.txt_tcontent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.newlist-zz@tag.a@text",
+      "bookList": "class.newlist.0@tag.li",
+      "bookUrl": "class.newlist-title@tag.a@href",
+      "kind": "class.newlist-type@tag.a@title",
+      "lastChapter": "class.newlist-zj@tag.a@title",
+      "name": "class.newlist-title@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.dirlist.1@tag.li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "https://www.mozhai123.net/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"submit=搜索&searchtype=articlename&searchkey={{key}}&action=login\"\n}",
+    "weight": 0
+  }
+]

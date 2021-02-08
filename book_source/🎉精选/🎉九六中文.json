@@ -1,0 +1,44 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉九六中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.96kanshu.com",
+    "bookUrlPattern": "",
+    "customOrder": 121,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 1610808904390,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "canReName": "true",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "id.bookintro@tag.p.0@textNodes",
+      "lastChapter": ""
+    },
+    "ruleContent": {
+      "content": "id.TextContent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.1@href\n<js>java.ajax(result)</js>\n[property=\"og:novel:author\"]@content",
+      "bookList": "id.sitebox@id.nr",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.book_des@textNodes",
+      "kind": "class.book_other.0@tag.span!-1@text",
+      "lastChapter": "class.book_other.1@tag.a@text",
+      "name": "tag.a.1@text",
+      "wordCount": "class.book_other.0@tag.span.-1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chaw_c@id.chapterList@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}&searchtype=all&page={{page}},{\n\"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+]

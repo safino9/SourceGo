@@ -1,0 +1,39 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉新世纪书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.2100xs.com",
+    "customOrder": 118,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1610339631453,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p@text",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.showtxt@textNodes##(http://)?([a-zA-Z]+\\.)+[a-zA-Z]+|(https?\\:)?(//)?[WwｗＷ]{1,3}.*|天才一秒记住.*|吾读网.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname.0@tag.a.0@href",
+      "coverUrl": "class.bookimg@tag.img@src",
+      "kind": "class.cat@text##.*分类：",
+      "lastChapter": "class.update@tag.a@text",
+      "name": "class.bookname.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd!0:1:2:3:4:5",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "http://www.2100xs.com/s.php?ie=gbk&q={{key}}",
+    "weight": 0
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉新青豆小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.xinqingdou.com",
+    "bookUrlPattern": "",
+    "customOrder": 43,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/xuanhuan/list_{{page}}.html\n武侠仙侠::/wuxia/list_{{page}}.html\n都市生活::/dushi/list_{{page}}.html\n历史军事::/lishi/list_{{page}}.html\n游戏竞技::/youxi/list_{{page}}.html\n科幻未来::/kehuan/list_{{page}}.html\n恐怖悬疑::/xuanyi/list_{{page}}.html\n二次元::/erciyuan/list_{{page}}.html\n经典短篇::/jingdian/list_{{page}}.html\n古代言情::/guyan/list_{{page}}.html\n现代言情::/xianyan/list_{{page}}.html\n幻想奇缘::/huanqing/list_{{page}}.html\n浪漫青春::/qingchun/list_{{page}}.html\n网络情缘::/mmyouxi/list_{{page}}.html\n科幻空间::/mmkehuan/list_{{page}}.html\n鬼怪灵异::/lingyi/list_{{page}}.html\nN次元::/Nciyuan/list_{{page}}.html\n言情美文::/yanqing/list_{{page}}.html\n其他类型::/qita/list_{{page}}.html\n玄幻奇幻·完本::/quanben/xuanhuan/{{page}}.html\n武侠仙侠·完本::/quanben/wuxia/{{page}}.html\n都市生活·完本::/quanben/dushi/{{page}}.html\n历史军事·完本::/quanben/lishi/{{page}}.html\n游戏竞技·完本::/quanben/youxi/{{page}}.html\n科幻未来·完本::/quanben/kehuan/{{page}}.html\n恐怖悬疑·完本::/quanben/xuanyi/{{page}}.html\n二次元·完本::/quanben/erciyuan/{{page}}.html\n经典短篇·完本::/quanben/jingdian/{{page}}.html\n古代言情·完本::/quanben/guyan/{{page}}.html\n现代言情·完本::/quanben/xianyan/{{page}}.html\n幻想奇缘·完本::/quanben/huanqing/{{page}}.html\n浪漫青春·完本::/quanben/qingchun/{{page}}.html\n网络情缘·完本::/quanben/mmyouxi/{{page}}.html\n科幻空间·完本::/quanben/mmkehuan/{{page}}.html\n鬼怪灵异·完本::/quanben/lingyi/{{page}}.html\nN次元·完本::/quanben/Nciyuan/{{page}}.html\n言情美文·完本::/quanben/yanqing/{{page}}.html\n其他类型·完本::/quanben/qita/{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "name": "class.one@text##免费.*",
+      "tocUrl": "text.阅读@href"
+    },
+    "ruleContent": {
+      "content": "id.content@html##.*新青豆小说.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "//dd[2]/text()",
+      "bookList": "id.sitebox@dl",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@img@src",
+      "intro": "class.book_des@a@text",
+      "kind": "//dd[1]//span/text()",
+      "name": "tag.dd.0@h3@a@text##免费.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.readlist@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.xinqingdou.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&submit=搜索\"\n}",
+    "weight": 0
+  }
+]

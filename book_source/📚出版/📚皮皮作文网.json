@@ -1,0 +1,49 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "📚出版",
+    "bookSourceName": "📚皮皮作文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ppzuowen.com",
+    "customOrder": 167,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "英文名著::/book/en/\n小学诗词::/book/xiaoxueshengshici/\n少儿故事::/book/shaoergushi/\n经典童话::/book/jingdiantonghua/\n笑猫日记::/book/xiaomaoriji/\n马小跳书::/book/taoqibaomaxiaotiaoshu/\n散文::/book/sanwen/\n沈石溪小说::/book/shenshixidongwuxiaoshuo/\n伍美珍小说::/book/wumeizhenxiaoshuo/\n鲁迅书集::/luxunzuopinji/\n老舍书集::/book/laoshezuopinji/\n萧红书集::/book/xiaohongzuopinji/\n郁雨君集::/book/yuyujundeshu/\n张恨水集::/book/zhanghenshuizuopinji/\n莎士比亚::/shashibiya/\n高尔基集::/mingzhu/gaoerjizuopinji/\n儒勒凡尔纳::/mingzhu/rulefanerna/\n狄更斯::/mingzhu/digengsi/\n杰克・伦敦作品书集::/mingzhu/jiekelundun/\n查理九世全集::/book/chalijiushi/\n世界名著::/mingzhu/\n更多作品::/book/",
+    "lastUpdateTime": 1610847800952,
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": ".ablum img@src",
+      "intro": "class.des@text",
+      "kind": "",
+      "name": "h2[class^=article]@text",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": ".articleContent p@html",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {
+      "bookList": "@js:r=org.jsoup.Jsoup.parse(result).select(\"li:has(.ablum)\");\n\nif(/\\/book\\/$/.test(baseUrl)){\n\nr.select(\"[href~=/book/(en|xiaoxueshengshici|shaoergushi|jingdiantonghua|xiaomaoriji|taoqibaomaxiaotiaoshu|sanwen|shenshixidongwuxiaoshuo|wumeizhenxiaoshuo|laoshezuopinji|xiaohongzuopinji|yuyujundeshu|zhanghenshuizuopinji|chalijiushi)/|/luxunzuopinji/|/mingzhu/]\").remove()\n\n}else if(/\\/mingzhu\\/$/.test(baseUrl))r.select(\"[href~=/mingzhu/(gaoerjizuopinji|rulefanerna|digengsi|jiekelundun)|/shashibiya/]\").remove();r",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "name": "class.text@text"
+    },
+    "ruleSearch": {
+      "author": "@get:{a}",
+      "bookList": ".result:has([href$=/]:not([href~=/(mingzhu/(gaoerjizuopinji|rulefanerna|digengsi|jiekelundun)|book/(en|xiaoxueshengshici|shaoergushi|jingdiantonghua|xiaomaoriji|taoqibaomaxiaotiaoshu|sanwen|shenshixidongwuxiaoshuo|wumeizhenxiaoshuo|laoshezuopinji|xiaohongzuopinji|yuyujundeshu|zhanghenshuizuopinji|chalijiushi)|luxunzuopinji|shashibiya|mingzhu)/$]))",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.c-abstract@text",
+      "kind": "@get:{f}",
+      "name": "tag.h3@text##_在线阅读\n@js:\nif((r=result.split(\"_\")).length>1)java.put(\"a\",r[1].match(/[^【】\\s]+/)[0]);\n\nif((b=r[0].split(\"》\")).length>1)java.put(\"f\",b[1]);\n\nb[0].replace(/[^《]*《|,.+/,\"\")",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": ".bookList a",
+      "chapterName": "text##(在线阅读|全文|文字版|图文版)+$",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://search.ppzuowen.com/cse/search?q={{key}}<,&p={{page}}>&s=7520588606970330124&nsid=",
+    "weight": 0
+  }
+]

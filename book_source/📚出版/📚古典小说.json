@@ -1,0 +1,44 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "📚出版",
+    "bookSourceName": "📚古典小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.seeol.com",
+    "bookUrlPattern": "",
+    "customOrder": 163,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "古典历史::/catalog-1-{{page}}.html\n神怪传奇::/catalog-2-{{page}}.html\n社会谴责::/catalog-3-{{page}}.html\n公案侠义::/catalog-4-{{page}}.html\n奇情纯情::/catalog-5-{{page}}.html\n笔记杂谈::/catalog-6-{{page}}.html\n近代武侠::/catalog-7-{{page}}.html\n名人传记::/catalog-8-{{page}}.html\n言情小说::/catalog-9-{{page}}.html\n反腐推理::/catalog-10-{{page}}.html\n外国名著::/catalog-11-{{page}}.html\n杂志报刊::/catalog-12-{{page}}.html\n青春励志::/catalog-13-{{page}}.html\n国内文学::/catalog-14-{{page}}.html\n儿童文学::/catalog-15-{{page}}.html\n经典故事::/catalog-16-{{page}}.html\n散文诗歌::/catalog-17-{{page}}.html\n综合::/catalog-18-{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "@css:meta[property=\"og:novel:author\"]@content",
+      "coverUrl": "@css:meta[property=\"og:image\"]@content",
+      "intro": "@css:meta[property=\"og:description\"]@content",
+      "kind": "@css:meta[property=\"og:novel:category\"]@content",
+      "lastChapter": "@js:java.getElements('@css:.col-md-6:has(p>a[title]) p > a').toArray().pop().text();",
+      "name": "@css:meta[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "class.col-md-12@textNodes##来源：古典小说网.{0,30}转载请保留出处！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.media-body@tag.p.0@text##^.*作者：|\\s*$",
+      "bookList": "class.media",
+      "bookUrl": "@css:.media-heading a[href*=books-]@href",
+      "coverUrl": "class.media-object@src",
+      "intro": "class.media-body@tag.p.1@text",
+      "kind": "@css:.media-heading a[href*=catalog-]@title",
+      "name": "@css:.media-heading a[href*=books-]@title"
+    },
+    "ruleToc": {
+      "chapterList": "+@css:.col-md-6:has(p>a[title]) p > a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.seeol.com/search.php?keywords={{key}}&page={{page}}",
+    "weight": 0
+  }
+]

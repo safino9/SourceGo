@@ -1,0 +1,41 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💗言情",
+    "bookSourceName": "💗花香居",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.huaxiangju.com",
+    "bookUrlPattern": "",
+    "customOrder": 142,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1611752684189,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.bookPhr@tag.dd.0@text##作者：",
+      "coverUrl": "class.bookImg@tag.img.0@src",
+      "intro": "class.introCon@tag.p.0@text",
+      "name": "class.bookPhr@tag.h2.0@text"
+    },
+    "ruleContent": {
+      "content": "class.articleCon@tag.p.0@textNodes##花香居.*|一秒记住.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text||class.bookPhr@tag.dd.0@text",
+      "bookList": "class.grid@tag.tr!0||class.detailTop",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "coverUrl": "class.bookImg@tag.img.0@src",
+      "kind": "class.bookPhr@tag.dd.1@text##类型：|\\[|\\]",
+      "lastChapter": "class.even.0@tag.a.0@text||class.renew@tag.a@text",
+      "name": "class.odd.0@text||class.bookPhr@tag.h2.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.chapterCon@tag.li",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "http://www.huaxiangju.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+]

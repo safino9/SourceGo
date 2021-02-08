@@ -1,0 +1,37 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉秀小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xiuxs.org",
+    "customOrder": 119,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1610339642581,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@tag.a.0@text",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##有.*院.*|￥|ps1.*|ps2.*|"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@tag.a.0@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "lastChapter": "class.odd.2@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.xiuxs.org/plus/search.php?q={{key}}&searchtype=articlename",
+    "weight": 0
+  }
+]

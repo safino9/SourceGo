@@ -1,0 +1,46 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "📚出版",
+    "bookSourceName": "📚作品集",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://zuopinj.com",
+    "bookUrlPattern": "",
+    "customOrder": 157,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总排行榜::/alltotal/<,index_{{page}}.html>\n总推荐榜::/allisgood/<,index_{{page}}.html>\n总下载榜::/alldown/<,index_{{page}}.html>\n最新更新::/newupdate/<,index_{{page}}.html>\n二月河作品::http://eryuehe.zuopinj.com/\n东野圭吾作品::http://dongyeguiwu.zuopinj.com/<index,index_{{page}}>.html\n古龙作品::http://gulong.zuopinj.com/\n金庸作品::http://jinyong.zuopinj.com/\n安房直子作品::http://anfangzhizi.zuopinj.com/<index,index_{{page}}>.html\n老舍作品::http://laoshe.zuopinj.com/\n路遥作品::http://luyao.zuopinj.com/",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.infos@tag.span.0@text##作者：|最后更新.*",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.book_info@tag.p@text",
+      "lastChapter": "class.upd@tag.a.0@text",
+      "name": "class.infos@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@html"
+    },
+    "ruleExplore": {
+      "author": "@css:.s a@text",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@tag.img@src",
+      "intro": "class.u@text"
+    },
+    "ruleSearch": {
+      "bookList": "class.tab-container@class.zp-book-item!-1:-2:-3:-4:-5:-6:-7:-8:-9:-10:-11:-12:-13:-14:-15:-16:-17:-18:-19:-20:-21:-22:-23:-24||class.listbox@tag.li||id.J_TableContainer@children||id.cols-1@children",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p@text",
+      "name": "tag.h2@text||class.bk@tag.h3@tag.a.0@text||class.wrap f-cb@tag.a.0@tag.h3@text||tag.a.0@text##\\《|\\》在线阅读"
+    },
+    "ruleToc": {
+      "chapterList": "class.book_list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://so.zuopinj.com/search/index.php,{\n  \"method\": \"POST\",\n  \"body\": \"tbname=bookname&show=title&tempid=3&keyboard={{key}}\"\n}",
+    "weight": 0
+  }
+]

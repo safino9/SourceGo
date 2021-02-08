@@ -1,0 +1,40 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "📖轻文",
+    "bookSourceName": "📖不可能的世界",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.8kana.com",
+    "bookUrlPattern": "",
+    "customOrder": 156,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "连载::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id&series_status=1&page={{page}}\"}\n完结::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id&series_status=4&page={{page}}\"}\n超能::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=101&series_status&page={{page}}\"}\n游戏::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=103&series_status&page={{page}}\"}\n现实::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=104&series_status&page={{page}}\"}\n玄幻::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=201&series_status&page={{page}}\"}\n奇幻::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=202&series_status&page={{page}}\"}\n科幻::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=203&series_status&page={{page}}\"}\n悬疑::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=302&series_status&page={{page}}\"}\n智斗::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=303&series_status&page={{page}}\"}\n灵异::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=305&series_status&page={{page}}\"}\n同人::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=404&series_status&page={{page}}\"}\n幻想::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=602&series_status&page={{page}}\"}\n脑洞::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=701&series_status&page={{page}}\"}\n青春::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=801&series_status&page={{page}}\"}\n民国::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=802&series_status&page={{page}}\"}\n都市::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=803&series_status&page={{page}}\"}\n奇幻::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=901&series_status&page={{page}}\"}\n仙侠::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=902&series_status&page={{page}}\"}\n架空::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=904&series_status&page={{page}}\"}\n轻小说::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=405&series_status&page={{page}}\"}\n二次元::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=702&series_status&page={{page}}\"}\n新武侠::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=601&series_status&page={{page}}\"}\n宅斗宫斗::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=903&series_status&page={{page}}\"}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.left bookContainImgBox@tag.img@src",
+      "intro": "id.li_booknote@text"
+    },
+    "ruleContent": {
+      "content": "class.myContent@tag.p@text##本书连载.*最快更新。"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "AuthorName",
+      "bookList": "Data.List",
+      "bookUrl": "BookId@js:'https://www.8kana.com/book/'+result+'.html'",
+      "coverUrl": "Cover",
+      "intro": "Note@js:result.trim()",
+      "kind": "{{$.ClassName}},{{$.TotalWords}}",
+      "name": "BookName"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapter_con@tag.li",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "/index/search,{\n  \"method\": \"POST\",\n  \"body\": \"kw={{key}}&page={{page}}\"\n}",
+    "weight": 0
+  }
+]

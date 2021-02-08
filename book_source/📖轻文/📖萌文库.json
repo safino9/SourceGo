@@ -1,0 +1,51 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "📖轻文",
+    "bookSourceName": "📖萌文库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://xs.kdays.net",
+    "customOrder": 151,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "热血::http://xs.kdays.net/list/all?type=1&page={{page}}\n冒险::http://xs.kdays.net/list/all?type=2&page={{page}}\n运动::http://xs.kdays.net/list/all?type=3&page={{page}}\n魔幻::http://xs.kdays.net/list/all?type=4&page={{page}}\n武侠::http://xs.kdays.net/list/all?type=5&page={{page}}\n校园::http://xs.kdays.net/list/all?type=6&page={{page}}\n耽美::http://xs.kdays.net/list/all?type=7&page={{page}}\n治愈::http://xs.kdays.net/list/all?type=8&page={{page}}\n推理::http://xs.kdays.net/list/all?type=9&page={{page}}\n惊悚::http://xs.kdays.net/list/all?type=10&page={{page}}\n科幻::http://xs.kdays.net/list/all?type=11&page={{page}}\n社会::http://xs.kdays.net/list/all?type=12&page={{page}}\nGAL::http://xs.kdays.net/list/all?type=13&page={{page}}\n动画化::http://xs.kdays.net/list/all?type=14&page={{page}}\n点击榜::http://xs.kdays.net/list/top\n收藏榜::http://xs.kdays.net/list/top?type=fav\n喜欢榜::http://xs.kdays.net/list/top?type=like",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "tag.li.7@tag.a@text",
+      "coverUrl": "class.col-sm-3@tag.img@src",
+      "intro": "tag.blockquote@textNodes",
+      "name": "class.info-side@tag.h2@text",
+      "tocUrl": "text.点击阅读@href"
+    },
+    "ruleContent": {
+      "content": "tag.article@html"
+    },
+    "ruleExplore": {
+      "author": "##作者.([^<]*)##$1###",
+      "bookList": "class.book-list@class.book",
+      "bookUrl": "tag.h3@tag.a@href",
+      "coverUrl": "class.cover-side@tag.img@src",
+      "intro": "tag.blockquote@textNodes",
+      "kind": "class.text-muted@tag.p.0@text",
+      "lastChapter": "class.new-vol@text##.*:",
+      "name": "class.detail@tag.h3@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "tag.p.1@text##\\/.*",
+      "bookList": "class.book-list@class.book",
+      "bookUrl": "tag.h3@tag.a@href",
+      "coverUrl": "class.cover-side@tag.img@src",
+      "intro": "tag.blockquote@text",
+      "kind": "class.text-muted@tag.p.0@text",
+      "lastChapter": "class.new-vol@text##.*:",
+      "name": "class.detail@tag.h3@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.ul!0:1:-1:-2:-3@tag.li!-3@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://xs.kdays.net/search/all?page={{page}}&w={{key}}",
+    "weight": 0
+  }
+]

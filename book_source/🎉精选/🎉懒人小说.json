@@ -1,0 +1,41 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉懒人小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.lrxsw.org",
+    "bookUrlPattern": "",
+    "customOrder": 123,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1611756018160,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.book-title@tag.em@text##作\\s*者：",
+      "coverUrl": "class.book-img@tag.img@src",
+      "intro": "tag.p.2@text||class.book-intro@text",
+      "name": "tag.h1.0@text",
+      "tocUrl": "class.book-link@tag.a.1@href"
+    },
+    "ruleContent": {
+      "content": "id.BookText@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.0@tag.i.0@text",
+      "bookList": "class.item-pic",
+      "bookUrl": "tag.h3.0@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "lastChapter": "tag.p.1@tag.a@text",
+      "name": "tag.h3.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.lrxsw.org/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+]

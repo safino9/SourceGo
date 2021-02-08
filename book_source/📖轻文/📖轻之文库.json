@@ -1,0 +1,53 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "📖轻文",
+    "bookSourceName": "📖轻之文库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.linovel.net",
+    "bookUrlPattern": "",
+    "customOrder": 152,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::/cat/-1.html?page={{page}}\n文库精选::/cat/2000.html?page={{page}}\n创想物语2nd::/cat/9100.html?page={{page}}\n幻想::/cat/1.html?page={{page}}\n战斗::/cat/2.html?page={{page}}\n恋爱::/cat/3.html?page={{page}}\n异界::/cat/4.html?page={{page}}\n搞笑::/cat/5.html?page={{page}}\n日常::/cat/6.html?page={{page}}\n校园::/cat/7.html?page={{page}}\n后宫::/cat/8.html?page={{page}}\n科幻::/cat/10.html?page={{page}}\n治愈::/cat/11.html?page={{page}}\n超能力::/cat/12.html?page={{page}}\n节操::/cat/13.html?page={{page}}\n妖怪::/cat/14.html?page={{page}}\n恐怖::/cat/15.html?page={{page}}\n妹控::/cat/16.html?page={{page}}\n伪娘::/cat/17.html?page={{page}}\n魔法少女::/cat/18.html?page={{page}}\n乙女::/cat/19.html?page={{page}}\n同人::/cat/20.html?page={{page}}\n百合::/cat/21.html?page={{page}}\n偶像::/cat/22.html?page={{page}}\n悬疑::/cat/104.html?page={{page}}\n\n重推周榜::/hub/getTopBooks?unit=zt&time=week&page={{page}}\n\n佳作周榜::/hub/getTopBooks?unit=jz&time=week&page={{page}}\n\n月票周榜::/hub/getTopBooks?unit=ticket&time=week&page={{page}}\n\n轻币周榜::/hub/getTopBooks?unit=coin&time=week&page={{page}}\n\n墨水周榜::/hub/getTopBooks?unit=ink&time=week&page={{page}}\n\n应援周榜::/hub/getTopBooks?unit=supp&time=week&page={{page}}\n\n重推月榜::/hub/getTopBooks?unit=zt&time=month&page={{page}}\n\n佳作月榜::/hub/getTopBooks?unit=jz&time=month&page={{page}}\n\n月票月榜::/hub/getTopBooks?unit=ticket&time=month&page={{page}}\n\n轻币月榜::/hub/getTopBooks?unit=coin&time=month&page={{page}}\n\n墨水月榜::/hub/getTopBooks?unit=ink&time=month&page={{page}}\n\n应援月榜::/hub/getTopBooks?unit=supp&time=month&page={{page}}\n\n重推新人榜::/hub/getTopBooks?unit=zt&time=new&page={{page}}\n\n佳作新人榜::/hub/getTopBooks?unit=jz&time=new&page={{page}}\n\n新人票新人榜::/hub/getTopBooks?unit=ticket&time=new&page={{page}}\n\n轻币新人榜::/hub/getTopBooks?unit=coin&time=new&page={{page}}\n\n墨水新人榜::/hub/getTopBooks?unit=ink&time=new&page={{page}}\n\n应援新人榜::/hub/getTopBooks?unit=supp&time=new&page={{page}}",
+    "header": "",
+    "lastUpdateTime": 1611748617210,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": ".about-text@html##^##<br>",
+      "kind": "{{@css:.book-cats a:lt(3)@text}},{{@@.book-data@tag.span.-2@textNodes}}",
+      "lastChapter": "class.chapter.-1@text"
+    },
+    "ruleContent": {
+      "content": "@js:\n//正文规则\nvar selector=\".l@html\";\n\n!(/google.cn/).test(baseUrl)?java.getString(selector,false):decodeURIComponent(baseUrl.replace(/^.*?text=/, ''))\n"
+    },
+    "ruleExplore": {
+      "author": ".author@text||author",
+      "bookList": ".grid||$.data.books",
+      "bookUrl": "tag.a.0@href||id@js:\n(/book/).test(result)?result:\"/book/\"+result+\".html\"",
+      "coverUrl": "img@src||coverUrl",
+      "intro": ".intro@textNodes||about",
+      "kind": "cat@js:String(result).replace(/\\[|\\]|\\{|\\}|\\d+=/g,'')",
+      "lastChapter": "{{@@.update@text}}{{$.lastVolChaps[-1].name}} {{$.up}}",
+      "name": ".title@text||name",
+      "wordCount": ".words@text||words"
+    },
+    "ruleSearch": {
+      "author": ".author@text",
+      "bookList": ".list li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": ".intro@textNodes",
+      "lastChapter": ".update@text@js:result.replace(/.{3,4}：/g,'')",
+      "name": "h3@text",
+      "wordCount": ".artist@text"
+    },
+    "ruleToc": {
+      "chapterList": "+@js:\nlet rules = {\n\tVol: /href=\"#\">(.*?)<[\\s\\S]*?text-content-actual\">([\\s\\S]*?)<\\/div>/g,\n\tCh: /chapter\">.*?href=\"(.*?)\">(.*?)</g,\n\tVip: /span/,\n  css:\".chapter@a\"\n}\n\n\n\n\"use strict\";try{var getArray=function(r,e){var t=[],l=[],o=0,n=\"📗\";for(e||(o=1,n=\"\");t=r.exec(result);)l.push({text:n+t[1+o],href:function(r){var t=void 0;try{t=r[2]?r[2]:r[1]}catch(e){t=r[1]}return e?VolUrl+encodeURIComponent(t):r[1]}(t),idx:r.lastIndex});return l},VolUrl=\"https://translate.google.cn/#view=home&op=translate&sl=zh-CN&tl=en&text=\",VolArr=getArray(rules.Vol,!0),ChArr=getArray(rules.Ch,!1);result=function(){if(VolArr.length>0){var r=0,e=0,t=[];for(VolArr[0].idx>ChArr[0].idx&&VolArr.unshift({idx:0}),r;r<VolArr.length;r++)for(t.push(VolArr[r]),e;e<ChArr.length;e++)if(r==VolArr.length-1)t.push(ChArr[e]);else{if(!(VolArr[r+1].idx>ChArr[e].idx))break;t.push(ChArr[e])}return t}return ChArr}()}catch(r){result=java.getElements(rules.css)}",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search/?kw={{key}},{\nheaders:'{\"User-Agent\":\"Android\"}'\n}",
+    "weight": 0
+  }
+]

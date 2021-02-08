@@ -1,0 +1,52 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉笔趣读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biqudu.cc",
+    "customOrder": 17,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "首页推荐::/\n总点击::/top/allvisit/{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1611748773883,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "canReName": "true",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "id.bookIntro@textNodes",
+      "kind": "",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##章节目录\\s",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "wordCount": "class.booktag@tag.span.-2@text##字数："
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@textNodes",
+      "replaceRegex": "##\\s*{{book.durChapterTitle}}\\s*|\\s*.*biqudu.*\\s*"
+    },
+    "ruleExplore": {
+      "author": "tag.small@text||tag.td.2@text",
+      "bookList": "class.tab-content@tag.li||tag.table@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "kind": "",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.li.2@text",
+      "bookList": "@css:.mySearch ul",
+      "bookUrl": "tag.a.0@href",
+      "kind": "",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:#list-chapterAll dd a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}&page={{page}},{\n\"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+]

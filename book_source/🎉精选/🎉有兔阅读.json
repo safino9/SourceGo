@@ -1,0 +1,38 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉有兔阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.mituyuedu.com",
+    "bookUrlPattern": "",
+    "customOrder": 26,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=1&clsIdSecond=0&gender=1&wordFilter=0&pageNo={{page}}&pageSize=10\n奇幻::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=2&clsIdSecond=0&gender=1&wordFilter=0&pageNo={{page}}&pageSize=10\n武侠::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=3&clsIdSecond=0&gender=1&wordFilter=0&pageNo={{page}}&pageSize=10\n仙侠::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=4&clsIdSecond=0&gender=1&wordFilter=0&pageNo={{page}}&pageSize=10\n都市::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=5&clsIdSecond=0&gender=1&wordFilter=0&pageNo={{page}}&pageSize=10\n校园::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=6&clsIdSecond=0&gender=1&wordFilter=0&pageNo={{page}}&pageSize=10\n历史::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=7&clsIdSecond=0&gender=1&wordFilter=0&pageNo={{page}}&pageSize=10\n军事::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=8&clsIdSecond=0&gender=1&wordFilter=0&pageNo={{page}}&pageSize=10\n游戏::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=9&clsIdSecond=0&gender=1&wordFilter=0&pageNo={{page}}&pageSize=10\n竞技::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=10&clsIdSecond=0&gender=1&wordFilter=0&pageNo={{page}}&pageSize=10\n科幻::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=11&clsIdSecond=0&gender=1&wordFilter=0&pageNo={{page}}&pageSize=10\n现代言情::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=12&clsIdSecond=0&gender=0&wordFilter=0&pageNo={{page}}&pageSize=10\n古代言情::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=13&clsIdSecond=0&gender=0&wordFilter=0&pageNo={{page}}&pageSize=10\n幻想言情::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=14&clsIdSecond=0&gender=0&wordFilter=0&pageNo={{page}}&pageSize=10\n青春校园::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=15&clsIdSecond=0&gender=0&wordFilter=0&pageNo={{page}}&pageSize=10\n同人作品::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=16&clsIdSecond=0&gender=0&wordFilter=0&pageNo={{page}}&pageSize=10\n次元专区::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=18&clsIdSecond=0&gender=0&wordFilter=0&pageNo={{page}}&pageSize=10\n耽美::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=128&clsIdSecond=0&gender=0&wordFilter=0&pageNo={{page}}&pageSize=10\n推理悬疑::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=17&clsIdSecond=0&gender=1&wordFilter=0&pageNo={{page}}&pageSize=10\n恐怖惊悚::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=84&clsIdSecond=0&gender=1&wordFilter=0&pageNo={{page}}&pageSize=10\n有兔怪谈::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=112&clsIdSecond=0&gender=1&wordFilter=0&pageNo={{page}}&pageSize=10\n小说::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=163&clsIdSecond=0&gender=-1&wordFilter=0&pageNo={{page}}&pageSize=10\n历史传记::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=193&clsIdSecond=0&gender=-1&wordFilter=0&pageNo={{page}}&pageSize=10\n经济管理::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=205&clsIdSecond=0&gender=-1&wordFilter=0&pageNo={{page}}&pageSize=10\n社科心理::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=212&clsIdSecond=0&gender=-1&wordFilter=0&pageNo={{page}}&pageSize=10\n艺术生活::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=245&clsIdSecond=0&gender=-1&wordFilter=0&pageNo={{page}}&pageSize=10\n历史著作::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=258&clsIdSecond=0&gender=-1&wordFilter=0&pageNo={{page}}&pageSize=10\n成功励志::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=269&clsIdSecond=0&gender=-1&wordFilter=0&pageNo={{page}}&pageSize=10\n英文著作::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=276&clsIdSecond=0&gender=-1&wordFilter=0&pageNo={{page}}&pageSize=10\n儿童读物::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=280&clsIdSecond=0&gender=-1&wordFilter=0&pageNo={{page}}&pageSize=10\n古典文学::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=283&clsIdSecond=0&gender=-1&wordFilter=0&pageNo={{page}}&pageSize=10\n现代文学::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=287&clsIdSecond=0&gender=-1&wordFilter=0&pageNo={{page}}&pageSize=10\n商业思维::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=291&clsIdSecond=0&gender=-1&wordFilter=0&pageNo={{page}}&pageSize=10\n其他::https://app1.youzibank.com/book/list?selectionModuleId=0&fullFlag=0&orderBy=read_cnt&clsIdFirst=116&clsIdSecond=0&gender=2&wordFilter=0&pageNo={{page}}&pageSize=10",
+    "lastUpdateTime": 0,
+    "loginUrl": "https://www.mituyuedu.com/login",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "@js:result"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@json:$.author",
+      "bookList": "@json:$..data[*]",
+      "bookUrl": "@json:https://app1.youzibank.com/book/chapter/listAll?bookId={$.id}",
+      "coverUrl": "@json:https://book.banquanzhuce.com/book{$.photoPath}",
+      "intro": "@json:$.intro",
+      "kind": "@json:$.clsName",
+      "lastChapter": "@json:最近更新时间{$.lastUpdate}",
+      "name": "@json:$.name"
+    },
+    "ruleToc": {
+      "chapterList": "@json:$..data[*]",
+      "chapterName": "@json:$.name",
+      "chapterUrl": "@json:https://book.chengxinqinye.com/book{$.filePath}"
+    },
+    "searchUrl": "https://app1.youzibank.com/es/search/book?q={{key}}&pageSize=10&pageNo={{page}},{\n  \"headers\": \"{Seq:'11111111111111111111111111111111'}\"\n}",
+    "weight": 0
+  }
+]

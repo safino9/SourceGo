@@ -1,0 +1,43 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "📚出版",
+    "bookSourceName": "📚读书网·国学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.dushu.com/guoxue",
+    "customOrder": 168,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "【史部】::https://www.dushu.com/guoxue/1001_{{page}}.html\n正史::https://www.dushu.com/guoxue/1012_{{page}}.html\n编年::https://www.dushu.com/guoxue/1013_{{page}}.html\n野史::https://www.dushu.com/guoxue/1014_{{page}}.html\n别史::https://www.dushu.com/guoxue/1015_{{page}}.html\n地理::https://www.dushu.com/guoxue/1016_{{page}}.html\n传记::https://www.dushu.com/guoxue/1017_{{page}}.html\n杂史::https://www.dushu.com/guoxue/1018_{{page}}.html\n史评::https://www.dushu.com/guoxue/1019_{{page}}.html\n载记::https://www.dushu.com/guoxue/1020_{{page}}.html\n政书::https://www.dushu.com/guoxue/1021_{{page}}.html\n职官::https://www.dushu.com/guoxue/1022_{{page}}.html\n目录::https://www.dushu.com/guoxue/1023_{{page}}.html\n纪事本末::https://www.dushu.com/guoxue/1024_{{page}}.html\n诏令奏议::https://www.dushu.com/guoxue/1025_{{page}}.html\n志存记录::https://www.dushu.com/guoxue/1026_{{page}}.html\n  ::/\n  ::/\n【子部】::https://www.dushu.com/guoxue/1002_{{page}}.html\n农家::https://www.dushu.com/guoxue/1027_{{page}}.html\n兵家::https://www.dushu.com/guoxue/1027_{{page}}.html\n法家::https://www.dushu.com/guoxue/1029_{{page}}.html\n诸子::https://www.dushu.com/guoxue/1030_{{page}}.html\n道释::https://www.dushu.com/guoxue/1031_{{page}}.html\n算法::https://www.dushu.com/guoxue/1032_{{page}}.html\n杂论::https://www.dushu.com/guoxue/1033_{{page}}.html\n笔记::https://www.dushu.com/guoxue/1034_{{page}}.html\n类书::https://www.dushu.com/guoxue/1035_{{page}}.html\n  ::/\n  ::/\n【集部】::https://www.dushu.com/guoxue/1003_{{page}}.html\n总集::https://www.dushu.com/guoxue/1036_{{page}}.html\n别集::https://www.dushu.com/guoxue/1037_{{page}}.html\n诗话::https://www.dushu.com/guoxue/1038_{{page}}.html\n词话::https://www.dushu.com/guoxue/1039_{{page}}.html\n文评::https://www.dushu.com/guoxue/1040_{{page}}.html\n小说::https://www.dushu.com/guoxue/1041_{{page}}.html\n演义::https://www.dushu.com/guoxue/1042_{{page}}.html\n话本::https://www.dushu.com/guoxue/1043_{{page}}.html\n宝卷::https://www.dushu.com/guoxue/1044_{{page}}.html\n谜语::https://www.dushu.com/guoxue/1045_{{page}}.html\n笑话::https://www.dushu.com/guoxue/1046_{{page}}.html\n【诗部】::https://www.dushu.com/guoxue/1004_{{page}}.html\n诗集::https://www.dushu.com/guoxue/1047_{{page}}.html\n词集::https://www.dushu.com/guoxue/1048_{{page}}.html\n剧曲::https://www.dushu.com/guoxue/1049_{{page}}.html\n楚辞::https://www.dushu.com/guoxue/1050_{{page}}.html\n汉赋::https://www.dushu.com/guoxue/1051_{{page}}.html\n对联::https://www.dushu.com/guoxue/1052_{{page}}.html\n  ::/\n  ::/\n【儒部】::https://www.dushu.com/guoxue/1005_{{page}}.html\n诗经::https://www.dushu.com/guoxue/1053_{{page}}.html\n尚书::https://www.dushu.com/guoxue/1054_{{page}}.html\n礼经::https://www.dushu.com/guoxue/1055_{{page}}.html\n春秋::https://www.dushu.com/guoxue/1056_{{page}}.html\n乐经::https://www.dushu.com/guoxue/1057_{{page}}.html\n小学::https://www.dushu.com/guoxue/1058_{{page}}.html\n四书::https://www.dushu.com/guoxue/1059_{{page}}.html\n五经总义::https://www.dushu.com/guoxue/1060_{{page}}.html\n孝经::https://www.dushu.com/guoxue/1061_{{page}}.html\n语录::https://www.dushu.com/guoxue/1062_{{page}}.html\n蒙学::https://www.dushu.com/guoxue/1063_{{page}}.html\n修身治家::https://www.dushu.com/guoxue/1064_{{page}}.html\n  ::/\n  ::/\n【易部】::https://www.dushu.com/guoxue/1006_{{page}}.html\n易经::https://www.dushu.com/guoxue/1654_{{page}}.html\n术数::https://www.dushu.com/guoxue/1066_{{page}}.html\n奇门遁甲::https://www.dushu.com/guoxue/1067_{{page}}.html\n八字预测::https://www.dushu.com/guoxue/1068_{{page}}.html\n风水预测::https://www.dushu.com/guoxue/1069_{{page}}.html\n六壬预测::https://www.dushu.com/guoxue/1070_{{page}}.html\n六爻八卦::https://www.dushu.com/guoxue/1071_{{page}}.html\n周易梅花::https://www.dushu.com/guoxue/1072_{{page}}.html\n紫微斗数::https://www.dushu.com/guoxue/1073_{{page}}.html\n相术其他::https://www.dushu.com/guoxue/1074_{{page}}.html\n  ::/\n【艺部】::https://www.dushu.com/guoxue/1007_{{page}}.html\n书法::https://www.dushu.com/guoxue/1075_{{page}}.html\n绘画::https://www.dushu.com/guoxue/1076_{{page}}.html\n篆刻::https://www.dushu.com/guoxue/1077_{{page}}.html\n音乐::https://www.dushu.com/guoxue/1078_{{page}}.html\n综合::https://www.dushu.com/guoxue/1079_{{page}}.html\n工艺::https://www.dushu.com/guoxue/1080_{{page}}.html\n棋技::https://www.dushu.com/guoxue/1081_{{page}}.html\n武术::https://www.dushu.com/guoxue/1082_{{page}}.html\n草木鸟兽虫鱼::https://www.dushu.com/guoxue/1083_{{page}}.html\n器物::https://www.dushu.com/guoxue/1084_{{page}}.html\n饮馔::https://www.dushu.com/guoxue/1085_{{page}}.html\n【医部】::https://www.dushu.com/guoxue/1008_{{page}}.html\n本草类::https://www.dushu.com/guoxue/1086_{{page}}.html\n方药类::https://www.dushu.com/guoxue/1087_{{page}}.html\n经论类::https://www.dushu.com/guoxue/1088_{{page}}.html\n妇幼类::https://www.dushu.com/guoxue/1089_{{page}}.html\n四诊类::https://www.dushu.com/guoxue/1090_{{page}}.html\n各论类::https://www.dushu.com/guoxue/1091_{{page}}.html\n其他医学::https://www.dushu.com/guoxue/1092_{{page}}.html\n  ::/\n【丛部】::https://www.dushu.com/guoxue/1009_{{page}}.html\n白话二十四史::https://www.dushu.com/guoxue/1093_{{page}}.html\n台湾文献丛刊::https://www.dushu.com/guoxue/1094_{{page}}.html\n杂别::https://www.dushu.com/guoxue/1095_{{page}}.html\n其他::https://www.dushu.com/guoxue/1096_{{page}}.html\n  ::/\n【佛部】::https://www.dushu.com/guoxue/1010_{{page}}.html\n经藏::https://www.dushu.com/guoxue/1097_{{page}}.html\n论藏::https://www.dushu.com/guoxue/1098_{{page}}.html\n律藏::https://www.dushu.com/guoxue/1099_{{page}}.html\n续藏::https://www.dushu.com/guoxue/1100_{{page}}.html\n杂藏::https://www.dushu.com/guoxue/1101_{{page}}.html\n续藏经::https://www.dushu.com/guoxue/1102_{{page}}.html\n乾隆藏::https://www.dushu.com/guoxue/113_{{page}}.html\n嘉兴藏::https://www.dushu.com/guoxue/1104_{{page}}.html\n藏外::https://www.dushu.com/guoxue/1105_{{page}}.html\n  ::/\n  ::/\n【道部】::https://www.dushu.com/guoxue/1011_{{page}}.html\n洞神部::https://www.dushu.com/guoxue/1106_{{page}}.html\n洞玄部::https://www.dushu.com/guoxue/1107_{{page}}.html\n洞真部::https://www.dushu.com/guoxue/1108_{{page}}.html\n太平部::https://www.dushu.com/guoxue/1109_{{page}}.html\n太清部::https://www.dushu.com/guoxue/1110_{{page}}.html\n太玄部::https://www.dushu.com/guoxue/1111_{{page}}.html\n正一部::https://www.dushu.com/guoxue/1112_{{page}}.html\n续道部::https://www.dushu.com/guoxue/1113_{{page}}.html\n道别::https://www.dushu.com/guoxue/1114_{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
+    "lastUpdateTime": 1610810747159,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.book-details-left@a@text",
+      "coverUrl": "class.pic@img@src",
+      "intro": "class.text txtsummary.0@text",
+      "kind": "class.crumbs@tag.a.3@text",
+      "lastChapter": "class.booklist-table@tag.td.-1@a@text",
+      "name": "class.book-title@h1@text"
+    },
+    "ruleContent": {
+      "content": "class.content_txt@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.0@text",
+      "bookList": "class.searchlist@li||class.bookslist@li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@data-original",
+      "intro": "tag.p.1@text",
+      "name": "h3@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.booklist-table@td@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.dushu.com/search.aspx?wd={{key}}&f=0&r=2&t=0&p={{page}}",
+    "weight": 0
+  }
+]

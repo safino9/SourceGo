@@ -1,0 +1,50 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉31小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.31xs.com",
+    "customOrder": 19,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/list/1/&&修真::/list/2/&&都市::/list/3/&&历史::/list/4/&&网游::/list/5/&&科幻::/list/6/&&次元::/list/7/&&言情::/list/8/&&青春::/list/9/&&现代::/list/10/&&",
+    "lastUpdateTime": 1611468225129,
+    "ruleBookInfo": {
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_url\"]content",
+      "tocUrl": "@js:baseUrl+'index.htm'",
+      "wordCount": "[property=\"og:novel:update_time\"]@content"
+    },
+    "ruleContent": {
+      "content": ".am-article-bd@p@textNodes##.*?huanyuanshenqi.com.*"
+    },
+    "ruleExplore": {
+      "author": ".author@text##作者：",
+      "bookList": ".hot_sale",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "intro": ".review@text",
+      "name": ".title@text"
+    },
+    "ruleSearch": {
+      "author": "tag.p.0@text||span@text##作者：|.*千字",
+      "bookList": "@css:div.user-bookcase dl||li.am-list-item-dated",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href<js>\nvar id = result.match(/(\\d+)?\\/$/)[1];\nvar iid = parseInt(id/1000);\n'https://img31xs.cdn.bcebos.com/img/'+iid+'/'+id+'/'+id+'s.jpg'\n</js>",
+      "kind": "tag.a.0@text##([.*]).*##$1###",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text##.*\\]",
+      "wordCount": "span@text##(.*千字).*##$1"
+    },
+    "ruleToc": {
+      "chapterList": "@css:ul.am-list-striped li a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://m.31xs.com/search.php,{\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\",\n\"headers\": {\"User-Agent\": \"\"}\n}",
+    "weight": 0
+  }
+]

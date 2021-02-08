@@ -1,0 +1,41 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💗言情",
+    "bookSourceName": "💗都市言情",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.dsyq.org",
+    "bookUrlPattern": "",
+    "customOrder": 143,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1611752709940,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.book-title@tag.em.0@text##作\\s*者：",
+      "coverUrl": "class.book-img@tag.img.0@src",
+      "intro": "class.book-intro@text",
+      "name": "class.book-title@tag.h1.0@text",
+      "tocUrl": "text.全文阅读@href"
+    },
+    "ruleContent": {
+      "content": "id.BookText@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text||tag.em.1@text",
+      "bookList": "class.grid searall@tag.tr!0",
+      "bookUrl": "class.odd@tag.a@href",
+      "kind": "class.fl@tag.a.1@text",
+      "lastChapter": "class.even@tag.a@text",
+      "name": "class.odd.0@tag.a@text||tag.h1.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.dsyq.org/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉蚂蚁阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.mayitxt.com",
+    "bookUrlPattern": "",
+    "customOrder": 96,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1610329436985,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.author.0@text",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@text",
+      "name": "class.book_name@tag.h1@text",
+      "tocUrl": "class.button_list@tag.a.2@href"
+    },
+    "ruleContent": {
+      "content": "class.page-content@textNodes##一秒记住.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text||tag.span@text",
+      "bookList": "class.bd@tag.tr!0||class.BOX@tag.tr!0",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "class.book-cover-img@tag.img@src",
+      "kind": "class.tag@text||tag.a.0@text##\\[|\\]",
+      "lastChapter": "class.chapter@text##正文.*?第##第",
+      "name": "class.red@text||tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.float-list fill-block@tag.li",
+      "chapterName": "tag.a@text##\\|",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.imayitxt.com/modules/article/search.php?q={{key}}&searchtype=all,{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0
+  }
+]

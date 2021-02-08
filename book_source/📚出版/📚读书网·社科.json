@@ -1,0 +1,43 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "📚出版",
+    "bookSourceName": "📚读书网·社科",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.dushu.com/sheke",
+    "bookUrlPattern": "",
+    "customOrder": 170,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "经济管理::https://www.dushu.com/lianzai/1116_{{page}}.html\n企业管理::https://www.dushu.com/lianzai/1140_{{page}}.html\n经济金融::https://www.dushu.com/lianzai/1141_{{page}}.html\n投资理财::https://www.dushu.com/lianzai/1142_{{page}}.html\n市场营销::https://www.dushu.com/lianzai/1143_{{page}}.html\n财会统计::https://www.dushu.com/lianzai/1144_{{page}}.html\n通俗读物::https://www.dushu.com/lianzai/1145_{{page}}.html\n成功励志::https://www.dushu.com/lianzai/1117_{{page}}.html\n成功学说::https://www.dushu.com/lianzai/1146_{{page}}.html\n人在职场::https://www.dushu.com/lianzai/1147_{{page}}.html\n演讲口才::https://www.dushu.com/lianzai/1148_{{page}}.html\n人际处事::https://www.dushu.com/lianzai/1149_{{page}}.html\n心灵修养::https://www.dushu.com/lianzai/1150_{{page}}.html\n性格情绪::https://www.dushu.com/lianzai/1151_{{page}}.html\n青少励志::https://www.dushu.com/lianzai/1152_{{page}}.html\n历史传记::https://www.dushu.com/lianzai/1118_{{page}}.html\n中国历史::https://www.dushu.com/lianzai/1153_{{page}}.html\n世界历史::https://www.dushu.com/lianzai/1154_{{page}}.html\n历史普及::https://www.dushu.com/lianzai/1155_{{page}}.html\n人物传记::https://www.dushu.com/lianzai/1156_{{page}}.html\n两性情感::https://www.dushu.com/lianzai/1119_{{page}}.html\n两性关系::https://www.dushu.com/lianzai/1157_{{page}}.html\n婚姻家庭::https://www.dushu.com/lianzai/1158_{{page}}.html\n情感恋爱::https://www.dushu.com/lianzai/1159_{{page}}.html\n生活时尚::https://www.dushu.com/lianzai/1120_{{page}}.html\n烹调饮食::https://www.dushu.com/lianzai/1160_{{page}}.html\n健康养生::https://www.dushu.com/lianzai/1161_{{page}}.html\n占星风水::https://www.dushu.com/lianzai/1162_{{page}}.html\n时尚摄影::https://www.dushu.com/lianzai/1163_{{page}}.html\n旅游地理::https://www.dushu.com/lianzai/1164_{{page}}.html\n家居手工::https://www.dushu.com/lianzai/1165_{{page}}.html\n美容塑身::https://www.dushu.com/lianzai/1166_{{page}}.html\n运动健身::https://www.dushu.com/lianzai/1167_{{page}}.html\n休闲娱乐::https://www.dushu.com/lianzai/1168_{{page}}.html\n文学艺术::https://www.dushu.com/lianzai/1121_{{page}}.html\n散文随笔::https://www.dushu.com/lianzai/1169_{{page}}.html\n绘本画册::https://www.dushu.com/lianzai/1170_{{page}}.html\n美术设计::https://www.dushu.com/lianzai/1171_{{page}}.html\n音乐戏剧::https://www.dushu.com/lianzai/1172_{{page}}.html\n纪实文学::https://www.dushu.com/lianzai/1173_{{page}}.html\n文学理论::https://www.dushu.com/lianzai/1174_{{page}}.html\n诗词歌赋::https://www.dushu.com/lianzai/1175_{{page}}.html\n世界名著::https://www.dushu.com/lianzai/1176_{{page}}.html\n民间文学::https://www.dushu.com/lianzai/1200_{{page}}.html\n艺术理论::https://www.dushu.com/lianzai/1201_{{page}}.html\n影视艺术::https://www.dushu.com/lianzai/1202_{{page}}.html\n书法摄影::https://www.dushu.com/lianzai/1203_{{page}}.html\n社会科学::https://www.dushu.com/lianzai/1122_{{page}}.html\n社会科普::https://www.dushu.com/lianzai/1177_{{page}}.html\n心理著作::https://www.dushu.com/lianzai/1178_{{page}}.html\n哲学宗教::https://www.dushu.com/lianzai/1179_{{page}}.html\n军事法律::https://www.dushu.com/lianzai/1180_{{page}}.html\n时事政治::https://www.dushu.com/lianzai/1181_{{page}}.html\n文化研究::https://www.dushu.com/lianzai/1182_{{page}}.html\n教育考试::https://www.dushu.com/lianzai/1183_{{page}}.html\n美学传播::https://www.dushu.com/lianzai/1204_{{page}}.html\n其他类型::https://www.dushu.com/lianzai/1184_{{page}}.html\n亲子少儿::https://www.dushu.com/lianzai/1123_{{page}}.html\n孕产育儿::https://www.dushu.com/lianzai/1185_{{page}}.html\n幼儿启蒙::https://www.dushu.com/lianzai/1186_{{page}}.html\n儿童文学::https://www.dushu.com/lianzai/1187_{{page}}.html\n科普百科::https://www.dushu.com/lianzai/1188_{{page}}.html\n电脑网络::https://www.dushu.com/lianzai/1124_{{page}}.html\n综合开发::https://www.dushu.com/lianzai/1189_{{page}}.html\n图形图像::https://www.dushu.com/lianzai/1190_{{page}}.html\n网络通信::https://www.dushu.com/lianzai/1191_{{page}}.html\n家庭办公::https://www.dushu.com/lianzai/1192_{{page}}.html\n技术人文::https://www.dushu.com/lianzai/1193_{{page}}.html\n科学技术::https://www.dushu.com/lianzai/1125_{{page}}.html\n科普读物::https://www.dushu.com/lianzai/1194_{{page}}.html\n自然科学::https://www.dushu.com/lianzai/1195_{{page}}.html\n医学读物::https://www.dushu.com/lianzai/1196_{{page}}.html\n工业技术::https://www.dushu.com/lianzai/1197_{{page}}.html\n其他书籍::https://www.dushu.com/lianzai/1198_{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
+    "lastUpdateTime": 1610810761615,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.book-details-left@tag.a.0@text",
+      "coverUrl": "class.pic@img@src",
+      "intro": "class.text txtsummary.0@text",
+      "kind": "class.crumbs@tag.a.3@text",
+      "lastChapter": "class.booklist-table@tag.td.-1@a@text",
+      "name": "class.book-title@h1@text"
+    },
+    "ruleContent": {
+      "content": "class.content_txt@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.0@text##，.*",
+      "bookList": "class.searchlist@li||class.bookslist@li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@data-original",
+      "name": "h3@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.booklist-table@td@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.dushu.com/search.aspx?wd={{key}}&f=0&r=3&t=0&p={{page}}",
+    "weight": 0
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉读书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.dusuu.com",
+    "customOrder": 3,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::https://www.dusuu.com/xuanhuan/{{page}}.html\n武侠仙侠::https://www.dusuu.com/wuxia/{{page}}.html\n都市生活::https://www.dusuu.com/dushi/{{page}}.html\n历史军事::https://www.dusuu.com/lishi/{{page}}.html\n游戏竞技::https://www.dusuu.com/youxi/{{page}}.html\n科幻未来::https://www.dusuu.com/kehuan/{{page}}.html\n恐怖悬疑::https://www.dusuu.com/xuanyi/{{page}}.html\n二次元::https://www.dusuu.com/erciyuan/{{page}}.html\n经典网文::https://www.dusuu.com/jingdian/{{page}}.html\n古代言情::https://www.dusuu.com/guyan/{{page}}.html\n现代言情::https://www.dusuu.com/xianyan/{{page}}.html\n幻想奇缘::https://www.dusuu.com/huanqing/{{page}}.html\n青春校园::https://www.dusuu.com/qingchun/{{page}}.html\n网络情缘::https://www.dusuu.com/wangluo/{{page}}.html\n科幻空间::https://www.dusuu.com/mmkehuan/{{page}}.html\n鬼怪灵异::https://www.dusuu.com/lingyi/{{page}}.html\nN次元::https://www.dusuu.com/Nciyuan/{{page}}.html\n言情美文::https://www.dusuu.com/yanqing/{{page}}.html",
+    "lastUpdateTime": 1612014372550,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@tag.a@text",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p.0@text",
+      "lastChapter": "id.info@tag.p.3@tag.a@text",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@tag.p@textNodes##喜欢.*速度最快。"
+    },
+    "ruleExplore": {
+      "author": "class.s4@text||tag.a@text",
+      "bookList": "class.l@tag.ul@tag.li||class.novelslist2@tag.ul@tag.li!0",
+      "bookUrl": "class.s2@tag.a@href",
+      "kind": "class.s1@text",
+      "lastChapter": "class.s3@tag.a@text",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "class.book_other.0@tag.span.0@text",
+      "bookList": "id.sitembox@tag.dl",
+      "bookUrl": "tag.dd.0@tag.h3@tag.a@href",
+      "coverUrl": "tag.dt@tag.a@tag.img@src",
+      "intro": "class.book_des@text",
+      "kind": "class.book_other@tag.span.2@text",
+      "lastChapter": "class.book_other.1@tag.a@text",
+      "name": "tag.dd.0@tag.h3@tag.a@text\u0001",
+      "wordCount": "class.book_other@tag.span.3@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dl@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.dusuu.com/search.html,{\n\"charset\":\"utf-8\",\n\"method\":\"POST\",\n\"body\":\"searchtype=all&searchkey={{key}}\"\n}",
+    "weight": 0
+  }
+]

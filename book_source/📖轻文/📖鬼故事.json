@@ -1,0 +1,43 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "📖轻文",
+    "bookSourceName": "📖鬼故事",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.guidada.com",
+    "bookUrlPattern": "",
+    "customOrder": 149,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "短篇::/duanpian/<,index_{{page}}.html>\n长篇::/changpian/<,index_{{page}}.html>\n民间::/minjian/<,index_{{page}}.html>\n乡村::/xiangcun/<,index_{{page}}.html>\n恐怖::/kongbu/<,index_{{page}}.html>\n真实::/zhenshi/<,index_{{page}}.html>\n内涵::/neihan/<,index_{{page}}.html>\n搞笑::/gaoxiao/<,index_{{page}}.html>\n校园::/xiaoyuan/<,index_{{page}}.html>\n灵异::/lingyi/<,index_{{page}}.html>\n现代::/xiandai/<,index_{{page}}.html>\n古代::/gudai/<,index_{{page}}.html>\n感人::/ganren/<,index_{{page}}.html>\n爱情::/aiqing/<,index_{{page}}.html>\n网络::/wangluo/<,index_{{page}}.html>\n惊悚::/jingsong/<,index_{{page}}.html>\n儿童::/ertong/<,index_{{page}}.html>\n宿舍::/sushe/<,index_{{page}}.html>\n厕所::/cesuo/<,index_{{page}}.html>\n街上::/jieshang/<,index_{{page}}.html>\n吸血::/xixue/<,index_{{page}}.html>\n电梯::/dianti/<,index_{{page}}.html>\n万圣节::/wanshengjie/<,index_{{page}}.html>\n太平间::/taipingjian/<,index_{{page}}.html>\n头七::/touqi/<,index_{{page}}.html>\n鬼节::/guijie/<,index_{{page}}.html>\n七月十五::/qiyueshiwu/<,index_{{page}}.html>\n盂兰盆节::/yulanpenjie/<,index_{{page}}.html>\n中元节::/zhongyuanjie/<,index_{{page}}.html>\n女鬼::/nvgui/<,index_{{page}}.html>\n水鬼::/shuigui/<,index_{{page}}.html>\n镜子::/jingzi/<,index_{{page}}.html>\n午夜::/wuye/<,index_{{page}}.html>\n外国::/waiguo/<,index_{{page}}.html>\n公交车::/gongjiaoche/<,index_{{page}}.html>\n家里::/jiali/<,index_{{page}}.html>\n农村::/nongcun/<,index_{{page}}.html>\n经典::/jingdian/<,index_{{page}}.html>\n医院::/yiyuan/<,index_{{page}}.html>\n重口味::/zhongkouwei/<,index_{{page}}.html>\n超吓人::/chaoxiaren/<,index_{{page}}.html>\n短小::/duanxiao/<,index_{{page}}.html>\n学校::/xuexiao/<,index_{{page}}.html>\n出租车::/chuzuche/<,index_{{page}}.html>\n公司::/gongsi/<,index_{{page}}.html>\n办公室::/bangongshi/<,index_{{page}}.html>\n鬼压床::/guiyachuang/<,index_{{page}}.html>\n鬼打墙::/guidaqiang/<,index_{{page}}.html>\n原创::/yuanchuang/<,index_{{page}}.html>\n灵异档案::/lingyishijian/dangan/<,index_{{page}}.html>\n灵异视频::/lingyishijian/shipin/<,index_{{page}}.html>\n灵异图片::/lingyishijian/tupian/<,index_{{page}}.html>\n灵异知识::/lingyishijian/zhishi/<,index_{{page}}.html>\n北京灵异::/lingyishijian/beijing/<,index_{{page}}.html>\n北京十大::/lingyishijian/beijingshida/<,index_{{page}}.html>\n世界灵异::/lingyishijian/shijie/<,index_{{page}}.html>\n世界十大::/lingyishijian/shijieshida/<,index_{{page}}.html>\n中国灵异::/lingyishijian/zhongguo/<,index_{{page}}.html>\n中国十大::/lingyishijian/zhongguoshida/<,index_{{page}}.html>\n真实灵异::/lingyishijian/zhenshi/<,index_{{page}}.html>\n上海灵异::/lingyishijian/shanghai/<,index_{{page}}.html>\n上海十大::/lingyishijian/shanghaishida/<,index_{{page}}.html>\n封门村::/lingyishijian/fengmencun/<,index_{{page}}.html>\n台湾灵异::/lingyishijian/taiwan/<,index_{{page}}.html>\n香港灵异::/lingyishijian/xianggang/<,index_{{page}}.html>\n大学灵异::/lingyishijian/daxue/<,index_{{page}}.html>\n娱乐圈灵异::/lingyishijian/yulequan/<,index_{{page}}.html>\n娱乐圈十大::/lingyishijian/yulequanshida/<,index_{{page}}.html>\n聊斋志异::/liaozhaizhiyi/<,index_{{page}}.html>\n灵异事件::/lingyishijian/<,index_{{page}}.html>\n灵异故事::/lingyigushi/<,index_{{page}}.html>\n神话故事::/shenhuagushi/<,index_{{page}}.html>\n民间故事::/minjiangushi/<,index_{{page}}.html>\n奇闻异事::/qiwenyishi/<,index_{{page}}.html>\n历史故事::/lishigushi/<,index_{{page}}.html>\n未解之谜::/weijiezhimi/<,index_{{page}}.html>\n外星人::/waixingren/<,index_{{page}}.html>\nUFO::/UFO/<,index_{{page}}.html>\n恐怖故事::/kongbugushi/<,index_{{page}}.html>\n传奇故事::/chuanqigushi/<,index_{{page}}.html>\n山海经神话故事::/shenhuagushi/shanhaijing/<,index_{{page}}.html>\n月亮神话故事::/shenhuagushi/yueliang/<,index_{{page}}.html>\n四大神话故事::/shenhuagushi/sidashenhua/<,index_{{page}}.html>\n爱情神话故事::/shenhuagushi/aiqing/<,index_{{page}}.html>\n火的神话故事::/shenhuagushi/huo/<,index_{{page}}.html>\n中国四大民间故事::/minjiangushi/sidaminjian/<,index_{{page}}.html>\n古代民间故事::/minjiangushi/gudaiminjian/<,index_{{page}}.html>\n中国近代历史故事::/lishigushi/jindailishi/<,index_{{page}}.html>\n古代历史故事::/lishigushi/gudailishi/<,index_{{page}}.html>\n清朝历史故事::/lishigushi/qingchaolishi/<,index_{{page}}.html>\n经典历史故事::/lishigushi/jingdianlishi/<,index_{{page}}.html>\n三国历史故事::/lishigushi/sanguolishi/<,index_{{page}}.html>\n汉代历史故事::/lishigushi/handailishi/<,index_{{page}}.html>\n中国历史未解之谜::/weijiezhimi/zhongguolishi/<,index_{{page}}.html>\n世界历史未解之谜::/weijiezhimi/shijielishi/<,index_{{page}}.html>\n人类历史未解之谜::/weijiezhimi/renleilishi/<,index_{{page}}.html>\n世界十大未解之谜::/weijiezhimi/shijieshida/<,index_{{page}}.html>\n世界地理未解之谜::/weijiezhimi/shijiedili/<,index_{{page}}.html>\n中国UFO事件::/UFO/China/<,index_{{page}}.html>",
+    "lastUpdateTime": 1609645732900,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": ".text p@text",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": ".list-author@text",
+      "bookList": ".listliebiao li",
+      "bookUrl": "h1 a@href",
+      "coverUrl": "img@src",
+      "intro": "p@text##\\[.+|&&\\w+;",
+      "lastChapter": "h1 span@text##.+：",
+      "name": "h1 a@text"
+    },
+    "ruleSearch": {
+      "bookList": "class.listliebiao@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "class.pic@tag.img.0@src",
+      "intro": "tag.p.0@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "h1",
+      "chapterName": "text"
+    },
+    "searchUrl": "http://www.guidada.com/e/search/index.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"tbname=news&show=title,smalltext,newstext&tempid=1&keyboard={{key}}\"\n}",
+    "weight": 0
+  }
+]

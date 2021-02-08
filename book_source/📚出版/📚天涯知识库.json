@@ -1,0 +1,36 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "📚出版",
+    "bookSourceName": "📚天涯知识库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://book.sbkk8.com",
+    "customOrder": 166,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "◎                              古典文学                             ◎::\n古代文学(总)::/gudai/\n四大文学名著::/gudai/sidawenxuemingzhu/\n唐诗::/gudai/tangshi/\n宋词::/gudai/songci/\n诸子百家::/gudai/zhuzibaijia/\n史书::/gudai/shishu/\n古代医书::/gudai/gudaiyishu/\n佛经大全::/gudai/fujingdaquan/\n蒙学::/gudai/mengxue/\n易经书籍::/gudai/yijingshuji/\n古代兵书::/gudai/gudaibingshu/\n古典侠义小说::/gudai/gudianxiayixiaoshuo/\n古典神魔志怪小说::/gudai/gudianshenmozhiguaixiaoshuo/\n才子佳人::/gudai/caizijiaren/\n三言二拍合集::/gudai/sanyanerpaiheji/\n谴责小说::/gudai/qianzexiaoshuo/\n道教书籍::/gudai/daojiaoshuji/\n公案小说::/gudai/gonganxiaoshuo/\n辞赋鉴赏::/gudai/cifujianshang/\n高中文言文::/gudai/gaozhongwenyanwen/\n初中文言文::/gudai/chuzhongwenyanwen/\n\n◎                              历史人物                             ◎::\n历史故事(总)::/lishigushi/\n著名战役::/lishigushi/zhumingzhanyi/\n红楼梦人物::/lishigushi/hongloumengrenwu/\n水浒传人物::/lishigushi/shuihuchuanrenwu/\n\n◎                                  作文                                 ◎::\n作文大全(总)::/zuowen/\n主体作文::/zuowen/zhutizuowen/\n读后感::/zuowen/zhutizuowen/\n植物作文::/zuowen/zhiwuzuowen/\n节日作文::/zuowen/jierizuowen/\n风景作文::/zuowen/fengjingzuowen/\n自然现象::/zuowen/ziranxianxiang/\n事件作文::/zuowen/shijianzuowen/\n动物::/zuowen/dongwu/\n写人作文::/zuowen/xierenzuowen/\n\n◎                              其他栏目                             ◎::\n故事会::/gushihui/\n美容养生::/meirongyangsheng/\n健康饮食::/jiankangyinshi/\n\n◎                              外国文学                             ◎::/waiguo/\n",
+    "lastUpdateTime": 1611748589061,
+    "ruleBookInfo": {
+      "coverUrl": "class.fm@tag.img@src",
+      "intro": "class.des@tag.p.0@text",
+      "name": "class.listH11@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {
+      "bookList": "class.bookList",
+      "bookUrl": "tag.p@tag.a@href",
+      "coverUrl": "class.ablum@tag.img@src",
+      "name": "tag.p@tag.a@text"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "class.mulu@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "",
+    "weight": 0
+  }
+]

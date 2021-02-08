@@ -1,0 +1,51 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "📚出版",
+    "bookSourceName": "📚赤壁小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.cbxs.net",
+    "bookUrlPattern": "",
+    "customOrder": 164,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "武侠小说::/wuxia/<,index_{{page}}.html>\n言情小说::/yanqing/<,index_{{page}}.html>\n当代小说::/dangdai/<,index_{{page}}.html>\n外国文学::/waiguo/<,index_{{page}}.html>\n历史小说::/lishi/<,index_{{page}}.html>\n恐怖小说::/kongbu/<,index_{{page}}.html>\n网络小说::/xuanhuan/<,index_{{page}}.html>\n传记回忆::/zhuanji/<,index_{{page}}.html>\n英文读本::/yingwen/<,index_{{page}}.html>\n杂文随笔::/suibi/<,index_{{page}}.html>\n现代小说::/xiandai/<,index_{{page}}.html>\n侦探推理::/zhentan/<,index_{{page}}.html>\n寓言童话::/yuyan/<,index_{{page}}.html>\n青春都市::/dushi/<,index_{{page}}.html>\n社会心理::/shehui/<,index_{{page}}.html>\n港台言情::/gangtai/<,index_{{page}}.html>\n科幻小说::/kehuan/<,index_{{page}}.html>\n纪实报告::/jishi/<,index_{{page}}.html>\n世界历史::/shijie/<,index_{{page}}.html>\n中国历史::/zhongguo/<,index_{{page}}.html>\n科普学习::/xuexi/<,index_{{page}}.html>\n诗歌戏曲::/shige/<,index_{{page}}.html>\n宗教哲学::/zhexue/<,index_{{page}}.html>\n文学理论::/lilun/<,index_{{page}}.html>\n日语读物::/riyu/<,index_{{page}}.html>\n作品集::/zuopinji/<,index_{{page}}.html>\n国学古籍::/guoxue/<,index_{{page}}.html>\n战争军事::/junshi/<,index_{{page}}.html>\n政治经济::/jingji/<,index_{{page}}.html>\n古典文学::/gudian/<,index_{{page}}.html>\n官场小说::/guanchang/<,index_{{page}}.html>\n轻小说::/qing/<,index_{{page}}.html>",
+    "lastUpdateTime": 1610169933487,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.authorbooks@tag.a.0@text\n@js:(result || '').replace(/作品集$/, '');",
+      "coverUrl": "class.book-img@tag.img.0@src",
+      "init": "<js>var ih = java.get('InfoHTML'); result = ih !== java.get('') ? ih : result;</js>",
+      "intro": "class.m-bkcont@tag.p@text##^##<br/>",
+      "kind": "class.bc-div@tag.a.-2@text",
+      "lastChapter": "class.book-list@tag.dd.-1@tag.a.0@text",
+      "name": "class.book-describe@tag.h1.0@html"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html"
+    },
+    "ruleExplore": {
+      "bookList": "class.pop-books2@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "name": "class.pop-tit@text\n@js:(result || '').replace(/^《(?![^》]*》)/, '');"
+    },
+    "ruleSearch": {
+      "author": "class.authorbooks@tag.a.0@text\n@js:(result || '').replace(/作品集$/, '');",
+      "bookList": "class.newslist@tag.li@tag.a.1\n<js>\n//只保留书名长度最短的图书。\nvar len = (o) => String(o.text()).length;\nvar list = result.toArray();\nvar min = Math.min.apply(null, list.map(e => len(e)));\nresult = list.filter(e => len(e) === min).map(v => java.ajax('https://www.cbxs.net'+v.attr('href')));\n</js>",
+      "bookUrl": "<js>java.put('InfoHTML', result); result = '';</js>",
+      "coverUrl": "class.book-img@tag.img.0@src",
+      "intro": "class.m-bkcont@tag.p@text",
+      "kind": "class.bc-div@tag.a.-2@text",
+      "lastChapter": "class.book-list@tag.dd.-1@tag.a.0@text",
+      "name": "class.book-describe@tag.h1.0@html"
+    },
+    "ruleToc": {
+      "chapterList": "+<js>\nvar ih = java.get('InfoHTML');\nih = ih !== java.get('') ? ih : result\njava.setContent(ih);\n//用于修复部分错误的网址。\nvar bsurl = java.getString('@css:link[rel=\"canonical\"]@href');\n\njava.getElements('@css:.book-list dd > a').toArray().map(e => {e.attr('href', String(e.attr('href')).replace(/^.*?(?=[^\\/]+$)/, bsurl)); return e;});\n</js>",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.cbxs.net/e/search/index.php,{\n  \"method\": \"POST\",\n  \"body\": \"show=title&tempid=1&keyboard={{key}}\"\n}",
+    "weight": 0
+  }
+]

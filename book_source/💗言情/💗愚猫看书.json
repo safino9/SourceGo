@@ -1,0 +1,46 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💗言情",
+    "bookSourceName": "💗愚猫看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.01kanshu.com",
+    "bookUrlPattern": "",
+    "customOrder": 147,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "现代言情·连载::/Stacks/index/gender/3/type/1/state/1/vip/3/click/{{page}}.html\n古代言情·连载::/Stacks/index/gender/3/type/2/state/1/vip/3/click/{{page}}.html\n都市婚烟·连载::/Stacks/index/gender/3/type/3/state/1/vip/3/click/{{page}}.html\n职场言情·连载::/Stacks/index/gender/3/type/4/state/1/vip/3/click/{{page}}.html\n男生都市·连载::/Stacks/index/gender/3/type/5/state/1/vip/3/click/{{page}}.html\n男生玄幻·连载::/Stacks/index/gender/3/type/6/state/1/vip/3/click/{{page}}.html\n女生短篇·连载::/Stacks/index/gender/3/type/7/state/1/vip/3/click/{{page}}.html\n男生游戏·连载::/Stacks/index/gender/3/type/18/state/1/vip/3/click/{{page}}.html\n男生历史·连载::/Stacks/index/gender/3/type/6/state/19/vip/3/click/{{page}}.html\n男生仙侠·连载::/Stacks/index/gender/3/type/20/state/1/vip/3/click/{{page}}.html\n男生悬疑·连载::/Stacks/index/gender/3/type/21/state/1/vip/3/click/{{page}}.html\n男生其他·连载::/Stacks/index/gender/3/type/22/state/1/vip/3/click/{{page}}.html\n现代言情·完本::/Stacks/index/gender/3/type/1/state/2/vip/3/click/{{page}}.html\n古代言情·完本::/Stacks/index/gender/3/type/2/state/2/vip/3/click/{{page}}.html\n都市婚烟·完本::/Stacks/index/gender/3/type/3/state/2/vip/3/click/{{page}}.html\n职场言情·完本::/Stacks/index/gender/3/type/4/state/2/vip/3/click/{{page}}.html\n男生都市·完本::/Stacks/index/gender/3/type/5/state/2/vip/3/click/{{page}}.html\n男生玄幻·完本::/Stacks/index/gender/3/type/6/state/2/vip/3/click/{{page}}.html\n女生短篇·完本::/Stacks/index/gender/3/type/7/state/2/vip/3/click/{{page}}.html\n男生游戏·完本::/Stacks/index/gender/3/type/18/state/2/vip/3/click/{{page}}.html\n男士历史·完本::/Stacks/index/gender/3/type/19/state/2/vip/3/click/{{page}}.html\n男生仙侠·完本::/Stacks/index/gender/3/type/20/state/2/vip/3/click/{{page}}.html\n男生悬疑·完本::/Stacks/index/gender/3/type/21/state/2/vip/3/click/{{page}}.html\n男生其他·完本::/Stacks/index/gender/3/type/22/state/2/vip/3/click/{{page}}.html\n免费全部·连载::/Stacks/index/gender/3/type/50/state/1/vip/1/click/{{page}}.html\n免费全部·完本::/Stacks/index/gender/3/type/50/state/2/vip/1/click/{{page}}.html\n最新更新·全部::/Stacks/index/gender/3/type/50/state/3/vip/3/click/{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "http://www.01kanshu.com/Login/index.html",
+    "ruleBookInfo": {
+      "author": ".author_level@text",
+      "coverUrl": ".cover@tag.img.0@src",
+      "intro": ".introduction@textNodes&&.introduction@p@text##愚猫看书登陆.*|《.*",
+      "kind": ".book_details@text##.*点击 \\||\\| (\\d+)字.*",
+      "lastChapter": ".left_box2_b@tag.a.0@text##\\>",
+      "name": ".book_name@text",
+      "tocUrl": ".bk-btn@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": ".content@p@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": ".sk_xinxi@tag.p.0@text##作者：",
+      "bookList": ".sk_box",
+      "bookUrl": ".sk_xinxi@h3@tag.a.0@href",
+      "coverUrl": ".sk_img@img@src",
+      "intro": ".sk_xinxi@.p_nr@textNodes",
+      "kind": ".sk_xinxi@h3@tag.a.1@text##\\[|\\]",
+      "lastChapter": ".sk_xinxi@.sp_01@a@text",
+      "name": ".sk_xinxi@h3@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": ".ML_ul@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href@js:result.replace(/(.*)\\/(\\d+)\\/(\\d+)\\.html/,'/Chapter/chapter.html?bookid=$2&num=$3');"
+    },
+    "searchUrl": "/Select/?bookname={{key}}",
+    "weight": 0
+  }
+]
