@@ -1,0 +1,43 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉稻草人书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.20dcr.com",
+    "customOrder": 42,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "连载::https://www.20dcr.com/lianzai/\n完结::/wanjie/\n玄幻::/xuanhuan{{page}}.html\n奇幻::/qihuan{{page}}.html\n武侠::/wuxia{{page}}.html\n仙侠::/xianxia{{page}}.html\n都市::/dushi{{page}}.html\n轻小说::/qing{{page}}.html\n历史·故事::/lishi{{page}}.html\n军事·战争::/junshi{{page}}.html\n游戏·竞技::/youxi{{page}}.html\n科幻::/kehuan{{page}}.html\n灵异::/lingyi{{page}}.html\n言情::/yanqing{{page}}.html\n耽美::/danmei{{page}}.html\n现代·当代::/dangdai.html\n侦探·推理::/zhentan{{page}}.html\n儿童::/ertong{{page}}.html\n名著::/mingzhu{{page}}.html\n励志::/lizhi{{page}}.html\n悬疑::/xuanyi{{page}}.html\n经管::/jingguan{{page}}.html\n同人::/tongren{{page}}.html\n传记::/zhuanji{{page}}.html\n散文·随笔::/sanwen{{page}}.html\n外国文学::/waiguo{{page}}.html\n畅销书::/chuban{{page}}.html\n杂志::/zazhi{{page}}.html\n漫画::/manhua{{page}}.html\n纪实::/jishi{{page}}.html\n幽默::/youmo{{page}}.html\n健康·美食::/health{{page}}.html\n诗集::/poetry{{page}}.html\n学习::/xuexi{{page}}.html\n心理::/xinli{{page}}.html\n宗教::/foxue{{page}}.html\n哲学::/zhexue{{page}}.html\n旅游::/travel{{page}}.html\n科普::/kepu{{page}}.html\n育儿::/yuer{{page}}.html\n女性::/woman{{page}}.html\n历史·文化::/culture{{page}}.html\n官场::/guanchang.html\n青春::/youth{{page}}.html\n互联网::/net{{page}}.html\n国学::/guoxue{{page}}.html\n逻辑思维::/logic{{page}}.html\n创业::/chuangye{{page}}.html\n二次元::/erciyuan{{page}}.html\n英文读物::/english{{page}}.html\n其他::/other{{page}}.html\nnull",
+    "header": "{\n  \"User-Agent\": \"User-Agent: Mozilla/5.0 (Linux; Android 9; GLK-AL00 Build/HUAWEIGLK-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.64 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1611570254433,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"@content",
+      "name": "[property=\"og:novel:book_name\"]@conten"
+    },
+    "ruleContent": {
+      "content": "id.cont-text@html",
+      "nextContentUrl": "<js>\ntry{\neval(result.match(/(var shortname[\\s\\S]+?)function[\\s\\S]+?<\\/script>/)[1]);\nif(npage!=totalpage){\nif(displaytype=='st' && namehand!='')\nresult=namehand+\"_\"+(npage+1)+shortname;\nelse result=\"view.php?aid=\"+cid+\"&pageno=\"+(npage+1);\n}else result=\"\";\n}catch(e){result=java.getString(\"class.col-md-6 text-center@tag.a.2@href\",true)}\n</js>"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.1@text",
+      "bookList": "@css:tbody tr||.mb10",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@data-original",
+      "intro": ".media-info@text",
+      "name": "tag.a.0@title||tag.h4@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.panel-body.2@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.20dcr.com/plus/search.php?q={{key}}",
+    "weight": 0
+  }
+]

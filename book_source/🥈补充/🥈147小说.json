@@ -1,0 +1,49 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🥈补充",
+    "bookSourceName": "🥈147小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.147xs.org",
+    "customOrder": 22,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::http://m.147xs.org/sort/1/&&修真::http://m.147xs.org/sort/2/&&都市::http://m.147xs.org/sort/3/&&穿越::http://m.147xs.org/sort/4/&&网游::http://m.147xs.org/sort/5/&&科幻::http://m.147xs.org/sort/6/&&次元::http://m.147xs.org/sort/7/&&综合::http://m.147xs.org/sort/8/&&青春::http://m.147xs.org/sort/9/&&现言::http://m.147xs.org/sort/10/&&古言::http://m.147xs.org/sort/11/&&幻想::http://m.147xs.org/sort/12/&&排行::http://m.147xs.org/paihang/&&完本::http://m.147xs.org/wanben/",
+    "lastUpdateTime": 1612014218690,
+    "ruleBookInfo": {
+      "coverUrl": "[property=\"og:image\"]@content=",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "tocUrl": "@js:baseUrl+'all.html'",
+      "wordCount": "[property=\"og:novel:update_time\"]@content"
+    },
+    "ruleContent": {
+      "content": ".nr_nr@html##.*www.*?.com.*",
+      "nextContentUrl": "#pb_next@href"
+    },
+    "ruleExplore": {
+      "author": ".author@text",
+      "bookList": ".hot_sale",
+      "bookUrl": "a@href",
+      "coverUrl": "img@data-original",
+      "intro": "tag.p.2@html",
+      "name": ".title@text"
+    },
+    "ruleSearch": {
+      "author": "tag.p.0@text",
+      "bookList": "@css:div.user-bookcase dl",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href@js:var id=result.match(/\\/(\\d+)\\D*/)[1];\n'http://img147xscom.cdn.bcebos.com/img/'+id+'.jpg'",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text##.*\\]"
+    },
+    "ruleToc": {
+      "chapterList": "@css:dl.list-striped dd a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://m.147xs.org/search.php,{\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\",\n\"headers\": {\"User-Agent\": \"\"}\n}",
+    "weight": 0
+  }
+]

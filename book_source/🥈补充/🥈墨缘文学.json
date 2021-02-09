@@ -1,0 +1,40 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🥈补充",
+    "bookSourceName": "🥈墨缘文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.mywenxue.cc",
+    "bookUrlPattern": "",
+    "customOrder": 93,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612777312852,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.hl@tag.span.0@text",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.txt@text",
+      "lastChapter": "class.la@tag.a@text",
+      "name": "class.l2 r@tag.h1.0@text##\\(.*",
+      "tocUrl": "class.tools@tag.a.2@href"
+    },
+    "ruleContent": {
+      "content": "class.txt@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.width111@text",
+      "bookList": "class.titone!0",
+      "bookUrl": "tag.a.0@href",
+      "name": "tag.a.0@text##\\(.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterList@tag.a",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.mywenxue.cc/book/Search.aspx?id={{key}}",
+    "weight": 0
+  }
+]

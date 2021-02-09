@@ -1,0 +1,36 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🥈补充",
+    "bookSourceName": "🥈118阅读网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.118yuedu.com",
+    "customOrder": 126,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612777312856,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "tag.img.0@src",
+      "intro": "class.bookinfo_intro@text##您要是觉得.*"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@html##&&amp;.*;|手机端阅读.*更好资源。。。|通知:请使用.*器!!"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s3@text",
+      "bookList": "class.toplist@tag.ul@tag.li",
+      "bookUrl": "class.s1@tag.a.0@href",
+      "lastChapter": "class.s2@tag.a@text",
+      "name": "class.s1@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.book_list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.118yuedu.com/modules/article/search.php?action=login&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+]

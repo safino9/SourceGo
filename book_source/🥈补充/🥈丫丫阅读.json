@@ -1,0 +1,68 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🥈补充",
+    "bookSourceName": "🥈丫丫阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yayayd.com",
+    "bookUrlPattern": "",
+    "customOrder": 105,
+    "enabled": true,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1612014664412,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "canReName": "true",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "init": "",
+      "intro": "class.intro@textNodes",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "",
+      "tocUrl": "class.LatestChapter@tag.a.1@href",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.pt-read-text@tag.p@text",
+      "nextContentUrl": "class.pt-nextchapter@href",
+      "replaceRegex": "##\\s本章未完.*继续阅读！|\\s第.*页/共.*页",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.author.0@text",
+      "bookList": "class.list_details@tag.li",
+      "bookUrl": "tag.h3@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "",
+      "lastChapter": "class.details@tag.a.0@text##\\s*最新章节\\s*",
+      "name": "tag.h3@tag.a@text",
+      "wordCount": "class.author.1@text##字数："
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu-content@class.mulu_list@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/search/result.html?searchtype=all&searchkey={{key}}&page={{page}}",
+    "weight": 0
+  }
+]

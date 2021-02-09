@@ -1,0 +1,38 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🥈补充",
+    "bookSourceName": "🥈多本小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.duoben.net",
+    "bookUrlPattern": "",
+    "customOrder": 92,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612777312852,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "tag.p.6@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##https.*tml|天才一秒记住.*|\\(本章完\\)|"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "class.bookimg@tag.img@src",
+      "kind": "class.cat@text##分类.",
+      "lastChapter": "class.update@text##最新章节.",
+      "name": "tag.h4.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.duoben.net/s.php?ie=gbk&q={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+]

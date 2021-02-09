@@ -1,0 +1,37 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉无错小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xquledu.com",
+    "customOrder": 134,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 1610673867826,
+    "ruleBookInfo": {
+      "intro": "id.content@tag.dd.3@tag.p.1@text",
+      "tocUrl": "class.read@href"
+    },
+    "ruleContent": {
+      "content": "id.contents@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.c_value.0@text||class.fl.1@tag.td.1@text",
+      "bookList": "class.c_row||class.booksub",
+      "bookUrl": "class.c_subject@tag.a@href",
+      "coverUrl": "class.fl.0@tag.a@tag.img@src||class.cover@tag.img@src",
+      "kind": "class.c_value.1@text||class.fl.1@tag.td.0@tag.a@text",
+      "lastChapter": "class.c_value.5@tag.a@text||id.content@tag.dd.3@tag.p.5@tag.a@text",
+      "name": "class.c_subject@tag.a@text||id.content@tag.h1@text##全文阅读"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.xquledu.com/modules/article/search.php?action=search&searchtype=all&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+]

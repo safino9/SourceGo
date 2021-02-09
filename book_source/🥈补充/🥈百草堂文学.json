@@ -1,0 +1,52 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🥈补充",
+    "bookSourceName": "🥈百草堂文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.bctbook.com",
+    "bookUrlPattern": "",
+    "customOrder": 51,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/sort-1-{{page}}/\n武侠仙侠::/sort-2-{{page}}/\n现代都市::/sort-3-{{page}}/\n女频言情::/sort-4-{{page}}/\n游戏竞技::/sort-5-{{page}}/\n科幻灵异::/sort-6-{{page}}/\n历史军事::/sort-7-{{page}}/\n综合其他::/sort-8-{{page}}/\n全部小说::/sort-0-{{page}}/",
+    "lastUpdateTime": 1611747943587,
+    "loginUrl": "https://www.bctbook.com/login.php",
+    "ruleBookInfo": {
+      "author": "class.author@text##作者：",
+      "coverUrl": "class.fengmian@tag.a@tag.img@src",
+      "intro": "class.bookintro.0@title",
+      "kind": "class.info_m.0@tag.span.0@text##类别：",
+      "lastChapter": "class.lastzj.0@tag.a.0@text",
+      "name": "class.info_t.0@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.booktext@textNodes",
+      "nextContentUrl": "id.linkNext@href"
+    },
+    "ruleExplore": {
+      "author": "tag.span.3@text",
+      "bookList": "class.listbg1@tag.li",
+      "bookUrl": "tag.span.1@tag.a@href",
+      "kind": "tag.span.0@tag.a@text",
+      "lastChapter": "tag.span.2@tag.a@text",
+      "name": "tag.span.1@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "class.title-info@text##.*作者：",
+      "bookList": "class.article-list",
+      "bookUrl": "class.title-info@tag.h6@tag.a@href",
+      "intro": "tag.p.0@title",
+      "kind": "class.title-info@tag.a.1@text",
+      "lastChapter": "tag.p.1@tag.a@text",
+      "name": "class.title-info@tag.h6@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.info_cmt.1@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.bctbook.com/modules/article/search.php?searchkey={{key}}&action=login&searchtype=all",
+    "weight": 0
+  }
+]

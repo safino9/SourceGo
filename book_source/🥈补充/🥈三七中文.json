@@ -1,0 +1,37 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🥈补充",
+    "bookSourceName": "🥈三七中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.37zw.net",
+    "bookUrlPattern": "",
+    "customOrder": 124,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1611756029469,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作\\s*者：",
+      "intro": "id.intro@tag.p.0@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##\\(本章完\\)|三七中文.*|"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.li@text##.*/",
+      "bookList": "class.novellist@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.37zw.net/s/so.php?type=articlename&s={{key}}",
+    "weight": 0
+  }
+]
