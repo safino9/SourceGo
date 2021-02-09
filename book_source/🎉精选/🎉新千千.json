@@ -1,0 +1,46 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉新千千",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.jxtemi.com",
+    "bookUrlPattern": "",
+    "customOrder": 73,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612014523307,
+    "ruleBookInfo": {
+      "author": "//meta[@property=\"og:novel:author\"]/@content",
+      "coverUrl": "//meta[@property=\"og:image\"]/@content",
+      "intro": "//meta[@property=\"og:description\"]/@content",
+      "kind": "//meta[@property=\"og:novel:category\"]/@content",
+      "name": "//meta[@property=\"og:title\"]/@content",
+      "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+      "content": "@js:\nvar sourceChars=[\"%uE800\",\"%uE801\",\"%uE802\",\"%uE803\",\"%uE804\",\"%uE805\",\"%uE806\",\"%uE807\",\"%uE808\",\"%uE809\",\"%uE80A\",\"%uE80B\",\"%uE80C\",\"%uE80D\",\"%uE80E\",\"%uE80F\",\"%uE810\",\"%uE811\",\"%uE812\",\"%uE813\",\"%uE814\",\"%uE815\",\"%uE816\",\"%uE817\",\"%uE818\",\"%uE819\",\"%uE81A\",\"%uE81B\",\"%uE81C\",\"%uE81D\",\"%uE81E\",\"%uE81F\",\"%uE820\",\"%uE821\",\"%uE822\",\"%uE823\",\"%uE824\",\"%uE825\",\"%uE826\",\"%uE827\",\"%uE828\",\"%uE829\",\"%uE82A\",\"%uE82B\",\"%uE82C\",\"%uE82D\",\"%uE82E\",\"%uE82F\",\"%uE830\",\"%uE831\",\"%uE832\",\"%uE833\",\"%uE834\",\"%uE835\",\"%uE836\",\"%uE837\",\"%uE838\",\"%uE839\",\"%uE83A\",\"%uE83B\",\"%uE83C\",\"%uE83D\",\"%uE83E\",\"%uE83F\",\"%uE840\",\"%uE841\",\"%uE842\",\"%uE843\",\"%uE844\",\"%uE845\",\"%uE846\",\"%uE847\",\"%uE848\",\"%uE849\",\"%uE84A\",\"%uE84B\",\"%uE84C\",\"%uE84D\",\"%uE84E\",\"%uE84F\",\"%uE850\",\"%uE851\",\"%uE852\",\"%uE853\",\"%uE854\",\"%uE855\",\"%uE856\",\"%uE857\",\"%uE858\",\"%uE859\",\"%uE85A\",\"%uE85B\",\"%uE85C\",\"%uE85D\",\"%uE85E\",\"%uE85F\",\"%uE860\",\"%uE861\",\"%uE862\",\"%uE863\"]\n\nvar displayChars=\"的一是了我不人在他有这个上们来到时大地为子中你说生国年着就那和要她出也得里后自以会家可下而过天去能对小多然于心学么之都好看起发当没成只如事把还用第样道想作种开美总从无情己面最女但现前些所同日手又行意动\";\n\nvar slect=\"i\";\n\nfunction convertChar(str) {\nlet index = sourceChars.indexOf(str)\nif(index != -1) return displayChars[index]\n}\n\nvar doc = org.jsoup.Jsoup.parse(result).select('#txt');\ndoc.select(slect).toArray().forEach(ele=>{\nlet str = escape(ele.text());\nele.text(convertChar(str))\n})\ndoc.select(\"h1\").remove();\ndoc.html()+'❌';",
+      "nextContentUrl": "text.下一章@href",
+      "replaceRegex": "##\\s*❌\\s*|\\s*天才一秒钟.*\\s*|这本小说的最新章节您已经读完了[\\s\\S]+"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.library@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": "class.intro@text",
+      "kind": "tag.p.0@tag.a!0@text",
+      "lastChapter": "class.chapter@text",
+      "name": "class.bookname@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.read@tag.dl!0@dd@a",
+      "chapterName": "text##更新：.*",
+      "chapterUrl": "href",
+      "updateTime": "text##.*更新："
+    },
+    "searchUrl": "/search.html?keyword={{key}}",
+    "weight": 0
+  }
+]

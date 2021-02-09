@@ -1,0 +1,45 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉笔趣网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.biquw.com",
+    "bookUrlPattern": "",
+    "customOrder": 65,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1610329465597,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//*[@property='og:novel:author']/@content",
+      "coverUrl": "//*[@property='og:image']/@content",
+      "intro": "class.bookinfo_intro@textNodes##您要是觉得《|》还不错.*",
+      "kind": "//*[@property='og:novel:category']/@content",
+      "lastChapter": "//*[@property='og:novel:latest_chapter_name']/@content",
+      "name": "//*[@property='og:novel:book_name']/@content"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s3@text||class.book_other@tag.span@text",
+      "bookList": "class.toplist@tag.li||class.sitebox@tag.dl",
+      "bookUrl": "class.s1@tag.a@href||tag.h3@tag.a@href",
+      "coverUrl": "class.s1@tag.a@href|tag.h3@tag.a@href@js:var o=result.match(/\\/book\\/(\\d+)/); if(o!=null){'/files/article/image/'+parseInt(o[1]/1000)+'/'+o[1]+'/'+o[1]+'s.jpg';}",
+      "intro": "class.book_des@textNodes",
+      "kind": "class.s5@text||class.uptime@text",
+      "lastChapter": "class.s2@tag.a@text||class.book_other@tag.a@text##正文_",
+      "name": "class.s1@tag.a@text||tag.h3@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.book_list@tag.li@tag.a",
+      "chapterName": "text##正文_",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchtype=articlename&searchkey={{key}}",
+    "weight": 0
+  }
+]

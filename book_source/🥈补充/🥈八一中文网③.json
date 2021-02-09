@@ -1,0 +1,49 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🥈补充",
+    "bookSourceName": "🥈八一中文网③",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.x81zw.com",
+    "bookUrlPattern": "",
+    "customOrder": 139,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1610168548393,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "id.intro@tag.p.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##ァ新ヤ~⑧~1~中文網ωωω.χ~⒏~1zщ.còм"
+    },
+    "ruleExplore": {
+      "author": "class.author@text##作者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@a@href##^##https://www.x81zw.com",
+      "coverUrl": "img@src",
+      "intro": "class.intro_line@text##简介：",
+      "kind": "",
+      "lastChapter": "class.update@a@text",
+      "name": "class.bookname@a@text"
+    },
+    "ruleSearch": {
+      "author": "class.result-game-item-info-tag.0@tag.span.1@text",
+      "bookList": "class.result-list@class.result-item",
+      "bookUrl": "class.result-item-title@tag.a.0@href",
+      "coverUrl": "class.result-game-item-pic@tag.img@src",
+      "intro": "class.result-game-item-desc@text",
+      "kind": "class.result-game-item-info-tag.1@tag.span.1@text",
+      "lastChapter": "class.result-game-item-info-tag.3@tag.a@text",
+      "name": "class.result-game-item-detail@h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.php?keyword={{key}}",
+    "weight": 0
+  }
+]

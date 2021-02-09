@@ -1,0 +1,37 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🥈补充",
+    "bookSourceName": "🥈全本小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qb5.tw-By Dark",
+    "customOrder": 133,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612777312857,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.img_in@tag.img@src",
+      "intro": "id.intro@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##全本小说网.*最新章节！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text||class.options@tag.a.0@text",
+      "bookList": "class.grid@tag.tr!0||id.main",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "lastChapter": "class.even.0@tag.a@text||class.update@tag.a.0@text",
+      "name": "class.odd.0@tag.a@text||tag.h1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.zjlist@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.qb5.tw/modules/article/search.php?searchtype=articlename&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉手打吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.shouda8.com",
+    "bookUrlPattern": "",
+    "customOrder": 10,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::https://www.shouda8.com/xuanhuan/<{{page}}>.html\n武侠仙侠::https://www.shouda8.com/wuxia/<{{page}}>.html\n都市生活::https://www.shouda8.com/dushi/<{{page}}>.html\n历史军事::https://www.shouda8.com/lishi/<{{page}}>.html\n游戏竞技::https://www.shouda8.com/youxi/<{{page}}>.html\n科幻未来::https://www.shouda8.com/kehuan/<{{page}}>.html\n恐怖悬疑::https://www.shouda8.com/xuanyi/<{{page}}>.html\n二次元::https://www.shouda8.com/erciyuan/<{{page}}>.html\n经典短篇::https://www.shouda8.com/jingdian/<{{page}}>.html\n古代言情::https://www.shouda8.com/guyan/<{{page}}>.html\n现代言情::https://www.shouda8.com/xianyan/<{{page}}>.html\n幻想奇缘::https://www.shouda8.com/huanqing/<{{page}}>.html\n浪漫青春::https://www.shouda8.com/qingchun/<{{page}}>.html\n网络情缘::https://www.shouda8.com/mmyouxi/<{{page}}>.html\n科幻空间::https://www.shouda8.com/mmkehuan/<{{page}}>.html\n鬼怪灵异::https://www.shouda8.com/lingyi/<{{page}}>.html\nN次元::https://www.shouda8.com/Nciyuan/<{{page}}>.html\n言情美文::https://www.shouda8.com/yanqing/<{{page}}>.html",
+    "lastUpdateTime": 1610902704637,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.intro@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##为了方便下次阅读.*|喜欢.*请大家收藏.*"
+    },
+    "ruleExplore": {
+      "author": "tag.span@text##作者：",
+      "bookList": "id.alistbox",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "tag.span.0@text##作者.",
+      "bookList": "id.alistbox",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.0@tag.img@src",
+      "intro": "class.intro@text",
+      "lastChapter": "tag.a.2@text##最新章节.",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.dl@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.shouda8.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }
+]

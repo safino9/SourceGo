@@ -1,0 +1,47 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉69书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.69shu.org",
+    "customOrder": 21,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::https://www.69shu.org/fenlei/1_{{page}}/\n仙侠::/fenlei/2_{{page}}/\n都市::/fenlei/3_{{page}}/\n穿越::/fenlei/4_{{page}}/\n军史::/fenlei/5_{{page}}/\n网游::/fenlei/6_{{page}}/\n科幻::/fenlei/7_{{page}}/\n悬疑::/fenlei/8_{{page}}/\n热门::/fenlei/9_{{page}}/\n全本::/quanben/{{page}}",
+    "lastUpdateTime": 1611661990594,
+    "ruleBookInfo": {
+      "author": "class.item.0@tag.a.0@text",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.bookinfo_intro@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@html##一秒记住【69书吧 www.69shu.org】，更新快，无弹窗，免费读！"
+    },
+    "ruleExplore": {
+      "author": "class.s4@text",
+      "bookList": "class.gengxin@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.69shu.org/files/article/image/$2/$1/$1s.jpg###",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text",
+      "wordCount": "class.s5@text"
+    },
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "coverUrl": "class.odd.0@tag.a@href##.+\\D((\\d+)\\d{3})\\D##https://www.69shu.org/files/article/image/$2/$1/$1s.jpg###",
+      "lastChapter": "class.even.0@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.69shu.org/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+]

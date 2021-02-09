@@ -1,0 +1,36 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🥈补充",
+    "bookSourceName": "🥈千千小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.123qqxs.com",
+    "customOrder": 50,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻修真::http://www.123qqxs.com/1/{{page}}.html\n都市商战::http://www.123qqxs.com/2/{{page}}.html\n历史军事::http://www.123qqxs.com/3/{{page}}.html\n穿越架空::http://www.123qqxs.com/6/{{page}}.html\n恐怖推理::http://www.123qqxs.com/5/{{page}}.html\n现代言情::http://www.123qqxs.com/8/{{page}}.html\n古典言情::http://www.123qqxs.com/7/{{page}}.html\n网游科幻::http://www.123qqxs.com/4/{{page}}.html\n耽美同人::http://www.123qqxs.com/9/{{page}}.html\n综合其他::http://www.123qqxs.com/10/{{page}}.html",
+    "lastUpdateTime": 1611661999457,
+    "ruleBookInfo": {
+      "coverUrl": "class.binfo@class.binfo2@class.binfo2_l@tag.img.0@src",
+      "intro": "class.binfo2@class.binfo2_r@class.b22@text"
+    },
+    "ruleContent": {
+      "content": "class.cn@tag.p@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.rt_right@tag.span.0@text",
+      "bookList": "id.con@class.retui2@tag.dd",
+      "bookUrl": "class.rt_right@tag.h3.0@tag.a.0@href",
+      "coverUrl": "class.rt_left@tag.a.0@tag.img.0@src",
+      "name": "class.rt_right@tag.h3.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist.0@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.123qqxs.com/search.aspx,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"q={{key}}&submit=小说搜索\"\n}",
+    "weight": 0
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉笔趣阁⑥",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.mibaoge.com",
+    "bookUrlPattern": "",
+    "customOrder": 84,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612012148296,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.box_con.0@id.info@tag.p.0@text##作\\s*者：",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "name": "class.box_con.0@id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.result-game-item-info-tag.0@tag.span.1@text",
+      "bookList": "class.result-item",
+      "bookUrl": "class.result-item-title.0@tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "class.result-game-item-desc@text",
+      "lastChapter": "class.result-game-item-info-tag.3@tag.a.0@text",
+      "name": "class.result-item-title.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.mibaoge.com/search.php?q={{key}}",
+    "weight": 0
+  }
+]

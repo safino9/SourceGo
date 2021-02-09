@@ -1,0 +1,39 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🥈补充",
+    "bookSourceName": "🥈奇奇小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qq717.com",
+    "customOrder": 90,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1610130776220,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p.0@text||tag.p.0@text",
+      "name": "tag.h3.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.1@text",
+      "bookList": "class.result-list gameblock-result-list@tag.div",
+      "bookUrl": "tag.h3.0@tag.a@href",
+      "coverUrl": "tag.img.0@src",
+      "kind": "tag.span.3@text##小说",
+      "lastChapter": "tag.p.4@tag.a@text",
+      "name": "tag.h3.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.qq717.com/search.php?keyword={{key}}&page={{page}}",
+    "weight": 0
+  }
+]

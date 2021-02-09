@@ -1,0 +1,60 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉女神小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.nvshenxs.com",
+    "bookUrlPattern": "",
+    "customOrder": 108,
+    "enabled": true,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1612013095597,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "canReName": "true",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.readcotent@textNodes",
+      "imageStyle": "",
+      "nextContentUrl": "",
+      "replaceRegex": "##\\s*请牢记.*女神小说网\\s*",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "@css:.bookbox+div",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##/(\\d+)/(\\d+)/##http://image.nvshenxs.com/$1/$2/$2s.jpg###",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "class.cat@tag.a@text",
+      "name": "class.bookname@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:#list-chapterAll dd a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&submit=&page={{page}},{\n\"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+]

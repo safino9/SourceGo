@@ -1,0 +1,45 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🥈补充",
+    "bookSourceName": "🥈黄易小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.huangyixiaoshuo.com",
+    "customOrder": 102,
+    "enabled": true,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1610808251466,
+    "ruleBookInfo": {
+      "canReName": "true",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": ""
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "@css:.novelslist2 li:nth-child(n+2)",
+      "bookUrl": "tag.a.0@href",
+      "kind": "",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:#list dd a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/index.php?s=/web/index/search,{\n\"method\": \"POST\",\n\"body\": \"name={{key}}\"\n}",
+    "weight": 0
+  }
+]

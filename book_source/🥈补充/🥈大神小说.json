@@ -1,0 +1,40 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🥈补充",
+    "bookSourceName": "🥈大神小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.dashenxiaoshuo.com",
+    "bookUrlPattern": "",
+    "customOrder": 30,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xclass/1/{{page}}.html\n修真::/xclass/2/{{page}}.html\n都市::/xclass/3/{{page}}.html\n穿越::/xclass/4/{{page}}.html\n网游::/xclass/5/{{page}}.html\n科幻::/xclass/6/{{page}}.html\n其他::/xclass/7/{{page}}.html",
+    "lastUpdateTime": 1610339344567,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": ".review@html##^##<br>",
+      "tocUrl": "@js:baseUrl.replace(/\\/?$/, '/booklist.html')"
+    },
+    "ruleContent": {
+      "content": ".Readarea@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text##.+作者：",
+      "bookList": ".hot_sale:lt(4)",
+      "bookUrl": "a@href",
+      "coverUrl": "a@href@js:\nvar id = result.match(/_(\\d+)\\/?$/)[1];\n'http://img.dashenxiaoshuo.com/image/'+parseInt(id/1000)+'/'+id+'/'+id+'s.jpg';",
+      "kind": ".author@text##()?\\s*\\|\\s*.+",
+      "lastChapter": "class.author.1@text##.+更新：",
+      "name": ".title@text"
+    },
+    "ruleToc": {
+      "chapterList": ".directoryArea@a!0",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"t=1&keyword={{key}}\"\n}",
+    "weight": 0
+  }
+]

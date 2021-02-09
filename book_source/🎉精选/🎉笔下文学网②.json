@@ -1,0 +1,37 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉笔下文学网②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.bixiabook.com",
+    "bookUrlPattern": "",
+    "customOrder": 141,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1610168560168,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.block_img2@tag.img@src",
+      "intro": "class.intro_info@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@tag.a.0@text",
+      "bookList": "class.novelslist2@tag.li!0",
+      "bookUrl": "class.s2@tag.a.0@href",
+      "lastChapter": "class.s3@tag.a.0@text",
+      "name": "class.s2@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.bixiabook.com/index.php?s=/web/index/search,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}",
+    "weight": 0
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉九桃小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.9txs.com",
+    "bookUrlPattern": "",
+    "customOrder": 41,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新::/top/postdate/{{page}}.html\n最近::/top/lastupdate/{{page}}.html\n点击::/top/allvisit/{{page}}.html\n推荐::/top/allvote/{{page}}.html\n收藏::/top/goodnum/{{page}}.html\n字数::/top/size/{{page}}.html\n强推::/top/toptime/{{page}}.html\n新书::/top/goodnew/{{page}}.html\n                              连载                              ::/library/0_0_1_{{page}}.html\n玄幻奇幻::/library/0_1_1_{{page}}.html\n武侠修真::/library/0_2_1_{{page}}.html\n都市生活::/library/0_3_1_{{page}}.html\n历史军事::/library/0_4_1_{{page}}.html\n游戏竞技::/library/0_5_1_{{page}}.html\n科幻未来::/library/0_6_1_{{page}}.html\n悬疑灵异::/library/0_7_1_{{page}}.html\n 二次 元 ::/library/0_8_1_{{page}}.html\n经典短篇::/library/0_9_1_{{page}}.html\n古代言情::/library/0_10_1_{{page}}.html\n现代言情::/library/0_11_1_{{page}}.html\n幻想奇缘::/library/0_12_1_{{page}}.html\n浪漫青春::/library/0_13_1_{{page}}.html\n网络情缘::/library/0_14_1_{{page}}.html\n科幻空间::/library/0_15_1_{{page}}.html\n恐怖灵异::/library/0_16_1_{{page}}.html\n N次 元 ::/library/0_17_1_{{page}}.html\n言情美文::/library/0_18_1_{{page}}.html\n其他类型::/library/0_19_1_{{page}}.html\n                              完结                              ::/library/0_0_2_{{page}}.html\n玄幻奇幻::/library/0_2_1_{{page}}.html\n武侠修真::/library/0_2_2_{{page}}.html\n都市生活::/library/0_3_2_{{page}}.html\n历史军事::/library/0_4_2_{{page}}.html\n游戏竞技::/library/0_5_2_{{page}}.html\n科幻未来::/library/0_6_2_{{page}}.html\n悬疑灵异::/library/0_7_2_{{page}}.html\n 二次 元 ::/library/0_8_2_{{page}}.html\n经典短篇::/library/0_9_2_{{page}}.html\n古代言情::/library/0_10_2_{{page}}.html\n现代言情::/library/0_11_2_{{page}}.html\n幻想奇缘::/library/0_12_2_{{page}}.html\n浪漫青春::/library/0_13_2_{{page}}.html\n网络情缘::/library/0_14_2_{{page}}.html\n科幻空间::/library/0_15_2_{{page}}.html\n恐怖灵异::/library/0_16_2_{{page}}.html\n N次 元 ::/library/0_17_2_{{page}}.html\n言情美文::/library/0_18_2_{{page}}.html\n其他类型::/library/0_19_2_{{page}}.html",
+    "lastUpdateTime": 1610902427770,
+    "loginUrl": "https://www.9txs.com/login.html",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "@css:.more@href"
+    },
+    "ruleContent": {
+      "content": "@css:#content@html",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {
+      "author": "@css:p:contains(作者)@text##\\|.*",
+      "bookList": "@css:.library li||.list li",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "",
+      "lastChapter": "class.chapter@tag.a@text##最新章节：",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "@css:.library>li:lt(10)",
+      "bookUrl": "class.bookname@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@html",
+      "kind": "@css:p:not([class]),span@text<js>\nString(result).replace(/作者.*?\\|/g,'').replace('|',',')</js>",
+      "lastChapter": "class.chapter@text##最新章节：",
+      "name": "class.bookname@text##免费阅读全文"
+    },
+    "ruleToc": {
+      "chapterList": "+@css:.read>dl:nth-of-type(n+2) a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "https://www.9txs.com/\nsearch.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }
+]

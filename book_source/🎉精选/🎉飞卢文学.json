@@ -1,0 +1,48 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉飞卢文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.flwenxue.com",
+    "bookUrlPattern": "",
+    "customOrder": 101,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "",
+    "lastUpdateTime": 1612777312853,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "##:author\"[^\"]+\"([^\"]*)##$1###",
+      "coverUrl": "##og:image\"[^\"]+\"([^\"]*)##$1###",
+      "intro": "id.intro@tag.p.0@textNodes",
+      "kind": "##:category\"[^\"]+\"([^\"]*)##$1###",
+      "lastChapter": "##_chapter_name\"[^\"]+\"([^\"]*)##$1###",
+      "name": "##:book_name\"[^\"]+\"([^\"]*)##$1###",
+      "tocUrl": "##novel:read_url\"[^\"]+\"([^\"]*)##$1###",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "@css:#content>p:not(:last-child)@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@css:.book_other:eq(2)>span:eq(0)@text",
+      "bookList": "@css:#sitembox>dl",
+      "bookUrl": "@css:dt>a@href",
+      "coverUrl": "@css:img@src",
+      "intro": "@css:.book_des@textNodes",
+      "kind": "@css:.book_other:eq(2)>span:eq(2)@text",
+      "lastChapter": "##最新章节：[^>]*>([^<]*)<(?:[^>]*){2}> 更新时间：[^>]*>([^<]*)##$1 · $2###",
+      "name": "@css:h3>a@text",
+      "wordCount": "@css:.book_other:eq(2)>span:eq(3)@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:#list dd a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }
+]

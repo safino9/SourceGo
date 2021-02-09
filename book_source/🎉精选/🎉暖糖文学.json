@@ -1,0 +1,60 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🎉精选",
+    "bookSourceName": "🎉暖糖文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.nuantang.net",
+    "bookUrlPattern": "",
+    "customOrder": 37,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "中文经典::/all/order/hits%2Bdesc/id/47.html?page={{page}}\n外国名著::/all/order/hits%2Bdesc/id/44.html?page={{page}}\n影视名著::/all/order/hits%2Bdesc/id/46.html?page={{page}}",
+    "lastUpdateTime": 1611068427977,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "canReName": "true",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "[property=\"og:novel:read_url\"]@content##/novel/##/other/chapters/id/",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.read-content@tag.p@textNodes",
+      "imageStyle": "",
+      "nextContentUrl": "",
+      "replaceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "@css:.result ul li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@data-src",
+      "intro": "tag.p.-1@textNodes##\\s*.*各位书友.*\\s*",
+      "kind": "tag.span!0@text&&tag.i!0@text##分类|状态|总字数|更新时间|：|\\s.*",
+      "lastChapter": "tag.a.-2@text",
+      "name": "tag.h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:.fL_con li a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.html?keyword={{key}}&page={{page}}",
+    "weight": 0
+  }
+]

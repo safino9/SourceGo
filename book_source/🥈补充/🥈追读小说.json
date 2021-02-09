@@ -1,0 +1,39 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🥈补充",
+    "bookSourceName": "🥈追读小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://service.nickbussok.com",
+    "bookUrlPattern": "",
+    "customOrder": 100,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612777312853,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "@js:java.get('Intro')"
+    },
+    "ruleContent": {
+      "content": "@js:result"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "@js:var O=[\"5 q=D(E.F(/G=([^&=]+)/)[1]);5 h=j H('('+q.6(/\\\\s/g,'').I('').J(k(a,K,i,b){l(i<b.L-1){a.M(b[i]+b[i+1])}8 a},[]).N('|')+')');k d(a){8!h.O(a.6(/\\\\s/g,''))}m.n(P).o.Q(0,3).R(9=>{5 7=9.S;5 c=9.U;l(d(7)&&d(c))8{};5 e='p://r.u.w/x/4?y=1&V=1&W='+9.z;5 4=m.n(X.Y(e)).o[0];5 f=4.Z==1;8{7:7,c:c,11:[4.12,f?'完结':'连载',4.13/10+'分 / '+4.14+'人气值'],15:(f?'共':'第')+4.A.16+'章'+'（'+j 17(4.A.18).19().6(/T.+/,'')+'）',1a:4.1b||4.1c,1d:4.B.6(/[\\\\s\\\\t]+/g,''),1e:'<C>'+4.B.6(/[\\\\s\\\\t]+/g,'<C>'),e:'p://r.u.w/x/1f?y=2&1g=0&1h=1i&1j=1&z='+4.1k}}).1l(v=>v.7);\",\"|\",\"split\",\"||||book|var|replace|name|return|data|||author|isInvalid|url|isEnd||regex||new|function|if|JSON|parse|anyData|https||service|||nickbussok||com|bookinfo|nType|szBookID|objBookExtData|szDesc|br|decodeURIComponent|baseUrl|match|szInput|RegExp|split|reduce|_|length|push|join|test|result|slice|map|szBookName||szAuthor|nNeedThrdTypeData|aryBookID|java|ajax|nStatus||tags|nWordCount|nScore|nPopularity|last|nChapterCount|Date|nLastUpdateTime|toISOString|cover|szCover|szOrgCover|intro|Intro|chapter|nOffset|nLimit|19999|nSort|szBookId|filter\",\"\",\"fromCharCode\",\"replace\",\"\\\\w+\",\"\\\\b\",\"g\"];eval(function(e,t,n,r,o,a){if(o=function(e){return(e<62?O[4]:o(parseInt(e/62)))+(35<(e%=62)?String[O[5]](e+29):e.toString(36))},!O[4][O[6]](/^/,String)){for(;n--;)a[o(n)]=r[n]||o(n);r=[function(e){return a[e]}],o=function(){return O[7]},n=1}for(;n--;)r[n]&&(e=e[O[6]](new RegExp(O[8]+o(n)+O[8],O[9]),r[n]));return e}(O[0],0,84,O[3][O[2]](O[1]),0,{}));",
+      "bookUrl": "url",
+      "coverUrl": "cover",
+      "intro": "intro@put:{Intro:$.Intro}@js:result.trim()",
+      "kind": "",
+      "lastChapter": "last",
+      "name": "name"
+    },
+    "ruleToc": {
+      "chapterList": "anyData.aryChapter",
+      "chapterName": "szChapterName",
+      "chapterUrl": "szChapterURL"
+    },
+    "searchUrl": "/book/search/result?szInput={{key}}&nOffset=0&nLimit=3",
+    "weight": 0
+  }
+]

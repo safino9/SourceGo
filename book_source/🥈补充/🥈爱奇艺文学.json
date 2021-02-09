@@ -1,0 +1,41 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🥈补充",
+    "bookSourceName": "🥈爱奇艺文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wenxue.iqiyi.com",
+    "bookUrlPattern": "",
+    "customOrder": 131,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612777312857,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.writerName.0@text",
+      "intro": "class.book-details-wrapper pr@tag.p.1@text",
+      "name": "class.book-details-wrapper pr@tag.span.0@tag.h1@text",
+      "tocUrl": "class.chapter-all@tag.a.0@href||class.a1@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "class.reader-article@tag.p@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.stacksBook-info.0@tag.p.0@tag.em.0@text",
+      "bookList": "class.stacksBook",
+      "bookUrl": "class.stacksBook-info.0@tag.h3.0@tag.a.0@href",
+      "coverUrl": "class.stacksBookCover@tag.a.0@tag.img.0@src",
+      "kind": "class.stacksBook-info.0@tag.p.0@tag.a.0@text",
+      "lastChapter": "class.stacksBook-info.0@tag.p.2@tag.a.0@text##最新章节",
+      "name": "class.stacksBook-info.0@tag.h3.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.catalog-chapter",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://wenxue.iqiyi.com/book/search-{{key}}-{{page-1}}.html",
+    "weight": 0
+  }
+]

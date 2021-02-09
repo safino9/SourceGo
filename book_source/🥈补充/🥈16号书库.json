@@ -1,0 +1,46 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "🥈补充",
+    "bookSourceName": "🥈16号书库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.as16.com",
+    "bookUrlPattern": "",
+    "customOrder": 24,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/quanben/xuanhuan/allvisit_0_0_0_0_0_0_{{page}}.shtml\n魔幻::/quanben/mohuan/allvisit_0_0_0_0_0_0_{{page}}.shtml\n仙侠::/quanben/xianxia/allvisit_0_0_0_0_0_0_{{page}}.shtml\n都市::/quanben/dushi/allvisit_0_0_0_0_0_0_{{page}}.shtml\n历史::/quanben/lishi/allvisit_0_0_0_0_0_0_{{page}}.shtml\n穿越::/quanben/chuanyue/allvisit_0_0_0_0_0_0_{{page}}.shtml\n架空::/quanben/jiakong/allvisit_0_0_0_0_0_0_{{page}}.shtml\n古言::/quanben/guyan/allvisit_0_0_0_0_0_0_{{page}}.shtml\n言情::/quanben/yanqing/allvisit_0_0_0_0_0_0_{{page}}.shtml\n恐怖::/quanben/kongbu/allvisit_0_0_0_0_0_0_{{page}}.shtml\n动漫::/quanben/dongman/allvisit_0_0_0_0_0_0_{{page}}.shtml\n科幻::/quanben/kehuan/allvisit_0_0_0_0_0_0_{{page}}.shtml\n网游::/quanben/wangyou/allvisit_0_0_0_0_0_0_{{page}}.shtml\n耽美::/quanben/danmeitongren/allvisit_0_0_0_0_0_0_{{page}}.shtml\n其他::/quanben/qita/allvisit_0_0_0_0_0_0_{{page}}.shtml",
+    "lastUpdateTime": 1612777312843,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "##作者[^>]+>(.*?)<##$1###",
+      "coverUrl": "img@src",
+      "intro": ".intro@textNodes##\\s*《[\\s\\S]*",
+      "kind": "##分类[\\s\\S]*?>([^<]*)\\s*<[\\s\\S]*?状态.*?>已?(.*?)中?<##$1,$2###",
+      "lastChapter": ".chapter_new@tag.a.0@text",
+      "name": ".book-box@id.intro@h2@text",
+      "tocUrl": ".Read a@href"
+    },
+    "ruleContent": {
+      "content": "id.text_book@html##.*?<\\/strong>"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "##作者[^>]+>(.*?)<##$1###",
+      "bookList": ".book_content .content_book_a",
+      "bookUrl": "h3@a@href",
+      "coverUrl": "img@src",
+      "intro": "tag.p.1@html##^\\s*",
+      "kind": "##分类.(.*?)<[^：]+.已?(.*?)中?<##$1,$2###",
+      "lastChapter": "tag.p.2@a@textNodes",
+      "name": "h3@text##《|》"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }
+]
