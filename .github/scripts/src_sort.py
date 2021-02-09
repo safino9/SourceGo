@@ -52,7 +52,7 @@ def json_group(src_list):
         if src.get('lastUpdateTime') is None:
             src['lastUpdateTime'] = get_timestamp()
         if src.get('loginUrl') is not None and not str(src['loginUrl']).startswith('http'):
-            src['loginUrl'] = ''
+            del src['loginUrl']
         create_dir(os.path.join(work_space, src['bookSourceGroup']))
         write_file(os.path.join(work_space, src['bookSourceGroup'], f"{src['bookSourceName']}.json"), [src])
     # 失效源

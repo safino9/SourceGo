@@ -231,6 +231,8 @@ def save_file_group(file_dir):
 def merge(path, src_list):
     i = 1
     for src in src_list:
+        if src.get('loginUrl') is not None and not str(src['loginUrl']).startswith('http'):
+            del src['loginUrl']
         src['bookSourceComment'] = 'https://celeter.github.io/SourceGo'
         src['customOrder'] = i
         i += 1
