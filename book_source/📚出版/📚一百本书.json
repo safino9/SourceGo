@@ -11,7 +11,6 @@
     "enabledExplore": true,
     "exploreUrl": "世界名著::/shijiemingzhu/list_{{page}}.html\n现代文学::/xiandaiwenxue/list_{{page}}.html\n外国小说::/waiguoxiaoshuo/list_{{page}}.html\n励志书籍::/lizhishuji/list_{{page}}.html\n古典文学::/gudianwenxue/list_{{page}}.html\n武侠小说::/wuxiaxiaoshuo/list_{{page}}.html\n言情小说::/yanqingxiaoshuo/list_{{page}}.html\n推理小说::/tuilixiaoshuo/list_{{page}}.html\n科幻小说::/kehuanxiaoshuo/list_{{page}}.html\n人物传记::/renwuzhuanji/list_{{page}}.html\n盗墓悬疑::/daomuxuanyi/list_{{page}}.html\n玄幻穿越::/xuanhuanchuanyue/list_{{page}}.html\n科普书籍::/kepushuji/list_{{page}}.html\n全部小说::/all/list_{{page}}.html",
     "lastUpdateTime": 1610780169450,
-    "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "class.book_info finish@tag.img.0@src",
       "intro": "class.intro@tag.p@text||class.intro@text"

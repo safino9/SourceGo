@@ -10,7 +10,6 @@
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1611752709940,
-    "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.book-title@tag.em.0@text##作\\s*者：",
       "coverUrl": "class.book-img@tag.img.0@src",

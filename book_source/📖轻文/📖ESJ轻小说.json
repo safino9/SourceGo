@@ -11,7 +11,6 @@
     "enabledExplore": true,
     "exploreUrl": "<js>\nvar tags=[\"R15\",\"冒险\",\"料理\",\"转生\",\"魔法\",\"妹系\",\"后宫\",\"恋爱\",\"魔法\",\"重生\",\"贵族\",\"英雄谭\",\"多视角\",\"穿越\",\"萝莉\",\"甜文\",\"短篇\",\"女性视角\",\"纯爱\",\"校园\",\"异世界\",\"性转\",\"药水\"];\n\n\"首页推荐::/&&日轻::/list/{{page}}.html&&原创::/creation/{{page}}.html&&一週更新::/update/&&\"+tags.map(tag=>tag+\"::/tags/\"+tag+\"/{{page}}.html\").join('&&')\n\n\n</js>",
     "lastUpdateTime": 1612777312861,
-    "loginUrl": "/login",
     "ruleBookInfo": {
       "author": "@css:h2+ul>li:eq(0)@text",
       "coverUrl": "",

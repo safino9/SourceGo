@@ -12,7 +12,6 @@
     "exploreUrl": "最近更新::https://www.dushu.com/lianzai/1115_{{page}}.html\n言情小说::https://www.dushu.com/lianzai/1126_{{page}}.html\n青春小说::https://www.dushu.com/lianzai/1127{{page}}.html\n都市小说::https://www.dushu.com/lianzai/1128_{{page}}.html\n历史小说::https://www.dushu.com/lianzai/1129_{{page}}.html\n科幻小说::https://www.dushu.com/lianzai/1130_{{page}}.html\n军事小说::https://www.dushu.com/lianzai/1131_{{page}}.html\n官场商战::https://www.dushu.com/lianzai/1132_{{page}}.html\n悬疑推理::https://www.dushu.com/lianzai/1133_{{page}}.html\n武侠玄幻::https://www.dushu.com/lianzai/1134_{{page}}.html\n灵异恐怖::https://www.dushu.com/lianzai/1135_{{page}}.html\n社会乡土::https://www.dushu.com/lianzai/1136_{{page}}.html\n影视文学::https://www.dushu.com/lianzai/1137_{{page}}.html\n现代小说::https://www.dushu.com/lianzai/1138_{{page}}.html\n外国小说::https://www.dushu.com/lianzai/1139_{{page}}.html\n古典小说::https://www.dushu.com/lianzai/1199_{{page}}.html",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
     "lastUpdateTime": 1610810754939,
-    "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.book-details-left@tag.a.0@text",
       "coverUrl": "class.pic@img@src",

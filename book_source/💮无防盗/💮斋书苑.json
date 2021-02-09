@@ -1,50 +1,49 @@
 [
-{
-  "bookSourceComment": "",
-  "bookSourceGroup": "💮无防盗",
-  "bookSourceName": "💮斋书苑",
-  "bookSourceType": 0,
-  "bookSourceUrl": "https://www.zhaishuyuan.com",
-  "bookUrlPattern": "",
-  "customOrder": 0,
-  "enabled": true,
-  "enabledExplore": false,
-  "exploreUrl": "",
-  "header": "",
-  "lastUpdateTime": 1610962058728,
-  "loginUrl": "",
-  "ruleBookInfo": {
-    "author": "@CSS:[property=\"og:novel:author\"]@content",
-    "coverUrl": "@CSS:[property=\"og:image\"]@content",
-    "intro": "@CSS:#bookintro@html",
-    "kind": "@CSS:[property=\"og:novel:category\"]@content",
-    "lastChapter": "@CSS:[property=\"og:novel:latest_chapter_name\"]@content",
-    "name": "@CSS:[property=\"og:novel:book_name\"]@content",
-    "tocUrl": "@CSS:[property=\"og:novel:read_url\"]@content",
-    "wordCount": "@CSS:.count li:last-child>span@text"
-  },
-  "ruleContent": {
-    "content": "<js>try{\nvar doc = org.jsoup.Jsoup.parse(result);\nvar $ = (s)=>doc.selectFirst(s);\nvar f = result.match(/function getDecode[^<]+/);\nif (f) {eval(f[0]); getDecode();}\ndoc.getElementById('content').outerHtml();\n}catch (err){err;}\n</js>"
-  },
-  "ruleExplore": {},
-  "ruleSearch": {
-    "author": "@css:span:nth-child(1)@text",
-    "bookList": "@css:#sitembox>dl",
-    "bookUrl": "@css:dt>a@href",
-    "coverUrl": "@css:img@_src",
-    "intro": "@css:.book_des@text",
-    "kind": "@css:span:nth-child(3)@text",
-    "lastChapter": "@css:dd>a:nth-child(1)@text",
-    "name": "@css:h3>a@text",
-    "wordCount": "@css:span:nth-child(4)@text"
-  },
-  "ruleToc": {
-    "chapterList": "+<js>\nvar bid = parseInt(result.match(/data-bid=\"(\\d+)/)[1]);\nvar reg = 'href=\"/chapter/[^/]+/([^\"]+)[^>]+>([^<]+)[^>]+>([^<]+)';\nvar cList = result.match(new RegExp(reg, 'g')).map((item) => {\n\tvar ret = item.match(reg);\n\treturn { cN: ret[2], uT: ret[3].trim(), id: parseInt(ret[1]) + bid };\n});\nvar hider = result.match(/查看隐藏章节[^<]+/);\nif (hider) {\n\tlet p = Math.ceil(hider[0].match(/\\d+/)[0] / 900);\n\tfor (let i = 1; i <= p; ++i) {\n\t\tlet url = 'https://www.zhaishuyuan.com/api/,' + JSON.stringify({ charset: 'gbk', method: 'POST', body: 'action=list&bid=' + bid + '&page=' + i });\n\t\tArray.prototype.push.apply(cList, JSON.parse(java.ajax(url)).data);\n\t}\n}\ncList.sort((a, b) => (a.id < b.id ? -1 : 1)).map((item) => {\n\titem.id = '/chapter/' + bid + '/' + (item.id - bid);\n\treturn item;\n});\n</js>",
-    "chapterName": "cN",
-    "chapterUrl": "id",
-    "updateTime": "uT"
-  },
-  "searchUrl": "/search/,{body:'key={{key}}',method:'POST',charset:'gbk'}",
-  "weight": 0
-}
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💮无防盗",
+    "bookSourceName": "💮斋书苑",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.zhaishuyuan.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1610962058728,
+    "ruleBookInfo": {
+      "author": "@CSS:[property=\"og:novel:author\"]@content",
+      "coverUrl": "@CSS:[property=\"og:image\"]@content",
+      "intro": "@CSS:#bookintro@html",
+      "kind": "@CSS:[property=\"og:novel:category\"]@content",
+      "lastChapter": "@CSS:[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "@CSS:[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "@CSS:[property=\"og:novel:read_url\"]@content",
+      "wordCount": "@CSS:.count li:last-child>span@text"
+    },
+    "ruleContent": {
+      "content": "<js>try{\nvar doc = org.jsoup.Jsoup.parse(result);\nvar $ = (s)=>doc.selectFirst(s);\nvar f = result.match(/function getDecode[^<]+/);\nif (f) {eval(f[0]); getDecode();}\ndoc.getElementById('content').outerHtml();\n}catch (err){err;}\n</js>"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@css:span:nth-child(1)@text",
+      "bookList": "@css:#sitembox>dl",
+      "bookUrl": "@css:dt>a@href",
+      "coverUrl": "@css:img@_src",
+      "intro": "@css:.book_des@text",
+      "kind": "@css:span:nth-child(3)@text",
+      "lastChapter": "@css:dd>a:nth-child(1)@text",
+      "name": "@css:h3>a@text",
+      "wordCount": "@css:span:nth-child(4)@text"
+    },
+    "ruleToc": {
+      "chapterList": "+<js>\nvar bid = parseInt(result.match(/data-bid=\"(\\d+)/)[1]);\nvar reg = 'href=\"/chapter/[^/]+/([^\"]+)[^>]+>([^<]+)[^>]+>([^<]+)';\nvar cList = result.match(new RegExp(reg, 'g')).map((item) => {\n\tvar ret = item.match(reg);\n\treturn { cN: ret[2], uT: ret[3].trim(), id: parseInt(ret[1]) + bid };\n});\nvar hider = result.match(/查看隐藏章节[^<]+/);\nif (hider) {\n\tlet p = Math.ceil(hider[0].match(/\\d+/)[0] / 900);\n\tfor (let i = 1; i <= p; ++i) {\n\t\tlet url = 'https://www.zhaishuyuan.com/api/,' + JSON.stringify({ charset: 'gbk', method: 'POST', body: 'action=list&bid=' + bid + '&page=' + i });\n\t\tArray.prototype.push.apply(cList, JSON.parse(java.ajax(url)).data);\n\t}\n}\ncList.sort((a, b) => (a.id < b.id ? -1 : 1)).map((item) => {\n\titem.id = '/chapter/' + bid + '/' + (item.id - bid);\n\treturn item;\n});\n</js>",
+      "chapterName": "cN",
+      "chapterUrl": "id",
+      "updateTime": "uT"
+    },
+    "searchUrl": "/search/,{body:'key={{key}}',method:'POST',charset:'gbk'}",
+    "weight": 0
+  }
 ]

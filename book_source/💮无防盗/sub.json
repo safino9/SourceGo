@@ -45,7 +45,7 @@
     "weight": 0
   },
   {
-    "bookSourceComment": "Created By Celeter",
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
     "bookSourceGroup": "💮无防盗",
     "bookSourceName": "💮69书吧①",
     "bookSourceType": 0,
@@ -55,7 +55,6 @@
     "enabled": true,
     "enabledExplore": false,
     "lastUpdateTime": 1612708229629,
-    "loginUrl": "",
     "ruleBookInfo": {
       "author": "##:author\"[^\"]+\"([^\"]*)##$1###",
       "coverUrl": "##og:image\"[^\"]+\"([^\"]*)##$1###",
@@ -89,7 +88,7 @@
     "weight": 91
   },
   {
-    "bookSourceComment": "",
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
     "bookSourceGroup": "💮无防盗",
     "bookSourceName": "💮斋书苑",
     "bookSourceType": 0,
@@ -101,7 +100,6 @@
     "exploreUrl": "",
     "header": "",
     "lastUpdateTime": 1610962058728,
-    "loginUrl": "",
     "ruleBookInfo": {
       "author": "@CSS:[property=\"og:novel:author\"]@content",
       "coverUrl": "@CSS:[property=\"og:image\"]@content",

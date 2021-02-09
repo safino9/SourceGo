@@ -11,7 +11,6 @@
     "enabledExplore": true,
     "exploreUrl": "短篇::http://search.ruochu.com/web/all?sort=110&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n婚恋::http://search.ruochu.com/web/all?sort=35&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n都市::http://search.ruochu.com/web/all?sort=4&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n职场::http://search.ruochu.com/web/all?sort=11&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n豪门::http://search.ruochu.com/web/all?sort=12&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n总裁::http://search.ruochu.com/web/all?sort=13&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n架空::http://search.ruochu.com/web/all?sort=15&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n穿越::http://search.ruochu.com/web/all?sort=17&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n宫斗::http://search.ruochu.com/web/all?sort=19&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n宅斗::http://search.ruochu.com/web/all?sort=20&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n青春::http://search.ruochu.com/web/all?sort=21&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n仙侠::http://search.ruochu.com/web/all?sort=7&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n修真::http://search.ruochu.com/web/all?sort=22&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n玄幻::http://search.ruochu.com/web/all?sort=6&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n武侠::http://search.ruochu.com/web/all?sort=8&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n历史::http://search.ruochu.com/web/all?sort=3&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n纯爱::http://search.ruochu.com/web/all?sort=23&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0",
     "lastUpdateTime": 1612777312859,
-    "loginUrl": "",
     "ruleBookInfo": {
       "tocUrl": "text.目录@href"
     },
@@ -49,7 +48,6 @@
     "enabledExplore": true,
     "exploreUrl": "宫廷贵族::/sort2/{{page}}.html\n女生武侠::/sort3/{{page}}.html\n历史传奇::/sort4/{{page}}.html\n职场丽人::/sort5/{{page}}.html\n青春校园::/sort6/{{page}}.html\n婚恋爱情::/sort7/{{page}}.html\n女生网游::/sort9/{{page}}.html\n恩怨情仇::/sort10/{{page}}.html\n前世今生::/sort12/{{page}}.html\n穿越时空::/sort13/{{page}}.html\n灵异悬疑::/sort14/{{page}}.html\n玄幻仙侠::/sort15/{{page}}.html\n魔法奇幻::/sort16/{{page}}.html\n耽美言情::/sort17/{{page}}.html\n百合之恋::/sort18/{{page}}.html\n女生同人::/sort19/{{page}}.html\n其他类型::/sort20/{{page}}.html",
     "lastUpdateTime": 1612777312858,
-    "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.htmlzuozhe@text",
       "coverUrl": "class.img@tag.img@src",
@@ -89,7 +87,6 @@
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1611752684189,
-    "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.bookPhr@tag.dd.0@text##作者：",
       "coverUrl": "class.bookImg@tag.img.0@src",
@@ -164,7 +161,6 @@
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1611752709940,
-    "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.book-title@tag.em.0@text##作\\s*者：",
       "coverUrl": "class.book-img@tag.img.0@src",
@@ -204,7 +200,6 @@
     "enabledExplore": true,
     "exploreUrl": "玄幻::/xuanhuan/{{page}}.html\n武侠::/wuxia/{{page}}.html\n都市::/dushi/{{page}}.html\n历史::/lishi/{{page}}.html\n游戏::/youxi/{{page}}.html\n科幻::/kehuan/{{page}}.html\n恐怖::/xuanyi/{{page}}.html\n同人::/erciyuan/{{page}}.html\n经典::/jingdian/{{page}}.html\n古代::/guyan/{{page}}.html\n现代::/xianyan/{{page}}.html\n幻想::/huanqing/{{page}}.html\n青春::/qingchun/{{page}}.html\n网络::/wangluo/{{page}}.html\n妹科::/mmkehuan/{{page}}.html\n鬼怪::/lingyi/{{page}}.html",
     "lastUpdateTime": 1612777312858,
-    "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.info@tag.a.0@text",
       "coverUrl": "id.fmimg@tag.img@src",

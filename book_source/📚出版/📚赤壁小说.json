@@ -11,7 +11,6 @@
     "enabledExplore": true,
     "exploreUrl": "武侠小说::/wuxia/<,index_{{page}}.html>\n言情小说::/yanqing/<,index_{{page}}.html>\n当代小说::/dangdai/<,index_{{page}}.html>\n外国文学::/waiguo/<,index_{{page}}.html>\n历史小说::/lishi/<,index_{{page}}.html>\n恐怖小说::/kongbu/<,index_{{page}}.html>\n网络小说::/xuanhuan/<,index_{{page}}.html>\n传记回忆::/zhuanji/<,index_{{page}}.html>\n英文读本::/yingwen/<,index_{{page}}.html>\n杂文随笔::/suibi/<,index_{{page}}.html>\n现代小说::/xiandai/<,index_{{page}}.html>\n侦探推理::/zhentan/<,index_{{page}}.html>\n寓言童话::/yuyan/<,index_{{page}}.html>\n青春都市::/dushi/<,index_{{page}}.html>\n社会心理::/shehui/<,index_{{page}}.html>\n港台言情::/gangtai/<,index_{{page}}.html>\n科幻小说::/kehuan/<,index_{{page}}.html>\n纪实报告::/jishi/<,index_{{page}}.html>\n世界历史::/shijie/<,index_{{page}}.html>\n中国历史::/zhongguo/<,index_{{page}}.html>\n科普学习::/xuexi/<,index_{{page}}.html>\n诗歌戏曲::/shige/<,index_{{page}}.html>\n宗教哲学::/zhexue/<,index_{{page}}.html>\n文学理论::/lilun/<,index_{{page}}.html>\n日语读物::/riyu/<,index_{{page}}.html>\n作品集::/zuopinji/<,index_{{page}}.html>\n国学古籍::/guoxue/<,index_{{page}}.html>\n战争军事::/junshi/<,index_{{page}}.html>\n政治经济::/jingji/<,index_{{page}}.html>\n古典文学::/gudian/<,index_{{page}}.html>\n官场小说::/guanchang/<,index_{{page}}.html>\n轻小说::/qing/<,index_{{page}}.html>",
     "lastUpdateTime": 1610169933487,
-    "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.authorbooks@tag.a.0@text\n@js:(result || '').replace(/作品集$/, '');",
       "coverUrl": "class.book-img@tag.img.0@src",
