@@ -32,8 +32,7 @@ def update_readme(dir):
     for src in src_list:
         text_list_1.append(
             f'| {index} | {src["bookSourceName"]} | {src["bookSourceUrl"]}	| {time_format(src["lastUpdateTime"])} | {src["bookSourceGroup"]} | <a href="https://celeter.github.io/SourceGo/book_source/{src["bookSourceGroup"]}/{src["bookSourceName"]}.json">点击</a>')
-        text_list_2.append(f'''
-<tr>
+        text_list_2.append(f'''<tr>
     <td>{index}</td>
     <td><a href='https://celeter.github.io/SourceGo/book_source/{src["bookSourceGroup"]}/{src["bookSourceName"]}.json' rel="nofollow" target="_blank">{src["bookSourceName"]}</a></td>
     <td><a href="{src['bookSourceUrl']}" rel="nofollow" target="_blank">{src["bookSourceUrl"]}</a></td>
@@ -45,14 +44,20 @@ def update_readme(dir):
         index += 1
     text_1 = '\n'.join(text_list_1)
     text_2 = '\n'.join(text_list_2)
+
     log = f'''
-### **「阅读」APP 精品书源** 
+# **「阅读」APP 精品书源** 
+
+## 脚本说明
+- 更新`.history`文件夹，会运行自动分类脚本，分类完成后会运行自动合并脚本，最后会提交修改的文件
+- 更新`book_source`文件夹，会运行自动合并脚本，然后会会提交修改的文件
+- 合并时只合并`.txt`和`.json`文件，忽略其他格式的文件和带有`失效`两字的文件夹
 
 ## 3.0 书源链接
 
-- 书源：`{len(src_list)}个书源`
+- 书源：`{len(src_list)}`个书源
 - 复制下面链接，在阅读里`网络导入`
-- <a href='yuedu://booksource/importonline?src=https://celeter.github.io/SourceGo/book_source/all.json'>https://celeter.github.io/SourceGo/book_source/all.json</a>
+- https://celeter.github.io/SourceGo/book_source/all.json
 - 更新日期：{time_format(get_timestamp())}
 
 ## 导入方案
@@ -87,10 +92,10 @@ def update_readme(dir):
 
 ## 温馨提示
 
-- 有任何问题可以在最底部评论区留言交流。
 - 防止失联，可将本贴加入收藏或书签，更新书源快人一步！
 - 本站所有内容仅供书友交流学习，勿做商用。
     '''
+
     with open(os.path.join(dir, '..', 'README.md'), 'w', encoding='utf-8') as f:
         f.write(log)
 
@@ -107,7 +112,10 @@ def update_readme(dir):
 </head>
 <body class='typora-export os-windows'>
   <div id='write' class=''>
-    <h3><a name="阅读app-精品书源" class="md-header-anchor" id="阅读app-精品书源"></a><strong><span>「阅读」APP 精品书源</span></strong> <span></span></h3>
+    <center><h1>
+        <a name="阅读app-精品书源" class="md-header-anchor" id="阅读app-精品书源"></a>
+        <strong><span>「阅读」APP 精品书源</span></strong> <span></span>
+    </h1></center>
     <h2><a name="30-书源链接" class="md-header-anchor" id="30-书源链接"></a><span>3.0 书源链接</span></h2>
     <ul>
       <li><span>书源：</span><code>{len(src_list)}个书源</code></li>
@@ -148,19 +156,19 @@ def update_readme(dir):
 <hr />
 <h2><span>请选择扶贫方式</span></h2>
 <table><tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/Celeter/SourceGo/.github/scripts/alipay.jpg" style="width:300px;"></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/Celeter/SourceGo/.github/scripts/wechatpay.png" style="width:300px;"></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/Celeter/SourceGo/.github/scripts/qqpay.png" style="width:300px;"></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Celeter/SourceGo/.github/scripts/alipay.jpg" width="300px"></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Celeter/SourceGo/.github/scripts/wechatpay.png" width="300px"></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Celeter/SourceGo/.github/scripts/qqpay.png" width="300px"></td>
 </tr></table>
 <h2><span>温馨提示</span></h2>
 <ul>
-<li><span>有任何问题可以在最底部评论区留言交流。</span></li>
 <li><span>防止失联，可将本贴加入收藏或书签，更新书源快人一步！</span></li>
 <li><span>本站所有内容仅供书友交流学习，勿做商用。</span></li>
 </ul></div>
 </body>
 </html>
 '''
+
     with open(os.path.join(dir, '..', 'index.html'), 'w', encoding='utf-8') as f:
         f.write(html)
 
