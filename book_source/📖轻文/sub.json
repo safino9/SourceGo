@@ -42,6 +42,98 @@
   {
     "bookSourceComment": "https://celeter.github.io/SourceGo",
     "bookSourceGroup": "📖轻文",
+    "bookSourceName": "📖动漫之家",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://nnv3api.dmzj1.com",
+    "bookUrlPattern": "",
+    "customOrder": 154,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新::/novel/recentUpdate/{{page-1}}.json\n人气::/novel/rank/0/0/{{page-1}}.json\n订阅::/novel/rank/1/0/{{page-1}}.json\n全部::/novel/0/0/0/{{page-1}}.json\n恐怖::/novel/2/0/1/{{page-1}}.json\n科幻::/novel/4/0/1/{{page-1}}.json\n侦探::/novel/6/0/1/{{page-1}}.json\n爱情::/novel/8/0/1/{{page-1}}.json\n校园::/novel/12/0/1/{{page-1}}.json\n神鬼::/novel/14/0/1/{{page-1}}.json\n魔法::/novel/16/0/1/{{page-1}}.json\n冒险::/novel/20/0/1/{{page-1}}.json\n其他::/novel/25/0/1/{{page-1}}.json\n搞笑::/novel/40/0/1/{{page-1}}.json\n格斗::/novel/47/0/1/{{page-1}}.json\n机战::/novel/1264/0/1/{{page-1}}.json\n仙侠::/novel/1265/0/1/{{page-1}}.json\n都市::/novel/1266/0/1/{{page-1}}.json\n历史::/novel/1267/0/1/{{page-1}}.json\n战争::/novel/1268/0/1/{{page-1}}.json\n治愈::/novel/1269/0/1/{{page-1}}.json\n励志::/novel/1270/0/1/{{page-1}}.json\n后宫::/novel/1271/0/1/{{page-1}}.json\n百合::/novel/1272/0/1/{{page-1}}.json\n纯爱::/novel/1273/0/1/{{page-1}}.json\n异界::/novel/1274/0/1/{{page-1}}.json\n异能::/novel/1275/0/1/{{page-1}}.json\n穿越::/novel/1276/0/1/{{page-1}}.json\n奇幻::/novel/1321/0/1/{{page-1}}.json",
+    "lastUpdateTime": 1611332938867,
+    "ruleBookInfo": {
+      "author": "$.authors@js:java.put('author',result)",
+      "canReName": "true",
+      "coverUrl": "$.cover",
+      "intro": "$.introduction\n<js>result=\"  \"+result;</js>",
+      "kind": "$.types",
+      "lastChapter": "$.last_update_chapter_name",
+      "name": "$.name@js:java.put('sm',result)",
+      "tocUrl": "$.id@js:\"https://nnv3api.dmzj1.com/novel/chapter/\"+result+\".json\""
+    },
+    "ruleContent": {
+      "content": "@js:result.replace(/&&[a-z]{4,};/ig,\"\")\nif((/\\.google\\.cn/).test(baseUrl)){\ndecodeURIComponent(baseUrl.replace(/^.+[&?]text=/, ''))}",
+      "imageStyle": "FULL",
+      "replaceRegex": "##^[^\\n]*\\n"
+    },
+    "ruleExplore": {
+      "author": "$.authors",
+      "bookList": "$.[*]",
+      "bookUrl": "/novel/{$.id}.json",
+      "coverUrl": "$.cover",
+      "intro": "$.last_update_time\n<js>\ndate= new Date(parseInt(result)*1000).toLocaleString();\n</js>##G.*",
+      "kind": "$.types",
+      "lastChapter": "{$.last_update_volume_name} \n{$.last_update_chapter_name}",
+      "name": "$.name"
+    },
+    "ruleSearch": {
+      "author": "$.authors",
+      "bookList": "$.[*]\n<js>\nvar opts = {\n  pattern: /\\/show\\/1\\/([^\\/]+)\\//,\n  name: '$.title',\n  author: '$.authors'\n};\n\n//删除糢糊匹配的搜索结果，然后按书名长度排序。依赖于baseUrl、result变量。\n//return Array\n//opts Object: 参数，包含以下key：\n//target List<Object>(result): 要过滤列表。\n//pattern RegExp: 匹配searchKey的正则表达式。\n//name String: 书名规则。\n//author String: 作者规则。\n//charset String('UTF-8'): 编码方式。\n//sorting Boolean(true): 是否重新排序。\n\nfunction searchFilter(opts){\n  result = opts.target === undefined ? result : opts.target;\n  opts.charset = opts.charset === undefined ? 'UTF-8' : opts.charset;\n  opts.sorting = opts.sorting === undefined ? true : !!opts.sorting;\n  function getText(ele, rule){\n    java.setContent(ele);\n    return String(java.getString(rule));\n  }\n  try {\n    var kw = (baseUrl.match(opts.pattern) || ['',''])[1];\n    kw = Packages.java.net.URLDecoder.decode(kw, opts.charset);\n    result = result.toArray().filter(e => getText(e, opts.name).includes(kw) || getText(e, opts.author).includes(kw));\n    return opts.sorting ? result.sort((a, b) => getText(a, opts.name).length - getText(b, opts.name).length) : result;\n  } catch(e) {\n    return result;\n  }\n}\n\nsearchFilter(opts);\n</js>",
+      "bookUrl": "$.id@js:\"https://nnv3api.dmzj1.com:443/novel/\"+result+\".json\"",
+      "coverUrl": "$.cover",
+      "intro": "",
+      "kind": "$.types",
+      "lastChapter": "$.last_name||$.last_update_volume_name",
+      "name": "$.title||$.name"
+    },
+    "ruleToc": {
+      "chapterList": "+<js>\n//二级目录，Json\nvar jdoc = JSON.parse(result);\nvar chUrl = 'https://nnv3api.dmzj1.com/novel/download/@get:{ID}_';\nvar volUrl = 'https://translate.google.cn/#view=home&op=translate&sl=zh-CN&tl=en&text=';\nvar list = [];\n//显示卷名\nvar opts = {\n  showVolName: false\n};\n\nsm=java.get('sm');\nauthor=java.get('author');\n\nfunction format(title){\n  return title.trim().replace(/^(\\d+)(?![\\s\\d卷部章节回.])/, '$1 ').replace(/\\s+/g, \"\\x20\\x20\");\n}\n\njdoc.forEach((vol,idx) => {\n  var chs = vol.chapters.map(ch => ({\n    text: (opts.showVolName ? '🍈[' + format(vol.volume_name) + ']🍈' : (ch.IsVip === '1' ? '💰' : '').padStart(3, \"\\u2000\")) + format(ch.chapter_name),\n    href: chUrl+vol.volume_id+'_'+ch.chapter_id+'.txt',\n    name: format(ch.chapter_name)\n  }));\n\n  var volInfo =author+\"：\\n\"+sm+'\\\\'+ format(vol.volume_name)+ '\\n目录(' + chs.length + \")：\\n\";\n  volInfo += chs.slice(0,30).map(v => v.name).join(\"\\n\");\n  volInfo += chs.length > 30 ? \"\\n……\" : '';\n\n  list.push({\n    text: '♦[' + format(vol.volume_name) + ']♦',\n    href: volUrl + encodeURIComponent(volInfo)\n});\n  list = list.concat(chs);\n});\n\nresult = list;\n</js>",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search/show/1/{{key}}/{{page-1}}.json",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "📖轻文",
+    "bookSourceName": "📖不可能的世界",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.8kana.com",
+    "bookUrlPattern": "",
+    "customOrder": 156,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "连载::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id&series_status=1&page={{page}}\"}\n完结::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id&series_status=4&page={{page}}\"}\n超能::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=101&series_status&page={{page}}\"}\n游戏::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=103&series_status&page={{page}}\"}\n现实::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=104&series_status&page={{page}}\"}\n玄幻::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=201&series_status&page={{page}}\"}\n奇幻::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=202&series_status&page={{page}}\"}\n科幻::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=203&series_status&page={{page}}\"}\n悬疑::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=302&series_status&page={{page}}\"}\n智斗::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=303&series_status&page={{page}}\"}\n灵异::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=305&series_status&page={{page}}\"}\n同人::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=404&series_status&page={{page}}\"}\n幻想::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=602&series_status&page={{page}}\"}\n脑洞::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=701&series_status&page={{page}}\"}\n青春::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=801&series_status&page={{page}}\"}\n民国::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=802&series_status&page={{page}}\"}\n都市::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=803&series_status&page={{page}}\"}\n奇幻::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=901&series_status&page={{page}}\"}\n仙侠::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=902&series_status&page={{page}}\"}\n架空::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=904&series_status&page={{page}}\"}\n轻小说::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=405&series_status&page={{page}}\"}\n二次元::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=702&series_status&page={{page}}\"}\n新武侠::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=601&series_status&page={{page}}\"}\n宅斗宫斗::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=903&series_status&page={{page}}\"}",
+    "lastUpdateTime": 1612777312861,
+    "ruleBookInfo": {
+      "coverUrl": "class.left bookContainImgBox@tag.img@src",
+      "intro": "id.li_booknote@text"
+    },
+    "ruleContent": {
+      "content": "class.myContent@tag.p@text##本书连载.*最快更新。"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "AuthorName",
+      "bookList": "Data.List",
+      "bookUrl": "BookId@js:'https://www.8kana.com/book/'+result+'.html'",
+      "coverUrl": "Cover",
+      "intro": "Note@js:result.trim()",
+      "kind": "{{$.ClassName}},{{$.TotalWords}}",
+      "name": "BookName"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapter_con@tag.li",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "/index/search,{\n  \"method\": \"POST\",\n  \"body\": \"kw={{key}}&page={{page}}\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "📖轻文",
     "bookSourceName": "📖鬼故事",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.guidada.com",
@@ -124,61 +216,6 @@
       "chapterUrl": "href"
     },
     "searchUrl": "/tags/{{key}}/",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "https://celeter.github.io/SourceGo",
-    "bookSourceGroup": "📖轻文",
-    "bookSourceName": "📖动漫之家",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://nnv3api.dmzj1.com",
-    "bookUrlPattern": "",
-    "customOrder": 154,
-    "enabled": true,
-    "enabledExplore": true,
-    "exploreUrl": "最新::/novel/recentUpdate/{{page-1}}.json\n人气::/novel/rank/0/0/{{page-1}}.json\n订阅::/novel/rank/1/0/{{page-1}}.json\n全部::/novel/0/0/0/{{page-1}}.json\n恐怖::/novel/2/0/1/{{page-1}}.json\n科幻::/novel/4/0/1/{{page-1}}.json\n侦探::/novel/6/0/1/{{page-1}}.json\n爱情::/novel/8/0/1/{{page-1}}.json\n校园::/novel/12/0/1/{{page-1}}.json\n神鬼::/novel/14/0/1/{{page-1}}.json\n魔法::/novel/16/0/1/{{page-1}}.json\n冒险::/novel/20/0/1/{{page-1}}.json\n其他::/novel/25/0/1/{{page-1}}.json\n搞笑::/novel/40/0/1/{{page-1}}.json\n格斗::/novel/47/0/1/{{page-1}}.json\n机战::/novel/1264/0/1/{{page-1}}.json\n仙侠::/novel/1265/0/1/{{page-1}}.json\n都市::/novel/1266/0/1/{{page-1}}.json\n历史::/novel/1267/0/1/{{page-1}}.json\n战争::/novel/1268/0/1/{{page-1}}.json\n治愈::/novel/1269/0/1/{{page-1}}.json\n励志::/novel/1270/0/1/{{page-1}}.json\n后宫::/novel/1271/0/1/{{page-1}}.json\n百合::/novel/1272/0/1/{{page-1}}.json\n纯爱::/novel/1273/0/1/{{page-1}}.json\n异界::/novel/1274/0/1/{{page-1}}.json\n异能::/novel/1275/0/1/{{page-1}}.json\n穿越::/novel/1276/0/1/{{page-1}}.json\n奇幻::/novel/1321/0/1/{{page-1}}.json",
-    "lastUpdateTime": 1611332938867,
-    "ruleBookInfo": {
-      "author": "$.authors@js:java.put('author',result)",
-      "canReName": "true",
-      "coverUrl": "$.cover",
-      "intro": "$.introduction\n<js>result=\"  \"+result;</js>",
-      "kind": "$.types",
-      "lastChapter": "$.last_update_chapter_name",
-      "name": "$.name@js:java.put('sm',result)",
-      "tocUrl": "$.id@js:\"https://nnv3api.dmzj1.com/novel/chapter/\"+result+\".json\""
-    },
-    "ruleContent": {
-      "content": "@js:result.replace(/&&[a-z]{4,};/ig,\"\")\nif((/\\.google\\.cn/).test(baseUrl)){\ndecodeURIComponent(baseUrl.replace(/^.+[&?]text=/, ''))}",
-      "imageStyle": "FULL",
-      "replaceRegex": "##^[^\\n]*\\n"
-    },
-    "ruleExplore": {
-      "author": "$.authors",
-      "bookList": "$.[*]",
-      "bookUrl": "/novel/{$.id}.json",
-      "coverUrl": "$.cover",
-      "intro": "$.last_update_time\n<js>\ndate= new Date(parseInt(result)*1000).toLocaleString();\n</js>##G.*",
-      "kind": "$.types",
-      "lastChapter": "{$.last_update_volume_name} \n{$.last_update_chapter_name}",
-      "name": "$.name"
-    },
-    "ruleSearch": {
-      "author": "$.authors",
-      "bookList": "$.[*]\n<js>\nvar opts = {\n  pattern: /\\/show\\/1\\/([^\\/]+)\\//,\n  name: '$.title',\n  author: '$.authors'\n};\n\n//删除糢糊匹配的搜索结果，然后按书名长度排序。依赖于baseUrl、result变量。\n//return Array\n//opts Object: 参数，包含以下key：\n//target List<Object>(result): 要过滤列表。\n//pattern RegExp: 匹配searchKey的正则表达式。\n//name String: 书名规则。\n//author String: 作者规则。\n//charset String('UTF-8'): 编码方式。\n//sorting Boolean(true): 是否重新排序。\n\nfunction searchFilter(opts){\n  result = opts.target === undefined ? result : opts.target;\n  opts.charset = opts.charset === undefined ? 'UTF-8' : opts.charset;\n  opts.sorting = opts.sorting === undefined ? true : !!opts.sorting;\n  function getText(ele, rule){\n    java.setContent(ele);\n    return String(java.getString(rule));\n  }\n  try {\n    var kw = (baseUrl.match(opts.pattern) || ['',''])[1];\n    kw = Packages.java.net.URLDecoder.decode(kw, opts.charset);\n    result = result.toArray().filter(e => getText(e, opts.name).includes(kw) || getText(e, opts.author).includes(kw));\n    return opts.sorting ? result.sort((a, b) => getText(a, opts.name).length - getText(b, opts.name).length) : result;\n  } catch(e) {\n    return result;\n  }\n}\n\nsearchFilter(opts);\n</js>",
-      "bookUrl": "$.id@js:\"https://nnv3api.dmzj1.com:443/novel/\"+result+\".json\"",
-      "coverUrl": "$.cover",
-      "intro": "",
-      "kind": "$.types",
-      "lastChapter": "$.last_name||$.last_update_volume_name",
-      "name": "$.title||$.name"
-    },
-    "ruleToc": {
-      "chapterList": "+<js>\n//二级目录，Json\nvar jdoc = JSON.parse(result);\nvar chUrl = 'https://nnv3api.dmzj1.com/novel/download/@get:{ID}_';\nvar volUrl = 'https://translate.google.cn/#view=home&op=translate&sl=zh-CN&tl=en&text=';\nvar list = [];\n//显示卷名\nvar opts = {\n  showVolName: false\n};\n\nsm=java.get('sm');\nauthor=java.get('author');\n\nfunction format(title){\n  return title.trim().replace(/^(\\d+)(?![\\s\\d卷部章节回.])/, '$1 ').replace(/\\s+/g, \"\\x20\\x20\");\n}\n\njdoc.forEach((vol,idx) => {\n  var chs = vol.chapters.map(ch => ({\n    text: (opts.showVolName ? '🍈[' + format(vol.volume_name) + ']🍈' : (ch.IsVip === '1' ? '💰' : '').padStart(3, \"\\u2000\")) + format(ch.chapter_name),\n    href: chUrl+vol.volume_id+'_'+ch.chapter_id+'.txt',\n    name: format(ch.chapter_name)\n  }));\n\n  var volInfo =author+\"：\\n\"+sm+'\\\\'+ format(vol.volume_name)+ '\\n目录(' + chs.length + \")：\\n\";\n  volInfo += chs.slice(0,30).map(v => v.name).join(\"\\n\");\n  volInfo += chs.length > 30 ? \"\\n……\" : '';\n\n  list.push({\n    text: '♦[' + format(vol.volume_name) + ']♦',\n    href: volUrl + encodeURIComponent(volInfo)\n});\n  list = list.concat(chs);\n});\n\nresult = list;\n</js>",
-      "chapterName": "text",
-      "chapterUrl": "href"
-    },
-    "searchUrl": "/search/show/1/{{key}}/{{page-1}}.json",
     "weight": 0
   },
   {
@@ -273,43 +310,6 @@
       "chapterUrl": "tag.a@href"
     },
     "searchUrl": "https://www.qinxiaoshuo.com/search/{{key}}/{{page}}.html",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "https://celeter.github.io/SourceGo",
-    "bookSourceGroup": "📖轻文",
-    "bookSourceName": "📖不可能的世界",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://m.8kana.com",
-    "bookUrlPattern": "",
-    "customOrder": 156,
-    "enabled": true,
-    "enabledExplore": true,
-    "exploreUrl": "连载::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id&series_status=1&page={{page}}\"}\n完结::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id&series_status=4&page={{page}}\"}\n超能::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=101&series_status&page={{page}}\"}\n游戏::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=103&series_status&page={{page}}\"}\n现实::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=104&series_status&page={{page}}\"}\n玄幻::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=201&series_status&page={{page}}\"}\n奇幻::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=202&series_status&page={{page}}\"}\n科幻::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=203&series_status&page={{page}}\"}\n悬疑::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=302&series_status&page={{page}}\"}\n智斗::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=303&series_status&page={{page}}\"}\n灵异::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=305&series_status&page={{page}}\"}\n同人::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=404&series_status&page={{page}}\"}\n幻想::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=602&series_status&page={{page}}\"}\n脑洞::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=701&series_status&page={{page}}\"}\n青春::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=801&series_status&page={{page}}\"}\n民国::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=802&series_status&page={{page}}\"}\n都市::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=803&series_status&page={{page}}\"}\n奇幻::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=901&series_status&page={{page}}\"}\n仙侠::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=902&series_status&page={{page}}\"}\n架空::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=904&series_status&page={{page}}\"}\n轻小说::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=405&series_status&page={{page}}\"}\n二次元::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=702&series_status&page={{page}}\"}\n新武侠::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=601&series_status&page={{page}}\"}\n宅斗宫斗::/book/ajaxGetList,{\"method\": \"POST\",\"body\": \"class_id=903&series_status&page={{page}}\"}",
-    "lastUpdateTime": 1612777312861,
-    "ruleBookInfo": {
-      "coverUrl": "class.left bookContainImgBox@tag.img@src",
-      "intro": "id.li_booknote@text"
-    },
-    "ruleContent": {
-      "content": "class.myContent@tag.p@text##本书连载.*最快更新。"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "AuthorName",
-      "bookList": "Data.List",
-      "bookUrl": "BookId@js:'https://www.8kana.com/book/'+result+'.html'",
-      "coverUrl": "Cover",
-      "intro": "Note@js:result.trim()",
-      "kind": "{{$.ClassName}},{{$.TotalWords}}",
-      "name": "BookName"
-    },
-    "ruleToc": {
-      "chapterList": "id.chapter_con@tag.li",
-      "chapterName": "tag.a.0@text",
-      "chapterUrl": "tag.a.0@href"
-    },
-    "searchUrl": "/index/search,{\n  \"method\": \"POST\",\n  \"body\": \"kw={{key}}&page={{page}}\"\n}",
     "weight": 0
   },
   {

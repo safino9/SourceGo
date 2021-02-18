@@ -2,157 +2,6 @@
   {
     "bookSourceComment": "https://celeter.github.io/SourceGo",
     "bookSourceGroup": "💗言情",
-    "bookSourceName": "💗若初文学",
-    "bookSourceType": 0,
-    "bookSourceUrl": "http://www.ruochu.com",
-    "bookUrlPattern": "",
-    "customOrder": 148,
-    "enabled": true,
-    "enabledExplore": true,
-    "exploreUrl": "短篇::http://search.ruochu.com/web/all?sort=110&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n婚恋::http://search.ruochu.com/web/all?sort=35&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n都市::http://search.ruochu.com/web/all?sort=4&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n职场::http://search.ruochu.com/web/all?sort=11&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n豪门::http://search.ruochu.com/web/all?sort=12&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n总裁::http://search.ruochu.com/web/all?sort=13&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n架空::http://search.ruochu.com/web/all?sort=15&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n穿越::http://search.ruochu.com/web/all?sort=17&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n宫斗::http://search.ruochu.com/web/all?sort=19&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n宅斗::http://search.ruochu.com/web/all?sort=20&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n青春::http://search.ruochu.com/web/all?sort=21&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n仙侠::http://search.ruochu.com/web/all?sort=7&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n修真::http://search.ruochu.com/web/all?sort=22&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n玄幻::http://search.ruochu.com/web/all?sort=6&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n武侠::http://search.ruochu.com/web/all?sort=8&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n历史::http://search.ruochu.com/web/all?sort=3&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n纯爱::http://search.ruochu.com/web/all?sort=23&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0",
-    "lastUpdateTime": 1612777312859,
-    "ruleBookInfo": {
-      "tocUrl": "text.目录@href"
-    },
-    "ruleContent": {
-      "content": "class.page-content@html"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "$.authorname",
-      "bookList": "$.data.content",
-      "bookUrl": "$.id@js:\"https://www.ruochu.com/book/\"+result",
-      "coverUrl": "$.iconUrlSmall@js:\"https://b.heiyanimg.com\"+result",
-      "intro": "$.introduce",
-      "kind": "$.sortname",
-      "lastChapter": "$.lastchaptername",
-      "name": "$.name"
-    },
-    "ruleToc": {
-      "chapterList": "class.float-list fill-block@li",
-      "chapterName": "html@js:if(result.match(/isvip/)){\nresult=\"🔒\"+result.match(/>([^<]+)<\\/a>/)[1];\n}else{result=result.match(/>([^<]+)<\\/a>/)[1];}",
-      "chapterUrl": "a@href"
-    },
-    "searchUrl": "http://search.ruochu.com/web/search?queryString={{key}}&highlight=false&page=1",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "https://celeter.github.io/SourceGo",
-    "bookSourceGroup": "💗言情",
-    "bookSourceName": "💗言情站",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.yanqingzhan.net",
-    "bookUrlPattern": "",
-    "customOrder": 144,
-    "enabled": true,
-    "enabledExplore": true,
-    "exploreUrl": "宫廷贵族::/sort2/{{page}}.html\n女生武侠::/sort3/{{page}}.html\n历史传奇::/sort4/{{page}}.html\n职场丽人::/sort5/{{page}}.html\n青春校园::/sort6/{{page}}.html\n婚恋爱情::/sort7/{{page}}.html\n女生网游::/sort9/{{page}}.html\n恩怨情仇::/sort10/{{page}}.html\n前世今生::/sort12/{{page}}.html\n穿越时空::/sort13/{{page}}.html\n灵异悬疑::/sort14/{{page}}.html\n玄幻仙侠::/sort15/{{page}}.html\n魔法奇幻::/sort16/{{page}}.html\n耽美言情::/sort17/{{page}}.html\n百合之恋::/sort18/{{page}}.html\n女生同人::/sort19/{{page}}.html\n其他类型::/sort20/{{page}}.html",
-    "lastUpdateTime": 1612777312858,
-    "ruleBookInfo": {
-      "author": "id.htmlzuozhe@text",
-      "coverUrl": "class.img@tag.img@src",
-      "intro": "class.shorttext@text||id.htmljiashao@text",
-      "lastChapter": "id.htmldiyizh@text##>>",
-      "name": "tag.h1.0@tag.a@text",
-      "tocUrl": "class.readbtn@tag.a.0@href"
-    },
-    "ruleContent": {
-      "content": "class.l2l2@textNodes"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "class.auleft@tag.a.0@text",
-      "bookList": "id.BookList@tag.tr",
-      "bookUrl": "class.bookname@tag.a@href",
-      "coverUrl": "class.imgk@tag.a@tag.img@src",
-      "lastChapter": "class.last@tag.a@text",
-      "name": "class.bookname@tag.a@text"
-    },
-    "ruleToc": {
-      "chapterList": "id.htmlList@tag.li",
-      "chapterName": "tag.a@text",
-      "chapterUrl": "tag.a@href"
-    },
-    "searchUrl": "https://www.yanqingzhan.net/modules/article/search.php?searchkey={{key}}&searchType=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "https://celeter.github.io/SourceGo",
-    "bookSourceGroup": "💗言情",
-    "bookSourceName": "💗花香居",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.huaxiangju.com",
-    "bookUrlPattern": "",
-    "customOrder": 142,
-    "enabled": true,
-    "enabledExplore": true,
-    "lastUpdateTime": 1611752684189,
-    "ruleBookInfo": {
-      "author": "class.bookPhr@tag.dd.0@text##作者：",
-      "coverUrl": "class.bookImg@tag.img.0@src",
-      "intro": "class.introCon@tag.p.0@text",
-      "name": "class.bookPhr@tag.h2.0@text"
-    },
-    "ruleContent": {
-      "content": "class.articleCon@tag.p.0@textNodes##花香居.*|一秒记住.*"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "class.odd.1@text||class.bookPhr@tag.dd.0@text",
-      "bookList": "class.grid@tag.tr!0||class.detailTop",
-      "bookUrl": "class.odd.0@tag.a.0@href",
-      "coverUrl": "class.bookImg@tag.img.0@src",
-      "kind": "class.bookPhr@tag.dd.1@text##类型：|\\[|\\]",
-      "lastChapter": "class.even.0@tag.a.0@text||class.renew@tag.a@text",
-      "name": "class.odd.0@text||class.bookPhr@tag.h2.0@text"
-    },
-    "ruleToc": {
-      "chapterList": "-class.chapterCon@tag.li",
-      "chapterName": "tag.a.0@text",
-      "chapterUrl": "tag.a.0@href"
-    },
-    "searchUrl": "http://www.huaxiangju.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "https://celeter.github.io/SourceGo",
-    "bookSourceGroup": "💗言情",
-    "bookSourceName": "💗陌上香坊",
-    "bookSourceType": 0,
-    "bookSourceUrl": "http://www.msxf.cn",
-    "customOrder": 146,
-    "enabled": true,
-    "enabledExplore": true,
-    "exploreUrl": "古代言情·连载::/shuku/6-0-1-0-0-1-0-{{page}}.html\n现代言情·连载::/shuku/2-0-1-0-0-1-0-{{page}}.html\n玄幻仙侠·连载::/shuku/3-0-1-0-0-1-0-{{page}}.html\n耽美同人·连载::/shuku/10-0-1-0-0-1-0-{{page}}.html\n灵异推理·连载::/shuku/8-0-1-0-0-1-0-{{page}}.html\n科幻网游·连载::/shuku/1-0-1-0-0-1-0-{{page}}.html\n古代言情·完本::/shuku/6-0-5-0-0-1-0-{{page}}.html\n现代言情·完本::/shuku/2-0-5-0-0-1-0-{{page}}.html\n玄幻仙侠·完本::/shuku/3-0-5-0-0-1-0-{{page}}.html\n耽美同人·完本::/shuku/10-0-5-0-0-1-0-{{page}}.html\n灵异推理·完本::/shuku/8-0-5-0-0-1-0-{{page}}.html\n科幻网游·完本::/shuku/1-0-5-0-0-1-0-{{page}}.html\n美女::/shuku/0-4-5-0-0-1-0-{{page}}.html\n美男::/shuku/0-3-5-0-0-1-0-{{page}}.html\n穿越::/shuku/0-5-5-0-0-1-0-{{page}}.html\n虐恋::/shuku/0-7-5-0-0-1-0-{{page}}.html\n爱情::/shuku/0-77-5-0-0-1-0-{{page}}.html\n甜文::/shuku/0-9-5-0-0-1-0-{{page}}.html\n搞笑::/shuku/0-17-5-0-0-1-0-{{page}}.html\n悲情::/shuku/0-90-5-0-0-1-0-{{page}}.html\n青梅竹马::/shuku/0-12-5-0-0-1-0-{{page}}.html\n宠文::/shuku/0-251-5-0-0-1-0-{{page}}.html\n总裁::/shuku/0-34-5-0-0-1-0-{{page}}.html\n复仇::/shuku/0-46-5-0-0-1-0-{{page}}.html\n神魔::/shuku/0-58-5-0-0-1-0-{{page}}.html\n重生::/shuku/0-67-5-0-0-1-0-{{page}}.html\n温馨::/shuku/0-15-5-0-0-1-0-{{page}}.html\n浪漫::/shuku/0-85-5-0-0-1-0-{{page}}.html\n阴谋::/shuku/0-91-5-0-0-1-0-{{page}}.html\n帅哥::/shuku/0-66-5-0-0-1-0-{{page}}.html\n盗墓::/shuku/0-18-5-0-0-1-0-{{page}}.html\n王妃::/shuku/0-39-5-0-0-1-0-{{page}}.html\n斗智::/shuku/0-51-5-0-0-1-0-{{page}}.html\n暖伤::/shuku/0-254-5-0-0-1-0-{{page}}.html\n变身::/shuku/0-30-5-0-0-1-0-{{page}}.html\n帝王::/shuku/0-131-5-0-0-1-0-{{page}}.html\n励志::/shuku/0-43-5-0-0-1-0-{{page}}.html\n宫斗::/shuku/0-16-5-0-0-1-0-{{page}}.html\n校花::/shuku/0-216-5-0-0-1-0-{{page}}.html\n萝莉::/shuku/0-10-5-0-0-1-0-{{page}}.html\n随身空间::/shuku/0-256-5-0-0-1-0-{{page}}.html\n契约::/shuku/0-41-5-0-0-1-0-{{page}}.html\n小白文::/shuku/0-8-5-0-0-1-0-{{page}}.html\nBL::/shuku/0-243-5-0-0-1-0-{{page}}.html\n才女::/shuku/0-238-5-0-0-1-0-{{page}}.html\n女尊文::/shuku/0-128-5-0-0-1-0-{{page}}.html\n杀手::/shuku/0-129-5-0-0-1-0-{{page}}.html\n腐文::/shuku/0-319-5-0-0-1-0-{{page}}.html\n宅斗::/shuku/0-14-5-0-0-1-0-{{page}}.html\n皇后::/shuku/0-38-5-0-0-1-0-{{page}}.html\n第三者::/shuku/0-32-5-0-0-1-0-{{page}}.html\n出轨::/shuku/0-35-5-0-0-1-0-{{page}}.html\n搞基::/shuku/0-318-5-0-0-1-0-{{page}}.html\n恐怖::/shuku/0-31-5-0-0-1-0-{{page}}.html\n未婚先孕::/shuku/0-29-5-0-0-1-0-{{page}}.html\n金手指::/shuku/0-313-5-0-0-1-0-{{page}}.html\n文艺::/shuku/0-312-5-0-0-1-0-{{page}}.html\n正太::/shuku/0-133-5-0-0-1-0-{{page}}.html\n宝宝::/shuku/0-245-5-0-0-1-0-{{page}}.html\n迷妹::/shuku/0-78-5-0-0-1-0-{{page}}.html\n上帝视角::/shuku/0-314-5-0-0-1-0-{{page}}.html\n将军::/shuku/0-73-5-0-0-1-0-{{page}}.html\nBG::/shuku/0-242-5-0-0-1-0-{{page}}.html\n刑侦::/shuku/0-53-5-0-0-1-0-{{page}}.html\n高干文::/shuku/0-239-5-0-0-1-0-{{page}}.html\n代嫁::/shuku/0-40-5-0-0-1-0-{{page}}.html\n百合::/shuku/0-241-5-0-0-1-0-{{page}}.html\n宅女::/shuku/0-68-5-0-0-1-0-{{page}}.html\n凤凰男::/shuku/0-134-5-0-0-1-0-{{page}}.html\n阴阳师::/shuku/0-317-5-0-0-1-0-{{page}}.html\n军婚文::/shuku/0-253-5-0-0-1-0-{{page}}.html\n丫鬟::/shuku/0-56-5-0-0-1-0-{{page}}.html\n小妾::/shuku/0-57-5-0-0-1-0-{{page}}.html\n新娘::/shuku/0-55-5-0-0-1-0-{{page}}.html\n剩女::/shuku/0-246-5-0-0-1-0-{{page}}.html\n弃妇::/shuku/0-249-5-0-0-1-0-{{page}}.html\n小白::/shuku/0-324-5-0-0-1-0-{{page}}.html\n婆媳::/shuku/0-132-5-0-0-1-0-{{page}}.html",
-    "lastUpdateTime": 1612777312859,
-    "ruleBookInfo": {
-      "coverUrl": "class.pic@tag.img.0@src",
-      "intro": "class.intro@text",
-      "tocUrl": "class.moreList@href"
-    },
-    "ruleContent": {
-      "content": "id.article-content@tag.p@text##看正版言情.*小说网|\\（www.msxf.cn\\）|下载.*每日都有喔！|本章节通过.*"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "class.info@text",
-      "bookList": "class.result-book||class.book-list-single@tag.li",
-      "bookUrl": "tag.a.1@href",
-      "coverUrl": "tag.a.0@href||tag.img@src",
-      "lastChapter": "tag.a.2@text",
-      "name": "tag.a.1@text"
-    },
-    "ruleToc": {
-      "chapterList": "id.chapter-list-200@tag.li",
-      "chapterName": "tag.a.0@text",
-      "chapterUrl": "tag.a.0@href"
-    },
-    "searchUrl": "https://so.msxf.cn/book/search/?t=all&q={{key}}&page=1",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "https://celeter.github.io/SourceGo",
-    "bookSourceGroup": "💗言情",
     "bookSourceName": "💗都市言情",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.dsyq.org",
@@ -186,6 +35,43 @@
       "chapterUrl": "tag.a@href"
     },
     "searchUrl": "http://www.dsyq.org/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💗言情",
+    "bookSourceName": "💗若初文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ruochu.com",
+    "bookUrlPattern": "",
+    "customOrder": 148,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "短篇::http://search.ruochu.com/web/all?sort=110&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n婚恋::http://search.ruochu.com/web/all?sort=35&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n都市::http://search.ruochu.com/web/all?sort=4&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n职场::http://search.ruochu.com/web/all?sort=11&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n豪门::http://search.ruochu.com/web/all?sort=12&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n总裁::http://search.ruochu.com/web/all?sort=13&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n架空::http://search.ruochu.com/web/all?sort=15&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n穿越::http://search.ruochu.com/web/all?sort=17&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n宫斗::http://search.ruochu.com/web/all?sort=19&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n宅斗::http://search.ruochu.com/web/all?sort=20&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n青春::http://search.ruochu.com/web/all?sort=21&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n仙侠::http://search.ruochu.com/web/all?sort=7&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n修真::http://search.ruochu.com/web/all?sort=22&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n玄幻::http://search.ruochu.com/web/all?sort=6&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n武侠::http://search.ruochu.com/web/all?sort=8&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n历史::http://search.ruochu.com/web/all?sort=3&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0\n纯爱::http://search.ruochu.com/web/all?sort=23&words=-1&free=&finish=&order=0&page={{page}}&size=100&solicitingid=0",
+    "lastUpdateTime": 1612777312859,
+    "ruleBookInfo": {
+      "tocUrl": "text.目录@href"
+    },
+    "ruleContent": {
+      "content": "class.page-content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.authorname",
+      "bookList": "$.data.content",
+      "bookUrl": "$.id@js:\"https://www.ruochu.com/book/\"+result",
+      "coverUrl": "$.iconUrlSmall@js:\"https://b.heiyanimg.com\"+result",
+      "intro": "$.introduce",
+      "kind": "$.sortname",
+      "lastChapter": "$.lastchaptername",
+      "name": "$.name"
+    },
+    "ruleToc": {
+      "chapterList": "class.float-list fill-block@li",
+      "chapterName": "html@js:if(result.match(/isvip/)){\nresult=\"🔒\"+result.match(/>([^<]+)<\\/a>/)[1];\n}else{result=result.match(/>([^<]+)<\\/a>/)[1];}",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "http://search.ruochu.com/web/search?queryString={{key}}&highlight=false&page=1",
     "weight": 0
   },
   {
@@ -241,6 +127,42 @@
   {
     "bookSourceComment": "https://celeter.github.io/SourceGo",
     "bookSourceGroup": "💗言情",
+    "bookSourceName": "💗陌上香坊",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.msxf.cn",
+    "customOrder": 146,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "古代言情·连载::/shuku/6-0-1-0-0-1-0-{{page}}.html\n现代言情·连载::/shuku/2-0-1-0-0-1-0-{{page}}.html\n玄幻仙侠·连载::/shuku/3-0-1-0-0-1-0-{{page}}.html\n耽美同人·连载::/shuku/10-0-1-0-0-1-0-{{page}}.html\n灵异推理·连载::/shuku/8-0-1-0-0-1-0-{{page}}.html\n科幻网游·连载::/shuku/1-0-1-0-0-1-0-{{page}}.html\n古代言情·完本::/shuku/6-0-5-0-0-1-0-{{page}}.html\n现代言情·完本::/shuku/2-0-5-0-0-1-0-{{page}}.html\n玄幻仙侠·完本::/shuku/3-0-5-0-0-1-0-{{page}}.html\n耽美同人·完本::/shuku/10-0-5-0-0-1-0-{{page}}.html\n灵异推理·完本::/shuku/8-0-5-0-0-1-0-{{page}}.html\n科幻网游·完本::/shuku/1-0-5-0-0-1-0-{{page}}.html\n美女::/shuku/0-4-5-0-0-1-0-{{page}}.html\n美男::/shuku/0-3-5-0-0-1-0-{{page}}.html\n穿越::/shuku/0-5-5-0-0-1-0-{{page}}.html\n虐恋::/shuku/0-7-5-0-0-1-0-{{page}}.html\n爱情::/shuku/0-77-5-0-0-1-0-{{page}}.html\n甜文::/shuku/0-9-5-0-0-1-0-{{page}}.html\n搞笑::/shuku/0-17-5-0-0-1-0-{{page}}.html\n悲情::/shuku/0-90-5-0-0-1-0-{{page}}.html\n青梅竹马::/shuku/0-12-5-0-0-1-0-{{page}}.html\n宠文::/shuku/0-251-5-0-0-1-0-{{page}}.html\n总裁::/shuku/0-34-5-0-0-1-0-{{page}}.html\n复仇::/shuku/0-46-5-0-0-1-0-{{page}}.html\n神魔::/shuku/0-58-5-0-0-1-0-{{page}}.html\n重生::/shuku/0-67-5-0-0-1-0-{{page}}.html\n温馨::/shuku/0-15-5-0-0-1-0-{{page}}.html\n浪漫::/shuku/0-85-5-0-0-1-0-{{page}}.html\n阴谋::/shuku/0-91-5-0-0-1-0-{{page}}.html\n帅哥::/shuku/0-66-5-0-0-1-0-{{page}}.html\n盗墓::/shuku/0-18-5-0-0-1-0-{{page}}.html\n王妃::/shuku/0-39-5-0-0-1-0-{{page}}.html\n斗智::/shuku/0-51-5-0-0-1-0-{{page}}.html\n暖伤::/shuku/0-254-5-0-0-1-0-{{page}}.html\n变身::/shuku/0-30-5-0-0-1-0-{{page}}.html\n帝王::/shuku/0-131-5-0-0-1-0-{{page}}.html\n励志::/shuku/0-43-5-0-0-1-0-{{page}}.html\n宫斗::/shuku/0-16-5-0-0-1-0-{{page}}.html\n校花::/shuku/0-216-5-0-0-1-0-{{page}}.html\n萝莉::/shuku/0-10-5-0-0-1-0-{{page}}.html\n随身空间::/shuku/0-256-5-0-0-1-0-{{page}}.html\n契约::/shuku/0-41-5-0-0-1-0-{{page}}.html\n小白文::/shuku/0-8-5-0-0-1-0-{{page}}.html\nBL::/shuku/0-243-5-0-0-1-0-{{page}}.html\n才女::/shuku/0-238-5-0-0-1-0-{{page}}.html\n女尊文::/shuku/0-128-5-0-0-1-0-{{page}}.html\n杀手::/shuku/0-129-5-0-0-1-0-{{page}}.html\n腐文::/shuku/0-319-5-0-0-1-0-{{page}}.html\n宅斗::/shuku/0-14-5-0-0-1-0-{{page}}.html\n皇后::/shuku/0-38-5-0-0-1-0-{{page}}.html\n第三者::/shuku/0-32-5-0-0-1-0-{{page}}.html\n出轨::/shuku/0-35-5-0-0-1-0-{{page}}.html\n搞基::/shuku/0-318-5-0-0-1-0-{{page}}.html\n恐怖::/shuku/0-31-5-0-0-1-0-{{page}}.html\n未婚先孕::/shuku/0-29-5-0-0-1-0-{{page}}.html\n金手指::/shuku/0-313-5-0-0-1-0-{{page}}.html\n文艺::/shuku/0-312-5-0-0-1-0-{{page}}.html\n正太::/shuku/0-133-5-0-0-1-0-{{page}}.html\n宝宝::/shuku/0-245-5-0-0-1-0-{{page}}.html\n迷妹::/shuku/0-78-5-0-0-1-0-{{page}}.html\n上帝视角::/shuku/0-314-5-0-0-1-0-{{page}}.html\n将军::/shuku/0-73-5-0-0-1-0-{{page}}.html\nBG::/shuku/0-242-5-0-0-1-0-{{page}}.html\n刑侦::/shuku/0-53-5-0-0-1-0-{{page}}.html\n高干文::/shuku/0-239-5-0-0-1-0-{{page}}.html\n代嫁::/shuku/0-40-5-0-0-1-0-{{page}}.html\n百合::/shuku/0-241-5-0-0-1-0-{{page}}.html\n宅女::/shuku/0-68-5-0-0-1-0-{{page}}.html\n凤凰男::/shuku/0-134-5-0-0-1-0-{{page}}.html\n阴阳师::/shuku/0-317-5-0-0-1-0-{{page}}.html\n军婚文::/shuku/0-253-5-0-0-1-0-{{page}}.html\n丫鬟::/shuku/0-56-5-0-0-1-0-{{page}}.html\n小妾::/shuku/0-57-5-0-0-1-0-{{page}}.html\n新娘::/shuku/0-55-5-0-0-1-0-{{page}}.html\n剩女::/shuku/0-246-5-0-0-1-0-{{page}}.html\n弃妇::/shuku/0-249-5-0-0-1-0-{{page}}.html\n小白::/shuku/0-324-5-0-0-1-0-{{page}}.html\n婆媳::/shuku/0-132-5-0-0-1-0-{{page}}.html",
+    "lastUpdateTime": 1612777312859,
+    "ruleBookInfo": {
+      "coverUrl": "class.pic@tag.img.0@src",
+      "intro": "class.intro@text",
+      "tocUrl": "class.moreList@href"
+    },
+    "ruleContent": {
+      "content": "id.article-content@tag.p@text##看正版言情.*小说网|\\（www.msxf.cn\\）|下载.*每日都有喔！|本章节通过.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@text",
+      "bookList": "class.result-book||class.book-list-single@tag.li",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.0@href||tag.img@src",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapter-list-200@tag.li",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "https://so.msxf.cn/book/search/?t=all&q={{key}}&page=1",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💗言情",
     "bookSourceName": "💗愚猫看书",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.01kanshu.com",
@@ -280,6 +202,84 @@
       "chapterUrl": "href@js:result.replace(/(.*)\\/(\\d+)\\/(\\d+)\\.html/,'/Chapter/chapter.html?bookid=$2&num=$3');"
     },
     "searchUrl": "/Select/?bookname={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💗言情",
+    "bookSourceName": "💗花香居",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.huaxiangju.com",
+    "bookUrlPattern": "",
+    "customOrder": 142,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1611752684189,
+    "ruleBookInfo": {
+      "author": "class.bookPhr@tag.dd.0@text##作者：",
+      "coverUrl": "class.bookImg@tag.img.0@src",
+      "intro": "class.introCon@tag.p.0@text",
+      "name": "class.bookPhr@tag.h2.0@text"
+    },
+    "ruleContent": {
+      "content": "class.articleCon@tag.p.0@textNodes##花香居.*|一秒记住.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text||class.bookPhr@tag.dd.0@text",
+      "bookList": "class.grid@tag.tr!0||class.detailTop",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "coverUrl": "class.bookImg@tag.img.0@src",
+      "kind": "class.bookPhr@tag.dd.1@text##类型：|\\[|\\]",
+      "lastChapter": "class.even.0@tag.a.0@text||class.renew@tag.a@text",
+      "name": "class.odd.0@text||class.bookPhr@tag.h2.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.chapterCon@tag.li",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "http://www.huaxiangju.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💗言情",
+    "bookSourceName": "💗言情站",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yanqingzhan.net",
+    "bookUrlPattern": "",
+    "customOrder": 144,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "宫廷贵族::/sort2/{{page}}.html\n女生武侠::/sort3/{{page}}.html\n历史传奇::/sort4/{{page}}.html\n职场丽人::/sort5/{{page}}.html\n青春校园::/sort6/{{page}}.html\n婚恋爱情::/sort7/{{page}}.html\n女生网游::/sort9/{{page}}.html\n恩怨情仇::/sort10/{{page}}.html\n前世今生::/sort12/{{page}}.html\n穿越时空::/sort13/{{page}}.html\n灵异悬疑::/sort14/{{page}}.html\n玄幻仙侠::/sort15/{{page}}.html\n魔法奇幻::/sort16/{{page}}.html\n耽美言情::/sort17/{{page}}.html\n百合之恋::/sort18/{{page}}.html\n女生同人::/sort19/{{page}}.html\n其他类型::/sort20/{{page}}.html",
+    "lastUpdateTime": 1612777312858,
+    "ruleBookInfo": {
+      "author": "id.htmlzuozhe@text",
+      "coverUrl": "class.img@tag.img@src",
+      "intro": "class.shorttext@text||id.htmljiashao@text",
+      "lastChapter": "id.htmldiyizh@text##>>",
+      "name": "tag.h1.0@tag.a@text",
+      "tocUrl": "class.readbtn@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "class.l2l2@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.auleft@tag.a.0@text",
+      "bookList": "id.BookList@tag.tr",
+      "bookUrl": "class.bookname@tag.a@href",
+      "coverUrl": "class.imgk@tag.a@tag.img@src",
+      "lastChapter": "class.last@tag.a@text",
+      "name": "class.bookname@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.htmlList@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.yanqingzhan.net/modules/article/search.php?searchkey={{key}}&searchType=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
     "weight": 0
   }
 ]
