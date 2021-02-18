@@ -228,6 +228,9 @@ def save_file_group(file_dir):
     print(f'子分类更新完成:{sub_path}')
 
 
+def get_bookSourceGroup(src):
+    return src.get('bookSourceGroup')
+
 def merge(path, src_list):
     i = 1
     for src in src_list:
@@ -262,6 +265,7 @@ def get_all_src(folder_list):
                     else:
                         src_list.append(s)
     print(f'获取完成，有效源共{len(src_list)}个')
+    src_list.sort(key=get_bookSourceGroup)
     return src_list
 
 
