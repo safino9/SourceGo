@@ -1,0 +1,43 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💠飞卢",
+    "bookSourceName": "💠38看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.mijiashe.com/",
+    "bookUrlPattern": "",
+    "customOrder": 26,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部小说::https://m.mijiashe.com/all/0_lastupdate_0_0_0_0_0_0_<{{page}}>.html\n玄幻奇幻::https://m.mijiashe.com/all/1_lastupdate_0_0_0_0_0_0_<{{page}}>.html\n武侠仙侠::https://m.mijiashe.com/all/2_lastupdate_0_0_0_0_0_0_<{{page}}>.html\n都市小说::https://m.mijiashe.com/all/3_lastupdate_0_0_0_0_0_0_<{{page}}>.html\n历史小说::https://m.mijiashe.com/all/4_lastupdate_0_0_0_0_0_0_<{{page}}>.html\n军事小说::https://m.mijiashe.com/all/5_lastupdate_0_0_0_0_0_0_<{{page}}>.html\n科幻小说::https://m.mijiashe.com/all/6_lastupdate_0_0_0_0_0_0_<{{page}}>.html\n恐怖悬疑::https://m.mijiashe.com/all/7_lastupdate_0_0_0_0_0_0_<{{page}}>.html\n网游竞技::https://m.mijiashe.com/all/8_lastupdate_0_0_0_0_0_0_<{{page}}>.html\n现代言情::https://m.mijiashe.com/all/10_lastupdate_0_0_0_0_0_0_<{{page}}>.html\n仙侠奇缘::https://m.mijiashe.com/all/12_lastupdate_0_0_0_0_0_0_<{{page}}>.html\n校园青春::https://m.mijiashe.com/all/13_lastupdate_0_0_0_0_0_0_<{{page}}>.html\n恐怖灵异::https://m.mijiashe.com/all/14_lastupdate_0_0_0_0_0_0_<{{page}}>.html\n纯爱耽美::https://m.mijiashe.com/all/15_lastupdate_0_0_0_0_0_0_<{{page}}>.html\n同人小说::https://m.mijiashe.com/all/16_lastupdate_0_0_0_0_0_0_<{{page}}>.html\n二次元::https://m.mijiashe.com/all/17_lastupdate_0_0_0_0_0_0_<{{page}}>.html\n其他::https://m.mijiashe.com/all/9_lastupdate_0_0_0_0_0_0_<{{page}}>.html",
+    "lastUpdateTime": 1609247100082,
+    "ruleBookInfo": {
+      "coverUrl": "class.block_img2@tag.img@src",
+      "intro": "class.intro_info@text",
+      "lastChapter": "tag.p.3@tag.a.1@text",
+      "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+      "content": "id.nr@html##一秒记住【38看书】.*本站网址\\：m\\.mijiashe\\.com[^,.?!:;，。？！：；]*|本章未完，请点击下一页继续阅读》》|.*天才一秒记住本站地址.*",
+      "nextContentUrl": "text.下一章@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.line@tag.a.2@text||tag.span.0@text",
+      "bookList": "class.cover@p||class.listRight@tag.li",
+      "bookUrl": "class.line@tag.a.1@href||h2@tag.a@href##.*/(\\d+)/##https://m.mijiashe.com/$1/",
+      "coverUrl": "",
+      "kind": "class.line@tag.a.0@text||tag.span.1@text",
+      "lastChapter": "",
+      "name": "class.line@tag.a.1@text||tag.h2@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.mijiashe.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}&submit=\"\n}",
+    "weight": 0
+  }
+]

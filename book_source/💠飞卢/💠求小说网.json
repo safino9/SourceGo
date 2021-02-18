@@ -1,0 +1,54 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💠飞卢",
+    "bookSourceName": "💠求小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.81ht.com/",
+    "bookUrlPattern": "",
+    "customOrder": 11,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuanxiaoshuo/{{page}}.htm\n奇幻::/qihuanxiaoshuo/{{page}}.htm\n修真::/xiuzhenxiaoshuo/{{page}}.htm\n都市::/doushixiaoshuo/{{page}}.htm\n言情::/yanqingxiaoshuo/{{page}}.htm\n历史::/lishixiaoshuo/{{page}}.htm\n耽美::/danmeixiaoshuo/{{page}}.htm\n武侠::/wuxiaxiaoshuo/{{page}}.htm\n科幻::/kehuanxiaoshuo/{{page}}.htm\n游戏::/youxixiaoshuo/{{page}}.htm\n军事::/junshixiaoshuo/{{page}}.htm\n竞技::/jingjixiaoshuo/{{page}}.htm\n灵异::/lingyixiaoshuo/{{page}}.htm\n商战::/shangzhanxiaoshuo/{{page}}.htm\n校园::/xiaoyuanxiaoshuo/{{page}}.htm\n官场::/guanchangxiaoshuo/{{page}}.htm\n职场::/zhichangxiaoshuo/{{page}}.htm\n其他::/qitaxiaoshuo/{{page}}.htm",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612073572646,
+    "ruleBookInfo": {
+      "author": "class.novel-cover@tag.dd.0@tag.p.0@text##作者:",
+      "coverUrl": "tag.img.0@src",
+      "intro": "id.shot@text##\\[.*",
+      "kind": "class.novel-cover@tag.dd.0@tag.p.1@tag.a@text",
+      "lastChapter": "class.novel-cover@tag.dd.0@tag.p.3@tag.a@text",
+      "name": "class.novel-cover@tag.span.0@text",
+      "tocUrl": "class.btn_op@tag.a.0@href",
+      "wordCount": "class.novel-cover@tag.dd.0@tag.p.2@text"
+    },
+    "ruleContent": {
+      "content": "class.text@html##首页|目录|本站域名.*|如果遇到没有章节.*|支持正版.*|A\\s*|无错章节.*|\\s第.*章.*|.*请大家收藏.*|.*更新速度[更最]快.*"
+    },
+    "ruleExplore": {
+      "author": "text##.*/\\s*|第.*章.*|\\d{2,4}-\\d\\d.*",
+      "bookList": "class.book_textList2@li",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.i.0@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text",
+      "wordCount": "tag.span.0@text"
+    },
+    "ruleSearch": {
+      "author": "text##.*/\\s*|第.*章.*|\\d\\d-\\d\\d.*",
+      "bookList": "class.book_textList2 bd@li",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.i.0@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.btn_op@tag.a.-2@href"
+    },
+    "searchUrl": "http://m.81ht.com/search.htm?keyword={{key}}&pn={{page}}",
+    "weight": 0
+  }
+]

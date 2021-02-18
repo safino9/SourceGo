@@ -1,0 +1,35 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💠飞卢",
+    "bookSourceName": "💠小说楼",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xslou.com",
+    "bookUrlPattern": "",
+    "customOrder": 27,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1609247106001,
+    "ruleBookInfo": {
+      "tocUrl": "class.readnow@href"
+    },
+    "ruleContent": {
+      "content": "id.booktext@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "tag.td.0@tag.a.0@href",
+      "lastChapter": "tag.td.1@tag.a.0@text",
+      "name": "tag.td.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.xslou.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+]

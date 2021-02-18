@@ -1,0 +1,50 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💠飞卢",
+    "bookSourceName": "💠笔仙阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.bixiange.me",
+    "customOrder": 32,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "都市言情::http://www.bixiange.me/dsyq/index_{{page}}.html\n武侠修真::http://www.bixiange.me/wxxz/index_{{page}}.html\n玄幻奇幻::http://www.bixiange.me/xhqh/index_{{page}}.html\n穿越架空::http://www.bixiange.me/cyjk/index_{{page}}.html\n科幻竞技::http://www.bixiange.me/khjj/index_{{page}}.html\n鬼话悬疑::http://www.bixiange.me/ghxy/index_{{page}}.html\n军事历史::http://www.bixiange.me/jsls/index_{{page}}.html\n官场商战::http://www.bixiange.me/gcsz/index_{{page}}.html\n乡土风情::http://www.bixiange.me/xtfq/index_{{page}}.html\n耽美小说::http://www.bixiange.me/dmxs/index_{{page}}.html\n同人小说::http://www.bixiange.me/trxs/index_{{page}}.html\n精品小说::http://www.bixiange.me/jpxs/index_{{page}}.html",
+    "lastUpdateTime": 1613642036704,
+    "ruleBookInfo": {
+      "author": "//*[@class=\"descTip\"]/p[2]/span/text()",
+      "intro": "//*[@class=\"descInfo\"]/p/text()##(^|[。！？]+[”」）】]?)##$1<br>",
+      "kind": "//*[@class=\"descTip\"]/p[1]/span[1]/text()&&\n//*[@class=\"descTip\"]/p[4]/span/text()##.*：",
+      "name": "//h1/text()"
+    },
+    "ruleContent": {
+      "content": "//*[@id=\"mycontent\"]"
+    },
+    "ruleExplore": {
+      "author": "//span[0]/text()",
+      "bookList": "//*[@class=\"clearfix\"]/li",
+      "bookUrl": "//*[@class=\"clearfix\"]/li/a[1]/@href",
+      "coverUrl": "//*[@class=\"clearfix\"]/li/img/@src",
+      "intro": "//*[@class=\"clearfix\"]/li/a[2]/text()",
+      "kind": "//*[@class=\"sNav\"]/a[1]/text()",
+      "name": "//a[1]/text()",
+      "wordCount": "//*[@class=\"clearfix\"]/li/span[1]/text()"
+    },
+    "ruleSearch": {
+      "author": "//strong/a/@href\n<js>\njava.ajax(result.replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]))\n</js>\n//*[@class=\"descTip\"]/p[2]/span/text()",
+      "bookList": "//*[@class=\"clearfix\"]/li",
+      "bookUrl": "//strong/a/@href",
+      "coverUrl": "//img/@src",
+      "intro": "//*[@class=\"descript\"]/text()",
+      "kind": "//*[@class=\"tips\"]/span[1]/text()##大小：",
+      "lastChapter": "//*[@class=\"tips\"]/span[2]/text()##时间：",
+      "name": "//strong/a/text()"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@class=\"clearfix\"]/li",
+      "chapterName": "//a/text()",
+      "chapterUrl": "//a/@href"
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title&classid=0\"\n}",
+    "weight": 0
+  }
+]

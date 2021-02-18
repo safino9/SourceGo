@@ -1,0 +1,34 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💠飞卢",
+    "bookSourceName": "💠精品小说(移动网进不去)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.jpxs123.com",
+    "bookUrlPattern": "",
+    "customOrder": 49,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1613644000909,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.readDetail@tag.div.2@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "##作者： ([^<]+) <##$1###",
+      "bookList": "class.bk",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": "tag.p@text",
+      "name": "h3@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.clearfix@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title&classid=0\"\n}",
+    "weight": 0
+  }
+]

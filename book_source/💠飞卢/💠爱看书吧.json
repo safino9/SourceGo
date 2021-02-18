@@ -1,0 +1,41 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💠飞卢",
+    "bookSourceName": "💠爱看书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://book.yingshanrc.com",
+    "bookUrlPattern": "",
+    "customOrder": 20,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::https://book.yingshanrc.com/book/lastupdate-{{page}}.html\n最新入库::https://book.yingshanrc.com/book/postdate-{{page}}.html\n最新完本::https://book.yingshanrc.com/full/{{page}}/\n总点击榜::https://book.yingshanrc.com/book/allvisit-{{page}}.html\n总收藏榜::https://book.yingshanrc.com/book/goodnum-{{page}}.html\n总推荐榜::https://book.yingshanrc.com/book/allvote-{{page}}.html\n总字数榜::https://book.yingshanrc.com/book/size-{{page}}.html\n玄幻魔法::https://book.yingshanrc.com/list/1-{{page}}.html\n仙侠修真::https://book.yingshanrc.com/list/2-{{page}}.html\n都市言情::https://book.yingshanrc.com/list/3-{{page}}.html\n历史军事::https://book.yingshanrc.com/list/4-{{page}}.html\n网游动漫::https://book.yingshanrc.com/list/5-{{page}}.html\n科幻推理::https://book.yingshanrc.com/list/6-{{page}}.html\n恐怖灵异::https://book.yingshanrc.com/list/7-{{page}}.html\n综合类型::https://book.yingshanrc.com/list/8-{{page}}.html",
+    "lastUpdateTime": 1613637925678,
+    "ruleBookInfo": {
+      "coverUrl": "class.tu@img@src",
+      "intro": "class.jj@p@textNodes",
+      "lastChapter": "class.p3.0@a@text"
+    },
+    "ruleContent": {
+      "content": "class.novelcontent@html##本章未完.*|.*看书天天乐.*|立即抢充.*",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.p4@a@text||class.p3@a@text",
+      "bookList": "class.content_link||class.tt",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href<js>'https://www.aikanshu8.org/files/article/image'+String(result).replace(/.*?(\\d*?)(\\d{1,3}).html/,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>",
+      "kind": "class.tt@class.p2@textNodes||class.p1@a@text##\\[|]",
+      "name": "class.p2_so@a@text||class.p2@a@text||tag.p.0@a@text##全文免费.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.info_chapters@class.p2.1@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "option@value"
+    },
+    "searchUrl": "https://book.yingshanrc.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+    "weight": 0
+  }
+]

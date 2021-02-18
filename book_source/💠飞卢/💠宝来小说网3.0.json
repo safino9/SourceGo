@@ -1,0 +1,51 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💠飞卢",
+    "bookSourceName": "💠宝来小说网3.0",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.baolaishiye.com",
+    "bookUrlPattern": "",
+    "customOrder": 67,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::https://m.baolaixsw.com/xuanhuan/{{page}}.html\n武侠仙侠::https://m.baolaixsw.com/wuxia/{{page}}.html\n都市生活::https://m.baolaixsw.com/dushi/{{page}}.html\n历史军事::https://m.baolaixsw.com/lishi/{{page}}.html\n游戏竞技::https://m.baolaixsw.com/youxi/{{page}}.html\n科幻未来::https://m.baolaixsw.com/kehuan/{{page}}.html\n恐怖悬疑::https://m.baolaixsw.com/xuanyi/{{page}}.html\n其他类型::https://m.baolaixsw.com/qita/{{page}}.html\n古代言情::https://m.baolaixsw.com/guanyan/{{page}}.html\n现代言情::https://m.baolaixsw.com/xianyan/{{page}}.html\n幻想奇缘::https://m.baolaixsw.com/huanqing/{{page}}.html\n总裁豪门::https://m.baolaixsw.com/zongcai/{{page}}.html\n青春校园::https://m.baolaixsw.com/qingchun/{{page}}.html\n网络情缘::https://m.baolaixsw.com/wangluo/{{page}}.html\n科幻灵异::https://m.baolaixsw.com/mmkehuan/{{page}}.html",
+    "lastUpdateTime": 1613642452542,
+    "ruleBookInfo": {
+      "author": "class.detail@tag.a.0@text",
+      "coverUrl": "class.detail@tag.img.0@src",
+      "intro": "id.intro@text",
+      "kind": "class.detail@tag.a.1@text",
+      "lastChapter": "class.detail@tag.a.2@text",
+      "name": "class.detail@tag.strong@text",
+      "tocUrl": "class.action@tag.a.0@href",
+      "wordCount": "class.detail@tag.span.1@text"
+    },
+    "ruleContent": {
+      "content": "class.content@html##起[点點]中文[网網].*|.*请大家收藏.*|<!--(\\s*.*)*|限时特权.*|攫欝.*攫欝。?|巘戅.*巘戅。?|厺厽.*厺厽。?",
+      "imageStyle": "full",
+      "nextContentUrl": "class.pager@tag.a.2@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.list@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "class.intro@text",
+      "kind": "tag.span.0@text",
+      "lastChapter": "tag.a.3@text",
+      "name": "tag.a.1@text",
+      "wordCount": "tag.span.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.read@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.pagelist@tag.a.-1@href",
+      "updateTime": ""
+    },
+    "searchUrl": "https://m.baolaixsw.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"type=all&searchkey={{key}}\"\n}",
+    "weight": 0
+  }
+]

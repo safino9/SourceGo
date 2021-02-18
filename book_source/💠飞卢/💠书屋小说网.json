@@ -1,0 +1,47 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💠飞卢",
+    "bookSourceName": "💠书屋小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.shu05.com",
+    "bookUrlPattern": "",
+    "customOrder": 22,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "首页推荐::http://www.shu05.com/\n最近更新::http://www.shu05.com/book/lastupdate-{{page}}.html\n最新入库::http://www.shu05.com/book/postdate-{{page}}.html\n周排行榜::http://www.shu05.com/book/weekvisit-{{page}}.html\n月排行榜::http://www.shu05.com/book/monthvisit-{{page}}.html\n总排行榜::http://www.shu05.com/book/allvisit-{{page}}.html\n周推荐榜::http://www.shu05.com/book/weekvote-{{page}}.html\n月推荐榜::http://www.shu05.com/book/monthvote-{{page}}.html\n总推荐榜::http://www.shu05.com/book/allvote-{{page}}.html\n玄幻魔法::http://www.shu05.com/list/1-{{page}}.html\n仙侠修真::http://www.shu05.com/list/2-{{page}}.html\n都市言情::http://www.shu05.com/list/3-{{page}}.html\n历史军事::http://www.shu05.com/list/4-{{page}}.html\n网游动漫::http://www.shu05.com/list/5-{{page}}.html\n科幻推理::http://www.shu05.com/list/6-{{page}}.html\n惊悚灵异::http://www.shu05.com/list/7-{{page}}.html\n综合类型::http://www.shu05.com/list/8-{{page}}.html",
+    "lastUpdateTime": 1613636354010,
+    "loginUrl": "http://m.shu05.com/login.php",
+    "ruleBookInfo": {
+      "author": "class.title@tag.a.1@text",
+      "coverUrl": "class.infoimg@img@src",
+      "intro": "class.jianjie@text",
+      "lastChapter": "class.title@tag.a.2@text",
+      "name": "class.title@tag.a.0@text",
+      "tocUrl": "class.l3@tag.a.0@href",
+      "wordCount": "class.article@tag.li.5@text##更新：|\\s0"
+    },
+    "ruleContent": {
+      "content": "id.content@html##本书来自.*|2020大片在线观看",
+      "imageStyle": "full"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "class.searchcon@ul",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "",
+      "kind": "",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.clist@li",
+      "chapterName": "tag.a@text##.*\\s?(?=第[0-9零一二三四五六七八九十百千万]{1,10}章\\s)",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text@下一页@href"
+    },
+    "searchUrl": "http://m.shu05.com/search.php?type=articlename&s={{key}}&submit=%CB%D1%CB%F7,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+]

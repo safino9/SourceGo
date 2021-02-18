@@ -1,0 +1,45 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💠飞卢",
+    "bookSourceName": "💠卡夜阁info",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.kayege.info",
+    "bookUrlPattern": "",
+    "customOrder": 24,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "月榜::https://m.kayege.info/ph/month_{{page}}.html\n总榜::/ph/all_{{page}}.html\n全部::/xclass/0/{{page}}.html\n玄幻::/xclass/1/{{page}}.html\n修真::/xclass/2/{{page}}.html\n都市::/xclass/3/{{page}}.html\n穿越::/xclass/4/{{page}}.html\n网游::/xclass/5/{{page}}.html\n科幻::/xclass/6/{{page}}.html\n其他::/xclass/7/{{page}}.html",
+    "lastUpdateTime": 1613559696262,
+    "ruleBookInfo": {
+      "author": "class.author@text##作者：",
+      "coverUrl": "class.synopsisArea_detail@tag.img@src",
+      "intro": "class.review@text",
+      "kind": "class.sort@text##类别：",
+      "lastChapter": "class.directoryArea@tag.p.0@tag.a@text",
+      "name": "class.title@text",
+      "tocUrl": "text.查看完整目录@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent541269856@textNodes||class.Readarea ReadAjax_content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.1@text##.*作者：",
+      "bookList": "@css:div.recommend div.hot_sale",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.a@href##/(\\d+)_(\\d+)/##https://www.kayege.info/files/article/image/$1/$2/$2s.jpg",
+      "intro": "class.review@textNodes##简介：",
+      "kind": "tag.p.1@text##\\|.*|作者：.*",
+      "lastChapter": "tag.p.2@text##.*更新：|简介：.*",
+      "name": "class.title@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.p!0||class.directoryArea@tag.p!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://m.kayege.info/s.php?keyword={{key}}&t=1",
+    "weight": 0
+  }
+]

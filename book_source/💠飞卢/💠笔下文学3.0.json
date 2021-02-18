@@ -1,0 +1,67 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💠飞卢",
+    "bookSourceName": "💠笔下文学3.0",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.bxwx.co/",
+    "bookUrlPattern": "",
+    "customOrder": 62,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/bsort1/{{page}}.htm\n都市生活::/bsort3/{{page}}.htm\n科幻未来::/bsort6/{{page}}.htm",
+    "header": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.29 Safari/525.13",
+    "lastUpdateTime": 1609286352264,
+    "loginUrl": "https://www.bxwx.co/login.html",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@a@text",
+      "coverUrl": "id.fmimg@img@src",
+      "init": "",
+      "intro": "id.intro@tag.p.0@text",
+      "kind": "",
+      "lastChapter": "id.intro@tag.p.3@a@text",
+      "name": "id.info@h1@text",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "imageStyle": "full",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "tag.span@text",
+      "bookList": "id.hotcontent@class.item",
+      "bookUrl": "dt@a@href",
+      "coverUrl": "a@img@src",
+      "intro": "dd@text",
+      "kind": "",
+      "lastChapter": "",
+      "name": "a@text",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.book_other.0@tag.span.0@text",
+      "bookList": "id.sitembox@dl",
+      "bookUrl": "dd@h3@a@href",
+      "coverUrl": "dt@a@img@src",
+      "intro": "class.book_des.0@text",
+      "kind": "class.book_other.0@tag.span.2@text",
+      "lastChapter": "class.book_other.1@tag.a@text",
+      "name": "h3@a@text",
+      "wordCount": "class.book_other.0@tag.span.3@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/search.html?searchkey={{key}}",
+    "weight": 0
+  }
+]

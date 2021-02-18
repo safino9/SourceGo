@@ -1,0 +1,53 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💠飞卢",
+    "bookSourceName": "💠EZ看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.luolaii.com",
+    "bookUrlPattern": "",
+    "customOrder": 8,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/sort/1_{{page}}/\n武侠仙侠::/sort/2_{{page}}/\n都市小说::/sort/3_{{page}}/\n历史小说::/sort/4_{{page}}/\n军事小说::/sort/5_{{page}}/\n科幻小说::/sort/6_{{page}}/\n恐怖悬疑::/sort/7_{{page}}/\n网游竞技::/sort/8_{{page}}/\n其他类型::/sort/9_{{page}}/\n现代言情::/sort/10_{{page}}/\n古代言情::/sort/11_{{page}}/\n仙侠奇缘::/sort/12_{{page}}/\n校园青春::/sort/13_{{page}}/\n恐怖灵异::/sort/14_{{page}}/\n纯爱耽美::/sort/15_{{page}}/\n同人小说::/sort/16_{{page}}/\n二  次  元::/sort/17_{{page}}/",
+    "lastUpdateTime": 1613643854791,
+    "ruleBookInfo": {
+      "author": "class.block_txt2@tag.a.2@text",
+      "coverUrl": "class.block_img2@tag.img@src",
+      "intro": "class.intro_info@text",
+      "kind": "class.block_txt2@tag.a.3@text",
+      "lastChapter": "class.block_txt2@tag.a.4@text",
+      "name": "class.block_txt2@tag.h2@text",
+      "tocUrl": "class.ablum_read.0@tag.a.1@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html##喜欢.*请大家收藏.*|一秒记住.*用户.*章节！|欢迎来到.*宣传|一秒记住.*ezkanshu\\.|【EZ看书】.*\\n.*书友哦！|温馨提示.*",
+      "nextContentUrl": "id.pb_next@href"
+    },
+    "ruleExplore": {
+      "author": "tag.p.1@text",
+      "bookList": "@css:a:has(img)",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p.2@text",
+      "kind": "tag.p.1@tag.span@text",
+      "name": "tag.p.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.cover@tag.p",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.ezkanshu.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "kind": "tag.a.0@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.luolaii.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}&submit=\"\n}",
+    "weight": 0
+  }
+]

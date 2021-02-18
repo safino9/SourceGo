@@ -1,0 +1,40 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💠飞卢",
+    "bookSourceName": "💠看毛线网3.0",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.kanmaoxian.com",
+    "customOrder": 97,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新入库::/shuku/quanbu_postdate_0_0_0_0_0_1_{{page}}.html\n最近更新::/shuku/quanbu_lastupdate_0_0_0_0_0_1_{{page}}.html\n玄幻魔法::/shuku/xuanhuan_lastupdate_0_0_0_0_0_1_{{page}}.html\n武侠修真::/shuku/wuxia_lastupdate_0_0_0_0_0_1_{{page}}.html\n穿越重生::/shuku/chuanyue_lastupdate_0_0_0_0_0_1_{{page}}.html\n历史军事::/shuku/lishi_lastupdate_0_0_0_0_0_1_{{page}}.html\n都市言情::/shuku/dushi_lastupdate_0_0_0_0_0_1_{{page}}.html\n惊悚恐怖::/shuku/lingyi_lastupdate_0_0_0_0_0_1_{{page}}.html\n侦探推理::/shuku/xuanyi_lastupdate_0_0_0_0_0_1_{{page}}.html\n科幻未来::/shuku/kehuan_lastupdate_0_0_0_0_0_1_{{page}}.html\n网游动漫::/shuku/wangyou_lastupdate_0_0_0_0_0_1_{{page}}.html\n耽美同人::/shuku/danmei_lastupdate_0_0_0_0_0_1_{{page}}.html",
+    "lastUpdateTime": 1609286289466,
+    "ruleBookInfo": {
+      "coverUrl": "class.fengmian@tag.a.0@tag.img.0@src",
+      "intro": "class.bookintro@textNodes",
+      "tocUrl": "class.book_read@tag.span.0@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "class.divimage@html||class.yd_text2@html",
+      "imageStyle": "full"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info_t@tag.span.1@text||class.title@tag.span.0@text",
+      "bookList": "class.list@class.list_l@tag.li||class.bookinfo",
+      "bookUrl": "class.title@tag.h3.0@tag.a.0@href",
+      "coverUrl": "class.info_l@class.fengmian@tag.a.0@tag.img.0@src||tag.a.0@tag.img.0@src",
+      "kind": "class.info_t@tag.span.0@text||class.status@text##最新章节.*",
+      "lastChapter": "class.status@tag.span.0@tag.a.0@text||class.info_c@class.lastzj@tag.a.0@text",
+      "name": "class.info_t@tag.h1.0@text||class.title@tag.h3.0@tag.a.0@text##《|》"
+    },
+    "ruleToc": {
+      "chapterList": "class.ml_main@tag.dl@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.kanmaoxian.com/modules/article/search.php?searchtype=articlename&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💠飞卢",
+    "bookSourceName": "💠小说娃3.0",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xiaoshuowawa.com",
+    "bookUrlPattern": "",
+    "customOrder": 72,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1613641917275,
+    "ruleBookInfo": {
+      "author": "author",
+      "coverUrl": "cover",
+      "init": "<js>\nvar J = org.jsoup.Jsoup.parse(result);\n\nvar o = selector =>String(J.select(selector).text());\n\nvar og = selector => String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\n\nvar book = {\n      name: og('novel:book_name').replace(/(全文|免费阅读|最新章节).*|（.*）/,''),\n\n      author: og('novel:author'),\n\n      kind: og('novel:category') + ',' + og('novel:status').replace(/中|已/,''),\n\n      latest: og('novel:latest_chapter_name').replace(/[\\(（【].*[求更谢乐发推].*/,''), \n\n      intro: '　　最近更新:' + og('novel:update_time').replace(/(T|\\s).*/,' ').replace(/\\//g,'-') + '\\n' + o('#intro p:eq(0)').replace(/.*(观看小说:|简介：)|各位书友.*/,'').replace(/\\s+/g,'\\n'),\n\n      cover: og('image'),\n\n      url: og('novel:read_url'),\n};\n\nbook;\n</js>",
+      "intro": "intro",
+      "kind": "kind",
+      "lastChapter": "latest",
+      "name": "name",
+      "tocUrl": "url",
+      "wordCount": "wordCount"
+    },
+    "ruleContent": {
+      "content": "#content img@html||#content@html",
+      "imageStyle": "full",
+      "nextContentUrl": "text.下一页@href",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "#sitembox dl\n<js>\nresult\n.toArray()\n.slice(0,3)\n.map(el =>{\n\n    var url = String(el.select('a:eq(0)').attr('href')).replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]);\n\n    var J = org.jsoup.Jsoup.parse(java.ajax(url));\n\n    var o = selector =>String(el.select(selector).text());\n\n    var og = selector =>String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\n\n    return {\n      name: og('novel:book_name').replace(/(全文|免费阅读|最新章节).*|（.*）/,''),\n\n      author: og('novel:author'),\n\n      kind: og('novel:category') + ',' + og('novel:status').replace(/中|已/,''),\n\n      latest: og('novel:latest_chapter_name').replace(/[\\(（【].*[求更谢乐发推].*/,'') + ' • ' +  og('novel:update_time').replace(/(T|\\s).*/,' ').replace(/\\//g,'-'), \n\n      intro: og('description').replace(/.*(观看小说:|简介：)|各位书友.*/,'').replace(/\\s+/g,''),\n\n      cover: og('image'),\n\n      url: url,\n    };\n  });\n</js>",
+      "bookUrl": "url",
+      "coverUrl": "cover",
+      "intro": "intro",
+      "kind": "kind",
+      "lastChapter": "latest",
+      "name": "name",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "#list dd a",
+      "chapterName": "text##[\\(（【].*[求更谢乐发推].*",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }
+]

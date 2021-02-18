@@ -1,0 +1,51 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💠飞卢",
+    "bookSourceName": "💠新热门小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.xinremenxs.net/",
+    "bookUrlPattern": "",
+    "customOrder": 23,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部分类::https://m.xinremenxs.net/type/0_0_0_{{page}}.html\n玄幻奇幻::https://m.xinremenxs.net/leixing_1_{{page}}\n武侠仙侠::https://m.xinremenxs.net/leixing_2_{{page}}\n都市生活::https://m.xinremenxs.net/leixing_3_{{page}}\n历史军事::https://m.xinremenxs.net/leixing_4_{{page}}\n游戏竞技::https://m.xinremenxs.net/leixing_5_{{page}}\n科幻未来::https://m.xinremenxs.net/leixing_6_{{page}}\n恐怖悬疑::https://m.xinremenxs.net/leixing_7_{{page}}\n二次元::https://m.xinremenxs.net/leixing_8_{{page}}\n经典网文::https://m.xinremenxs.net/leixing_9_{{page}}\n古代言情::https://m.xinremenxs.net/leixing_10_{{page}}\n现代言情::https://m.xinremenxs.net/leixing_11_{{page}}\n幻想奇缘::https://m.xinremenxs.net/leixing_12_{{page}}\n青春校园::https://m.xinremenxs.net/leixing_13_{{page}}\n网络情缘::https://m.xinremenxs.net/leixing_14_{{page}}\n科幻空间::https://m.xinremenxs.net/leixing_15_{{page}}\n鬼怪灵异::https://m.xinremenxs.net/leixing_16_{{page}}\nN次元::https://m.xinremenxs.net/leixing_17_{{page}}\n言情美文::https://m.xinremenxs.net/leixing_18_{{page}}",
+    "lastUpdateTime": 1612229758400,
+    "ruleBookInfo": {
+      "author": "class.detail@tag.a.0@text",
+      "coverUrl": "class.detail@tag.img.0@src",
+      "intro": "id.intro@text",
+      "kind": "class.detail@tag.a.1@text",
+      "lastChapter": "class.detail@tag.a.2@text",
+      "name": "class.detail@tag.strong@text",
+      "tocUrl": "class.action@tag.a.0@href",
+      "wordCount": "class.detail@tag.span.1@text"
+    },
+    "ruleContent": {
+      "content": "class.content@html##起[点點]中文[网網].*|.*请大家收藏.*",
+      "imageStyle": "full",
+      "nextContentUrl": "class.pager@tag.a.2@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.list@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "class.intro@text",
+      "kind": "tag.span.0@text",
+      "lastChapter": "tag.a.3@text",
+      "name": "tag.a.1@text",
+      "wordCount": "tag.span.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.read@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.pagelist@tag.a.-1@href",
+      "updateTime": ""
+    },
+    "searchUrl": "https://m.xinremenxs.net/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"type=all&searchkey={{key}}\"\n}",
+    "weight": 0
+  }
+]

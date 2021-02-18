@@ -1,0 +1,57 @@
+[
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💠飞卢",
+    "bookSourceName": "💠天籁小说网www",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.tianlaixsw.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::https://www.tianlaixsw.com/store/0_0_0_{{page}}.html&&点击::/store/allvisit_0_0_{{page}}.html&&月点::/store/monthvisit_0_0_{{page}}.html&&总推::/store/allvote_0_0_{{page}}.html&&收藏::/store/goodnum_0_0_{{page}}.html&&字数::/store/size_0_0_{{page}}.html&&入库::/store/postdate_0_0_{{page}}.html&&完本::/store/0_0_2_{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1613566920916,
+    "ruleBookInfo": {
+      "author": "class.detail@tag.a.0@text",
+      "coverUrl": "class.detail@tag.img@src",
+      "intro": "class.intro@tag.p.1@text",
+      "kind": "class.detail@tag.a.1@text",
+      "lastChapter": "class.detail@tag.a.-1@text",
+      "name": "class.detail@tag.p.0@text",
+      "tocUrl": "",
+      "wordCount": "class.detail@tag.span.1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@tag.p!-1@html||class.content@tag.p!0:-1@html##关闭方法.*",
+      "nextContentUrl": "class.next@href"
+    },
+    "ruleExplore": {
+      "author": ".book_other@span@text",
+      "bookList": ".sitebox dl",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "img@src",
+      "intro": ".book_des@text",
+      "lastChapter": "tag.a.2@text",
+      "name": "h3@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.sitembox@dl||class.list@tag.li",
+      "bookUrl": "tag.a.1@href@js:'https://www.tianlaixsw.com'+result+'index.html'",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p.2@text",
+      "kind": "tag.span@text",
+      "lastChapter": "tag.a.-1@text",
+      "name": "h3@a@text||tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.readlist@dd@a||class.read@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.tianlaixsw.com/search.html?searchtype=all&searchkey={{key}}",
+    "weight": 0
+  }
+]
