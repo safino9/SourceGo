@@ -231,12 +231,16 @@ def save_file_group(file_dir):
 def get_bookSourceGroup(src):
     return src.get('bookSourceGroup')
 
+
 def merge(path, src_list):
     i = 1
     for src in src_list:
         if src.get('loginUrl') is not None and not str(src['loginUrl']).startswith('http'):
             del src['loginUrl']
-        src['bookSourceComment'] = 'https://celeter.github.io/SourceGo'
+        if src['bookSourceComment'] == 'https://celeter.github.io/SourceGo':
+            pass
+        else:
+            src['bookSourceComment'] = 'https://celeter.github.io/SourceGo\n' + src['bookSourceComment']
         src['customOrder'] = i
         i += 1
     all_path = os.path.join(path, 'all.json')

@@ -48,7 +48,10 @@ def json_group(src_list):
     for src in src_list:
         if src['bookSourceGroup'].find('失效') > -1:
             src['bookSourceGroup'] = '❌失效'
-        src['bookSourceComment'] = 'https://celeter.github.io/SourceGo'
+        if src['bookSourceComment'] == 'https://celeter.github.io/SourceGo':
+            pass
+        else:
+            src['bookSourceComment'] = 'https://celeter.github.io/SourceGo\n' + src['bookSourceComment']
         if src.get('lastUpdateTime') is None:
             src['lastUpdateTime'] = get_timestamp()
         if src.get('loginUrl') is not None and not str(src['loginUrl']).startswith('http'):
