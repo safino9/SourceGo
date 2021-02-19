@@ -49,7 +49,7 @@ def json_group(src_list):
         if str(src['bookSourceGroup']).find('失效') > -1:
             src['bookSourceGroup'] = '❌失效'
         if str(src['bookSourceComment']).find('https://celeter.github.io/SourceGo') > -1:
-            pass
+            src['bookSourceComment'] = str(src['bookSourceComment']).strip()
         else:
             src['bookSourceComment'] = 'https://celeter.github.io/SourceGo\n' + src['bookSourceComment']
         if src.get('lastUpdateTime') is None:
