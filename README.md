@@ -11,7 +11,7 @@
 - 书源：`190`个书源
 - 复制下面链接，在阅读里`网络导入`
 - https://celeter.github.io/SourceGo/book_source/all.json
-- 更新日期：2021-02-19 08:50:03
+- 更新日期：2021-02-19 08:52:46
 
 ## 导入方案
 
@@ -58,7 +58,7 @@
 | 26 | 🎉360小说网 | https://www.360tingshu.cc	| 2021-02-08 17:41:52 | 🎉精选 | <a href="https://celeter.github.io/SourceGo/book_source/🎉精选/🎉360小说网.json">点击</a>
 | 27 | 🎉笔趣阁① | http://www.b5200.net	| 2021-01-27 21:48:29 | 🎉精选 | <a href="https://celeter.github.io/SourceGo/book_source/🎉精选/🎉笔趣阁①.json">点击</a>
 | 28 | 🎉书福袋 | https://www.shufudai.com	| 2021-01-30 22:54:44 | 🎉精选 | <a href="https://celeter.github.io/SourceGo/book_source/🎉精选/🎉书福袋.json">点击</a>
-| 29 | 🎉笔趣阁④ | http://www.biquge.cn#bookbox	| 2021-01-30 21:08:57 | 🎉精选 | <a href="https://celeter.github.io/SourceGo/book_source/🎉精选/🎉笔趣阁④.json">点击</a>
+| 29 | 🎉笔趣阁④ | http://www.biquge.cn	| 2021-01-30 21:08:57 | 🎉精选 | <a href="https://celeter.github.io/SourceGo/book_source/🎉精选/🎉笔趣阁④.json">点击</a>
 | 30 | 🎉猎文网 | https://www.liewen.la	| 2021-02-08 17:41:52 | 🎉精选 | <a href="https://celeter.github.io/SourceGo/book_source/🎉精选/🎉猎文网.json">点击</a>
 | 31 | 🎉69中文网 | https://www.69zww.com	| 2021-02-08 17:41:52 | 🎉精选 | <a href="https://celeter.github.io/SourceGo/book_source/🎉精选/🎉69中文网.json">点击</a>
 | 32 | 🎉APP-1 | https://quapp.shenbabao.com	| 2021-01-24 11:27:42 | 🎉精选 | <a href="https://celeter.github.io/SourceGo/book_source/🎉精选/🎉APP-1.json">点击</a>
