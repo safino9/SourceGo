@@ -46,9 +46,9 @@ def create_dir(name):
 def json_group(src_list):
     # 源分组
     for src in src_list:
-        if src['bookSourceGroup'].find('失效') > -1:
+        if str(src['bookSourceGroup']).find('失效') > -1:
             src['bookSourceGroup'] = '❌失效'
-        if src['bookSourceComment'] == 'https://celeter.github.io/SourceGo':
+        if str(src['bookSourceComment']).find('https://celeter.github.io/SourceGo') > -1:
             pass
         else:
             src['bookSourceComment'] = 'https://celeter.github.io/SourceGo\n' + src['bookSourceComment']

@@ -237,7 +237,7 @@ def merge(path, src_list):
     for src in src_list:
         if src.get('loginUrl') is not None and not str(src['loginUrl']).startswith('http'):
             del src['loginUrl']
-        if src['bookSourceComment'] == 'https://celeter.github.io/SourceGo':
+        if str(src['bookSourceComment']).find('https://celeter.github.io/SourceGo') > -1:
             pass
         else:
             src['bookSourceComment'] = 'https://celeter.github.io/SourceGo\n' + src['bookSourceComment']
